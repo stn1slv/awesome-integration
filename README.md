@@ -55,6 +55,8 @@ AltasMap
 
 ## ETL
 
+- [Apache NiFi](https://nifi.apache.org/) - Apache NiFi is an integrated data logistics platform for automating the movement of data between disparate systems.
+
 ## Integration Frameworks
 - [Apache Camel](https://camel.apache.org) - Glues together different transport APIs via Enterprise Integration Patterns.
 
