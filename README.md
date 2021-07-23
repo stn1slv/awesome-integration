@@ -33,8 +33,14 @@ A curated list of awesome integration patterns, software and resources. Inspired
 * [Kong](https://konghq.com/products/kong-enterprise) - The service connectivity platform.
 
 ## API Gateway
+*API Gateways.*
 
 ## API Specification
+
+OpenAPI (ex.Swagger)
+RAML
+WSDL
+AsyncAPI
 
 ## API Testing
 Postman
@@ -54,11 +60,12 @@ AltasMap
 ## ESB
 
 ## ETL
-
 - [Apache NiFi](https://nifi.apache.org/) - Apache NiFi is an integrated data logistics platform for automating the movement of data between disparate systems.
 
 ## Integration Frameworks
 - [Apache Camel](https://camel.apache.org) - Glues together different transport APIs via Enterprise Integration Patterns.
+- [Spring Integration](https://spring.io/projects/spring-integration) - Extends the Spring programming model to support the well-known Enterprise Integration Patterns.
+- [Ballerina](https://ballerina.io/) - An open-source programming language that makes it easier to use, combine, and create network services
 
 ## iPaaS
 
