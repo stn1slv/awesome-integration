@@ -4,6 +4,13 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 - [Awesome Integration](#awesome-integration)
   - [Enterprise Entegration Patterns](#eip)
+  - [Messanging](#messanging)
+  - [API Management](#api-management)
+  - [BPM](#bpm)
+  - [ESB](#esb)
+  - [ETL](#etl)
+  - [iPaaS](#ipaas)
+  - [Integration Frameworks](#integration-frameworks)
 - [Resources](#resources)
     - [Books](#books)
     - [Websites](#websites)
@@ -12,6 +19,20 @@ A curated list of awesome integration patterns, software and resources. Inspired
 ---
 
 ## EIP
+
+## Messanging
+
+## API Management
+
+## BPM
+
+## ESB
+
+## ETL
+
+## iPaaS
+
+## Integration Frameworks
 
 # Resources
 
