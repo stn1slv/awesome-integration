@@ -60,6 +60,9 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 ## BPM
 
+* [Appian BPM Suite](https://appian.com/platform/complete-automation/business-process-management-bpm.html) - Platform combines low-code development with process management to
+allow both IT and citizen developers to construct process-centric and case-centric applications.
+
 ## Data Mapping Solution
 
 * [AltasMap](https://www.atlasmap.io/)
@@ -76,7 +79,12 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 ## iPaaS
 
+- [Jitterbit Harmony](https://www.jitterbit.com/platform/ipaas)
+
 ## Managed File Transfer
+
+* [Oracle Managed File Transfer](https://www.oracle.com/middleware/technologies/mft/managed-file-transfer.html) - Enables secure file exchange and management.
+* [IBM Sterling Secure File Transfer](https://www.ibm.com/products/secure-file-transfer) - Move over 1 million files per day with a fast and scalable file transfer platform.
 
 ## Master Data Management
 
@@ -110,6 +118,8 @@ A curated list of awesome integration patterns, software and resources. Inspired
 - [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka)
 
 ## Self-Service Integration
+
+- [Oracle Self-Service Integration](https://docs.oracle.com/en/cloud/paas/self-service-integration-cloud/index.html) - Automates tasks between cloud applications.
 
 # Specifications
 ## API Specification
