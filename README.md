@@ -39,16 +39,19 @@ A curated list of awesome integration patterns, software and resources. Inspired
 - [Anypoint API Manager](https://www.mulesoft.com/platform/api/manager) - Combines API management and integration capabilities in a single platform from Mulesoft.
 - [Apigee](https://cloud.google.com/apigee) - API Management solution from Google.
 - [Amplify API Management Platform](https://www.axway.com/en/products/amplify-api-management-platform) - An open platform for API management from Axway.
+- [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) - A hybrid, multicloud management platform for APIs across all environments.
 - [IBM API Connect](https://www.ibm.com/cloud/api-connect) - A complete, intuitive and scalable API platform that lets you create, expose, manage and monetize APIs across clouds.
 - [Kong Enterprise](https://konghq.com/products/kong-enterprise) - The service connectivity platform.
 - [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale) - Cloud-native development made simpler and more flexible.
 - [TIBCO Cloud Mashery](https://www.tibco.com/products/api-management) - The cloud-native API platform you can deploy anywhere, and manage APIs from everywhere.
+- [Tyk API Management](https://tyk.io/api-lifecycle-management/) - Connect, build and control.
 - [WSO2 API Manager](https://wso2.com/api-manager/) - Fully open-source API management platform.
 
 ## API Gateway
 *API Gateways.*
 * [Kong API Gateway](https://github.com/Kong/kong) - Cloud-native, platform-agnostic, scalable API Gateway distinguished for its high performance and extensibility via plugins.
 * [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway) -  API Gateway built on top of the Spring Ecosystem, including: Spring 5, Spring Boot 2 and Project Reactor.
+* [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway, supporting REST, GraphQL, TCP and gRPC protocols
 
 ## API Testing
 
