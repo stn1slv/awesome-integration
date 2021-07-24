@@ -99,11 +99,25 @@ A curated list of awesome integration patterns, software and resources. Inspired
 * [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0)
 * [WSDL](http://www.w3.org/TR/wsdl20)
 ## Connectors
+* [JCA]
+* [Kafka Connect]
 ## Data formats
+* [Apache Avro]
+* [JSON]
+* [XML]
 ## Enterprise Integration Patterns
 ## Integration styles
+* [File Transfer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FileTransferIntegration.html)
+* [Shared Database](https://www.enterpriseintegrationpatterns.com/patterns/messaging/SharedDataBaseIntegration.html)
+* [Remote Procedure Invocation](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EncapsulatedSynchronousIntegration.html)
+* [Messaging](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Messaging.html)
 ## Protocols
+* [AMQP]
+* [HTTP]
+* [MQTT]
 ## Standards
+* [BPEL]
+* [WS-Security]
 # Resources
 ## Books
 ## Websites
