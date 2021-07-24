@@ -35,9 +35,15 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 ## API Management
 *API Management solutions.*
-* [Apigee](https://cloud.google.com/apigee) - API Management solution from Google.
-* [Mulesoft](https://www.mulesoft.com/platform/api/manager) - Combines API management and integration capabilities in a single platform.
-* [Kong Enterprise](https://konghq.com/products/kong-enterprise) - The service connectivity platform.
+
+- [Anypoint API Manager](https://www.mulesoft.com/platform/api/manager) - Combines API management and integration capabilities in a single platform from Mulesoft.
+- [Apigee](https://cloud.google.com/apigee) - API Management solution from Google.
+- [Amplify API Management Platform](https://www.axway.com/en/products/amplify-api-management-platform) - An open platform for API management from Axway.
+- [IBM API Connect](https://www.ibm.com/cloud/api-connect) - A complete, intuitive and scalable API platform that lets you create, expose, manage and monetize APIs across clouds.
+- [Kong Enterprise](https://konghq.com/products/kong-enterprise) - The service connectivity platform.
+- [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale) - Cloud-native development made simpler and more flexible.
+- [TIBCO Cloud Mashery](https://www.tibco.com/products/api-management) - The cloud-native API platform you can deploy anywhere, and manage APIs from everywhere.
+- [WSO2 API Manager](https://wso2.com/api-manager/) - Fully open-source API management platform.
 
 ## API Gateway
 *API Gateways.*
@@ -88,6 +94,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 
 * [Oracle Managed File Transfer](https://www.oracle.com/middleware/technologies/mft/managed-file-transfer.html) - Enables secure file exchange and management.
 * [IBM Sterling Secure File Transfer](https://www.ibm.com/products/secure-file-transfer) - Move over 1 million files per day with a fast and scalable file transfer platform.
+* [Axway Managed File Transfer](https://www.axway.com/en/products/managed-file-transfer)
 
 ## Master Data Management
 
