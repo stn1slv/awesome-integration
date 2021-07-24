@@ -154,8 +154,8 @@ allow both IT and citizen developers to construct process-centric and case-centr
 * [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/)
 * [WSDL](http://www.w3.org/TR/wsdl20)
 ## Connectors
-* [JCA]
-* [Kafka Connect]
+* [JCA](https://projects.eclipse.org/projects/ee4j.jca) - Defines a standard architecture for Jakarta EE application components to connect to Enterprise Information Systems. Formerly Java EE Connector Architecture and J2EE Connector Architecture.
+* [Kafka Connect](https://kafka.apache.org/documentation/#connect) - A tool for scalably and reliably streaming data between Apache Kafka and other systems.
 ## Data formats
 * [Apache Avro]
 * [JSON]
