@@ -85,10 +85,28 @@ A curated list of awesome integration patterns, software and resources. Inspired
 - [Apache Pulsar](https://pulsar.apache.org) - Distributed pub/sub-messaging system.
 - [Apache RocketMQ](https://rocketmq.apache.org) - Fast, reliable, and scalable distributed messaging platform.
 - [Apache Qpid](https://qpid.apache.org) - Apache Qpid makes messaging tools that speak AMQP and support many languages and platforms.
+- [Eclipse Mosquitto](https://mosquitto.org/) - An lightweight open source message broker that implements the MQTT protocol.
 - [NATS](https://github.com/nats-io/gnatsd) - Lightweight, high performance messaging system for microservices, IoT, and cloud native systems.
 - [RabbitMQ](https://www.rabbitmq.com) - An open-source message-broker that originally implemented the Advanced Message Queuing Protocol (AMQP).
 
 ### Messaging as a Service
+
+- [Amazon MQ](https://aws.amazon.com/amazon-mq) - Fully managed message broker service for Apache ActiveMQ and RabbitMQ.
+- [Amazon MSK]()
+- [Amazon SQS]()
+- [Amazon SNS]()
+- [Alibaba Cloud Message Queue for Apache Kafka]()
+- [Alibaba Cloud Message Queue for RabbitMQ]()
+- [AlibabaMQ for Apache RocketMQ]()
+- [Alibaba Cloud Message Service]()
+- [Azure Service Bus]()
+- [CloudAMQP]()
+- [Google Cloud Pub/Sub]()
+- [MuleSoft Anypoint MQ]()
+- [SolacePubSub]()
+- [Yandex Message Queue]()
+- [Yandex Managed Service for Apache Kafka]()
+
 
 ## Self-Service Integration
 
