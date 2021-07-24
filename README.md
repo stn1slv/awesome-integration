@@ -41,6 +41,8 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 ## API Gateway
 *API Gateways.*
+* [Kong API Gateway](https://github.com/Kong/kong) - Cloud-native, platform-agnostic, scalable API Gateway distinguished for its high performance and extensibility via plugins.
+* [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway) -  API Gateway built on top of the Spring Ecosystem, including: Spring 5, Spring Boot 2 and Project Reactor.
 
 ## API Testing
 
@@ -92,21 +94,20 @@ A curated list of awesome integration patterns, software and resources. Inspired
 ### Messaging as a Service
 
 - [Amazon MQ](https://aws.amazon.com/amazon-mq) - Fully managed message broker service for Apache ActiveMQ and RabbitMQ.
-- [Amazon MSK]()
-- [Amazon SQS]()
-- [Amazon SNS]()
-- [Alibaba Cloud Message Queue for Apache Kafka]()
-- [Alibaba Cloud Message Queue for RabbitMQ]()
-- [AlibabaMQ for Apache RocketMQ]()
-- [Alibaba Cloud Message Service]()
-- [Azure Service Bus]()
-- [CloudAMQP]()
-- [Google Cloud Pub/Sub]()
-- [MuleSoft Anypoint MQ]()
-- [SolacePubSub]()
-- [Yandex Message Queue]()
-- [Yandex Managed Service for Apache Kafka]()
-
+- [Amazon MSK](https://aws.amazon.com/msk) -  Amazon Managed Streaming for Apache Kafka.
+- [Amazon SQS](https://aws.amazon.com/sqs) - Amazon Simple Queue Service.
+- [Amazon SNS](https://aws.amazon.com/sns) - Amazon Simple Notification Service. Pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications.
+- [Alibaba Cloud Message Queue for Apache Kafka](https://www.alibabacloud.com/product/kafka)
+- [Alibaba Cloud Message Queue for RabbitMQ](https://www.alibabacloud.com/product/rabbitmq)
+- [Alibaba Cloud Message Service](https://www.alibabacloud.com/product/message-service)
+- [AlibabaMQ for Apache RocketMQ](https://www.alibabacloud.com/product/mq)
+- [Anypoint MQ](https://www.mulesoft.com/platform/anypoint-mq-message-queue)
+- [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/)
+- [CloudAMQP](https://www.cloudamqp.com/) - RabbitMQ as a Service.
+- [Google Cloud Pub/Sub](https://cloud.google.com/pubsub) - Messaging and ingestion for event-driven systems and streaming analytics.
+- [Solace PubSub+ Cloud](https://solace.com/products/platform/cloud/)
+- [Yandex Message Queue](https://cloud.yandex.com/en/services/message-queue) - Compatibility with the Amazon SQS HTTP API.
+- [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka)
 
 ## Self-Service Integration
 
