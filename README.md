@@ -46,10 +46,11 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 ## API Testing
 
-* [Postman](https://www.postman.com/product/api-client/)
-* [Insomnia](https://insomnia.rest/products/insomnia)
 * [curl](https://github.com/curl/curl)
 * [HTTPie](https://httpie.io)
+* [Insomnia](https://insomnia.rest/products/insomnia)
+* [Karate](https://github.com/intuit/karate)
+* [Postman](https://www.postman.com/product/api-client/)
 * [SoapUI](https://www.soapui.org/tools/soapui)
 
 ## Business Rules Engine
@@ -69,13 +70,15 @@ allow both IT and citizen developers to construct process-centric and case-centr
 
 ## ESB
 
+* [IBM App Connect](https://www.ibm.com/cloud/app-connect) - Connect applications together, regardless of the message formats or protocols that they support. Formerly known as IBM Integration Bus.
+
 ## ETL
 - [Apache NiFi](https://nifi.apache.org/) - Apache NiFi is an integrated data logistics platform for automating the movement of data between disparate systems.
 
 ## Integration Frameworks
 - [Apache Camel](https://camel.apache.org) - Glues together different transport APIs via Enterprise Integration Patterns.
+- [Ballerina](https://ballerina.io/) - An open-source programming language that makes it easier to use, combine, and create network services.
 - [Spring Integration](https://spring.io/projects/spring-integration) - Extends the Spring programming model to support the well-known Enterprise Integration Patterns.
-- [Ballerina](https://ballerina.io/) - An open-source programming language that makes it easier to use, combine, and create network services
 
 ## iPaaS
 
@@ -87,6 +90,8 @@ allow both IT and citizen developers to construct process-centric and case-centr
 * [IBM Sterling Secure File Transfer](https://www.ibm.com/products/secure-file-transfer) - Move over 1 million files per day with a fast and scalable file transfer platform.
 
 ## Master Data Management
+
+- [Informatica Multidomain MDM](https://www.informatica.com/products/master-data-management/multidomain-mdm.html)
 
 ## Messanging
 
