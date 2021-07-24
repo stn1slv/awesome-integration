@@ -94,9 +94,10 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 # Specifications
 ## API Specification
+* [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0)
+* [GraphQL](https://github.com/graphql/graphql-spec)
 * [OpenAPI (ex.Swagger)](https://spec.openapis.org/oas/v3.1.0)
 * [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/)
-* [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0)
 * [WSDL](http://www.w3.org/TR/wsdl20)
 ## Connectors
 * [JCA]
@@ -108,9 +109,9 @@ A curated list of awesome integration patterns, software and resources. Inspired
 ## Enterprise Integration Patterns
 ## Integration styles
 * [File Transfer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FileTransferIntegration.html)
-* [Shared Database](https://www.enterpriseintegrationpatterns.com/patterns/messaging/SharedDataBaseIntegration.html)
-* [Remote Procedure Invocation](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EncapsulatedSynchronousIntegration.html)
 * [Messaging](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Messaging.html)
+* [Remote Procedure Invocation](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EncapsulatedSynchronousIntegration.html)
+* [Shared Database](https://www.enterpriseintegrationpatterns.com/patterns/messaging/SharedDataBaseIntegration.html)
 ## Protocols
 * [AMQP]
 * [HTTP]
