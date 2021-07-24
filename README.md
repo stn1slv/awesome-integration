@@ -40,6 +40,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
 - [Apigee](https://cloud.google.com/apigee) - API Management solution from Google.
 - [Amplify API Management Platform](https://www.axway.com/en/products/amplify-api-management-platform) - An open platform for API management from Axway.
 - [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) - A hybrid, multicloud management platform for APIs across all environments.
+- [Gravitee.io API Management](https://www.gravitee.io/products/api-management) - Flexible, lightweight and blazing-fast Open Source solution.
 - [IBM API Connect](https://www.ibm.com/cloud/api-connect) - A complete, intuitive and scalable API platform that lets you create, expose, manage and monetize APIs across clouds.
 - [Kong Enterprise](https://konghq.com/products/kong-enterprise) - The service connectivity platform.
 - [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale) - Cloud-native development made simpler and more flexible.
@@ -49,9 +50,14 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 ## API Gateway
 *API Gateways.*
-* [Kong API Gateway](https://github.com/Kong/kong) - Cloud-native, platform-agnostic, scalable API Gateway distinguished for its high performance and extensibility via plugins.
-* [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway) -  API Gateway built on top of the Spring Ecosystem, including: Spring 5, Spring Boot 2 and Project Reactor.
-* [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway, supporting REST, GraphQL, TCP and gRPC protocols
+- [Apache APISIX](https://apisix.apache.org) - Dynamic, real-time, high-performance API gateway.
+- [Gloo Edge](https://www.solo.io/products/gloo-edge/) - An Envoy Proxy-based API Gateway.
+- [Goku API Gateway](https://github.com/eolinker/goku) - Golang-based microservice gateway that enables high-performance dynamic routing,service orchestration, multi-tenancy management, API access control, etc.
+- [Kong API Gateway](https://github.com/Kong/kong) - Cloud-native, platform-agnostic, scalable API Gateway distinguished for its high performance and extensibility via plugins.
+- [KrakenD API Gateway](https://github.com/devopsfaith/krakend-ce) - Ultra-High performance API Gateway with middlewares.
+- [Ocelot](https://github.com/ThreeMammals/Ocelot) - .NET API Gateway.
+- [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway) -  API Gateway built on top of the Spring Ecosystem, including: Spring 5, Spring Boot 2 and Project Reactor.
+- [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway, supporting REST, GraphQL, TCP and gRPC protocols
 
 ## API Testing
 
