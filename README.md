@@ -5,11 +5,10 @@ A curated list of awesome integration patterns, software and resources. Inspired
 - [Awesome Integration](#awesome-integration)
   - [API Management](#api-management) 
   - [API Gateway](#api-gateway)
-  - [API Specification](#api-specification)
   - [API Testing](#api-testing)
+  - [Business Rules Engine (BRE)](#business-rules-engine)
   - [BPM](#bpm)
   - [Data Mapping Solution](#data-mapping-solution) 
-  - [Enterprise Entegration Patterns](#enterprise-entegration-patterns) 
   - [ESB](#esb)
   - [ETL](#etl)
   - [Integration Frameworks](#integration-frameworks)
@@ -19,6 +18,14 @@ A curated list of awesome integration patterns, software and resources. Inspired
   - [Messanging](#messanging)
     - [Messaging as a Service](#messaging-as-a-service)
   - [Self-service integration](#self-service-integration)
+- [Specifications](#specifications)
+  - [API Specification](#api-specification) 
+  - [Connectors](#connectors)
+  - [Data formats](#data-formats)
+  - [Enterprise Integration Patterns](#enterprise-integration-patterns) 
+  - [Integration styles](#integration-styles)
+  - [Protocols](#protocols)
+  - [Standards](#standards)
 - [Resources](#resources)
     - [Books](#books)
     - [Websites](#websites)
@@ -35,13 +42,6 @@ A curated list of awesome integration patterns, software and resources. Inspired
 ## API Gateway
 *API Gateways.*
 
-## API Specification
-
-* [OpenAPI (ex.Swagger)](https://spec.openapis.org/oas/v3.1.0)
-* [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/)
-* [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0)
-* [WSDL](http://www.w3.org/TR/wsdl20)
-
 ## API Testing
 
 * [Postman](https://www.postman.com/product/api-client/)
@@ -50,13 +50,17 @@ A curated list of awesome integration patterns, software and resources. Inspired
 * [HTTPie](https://httpie.io)
 * [SoapUI](https://www.soapui.org/tools/soapui)
 
+## Business Rules Engine
+
+* [Drools](https://www.drools.org)
+* [NxBRE](https://github.com/ddossot/NxBRE/wiki)
+* [OpenL Tablets](http://openl-tablets.org/)
+
 ## BPM
 
 ## Data Mapping Solution
 
 * [AltasMap](https://www.atlasmap.io/)
-
-## Enterprise Entegration Patterns
 
 ## ESB
 
@@ -88,10 +92,19 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 ## Self-Service Integration
 
+# Specifications
+## API Specification
+* [OpenAPI (ex.Swagger)](https://spec.openapis.org/oas/v3.1.0)
+* [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/)
+* [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0)
+* [WSDL](http://www.w3.org/TR/wsdl20)
+## Connectors
+## Data formats
+## Enterprise Integration Patterns
+## Integration styles
+## Protocols
+## Standards
 # Resources
-
 ## Books
-
 ## Websites
-
 # Contributing
