@@ -161,6 +161,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 * [JSON](https://datatracker.ietf.org/doc/html/rfc8259) - The JavaScript Object Notation (JSON) Data Interchange Format.
 * [XML](https://www.w3.org/TR/2006/REC-xml11-20060816/) - Extensible Markup Language (XML)
 ## Enterprise Integration Patterns
+*Patterns from a book by Gregor Hohpe and Bobby Woolf*
 - [Aggregator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html) - How do we combine the results of individual, but related messages so that they can be processed as a whole?  
 - [Canonical Data Model](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataModel.html) - How can you minimize dependencies when integrating applications that use different data formats?
 - [Channel Adapter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelAdapter.html) - How can you connect an application to the messaging system so that it can send and receive messages?
