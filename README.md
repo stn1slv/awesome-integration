@@ -30,30 +30,31 @@ A curated list of awesome integration patterns, software and resources. Inspired
 *API Management solutions.*
 * [Apigee](https://cloud.google.com/apigee) - API Management solution from Google.
 * [Mulesoft](https://www.mulesoft.com/platform/api/manager) - Combines API management and integration capabilities in a single platform.
-* [Kong](https://konghq.com/products/kong-enterprise) - The service connectivity platform.
+* [Kong Enterprise](https://konghq.com/products/kong-enterprise) - The service connectivity platform.
 
 ## API Gateway
 *API Gateways.*
 
 ## API Specification
 
-OpenAPI (ex.Swagger)
-RAML
-WSDL
-AsyncAPI
+* [OpenAPI (ex.Swagger)](https://spec.openapis.org/oas/v3.1.0)
+* [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/)
+* [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0)
+* [WSDL](http://www.w3.org/TR/wsdl20)
 
 ## API Testing
-Postman
-Insomnia
-curl
-Httpie
-SOAPUI
+
+* [Postman](https://www.postman.com/product/api-client/)
+* [Insomnia](https://insomnia.rest/products/insomnia)
+* [curl](https://github.com/curl/curl)
+* [HTTPie](https://httpie.io)
+* [SoapUI](https://www.soapui.org/tools/soapui)
 
 ## BPM
 
 ## Data Mapping Solution
 
-AltasMap
+* [AltasMap](https://www.atlasmap.io/)
 
 ## Enterprise Entegration Patterns
 
