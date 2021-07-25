@@ -43,7 +43,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
 - [Amplify API Management Platform](https://www.axway.com/en/products/amplify-api-management-platform) - An open platform for API management from Axway.
 - [Apigee](https://cloud.google.com/apigee) - API Management solution from Google.
 - [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) - A hybrid, multicloud management platform for APIs across all environments.
-- [DigitMarket API Manager](https://www.torryharris.com/products/digitmarket-api-manager-for-api-management) - Make your APIs productive, monetize.
+- [DigitMarket API Manager](https://www.torryharris.com/products/digitmarket-api-manager-for-api-management) - A complete package to help manage your APIs and make them into tools that propel your business forward by Torry Harris.
 - [Gravitee.io API Management](https://www.gravitee.io/products/api-management) - Flexible, lightweight and blazing-fast Open Source solution.
 - [IBM API Connect](https://www.ibm.com/cloud/api-connect) - A complete, intuitive and scalable API platform that lets you create, expose, manage and monetize APIs across clouds.
 - [Kong Enterprise](https://konghq.com/products/kong-enterprise) - The service connectivity platform.
