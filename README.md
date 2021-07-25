@@ -18,10 +18,11 @@ A curated list of awesome integration patterns, software and resources. Inspired
   - [Messanging](#messanging)
     - [Messaging as a Service](#messaging-as-a-service)
   - [Self-service integration](#self-service-integration)
-- [Specifications](#specifications)
+- [Miscellaneous](#miscellaneous)
   - [API Specification](#api-specification) 
   - [Connectors](#connectors)
   - [Data formats](#data-formats)
+  - [Design](#design)
   - [Enterprise Integration Patterns](#enterprise-integration-patterns) 
   - [Integration styles](#integration-styles)
   - [Protocols](#protocols)
@@ -61,12 +62,12 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 ## API Testing
 
-* [curl](https://github.com/curl/curl)
-* [HTTPie](https://httpie.io)
-* [Insomnia](https://insomnia.rest/products/insomnia)
-* [Karate](https://github.com/intuit/karate)
-* [Postman](https://www.postman.com/product/api-client/)
-* [SoapUI](https://www.soapui.org/tools/soapui)
+* [curl](https://github.com/curl/curl) - Command line tool and library for transferring data with URLs.
+* [HTTPie](https://httpie.io) - Command line HTTP client, far more dev-friendly than curl.
+* [Insomnia](https://insomnia.rest/products/insomnia) - Cross-platform HTTP and GraphQL Client.
+* [Karate](https://github.com/intuit/karate) - Open-source tool to combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework.
+* [Postman](https://www.postman.com/product/api-client/) - A tool to make HTTP requests, generate mock servers and make API documentation.
+* [SoapUI](https://www.soapui.org/tools/soapui) - An open-source web service testing application for SOAP and REST.
 
 ## Business Rules Engine
 
@@ -146,7 +147,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 
 - [Oracle Self-Service Integration](https://docs.oracle.com/en/cloud/paas/self-service-integration-cloud/index.html) - Automates tasks between cloud applications.
 
-# Specifications
+# Miscellaneous
 ## API Specification
 * [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0)
 * [GraphQL](https://github.com/graphql/graphql-spec)
@@ -160,6 +161,11 @@ allow both IT and citizen developers to construct process-centric and case-centr
 * [Apache Avro](https://github.com/apache/avro) - Data serialization system.
 * [JSON](https://datatracker.ietf.org/doc/html/rfc8259) - The JavaScript Object Notation (JSON) Data Interchange Format.
 * [XML](https://www.w3.org/TR/2006/REC-xml11-20060816/) - Extensible Markup Language (XML)
+
+## Design
+- [Enterprise Integration Using REST](http://martinfowler.com/articles/enterpriseREST.html) - Discusses the constraints and flexibility that you have with nonpublic APIs, and lessons learned from doing large scale RESTful integration across multiple teams.
+- [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html) - Explained by Martin Fowler, originally presented by Leonard Richardson.
+
 ## Enterprise Integration Patterns
 *Patterns from a book by Gregor Hohpe and Bobby Woolf*
 - [Aggregator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html) - How do we combine the results of individual, but related messages so that they can be processed as a whole?  
@@ -234,6 +240,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 * [AMQP 0-9-1](https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf) - Advanced Message Queuing Protocol (AMQP) Version 0-9-1
 * [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) - The Hypertext Transfer Protocol (HTTP) is an application layer protocol for distributed, collaborative, hypermedia information systems.
 * [MQTT](https://mqtt.org/mqtt-specification/) - The Message Queuing Telemetry Transport (MQTT) is a lightweight, publish-subscribe network protocol that transports messages between devices.
+* [SOAP](https://www.w3.org/TR/soap/) - Simple Object Access Protocol is XML-based messaging protocol. 
 * [STOMP](https://stomp.github.io/) - STOMP is the Simple (or Streaming) Text Orientated Messaging Protocol.
 ## Standards
 * [BPEL]
