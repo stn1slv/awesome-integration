@@ -130,18 +130,18 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Amazon MSK](https://aws.amazon.com/msk) -  Amazon Managed Streaming for Apache Kafka.
 - [Amazon SQS](https://aws.amazon.com/sqs) - Amazon Simple Queue Service.
 - [Amazon SNS](https://aws.amazon.com/sns) - Amazon Simple Notification Service. Pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications.
-- [Alibaba Cloud Message Queue for Apache Kafka](https://www.alibabacloud.com/product/kafka)
-- [Alibaba Cloud Message Queue for RabbitMQ](https://www.alibabacloud.com/product/rabbitmq)
-- [Alibaba Cloud Message Service](https://www.alibabacloud.com/product/message-service)
-- [AlibabaMQ for Apache RocketMQ](https://www.alibabacloud.com/product/mq)
-- [Anypoint MQ](https://www.mulesoft.com/platform/anypoint-mq-message-queue)
-- [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/)
+- [Alibaba Cloud Message Queue for Apache Kafka](https://www.alibabacloud.com/product/kafka) - Fully-managed Apache Kafka service from Alibaba Cloud.
+- [Alibaba Cloud Message Queue for RabbitMQ](https://www.alibabacloud.com/product/rabbitmq) - A distributed, fully managed, and professional messaging service that features high throughput, low latency, and high scalability.
+- [Alibaba Cloud Message Service](https://www.alibabacloud.com/product/message-service) - A distributed message queuing and notification service that supports concurrent operations to facilitate message transfer between applications and decoupled systems.
+- [AlibabaMQ for Apache RocketMQ](https://www.alibabacloud.com/product/mq) - A  distributed message queue service that supports reliable message-based asynchronous communication among microservices, distributed systems, and serverless applications.
+- [Anypoint MQ](https://www.mulesoft.com/platform/anypoint-mq-message-queue) - Enterprise-class cloud messaging, fully integrated with Anypoint Platform.
+- [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/) - Reliable cloud messaging as a service (MaaS) and simple hybrid integration.
 - [CloudAMQP](https://www.cloudamqp.com/) - RabbitMQ as a Service.
 - [Google Cloud Pub/Sub](https://cloud.google.com/pubsub) - Messaging and ingestion for event-driven systems and streaming analytics.
 - [IronMQ](https://www.iron.io/mq) - Elastic message queue created specifically with the cloud in mind.
-- [Solace PubSub+ Cloud](https://solace.com/products/platform/cloud/)
+- [Solace PubSub+ Cloud](https://solace.com/products/platform/cloud/) - A complete event streaming, management and insights platform.
 - [Yandex Message Queue](https://cloud.yandex.com/en/services/message-queue) - Compatibility with the Amazon SQS HTTP API.
-- [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka)
+- [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka) - Managed Apache Kafka service.
 
 ## Robotic Process Automation
 - [Automation Anywhere](https://www.automationanywhere.com/) - Intelligent Automation Ecosystem.
