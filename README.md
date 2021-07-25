@@ -104,7 +104,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 
 * [Oracle Managed File Transfer](https://www.oracle.com/middleware/technologies/mft/managed-file-transfer.html) - Enables secure file exchange and management.
 * [IBM Sterling Secure File Transfer](https://www.ibm.com/products/secure-file-transfer) - Move over 1 million files per day with a fast and scalable file transfer platform.
-* [Axway Managed File Transfer](https://www.axway.com/en/products/managed-file-transfer)
+* [Axway Managed File Transfer](https://www.axway.com/en/products/managed-file-transfer) - Make file transfer services easy to use.
 
 ## Master Data Management
 
@@ -165,11 +165,11 @@ allow both IT and citizen developers to construct process-centric and case-centr
 
 # Resources
 ## API Specification
-* [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0)
-* [GraphQL](https://github.com/graphql/graphql-spec)
-* [OpenAPI (ex.Swagger)](https://spec.openapis.org/oas/v3.1.0)
-* [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/)
-* [WSDL](http://www.w3.org/TR/wsdl20)
+* [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0) - The AsyncAPI specification settles the base for a greater and better tooling ecosystem for Event-Driven Architectures (EDA).
+* [GraphQL](https://github.com/graphql/graphql-spec) - A query language for APIs and a runtime for fulfilling those queries with your existing data.
+* [OpenAPI (ex.Swagger)](https://spec.openapis.org/oas/v3.1.0) - Defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. 
+* [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/) - RESTful API Modeling Language
+* [WSDL](http://www.w3.org/TR/wsdl20) - XML-based interface description language for SOAP based services.
 ## Connectors
 * [JCA](https://projects.eclipse.org/projects/ee4j.jca) - Defines a standard architecture for Jakarta EE application components to connect to Enterprise Information Systems. Formerly Java EE Connector Architecture and J2EE Connector Architecture.
 * [Kafka Connect](https://kafka.apache.org/documentation/#connect) - A tool for scalably and reliably streaming data between Apache Kafka and other systems.
