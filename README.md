@@ -8,6 +8,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
   - [API Testing](#api-testing)
   - [Business Rules Engine (BRE)](#business-rules-engine)
   - [BPM](#bpm)
+  - [Citizen Integrator](#citizen-integrator)
   - [Data Mapping Solution](#data-mapping-solution) 
   - [ESB](#esb)
   - [ETL](#etl)
@@ -76,6 +77,11 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 * [Appian BPM Suite](https://appian.com/platform/complete-automation/business-process-management-bpm.html) - Platform combines low-code development with process management to
 allow both IT and citizen developers to construct process-centric and case-centric applications.
+
+## Citizen Integrator
+
+- [IFTTT](https://ifttt.com/) - Allows creating chains of conditional statements between web services in order to make the web work for you and boost your productivity.
+- [Zapier](https://zapier.com/) - Automation tool that allows you to connect hundreds of web services and create automations between the processes.
 
 ## Data Mapping Solution
 
