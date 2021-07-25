@@ -18,6 +18,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
   - [Messanging](#messanging)
     - [Messaging as a Service](#messaging-as-a-service)
   - [Self-service integration](#self-service-integration)
+  - [Workflow engine](#workflow-engine)
 - [Miscellaneous](#miscellaneous)
   - [API Specification](#api-specification) 
   - [Connectors](#connectors)
@@ -146,6 +147,12 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [IFTTT](https://ifttt.com/) - Allows creating chains of conditional statements between web services in order to make the web work for you and boost your productivity.
 - [Oracle Self-Service Integration](https://docs.oracle.com/en/cloud/paas/self-service-integration-cloud/index.html) - Automates tasks between cloud applications.
 - [Zapier](https://zapier.com/) - Automation tool that allows you to connect hundreds of web services and create automations between the processes.
+
+## Workflow engine
+
+- [Activiti](https://github.com/Activiti/Activiti) - A lightweight and java-centric open-source BPMN engine.
+- [Cadence](https://github.com/uber/cadence) - Fault-Tolerant Stateful Code Platform.
+- [Camunda](https://github.com/camunda/camunda-bpm-platform) - An open-source workflow and decision automation platform.
 
 # Miscellaneous
 ## API Specification
