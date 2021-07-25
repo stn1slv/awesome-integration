@@ -38,6 +38,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
 *API Management solutions.*
 
 - [Anypoint API Manager](https://www.mulesoft.com/platform/api/manager) - Combines API management and integration capabilities in a single platform from Mulesoft.
+- [Akana API Management Platform](https://www.akana.com/products/api-platform) - Accelerate digital transformation. Manage the full API lifecycle. Deploy across multiple clouds. And ensure compliance.
 - [Amazon API Management](https://aws.amazon.com/api-gateway/api-management/) - API management strategies allow you to monitor and manage APIs in a secure and scalable way.
 - [Amplify API Management Platform](https://www.axway.com/en/products/amplify-api-management-platform) - An open platform for API management from Axway.
 - [Apigee](https://cloud.google.com/apigee) - API Management solution from Google.
@@ -47,6 +48,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
 - [Kong Enterprise](https://konghq.com/products/kong-enterprise) - The service connectivity platform.
 - [Layer7 API Management](https://www.broadcom.com/products/software/api-management) - Continuous API Management from Broadcom.
 - [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale) - Cloud-native development made simpler and more flexible.
+- [Sensedia API Management](https://www.sensedia.com/api-management-platform) - Full life cycle API management platform.
 - [TIBCO Cloud Mashery](https://www.tibco.com/products/api-management) - The cloud-native API platform you can deploy anywhere, and manage APIs from everywhere.
 - [Tyk API Management](https://tyk.io/api-lifecycle-management/) - Connect, build and control.
 - [webMethods API](https://www.softwareag.cloud/site/product/webmethods-api.html) - Software AG offerings for full life cycle API management are the webMethods API management platform (for on-premises deployment) and the webMethods.io API (for the cloud).
