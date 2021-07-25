@@ -17,15 +17,17 @@ A curated list of awesome integration patterns, software and resources. Inspired
   - [Master Data Management](#master-data-management)
   - [Messanging](#messanging)
     - [Messaging as a Service](#messaging-as-a-service)
+  - [RPA](#robotic-process-automation)
   - [Self-service integration](#self-service-integration)
   - [Workflow engine](#workflow-engine)
-- [Miscellaneous](#miscellaneous)
+- [Resources](#resources)
   - [API Specification](#api-specification) 
   - [Connectors](#connectors)
   - [Data formats](#data-formats)
   - [Design](#design)
   - [Enterprise Integration Patterns](#enterprise-integration-patterns) 
   - [Integration styles](#integration-styles)
+  - [Market analysis](#market-analysis)
   - [Protocols](#protocols)
   - [Standards](#standards)
 - [Contributing](#contributing)
@@ -141,6 +143,8 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Yandex Message Queue](https://cloud.yandex.com/en/services/message-queue) - Compatibility with the Amazon SQS HTTP API.
 - [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka)
 
+## Robotic Process Automation
+
 ## Self-Service Integration
 *Any self-service and citizen integrator tools.*
 
@@ -154,7 +158,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Cadence](https://github.com/uber/cadence) - Fault-Tolerant Stateful Code Platform.
 - [Camunda](https://github.com/camunda/camunda-bpm-platform) - An open-source workflow and decision automation platform.
 
-# Miscellaneous
+# Resources
 ## API Specification
 * [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0)
 * [GraphQL](https://github.com/graphql/graphql-spec)
@@ -238,17 +242,32 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Wire Tap](https://www.enterpriseintegrationpatterns.com/patterns/messaging/WireTap.html) - How do you inspect messages that travel on a point-to-point channel?  
 
 ## Integration styles
-* [File Transfer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FileTransferIntegration.html)
-* [Messaging](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Messaging.html)
-* [Remote Procedure Invocation](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EncapsulatedSynchronousIntegration.html)
-* [Shared Database](https://www.enterpriseintegrationpatterns.com/patterns/messaging/SharedDataBaseIntegration.html)
+- [File Transfer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FileTransferIntegration.html)
+- [Messaging](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Messaging.html)
+- [Remote Procedure Invocation](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EncapsulatedSynchronousIntegration.html)
+- [Shared Database](https://www.enterpriseintegrationpatterns.com/patterns/messaging/SharedDataBaseIntegration.html)
+
+## Market analysis
+- [Gartner Critical Capabilities for Full Life Cycle API Management](https://www.gartner.com/doc/code/468184)
+- [Gartner Critical Capabilities for Data Integration Tools](https://www.gartner.com/doc/code/464068)
+- [Gartner Critical Capabilities for Enterprise Integration Platform as a Service](https://www.gartner.com/doc/code/434187)
+- [Gartner Critical Capabilities for Intelligent Business Process Management Suites](https://www.gartner.com/doc/code/292486)
+- [Gartner Magic Quadrant for Data Integration Tools](https://www.gartner.com/doc/code/450251)
+- [Gartner Magic Quadrant for Enterprise Integration Platform as a Service](https://www.gartner.com/doc/code/397953)
+- [Gartner Magic Quadrant for Full Life Cycle API Management](https://www.gartner.com/doc/code/464116)
+- [Gartner Magic Quadrant for Intelligent Business Process Management Suites](https://www.gartner.com/doc/code/345694)
+- [The Forrester Wave™: API Management Solutions](https://www.forrester.com/go?objectid=RES159081)
+- [The Forrester Wave™: Robotic Process Automation](https://www.forrester.com/go?objectid=RES161538)
+- [The Forrester Wave™: Strategic iPaaS And Hybrid Integration Platforms](https://www.forrester.com/report/The+Forrester+Wave+Strategic+iPaaS+And+Hybrid+Integration+Platforms+Q1+2019/-/E-RES141621)
+
+
 ## Protocols
-* [AMQP 1.0](http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-v1.0-os.html) - Advanced Message Queuing Protocol (AMQP) Version 1.0
-* [AMQP 0-9-1](https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf) - Advanced Message Queuing Protocol (AMQP) Version 0-9-1
-* [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) - The Hypertext Transfer Protocol (HTTP) is an application layer protocol for distributed, collaborative, hypermedia information systems.
-* [MQTT](https://mqtt.org/mqtt-specification/) - The Message Queuing Telemetry Transport (MQTT) is a lightweight, publish-subscribe network protocol that transports messages between devices.
-* [SOAP](https://www.w3.org/TR/soap/) - Simple Object Access Protocol is XML-based messaging protocol. 
-* [STOMP](https://stomp.github.io/) - STOMP is the Simple (or Streaming) Text Orientated Messaging Protocol.
+- [AMQP 1.0](http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-v1.0-os.html) - Advanced Message Queuing Protocol (AMQP) Version 1.0
+- [AMQP 0-9-1](https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf) - Advanced Message Queuing Protocol (AMQP) Version 0-9-1
+- [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) - The Hypertext Transfer Protocol (HTTP) is an application layer protocol for distributed, collaborative, hypermedia information systems.
+- [MQTT](https://mqtt.org/mqtt-specification/) - The Message Queuing Telemetry Transport (MQTT) is a lightweight, publish-subscribe network protocol that transports messages between devices.
+- [SOAP](https://www.w3.org/TR/soap/) - Simple Object Access Protocol is XML-based messaging protocol. 
+- [STOMP](https://stomp.github.io/) - STOMP is the Simple (or Streaming) Text Orientated Messaging Protocol.
 ## Standards
 * [BPEL]
 * [WS-Security]
