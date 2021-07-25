@@ -6,7 +6,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
   - [API Management](#api-management) 
   - [API Gateway](#api-gateway)
   - [API Testing](#api-testing)
-  - [Business Rules Engine (BRE)](#business-rules-engine)
+  - [BRE](#bre)
   - [BPM](#bpm)
   - [Data Mapping Solution](#data-mapping-solution) 
   - [ESB](#esb)
@@ -69,15 +69,15 @@ A curated list of awesome integration patterns, software and resources. Inspired
 * [Postman](https://www.postman.com/product/api-client/) - A tool to make HTTP requests, generate mock servers and make API documentation.
 * [SoapUI](https://www.soapui.org/tools/soapui) - An open-source web service testing application for SOAP and REST.
 
-## Business Rules Engine
-
-* [Drools](https://www.drools.org)
-* [NxBRE](https://github.com/ddossot/NxBRE/wiki)
-* [OpenL Tablets](http://openl-tablets.org/)
+## BRE
+*Business Rules Engines and Business Rules Management Systems.*
+- [Drools](https://www.drools.org) - Open source tool with full runtime support for Decision Model and Notation (DMN) models at Conformance level 3 and an Eclipse IDE plugin for core development.
+- [NxBRE](https://github.com/ddossot/NxBRE/wiki) - Open-source rule engine for the .NET platform.
+- [OpenL Tablets](http://openl-tablets.org/) - An open source business rules engine (BRE, BRMS) and decision management system.
 
 ## BPM
-
-* [Appian BPM Suite](https://appian.com/platform/complete-automation/business-process-management-bpm.html) - Platform combines low-code development with process management to
+*Business Process Management solutions.*
+- [Appian BPM Suite](https://appian.com/platform/complete-automation/business-process-management-bpm.html) - Platform combines low-code development with process management to
 allow both IT and citizen developers to construct process-centric and case-centric applications.
 
 ## Data Mapping Solution
@@ -161,6 +161,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Activiti](https://github.com/Activiti/Activiti) - A lightweight and java-centric open-source BPMN engine.
 - [Cadence](https://github.com/uber/cadence) - Fault-Tolerant Stateful Code Platform.
 - [Camunda](https://github.com/camunda/camunda-bpm-platform) - An open-source workflow and decision automation platform.
+- [jBPM](https://www.jbpm.org/) - A toolkit for building business applications to help automate business processes and decisions.
 
 # Resources
 ## API Specification
