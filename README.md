@@ -36,8 +36,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 ## API Management
 *API Management solutions.*
-
-- [Anypoint API Manager](https://www.mulesoft.com/platform/api/manager) - Combines API management and integration capabilities in a single platform from Mulesoft.
+- [Anypoint Platform](https://www.mulesoft.com/platform/api/manager) - Combines API management and integration capabilities in a single platform from Mulesoft.
 - [Akana API Management Platform](https://www.akana.com/products/api-platform) - Accelerate digital transformation. Manage the full API lifecycle. Deploy across multiple clouds. And ensure compliance.
 - [Amazon API Management](https://aws.amazon.com/api-gateway/api-management/) - API management strategies allow you to monitor and manage APIs in a secure and scalable way.
 - [Amplify API Management Platform](https://www.axway.com/en/products/amplify-api-management-platform) - An open platform for API management from Axway.
@@ -52,7 +51,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
 - [Sensedia API Management](https://www.sensedia.com/api-management-platform) - Full life cycle API management platform.
 - [TIBCO Cloud Mashery](https://www.tibco.com/products/api-management) - The cloud-native API platform you can deploy anywhere, and manage APIs from everywhere.
 - [Tyk API Management](https://tyk.io/api-lifecycle-management/) - Connect, build and control.
-- [webMethods API](https://www.softwareag.cloud/site/product/webmethods-api.html) - Software AG offerings for full life cycle API management are the webMethods API management platform (for on-premises deployment) and the webMethods.io API (for the cloud).
+- [webMethods API](https://www.softwareag.cloud/site/product/webmethods-api.html) - Software AG offerings for full life cycle API management are the webMethods API management. platform (for on-premises deployment) and the webMethods.io API (for the cloud).
 - [WSO2 API Manager](https://wso2.com/api-manager/) - Fully open-source API management platform.
 
 ## API Gateway
@@ -91,8 +90,8 @@ allow both IT and citizen developers to construct process-centric and case-centr
 * [AltasMap](https://www.atlasmap.io/) - Data mapping solution with interactive web based user interface, that simplifies configuring integrations between Java, XML, CSV and JSON data sources.
 
 ## ESB
-
-* [IBM App Connect](https://www.ibm.com/cloud/app-connect) - Connect applications together, regardless of the message formats or protocols that they support. Formerly known as IBM Integration Bus.
+- [Anypoint Platform](https://www.mulesoft.com/platform/enterprise-integration) - Combines API management and integration capabilities in a single platform from Mulesoft.
+- [IBM App Connect](https://www.ibm.com/cloud/app-connect) - Connect applications together, regardless of the message formats or protocols that they support. Formerly known as IBM Integration Bus.
 
 ## ETL
 - [Apache NiFi](https://nifi.apache.org/) - Apache NiFi is an integrated data logistics platform for automating the movement of data between disparate systems.
@@ -103,7 +102,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Spring Integration](https://spring.io/projects/spring-integration) - Extends the Spring programming model to support the well-known Enterprise Integration Patterns.
 
 ## iPaaS
-
+- [Anypoint Platform](https://www.mulesoft.com/platform/enterprise-integration) - Combines API management and integration capabilities in a single platform from Mulesoft.
 - [Jitterbit Harmony](https://www.jitterbit.com/platform/ipaas)
 
 ## Managed File Transfer
