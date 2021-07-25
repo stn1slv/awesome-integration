@@ -144,6 +144,10 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka)
 
 ## Robotic Process Automation
+- [Automation Anywhere](https://www.automationanywhere.com/) - Intelligent Automation Ecosystem.
+- [Blue Prism](https://www.blueprism.com/products/intelligent-rpa-automation/) - Intelligent automation - business-developed and no-code automation RPA platform.
+- [UiPath](https://www.uipath.com/product)
+- [WorkFusion](https://www.workfusion.com/platform/) - Automation Platform for the Enterprise.
 
 ## Self-Service Integration
 *Any self-service and citizen integrator tools.*
