@@ -8,7 +8,6 @@ A curated list of awesome integration patterns, software and resources. Inspired
   - [API Testing](#api-testing)
   - [Business Rules Engine (BRE)](#business-rules-engine)
   - [BPM](#bpm)
-  - [Citizen Integrator](#citizen-integrator)
   - [Data Mapping Solution](#data-mapping-solution) 
   - [ESB](#esb)
   - [ETL](#etl)
@@ -78,11 +77,6 @@ A curated list of awesome integration patterns, software and resources. Inspired
 * [Appian BPM Suite](https://appian.com/platform/complete-automation/business-process-management-bpm.html) - Platform combines low-code development with process management to
 allow both IT and citizen developers to construct process-centric and case-centric applications.
 
-## Citizen Integrator
-
-- [IFTTT](https://ifttt.com/) - Allows creating chains of conditional statements between web services in order to make the web work for you and boost your productivity.
-- [Zapier](https://zapier.com/) - Automation tool that allows you to connect hundreds of web services and create automations between the processes.
-
 ## Data Mapping Solution
 
 * [AltasMap](https://www.atlasmap.io/) - Data mapping solution with interactive web based user interface, that simplifies configuring integrations between Java, XML, CSV and JSON data sources.
@@ -147,8 +141,11 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka)
 
 ## Self-Service Integration
+*Any self-service and citizen integrator tools.*
 
+- [IFTTT](https://ifttt.com/) - Allows creating chains of conditional statements between web services in order to make the web work for you and boost your productivity.
 - [Oracle Self-Service Integration](https://docs.oracle.com/en/cloud/paas/self-service-integration-cloud/index.html) - Automates tasks between cloud applications.
+- [Zapier](https://zapier.com/) - Automation tool that allows you to connect hundreds of web services and create automations between the processes.
 
 # Miscellaneous
 ## API Specification
