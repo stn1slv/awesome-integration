@@ -27,9 +27,6 @@ A curated list of awesome integration patterns, software and resources. Inspired
   - [Integration styles](#integration-styles)
   - [Protocols](#protocols)
   - [Standards](#standards)
-- [Resources](#resources)
-    - [Books](#books)
-    - [Websites](#websites)
 - [Contributing](#contributing)
 
 ---
@@ -82,7 +79,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 
 ## Data Mapping Solution
 
-* [AltasMap](https://www.atlasmap.io/)
+* [AltasMap](https://www.atlasmap.io/) - Data mapping solution with interactive web based user interface, that simplifies configuring integrations between Java, XML, CSV and JSON data sources.
 
 ## ESB
 
@@ -245,7 +242,4 @@ allow both IT and citizen developers to construct process-centric and case-centr
 ## Standards
 * [BPEL]
 * [WS-Security]
-# Resources
-## Books
-## Websites
 # Contributing
