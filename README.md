@@ -136,7 +136,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Jitterbit Harmony](https://www.jitterbit.com/platform/ipaas) - Integrates thousands of applications with pre-built templates and workflows to automate your business processes.
 - [IBM Cloud Integration](https://www.ibm.com/cloud/integration) - AI-powered approach to integration.
 - [Informatica Intelligent Cloud Services](https://www.informatica.com/products/cloud-integration.html) - Multiple cloud data management products designed to accelerate productivity and improve speed and scale.
-- [OpenText Alloy](https://businessnetwork.opentext.com/enterprise-data-management/) - Enterprise data management, organizations move beyond basic integration and turn data into insights and action.
+- [OpenText Alloy](https://businessnetwork.opentext.com/enterprise-data-management/) - Enterprise data management, organizations move beyond basic integration and turn data into insights and action. Formerly known as Liaison ALLOY Platform.
 - [Oracle Integration Cloud Service](https://www.oracle.com/integration/application-integration/) - Accelerates time to go live with pre-built connectivity to any SaaS or on-premises application.
 - [SnapLogic Intelligent Integration Platform](https://www.snaplogic.com/products/intelligent-integration-platform) - Connect your application and data landscape.
 - [Software AG webMethods Hybrid Integration Platform](https://www.softwareag.com/en_corporate/platform/integration-apis/application-integration.html) - One application integration platform integrates it all.
