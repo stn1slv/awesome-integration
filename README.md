@@ -108,6 +108,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Apache NiFi](https://nifi.apache.org/) - Apache NiFi is an integrated data logistics platform for automating the movement of data between disparate systems.
 
 ## Integration Frameworks
+*Integration frameworks based on known Enterprise Integration Patterns.*
 - [Apache Camel](https://camel.apache.org) - Glues together different transport APIs via Enterprise Integration Patterns.
 - [Ballerina](https://ballerina.io/) - An open-source programming language that makes it easier to use, combine, and create network services.
 - [Spring Integration](https://spring.io/projects/spring-integration) - Extends the Spring programming model to support the well-known Enterprise Integration Patterns.
