@@ -93,7 +93,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [TIBCO BPM Enterprise](https://www.tibco.com/products/business-process-management) - A business process management platform with capabilities for process automation, process documentation, human capital management, process patterns, and predictive operations analytics.
 
 ## Data Mapping Solution
-*DAta Mapping solutions.*
+*Data Mapping solutions.*
 - [AltasMap](https://www.atlasmap.io/) - Data mapping solution with interactive web based user interface, that simplifies configuring integrations between Java, XML, CSV and JSON data sources.
 
 ## ESB
