@@ -93,6 +93,11 @@ allow both IT and citizen developers to construct process-centric and case-centr
 ## ESB
 - [Anypoint Platform](https://www.mulesoft.com/platform/enterprise-integration) - Combines API management and integration capabilities in a single platform from Mulesoft.
 - [IBM App Connect](https://www.ibm.com/cloud/app-connect) - Connect applications together, regardless of the message formats or protocols that they support. Formerly known as IBM Integration Bus.
+- [Oracle Service Bus](https://www.oracle.com/middleware/technologies/service-bus.html) - Transforms complex and brittle architectures into agile integration networks by connecting, virtualizing, and managing interactions between services and applications.
+- [Oracle SOA Suite](https://www.oracle.com/middleware/technologies/soasuite.html) - Enables system developers to set up and manage services and to orchestrate them into composite applications and business processes.
+- [Red Hat Fuse](https://www.redhat.com/en/technologies/jboss-middleware/fuse) - Distributed, cloud-native integration platform.
+- [TIBCO BusinessWorks](https://www.tibco.com/products/tibco-businessworks) - Implement enterprise patterns for hybrid integrations.
+- [WSO2 Enterprise Integrator](https://wso2.com/integration/) - An API-centric, cloud-native, and distributed integration platform.
 
 ## ETL
 *ETL/ELT and data integration tools.*
