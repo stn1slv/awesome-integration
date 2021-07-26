@@ -267,24 +267,28 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Shared Database](https://www.enterpriseintegrationpatterns.com/patterns/messaging/SharedDataBaseIntegration.html)
 
 ## Market analysis
-- [Gartner Critical Capabilities for Full Life Cycle API Management](https://www.gartner.com/doc/code/468184)
-- [Gartner Critical Capabilities for Data Integration Tools](https://www.gartner.com/doc/code/464068)
-- [Gartner Critical Capabilities for Enterprise Integration Platform as a Service](https://www.gartner.com/doc/code/434187)
-- [Gartner Critical Capabilities for Intelligent Business Process Management Suites](https://www.gartner.com/doc/code/292486)
-- [Gartner Critical Capabilities for Robotic Process Automation](https://www.gartner.com/doc/code/465756)
-- [Gartner Magic Quadrant for Data Integration Tools](https://www.gartner.com/doc/code/450251)
-- [Gartner Magic Quadrant for Enterprise Integration Platform as a Service](https://www.gartner.com/doc/code/397953)
-- [Gartner Magic Quadrant for Full Life Cycle API Management](https://www.gartner.com/doc/code/464116)
-- [Gartner Magic Quadrant for Intelligent Business Process Management Suites](https://www.gartner.com/doc/code/345694)
-- [Gartner Magic Quadrant for Robotic Process Automation](https://www.gartner.com/doc/code/441474)
-- [The Forrester Wave™: API Management Solutions](https://www.forrester.com/go?objectid=RES159081)
-- [The Forrester Wave™: Robotic Process Automation](https://www.forrester.com/go?objectid=RES161538)
-- [The Forrester Wave™: Strategic iPaaS And Hybrid Integration Platforms](https://www.forrester.com/report/The+Forrester+Wave+Strategic+iPaaS+And+Hybrid+Integration+Platforms+Q1+2019/-/E-RES141621)
-
+- API Management
+  - [Gartner Critical Capabilities for Full Life Cycle API Management](https://www.gartner.com/doc/code/468184)
+  - [Gartner Magic Quadrant for Full Life Cycle API Management](https://www.gartner.com/doc/code/464116)
+  - [The Forrester Wave™: API Management Solutions](https://www.forrester.com/go?objectid=RES159081)
+- BPM
+  - [Gartner Critical Capabilities for Intelligent Business Process Management Suites](https://www.gartner.com/doc/code/292486)
+  - [Gartner Magic Quadrant for Intelligent Business Process Management Suites](https://www.gartner.com/doc/code/345694)
+- ETL
+  - [Gartner Critical Capabilities for Data Integration Tools](https://www.gartner.com/doc/code/464068)
+  - [Gartner Magic Quadrant for Data Integration Tools](https://www.gartner.com/doc/code/450251)
+- iPaaS
+  - [Gartner Critical Capabilities for Enterprise Integration Platform as a Service](https://www.gartner.com/doc/code/434187)
+  - [Gartner Magic Quadrant for Enterprise Integration Platform as a Service](https://www.gartner.com/doc/code/397953)
+  - [The Forrester Wave™: Strategic iPaaS And Hybrid Integration Platforms](https://www.forrester.com/report/The+Forrester+Wave+Strategic+iPaaS+And+Hybrid+Integration+Platforms+Q1+2019/-/E-RES141621)
+- RPA
+  - [Gartner Critical Capabilities for Robotic Process Automation](https://www.gartner.com/doc/code/465756)
+  - [Gartner Magic Quadrant for Robotic Process Automation](https://www.gartner.com/doc/code/441474)
+  - [The Forrester Wave™: Robotic Process Automation](https://www.forrester.com/go?objectid=RES161538)
 
 ## Protocols
-- [AMQP 1.0](http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-v1.0-os.html) - Advanced Message Queuing Protocol (AMQP) Version 1.0
 - [AMQP 0-9-1](https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf) - Advanced Message Queuing Protocol (AMQP) Version 0-9-1
+- [AMQP 1.0](http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-v1.0-os.html) - Advanced Message Queuing Protocol (AMQP) Version 1.0
 - [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) - The Hypertext Transfer Protocol (HTTP) is an application layer protocol for distributed, collaborative, hypermedia information systems.
 - [MQTT](https://mqtt.org/mqtt-specification/) - The Message Queuing Telemetry Transport (MQTT) is a lightweight, publish-subscribe network protocol that transports messages between devices.
 - [SOAP](https://www.w3.org/TR/soap/) - Simple Object Access Protocol is XML-based messaging protocol. 
