@@ -172,6 +172,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka) - Managed Apache Kafka service.
 
 ## Robotic Process Automation
+*Robotic Process Automation (RPA) solutions.*
 - [Automation Anywhere](https://www.automationanywhere.com/) - Intelligent Automation Ecosystem.
 - [Blue Prism](https://www.blueprism.com/products/intelligent-rpa-automation/) - Intelligent automation - business-developed and no-code automation RPA platform.
 - [UiPath](https://www.uipath.com/product) - Automattion repetitive digital tasks normally performed by people.
@@ -185,7 +186,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Zapier](https://zapier.com/) - Automation tool that allows you to connect hundreds of web services and create automations between the processes.
 
 ## Workflow engine
-
+*Workflow and orchestration engines.*
 - [Activiti](https://github.com/Activiti/Activiti) - A lightweight and java-centric open-source BPMN engine.
 - [Apache Airflow](https://github.com/apache/airflow) - A platform to programmatically author, schedule, and monitor workflows.
 - [Argo Workflows](https://github.com/argoproj/argo-workflows) -  An open source container-native workflow engine for orchestrating parallel jobs on Kubernetes.
