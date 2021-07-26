@@ -67,6 +67,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 ## API Testing
 *API testing tools.*
+* [Apache JMeter](https://jmeter.apache.org/) - An open source java based load testing tool.
 * [curl](https://github.com/curl/curl) - Command line tool and library for transferring data with URLs.
 * [HTTPie](https://httpie.io) - Command line HTTP client, far more dev-friendly than curl.
 * [Insomnia](https://insomnia.rest/products/insomnia) - Cross-platform HTTP and GraphQL Client.
