@@ -94,6 +94,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Anypoint Platform](https://www.mulesoft.com/platform/enterprise-integration) - Combines API management and integration capabilities in a single platform from Mulesoft.
 - [ArcESB](https://www.arcesb.com/integration/) - Synchronize data across applications, seamlessly integrate with partners, or make data publicly accessible.
 - [IBM App Connect](https://www.ibm.com/cloud/app-connect) - Connect applications together, regardless of the message formats or protocols that they support. Formerly known as IBM Integration Bus.
+- [NServiceBus](https://particular.net/nservicebus) - The most developer-friendly service bus for .NET.
 - [Oracle Service Bus](https://www.oracle.com/middleware/technologies/service-bus.html) - Transforms complex and brittle architectures into agile integration networks by connecting, virtualizing, and managing interactions between services and applications.
 - [Oracle SOA Suite](https://www.oracle.com/middleware/technologies/soasuite.html) - Enables system developers to set up and manage services and to orchestrate them into composite applications and business processes.
 - [Red Hat Fuse](https://www.redhat.com/en/technologies/jboss-middleware/fuse) - Distributed, cloud-native integration platform.
