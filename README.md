@@ -95,6 +95,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [IBM App Connect](https://www.ibm.com/cloud/app-connect) - Connect applications together, regardless of the message formats or protocols that they support. Formerly known as IBM Integration Bus.
 
 ## ETL
+*ETL/ELT and data integration tools.*
 - [Apache NiFi](https://nifi.apache.org/) - Apache NiFi is an integrated data logistics platform for automating the movement of data between disparate systems.
 
 ## Integration Frameworks
