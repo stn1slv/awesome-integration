@@ -77,6 +77,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
 ## BRE
 *Business Rules Engines and Business Rules Management Systems.*
 - [Drools](https://www.drools.org) - Open source tool with full runtime support for Decision Model and Notation (DMN) models at Conformance level 3 and an Eclipse IDE plugin for core development.
+- [Easy Rules](https://github.com/j-easy/easy-rules) - A simple Java rules engine.
 - [NxBRE](https://github.com/ddossot/NxBRE/wiki) - Open-source rule engine for the .NET platform.
 - [OpenL Tablets](http://openl-tablets.org/) - An open source business rules engine (BRE, BRMS) and decision management system.
 
@@ -164,9 +165,13 @@ allow both IT and citizen developers to construct process-centric and case-centr
 ## Workflow engine
 
 - [Activiti](https://github.com/Activiti/Activiti) - A lightweight and java-centric open-source BPMN engine.
+- [Argo Workflows](https://github.com/argoproj/argo-workflows) -  An open source container-native workflow engine for orchestrating parallel jobs on Kubernetes.
 - [Cadence](https://github.com/uber/cadence) - Fault-Tolerant Stateful Code Platform.
 - [Camunda](https://github.com/camunda/camunda-bpm-platform) - An open-source workflow and decision automation platform.
+- [Conductor](https://github.com/Netflix/conductor) - Netflix’s Conductor is an orchestration engine that runs in the cloud.
+- [Elsa Core](https://github.com/elsa-workflows/elsa-core) -  A workflows library that enables workflow execution in any .NET Core application.
 - [jBPM](https://www.jbpm.org/) - A toolkit for building business applications to help automate business processes and decisions.
+- [StackStorm](https://github.com/StackStorm/st2) - Robust Automation Engine providing Sensors, Triggers, Rules, Workflows, and Actions. StackStorm is how you “glue” your applications together.
 
 # Resources
 ## API Specification
