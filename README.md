@@ -96,6 +96,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Oracle Service Bus](https://www.oracle.com/middleware/technologies/service-bus.html) - Transforms complex and brittle architectures into agile integration networks by connecting, virtualizing, and managing interactions between services and applications.
 - [Oracle SOA Suite](https://www.oracle.com/middleware/technologies/soasuite.html) - Enables system developers to set up and manage services and to orchestrate them into composite applications and business processes.
 - [Red Hat Fuse](https://www.redhat.com/en/technologies/jboss-middleware/fuse) - Distributed, cloud-native integration platform.
+- [Software AG webMethods Integration Server](https://www.softwareag.com/en_corporate/platform/integration-apis/webmethods-integration.html) - Integrate anything faster.
 - [TIBCO BusinessWorks](https://www.tibco.com/products/tibco-businessworks) - Implement enterprise patterns for hybrid integrations.
 - [WSO2 Enterprise Integrator](https://wso2.com/integration/) - An API-centric, cloud-native, and distributed integration platform.
 
