@@ -152,7 +152,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 ## Robotic Process Automation
 - [Automation Anywhere](https://www.automationanywhere.com/) - Intelligent Automation Ecosystem.
 - [Blue Prism](https://www.blueprism.com/products/intelligent-rpa-automation/) - Intelligent automation - business-developed and no-code automation RPA platform.
-- [UiPath](https://www.uipath.com/product)
+- [UiPath](https://www.uipath.com/product) - Automattion repetitive digital tasks normally performed by people.
 - [WorkFusion](https://www.workfusion.com/platform/) - Automation Platform for the Enterprise.
 
 ## Self-Service Integration
@@ -165,11 +165,15 @@ allow both IT and citizen developers to construct process-centric and case-centr
 ## Workflow engine
 
 - [Activiti](https://github.com/Activiti/Activiti) - A lightweight and java-centric open-source BPMN engine.
+- [Apache Airflow](https://github.com/apache/airflow) - A platform to programmatically author, schedule, and monitor workflows.
 - [Argo Workflows](https://github.com/argoproj/argo-workflows) -  An open source container-native workflow engine for orchestrating parallel jobs on Kubernetes.
+- [Azkaban](https://github.com/azkaban/azkaban) - A distributed Workflow Manager, implemented at LinkedIn to solve the problem of Hadoop job dependencies.
+- [Bonita](https://github.com/bonitasoft/bonita-engine) - BPMN engine that comes with an optional development environment, a designer, an optional user interface and administrative tools.
 - [Cadence](https://github.com/uber/cadence) - Fault-Tolerant Stateful Code Platform.
 - [Camunda](https://github.com/camunda/camunda-bpm-platform) - An open-source workflow and decision automation platform.
 - [Conductor](https://github.com/Netflix/conductor) - Netflix’s Conductor is an orchestration engine that runs in the cloud.
 - [Elsa Core](https://github.com/elsa-workflows/elsa-core) -  A workflows library that enables workflow execution in any .NET Core application.
+- [Flowable](https://github.com/flowable/flowable-engine) - Provides a core set of open source business process engines that are compact and highly efficient.
 - [jBPM](https://www.jbpm.org/) - A toolkit for building business applications to help automate business processes and decisions.
 - [StackStorm](https://github.com/StackStorm/st2) - Robust Automation Engine providing Sensors, Triggers, Rules, Workflows, and Actions. StackStorm is how you “glue” your applications together.
 
