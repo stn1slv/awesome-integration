@@ -63,7 +63,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
 - [KrakenD API Gateway](https://github.com/devopsfaith/krakend-ce) - Ultra-High performance API Gateway with middlewares.
 - [Ocelot](https://github.com/ThreeMammals/Ocelot) - .NET API Gateway.
 - [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway) -  API Gateway built on top of the Spring Ecosystem, including: Spring 5, Spring Boot 2 and Project Reactor.
-- [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway, supporting REST, GraphQL, TCP and gRPC protocols
+- [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway, supporting REST, GraphQL, TCP and gRPC protocols.
 
 ## API Testing
 *API testing tools.*
@@ -228,7 +228,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 ## Data formats
 * [Apache Avro](https://github.com/apache/avro) - Data serialization system.
 * [JSON](https://datatracker.ietf.org/doc/html/rfc8259) - The JavaScript Object Notation (JSON) Data Interchange Format.
-* [XML](https://www.w3.org/TR/2006/REC-xml11-20060816/) - Extensible Markup Language (XML)
+* [XML](https://www.w3.org/TR/2006/REC-xml11-20060816/) - Extensible Markup Language (XML).
 
 ## Design
 - [Enterprise Integration Using REST](http://martinfowler.com/articles/enterpriseREST.html) - Discusses the constraints and flexibility that you have with nonpublic APIs, and lessons learned from doing large scale RESTful integration across multiple teams.
@@ -325,12 +325,12 @@ allow both IT and citizen developers to construct process-centric and case-centr
   - [The Forrester Wave™: Robotic Process Automation](https://www.forrester.com/go?objectid=RES161538)
 
 ## Protocols
-- [AMQP 0-9-1](https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf) - Advanced Message Queuing Protocol (AMQP) Version 0-9-1
-- [AMQP 1.0](http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-v1.0-os.html) - Advanced Message Queuing Protocol (AMQP) Version 1.0
+- [AMQP 0-9-1](https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf) - Advanced Message Queuing Protocol (AMQP) Version 0-9-1.
+- [AMQP 1.0](http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-v1.0-os.html) - Advanced Message Queuing Protocol (AMQP) Version 1.0.
 - [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) - The Hypertext Transfer Protocol (HTTP) is an application layer protocol for distributed, collaborative, hypermedia information systems.
 - [MQTT](https://mqtt.org/mqtt-specification/) - The Message Queuing Telemetry Transport (MQTT) is a lightweight, publish-subscribe network protocol that transports messages between devices.
 - [SOAP](https://www.w3.org/TR/soap/) - Simple Object Access Protocol is XML-based messaging protocol. 
-- [STOMP](https://stomp.github.io/) - STOMP is the Simple (or Streaming) Text Orientated Messaging Protocol.
+- [STOMP](https://stomp.github.io/) - Simple (or Streaming) Text Orientated Messaging Protocol.
 
 ## Structure & Validation
 - [JSON Schema](https://json-schema.org/) - A powerful tool for validating the structure of JSON data.
