@@ -29,7 +29,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
   - [Integration styles](#integration-styles)
   - [Market analysis](#market-analysis)
   - [Protocols](#protocols)
-  - [Standards](#standards)
+  - [Validation](#validation)
 - [Contributing](#contributing)
 
 ---
@@ -280,7 +280,9 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [MQTT](https://mqtt.org/mqtt-specification/) - The Message Queuing Telemetry Transport (MQTT) is a lightweight, publish-subscribe network protocol that transports messages between devices.
 - [SOAP](https://www.w3.org/TR/soap/) - Simple Object Access Protocol is XML-based messaging protocol. 
 - [STOMP](https://stomp.github.io/) - STOMP is the Simple (or Streaming) Text Orientated Messaging Protocol.
-## Standards
-* [BPEL]
-* [WS-Security]
+
+## Validation
+- [JSON Schema](https://json-schema.org/) - A powerful tool for validating the structure of JSON data.
+- [XML Schema](https://www.w3.org/TR/xmlschema11-1/) - Offers facilities for describing the structure and constraining the contents of XML documents.
+
 # Contributing
