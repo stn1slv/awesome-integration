@@ -152,7 +152,14 @@ allow both IT and citizen developers to construct process-centric and case-centr
 
 ## Master Data Management
 *Master Data Management solutions.*
-- [Informatica Multidomain MDM](https://www.informatica.com/products/master-data-management/multidomain-mdm.html)
+- [IBM InfoSphere Master Data Management ](https://www.ibm.com/products/ibm-infosphere-master-data-management) - Comprehensive master data management.
+- [Informatica Multidomain MDM](https://www.informatica.com/products/master-data-management/multidomain-mdm.html) - All-in-one master data management.
+- [Oracle Enterprise Data Management](https://www.oracle.com/performance-management/enterprise-data-management/) - Adapt and respond to change faster and more effectively by managing your master data.
+- [SAP Master Data Governance](https://www.sap.com/products/master-data-governance.html) - Improve the quality and consistency of information across your organization by consolidating and centrally governing the master data lifecycle.
+- [SAS MDM](https://support.sas.com/en/software/mdm-support.html) - Provides a single, accurate and unified view of corporate data, integrating information from various data sources into one master record.
+- [Software AG OneData for MDM](https://www.softwareag.com/resources/Master-data-management) - Provides “one version of the truth” when it comes to data, ensuring that only reliable, accurate and approved information is flowing through your systems, processes and applications.
+- [Teradata MDM](https://www.teradata.co.uk/Products/Applications/Master-Data-Management) - Drives significant ROI using consistent reference data to establish an accurate analytical data foundation.
+- [TIBCO EBX](https://www.tibco.com/products/tibco-ebx-software) - A single solution to govern, manage, and consume all shared data assets.
 
 ## Messanging
 *Message brokers.*
