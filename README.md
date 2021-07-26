@@ -29,7 +29,8 @@ A curated list of awesome integration patterns, software and resources. Inspired
   - [Integration styles](#integration-styles)
   - [Market analysis](#market-analysis)
   - [Protocols](#protocols)
-  - [Validation](#validation)
+  - [Standards](#standards)
+  - [Structure & Validation](#structure-and-validation)
 - [Contributing](#contributing)
 
 ---
@@ -332,7 +333,10 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [SOAP](https://www.w3.org/TR/soap/) - Simple Object Access Protocol is XML-based messaging protocol. 
 - [STOMP](https://stomp.github.io/) - Simple (or Streaming) Text Orientated Messaging Protocol.
 
-## Structure & Validation
+## Standards
+- [JMS](https://javaee.github.io/jms-spec/) - Java Message Service (JMS) API.
+
+## Structure And Validation
 - [JSON Schema](https://json-schema.org/) - A powerful tool for validating the structure of JSON data.
 - [XML Schema](https://www.w3.org/TR/xmlschema11-1/) - Offers facilities for describing the structure and constraining the contents of XML documents.
 
