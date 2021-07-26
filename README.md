@@ -137,7 +137,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Informatica Multidomain MDM](https://www.informatica.com/products/master-data-management/multidomain-mdm.html)
 
 ## Messanging
-
+* Message brokers.*
 - [Apache ActiveMQ](https://activemq.apache.org) - Message broker that implements JMS and converts synchronous to asynchronous communication.
 - [Apache Kafka](https://kafka.apache.org) - High-throughput distributed messaging system.
 - [Apache Pulsar](https://pulsar.apache.org) - Distributed pub/sub-messaging system.
@@ -151,7 +151,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [TIBCO Enterprise Message Service](https://www.tibco.com/products/tibco-enterprise-message-service) - TIBCO EMS is standards-based Java™ Message Service (JMS) implementation allows any application that supports JMS, whether home grown or third-party, to quickly and easily exchange messages.  
 
 ### Messaging as a Service
-
+*Cloud messaging as a service (MaaS).*
 - [Amazon MQ](https://aws.amazon.com/amazon-mq) - Fully managed message broker service for Apache ActiveMQ and RabbitMQ.
 - [Amazon MSK](https://aws.amazon.com/msk) -  Amazon Managed Streaming for Apache Kafka.
 - [Amazon SQS](https://aws.amazon.com/sqs) - Amazon Simple Queue Service.
