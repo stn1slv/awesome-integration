@@ -66,7 +66,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
 - [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway, supporting REST, GraphQL, TCP and gRPC protocols
 
 ## API Testing
-
+*API testing tools.*
 * [curl](https://github.com/curl/curl) - Command line tool and library for transferring data with URLs.
 * [HTTPie](https://httpie.io) - Command line HTTP client, far more dev-friendly than curl.
 * [Insomnia](https://insomnia.rest/products/insomnia) - Cross-platform HTTP and GraphQL Client.
@@ -87,8 +87,8 @@ A curated list of awesome integration patterns, software and resources. Inspired
 allow both IT and citizen developers to construct process-centric and case-centric applications.
 
 ## Data Mapping Solution
-
-* [AltasMap](https://www.atlasmap.io/) - Data mapping solution with interactive web based user interface, that simplifies configuring integrations between Java, XML, CSV and JSON data sources.
+*DAta Mapping solutions.*
+- [AltasMap](https://www.atlasmap.io/) - Data mapping solution with interactive web based user interface, that simplifies configuring integrations between Java, XML, CSV and JSON data sources.
 
 ## ESB
 *Enterprise service bus solutions.*
@@ -128,13 +128,14 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Workato](https://www.workato.com/) - A single platform for integration & workflow automation across your organization.
 
 ## Managed File Transfer
+*Managed file transfer (MFT) solutions.*
 - [ArcESB Managed File Transfer](https://www.arcesb.com/mft/) - All-in-One Enterprise-Class MFT.
 - [Axway Managed File Transfer](https://www.axway.com/en/products/managed-file-transfer) - Make file transfer services easy to use.
 - [IBM Sterling Secure File Transfer](https://www.ibm.com/products/secure-file-transfer) - Move over 1 million files per day with a fast and scalable file transfer platform.
 - [Oracle Managed File Transfer](https://www.oracle.com/middleware/technologies/mft/managed-file-transfer.html) - Enables secure file exchange and management.
 
 ## Master Data Management
-
+*Master Data Management solutions.*
 - [Informatica Multidomain MDM](https://www.informatica.com/products/master-data-management/multidomain-mdm.html)
 
 ## Messanging
