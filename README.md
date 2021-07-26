@@ -91,6 +91,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 * [AltasMap](https://www.atlasmap.io/) - Data mapping solution with interactive web based user interface, that simplifies configuring integrations between Java, XML, CSV and JSON data sources.
 
 ## ESB
+*Enterprise service bus solutions.*
 - [Anypoint Platform](https://www.mulesoft.com/platform/enterprise-integration) - Combines API management and integration capabilities in a single platform from Mulesoft.
 - [ArcESB](https://www.arcesb.com/integration/) - Synchronize data across applications, seamlessly integrate with partners, or make data publicly accessible.
 - [IBM App Connect](https://www.ibm.com/cloud/app-connect) - Connect applications together, regardless of the message formats or protocols that they support. Formerly known as IBM Integration Bus.
@@ -112,8 +113,18 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Spring Integration](https://spring.io/projects/spring-integration) - Extends the Spring programming model to support the well-known Enterprise Integration Patterns.
 
 ## iPaaS
+*Integration Platform as a Service.*
 - [Anypoint Platform](https://www.mulesoft.com/platform/enterprise-integration) - Combines API management and integration capabilities in a single platform from Mulesoft.
-- [Jitterbit Harmony](https://www.jitterbit.com/platform/ipaas)
+- [Dell Boomi AtomSphere](https://boomi.com/platform) - Connect everyone to everything with the cloud-native, unified, open, intelligent platform.
+- [Jitterbit Harmony](https://www.jitterbit.com/platform/ipaas) - Integrates thousands of applications with pre-built templates and workflows to automate your business processes.
+- [IBM Cloud Integration](https://www.ibm.com/cloud/integration) - AI-powered approach to integration.
+- [Informatica Intelligent Cloud Services](https://www.informatica.com/products/cloud-integration.html) - Multiple cloud data management products designed to accelerate productivity and improve speed and scale.
+- [OpenText Alloy](https://businessnetwork.opentext.com/enterprise-data-management/) - Enterprise data management, organizations move beyond basic integration and turn data into insights and action.
+- [Oracle Integration Cloud Service](https://www.oracle.com/integration/application-integration/) - Accelerates time to go live with pre-built connectivity to any SaaS or on-premises application.
+- [SnapLogic Intelligent Integration Platform](https://www.snaplogic.com/products/intelligent-integration-platform) - Connect your application and data landscape.
+- [Software AG webMethods Hybrid Integration Platform](https://www.softwareag.com/en_corporate/platform/integration-apis/application-integration.html) - One application integration platform integrates it all.
+- [TIBCO Cloud Integration](https://www.tibco.com/products/cloud-integration) - Empower everyone to integrate anything with API-led and event-driven integration.
+- [Workato](https://www.workato.com/) - A single platform for integration & workflow automation across your organization.
 
 ## Managed File Transfer
 - [ArcESB Managed File Transfer](https://www.arcesb.com/mft/) - All-in-One Enterprise-Class MFT.
