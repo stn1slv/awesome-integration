@@ -29,7 +29,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
   - [Integration styles](#integration-styles)
   - [Market analysis](#market-analysis)
   - [Protocols](#protocols)
-  - [Standards](#standards)
+  - [Standard APIs](#standard-apis)
   - [Structure & Validation](#structure-and-validation)
 - [Contributing](#contributing)
 
@@ -333,7 +333,8 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [SOAP](https://www.w3.org/TR/soap/) - Simple Object Access Protocol is XML-based messaging protocol. 
 - [STOMP](https://stomp.github.io/) - Simple (or Streaming) Text Orientated Messaging Protocol.
 
-## Standards
+## Standard APIs
+- [JDBC](https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/) - Java Database Connectivity (JDBC) API provides universal data access from the Java programming language.
 - [JMS](https://javaee.github.io/jms-spec/) - Java Message Service (JMS) API.
 
 ## Structure And Validation
