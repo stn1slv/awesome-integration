@@ -232,8 +232,13 @@ allow both IT and citizen developers to construct process-centric and case-centr
 * [Kafka Connect](https://kafka.apache.org/documentation/#connect) - A tool for scalably and reliably streaming data between Apache Kafka and other systems.
 ## Data formats
 * [Apache Avro](https://github.com/apache/avro) - Data serialization system.
+* [BSON](https://bsonspec.org/) - Short for Binary JSON, is a binary-encoded serialization of JSON-like documents.
+* [CSV](https://datatracker.ietf.org/doc/html/rfc4180) - A comma-separated values (CSV) file is a delimited text file that uses a comma to separate values.
 * [JSON](https://datatracker.ietf.org/doc/html/rfc8259) - The JavaScript Object Notation (JSON) Data Interchange Format.
+* [NDJSON](https://github.com/ndjson/ndjson-spec) - A standard for delimiting JSON in stream protocols.
+* [Protocol Buffers](https://developers.google.com/protocol-buffers) - A language-neutral, platform-neutral extensible mechanism for serializing structured data.
 * [XML](https://www.w3.org/TR/2006/REC-xml11-20060816/) - Extensible Markup Language (XML).
+* [YAML](https://yaml.org/) - YAML is a human friendly data serialization standard for all programming languages.
 
 ## Enterprise Integration Patterns
 *Patterns from a book by Gregor Hohpe and Bobby Woolf.*
