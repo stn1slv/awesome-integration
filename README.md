@@ -22,9 +22,9 @@ A curated list of awesome integration patterns, software and resources. Inspired
   - [Workflow engine](#workflow-engine)
 - [Resources](#resources)
   - [API Specification](#api-specification) 
+  - [Articles](#articles)
   - [Connectors](#connectors)
   - [Data formats](#data-formats)
-  - [Design](#design)
   - [Enterprise Integration Patterns](#enterprise-integration-patterns) 
   - [Integration styles](#integration-styles)
   - [Market analysis](#market-analysis)
@@ -217,12 +217,16 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [StackStorm](https://github.com/StackStorm/st2) - Robust Automation Engine providing Sensors, Triggers, Rules, Workflows, and Actions. StackStorm is how you “glue” your applications together.
 
 # Resources
+*Some useful specifications, patterns, articles and documentation.*
 ## API Specification
 * [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0) - The AsyncAPI specification settles the base for a greater and better tooling ecosystem for Event-Driven Architectures (EDA).
 * [GraphQL](https://github.com/graphql/graphql-spec) - A query language for APIs and a runtime for fulfilling those queries with your existing data.
 * [OpenAPI (ex.Swagger)](https://spec.openapis.org/oas/v3.1.0) - Defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. 
 * [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/) - RESTful API Modeling Language
 * [WSDL](http://www.w3.org/TR/wsdl20) - XML-based interface description language for SOAP based services.
+## Articles
+- [Enterprise Integration Using REST](http://martinfowler.com/articles/enterpriseREST.html) - Discusses the constraints and flexibility that you have with nonpublic APIs, and lessons learned from doing large scale RESTful integration across multiple teams.
+- [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html) - Explained by Martin Fowler, originally presented by Leonard Richardson.
 ## Connectors
 * [JCA](https://projects.eclipse.org/projects/ee4j.jca) - Defines a standard architecture for Jakarta EE application components to connect to Enterprise Information Systems. Formerly Java EE Connector Architecture and J2EE Connector Architecture.
 * [Kafka Connect](https://kafka.apache.org/documentation/#connect) - A tool for scalably and reliably streaming data between Apache Kafka and other systems.
@@ -231,12 +235,8 @@ allow both IT and citizen developers to construct process-centric and case-centr
 * [JSON](https://datatracker.ietf.org/doc/html/rfc8259) - The JavaScript Object Notation (JSON) Data Interchange Format.
 * [XML](https://www.w3.org/TR/2006/REC-xml11-20060816/) - Extensible Markup Language (XML).
 
-## Design
-- [Enterprise Integration Using REST](http://martinfowler.com/articles/enterpriseREST.html) - Discusses the constraints and flexibility that you have with nonpublic APIs, and lessons learned from doing large scale RESTful integration across multiple teams.
-- [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html) - Explained by Martin Fowler, originally presented by Leonard Richardson.
-
 ## Enterprise Integration Patterns
-*Patterns from a book by Gregor Hohpe and Bobby Woolf*
+*Patterns from a book by Gregor Hohpe and Bobby Woolf.*
 - [Aggregator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html) - How do we combine the results of individual, but related messages so that they can be processed as a whole?  
 - [Canonical Data Model](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataModel.html) - How can you minimize dependencies when integrating applications that use different data formats?
 - [Channel Adapter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelAdapter.html) - How can you connect an application to the messaging system so that it can send and receive messages?
