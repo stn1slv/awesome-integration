@@ -137,7 +137,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Informatica Multidomain MDM](https://www.informatica.com/products/master-data-management/multidomain-mdm.html)
 
 ## Messanging
-* Message brokers.*
+*Message brokers.*
 - [Apache ActiveMQ](https://activemq.apache.org) - Message broker that implements JMS and converts synchronous to asynchronous communication.
 - [Apache Kafka](https://kafka.apache.org) - High-throughput distributed messaging system.
 - [Apache Pulsar](https://pulsar.apache.org) - Distributed pub/sub-messaging system.
