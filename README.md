@@ -68,13 +68,13 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 ## API Testing
 *API testing tools.*
-* [Apache JMeter](https://jmeter.apache.org/) - An open source java based load testing tool.
-* [curl](https://github.com/curl/curl) - Command line tool and library for transferring data with URLs.
-* [HTTPie](https://httpie.io) - Command line HTTP client, far more dev-friendly than curl.
-* [Insomnia](https://insomnia.rest/products/insomnia) - Cross-platform HTTP and GraphQL Client.
-* [Karate](https://github.com/intuit/karate) - Open-source tool to combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework.
-* [Postman](https://www.postman.com/product/api-client/) - A tool to make HTTP requests, generate mock servers and make API documentation.
-* [SoapUI](https://www.soapui.org/tools/soapui) - An open-source web service testing application for SOAP and REST.
+- [Apache JMeter](https://jmeter.apache.org/) - An open source java based load testing tool.
+- [curl](https://github.com/curl/curl) - Command line tool and library for transferring data with URLs.
+- [HTTPie](https://httpie.io) - Command line HTTP client, far more dev-friendly than curl.
+- [Insomnia](https://insomnia.rest/products/insomnia) - Cross-platform HTTP and GraphQL Client.
+- [Karate](https://github.com/intuit/karate) - Open-source tool to combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework.
+- [Postman](https://www.postman.com/product/api-client/) - A tool to make HTTP requests, generate mock servers and make API documentation.
+- [SoapUI](https://www.soapui.org/tools/soapui) - An open-source web service testing application for SOAP and REST.
 
 ## BRE
 *Business Rules Engines and Business Rules Management Systems.*
@@ -229,26 +229,26 @@ allow both IT and citizen developers to construct process-centric and case-centr
 # Resources
 *Some useful specifications, patterns, articles and documentation.*
 ## API Specification
-* [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0) - The AsyncAPI specification settles the base for a greater and better tooling ecosystem for Event-Driven Architectures (EDA).
-* [GraphQL](https://github.com/graphql/graphql-spec) - A query language for APIs and a runtime for fulfilling those queries with your existing data.
-* [OpenAPI (ex.Swagger)](https://spec.openapis.org/oas/v3.1.0) - Defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. 
-* [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/) - RESTful API Modeling Language
-* [WSDL](http://www.w3.org/TR/wsdl20) - XML-based interface description language for SOAP based services.
+- [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0) - The AsyncAPI specification settles the base for a greater and better tooling ecosystem for Event-Driven Architectures (EDA).
+- [GraphQL](https://github.com/graphql/graphql-spec) - A query language for APIs and a runtime for fulfilling those queries with your existing data.
+- [OpenAPI (ex.Swagger)](https://spec.openapis.org/oas/v3.1.0) - Defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. 
+- [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/) - RESTful API Modeling Language
+- [WSDL](http://www.w3.org/TR/wsdl20) - XML-based interface description language for SOAP based services.
 ## Articles
 - [Enterprise Integration Using REST](http://martinfowler.com/articles/enterpriseREST.html) - Discusses the constraints and flexibility that you have with nonpublic APIs, and lessons learned from doing large scale RESTful integration across multiple teams.
 - [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html) - Explained by Martin Fowler, originally presented by Leonard Richardson.
 ## Connectors
-* [JCA](https://projects.eclipse.org/projects/ee4j.jca) - Defines a standard architecture for Jakarta EE application components to connect to Enterprise Information Systems. Formerly Java EE Connector Architecture and J2EE Connector Architecture.
-* [Kafka Connect](https://kafka.apache.org/documentation/#connect) - A tool for scalably and reliably streaming data between Apache Kafka and other systems.
+- [JCA](https://projects.eclipse.org/projects/ee4j.jca) - Defines a standard architecture for Jakarta EE application components to connect to Enterprise Information Systems. Formerly Java EE Connector Architecture and J2EE Connector Architecture.
+- [Kafka Connect](https://kafka.apache.org/documentation/#connect) - A tool for scalably and reliably streaming data between Apache Kafka and other systems.
 ## Data formats
-* [Apache Avro](https://github.com/apache/avro) - Data serialization system.
-* [BSON](https://bsonspec.org/) - Short for Binary JSON, is a binary-encoded serialization of JSON-like documents.
-* [CSV](https://datatracker.ietf.org/doc/html/rfc4180) - A comma-separated values (CSV) file is a delimited text file that uses a comma to separate values.
-* [JSON](https://datatracker.ietf.org/doc/html/rfc8259) - The JavaScript Object Notation (JSON) Data Interchange Format.
-* [NDJSON](https://github.com/ndjson/ndjson-spec) - A standard for delimiting JSON in stream protocols.
-* [Protocol Buffers](https://developers.google.com/protocol-buffers) - A language-neutral, platform-neutral extensible mechanism for serializing structured data.
-* [XML](https://www.w3.org/TR/2006/REC-xml11-20060816/) - Extensible Markup Language (XML).
-* [YAML](https://yaml.org/) - YAML is a human friendly data serialization standard for all programming languages.
+- [Apache Avro](https://github.com/apache/avro) - Data serialization system.
+- [BSON](https://bsonspec.org/) - Short for Binary JSON, is a binary-encoded serialization of JSON-like documents.
+- [CSV](https://datatracker.ietf.org/doc/html/rfc4180) - A comma-separated values (CSV) file is a delimited text file that uses a comma to separate values.
+- [JSON](https://datatracker.ietf.org/doc/html/rfc8259) - The JavaScript Object Notation (JSON) Data Interchange Format.
+- [NDJSON](https://github.com/ndjson/ndjson-spec) - A standard for delimiting JSON in stream protocols.
+- [Protocol Buffers](https://developers.google.com/protocol-buffers) - A language-neutral, platform-neutral extensible mechanism for serializing structured data.
+- [XML](https://www.w3.org/TR/2006/REC-xml11-20060816/) - Extensible Markup Language (XML).
+- [YAML](https://yaml.org/) - YAML is a human friendly data serialization standard for all programming languages.
 
 ## Enterprise Integration Patterns
 *Patterns from a book by Gregor Hohpe and Bobby Woolf.*
@@ -269,18 +269,18 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Dead Letter Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DeadLetterChannel.html) - What will the messaging system do with a message it cannot deliver?  
 - [Detour](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Detour.html) - How can you route a message through intermediate steps to perform validation, testing or debugging functions?
 - [Document Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DocumentMessage.html) - How can messaging be used to transfer data between applications?
-- [Durable Subscriber](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DurableSubscription.html) - How can a subscriber avoid missing messages while it’s not listening for them?
+- [Durable Subscriber](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DurableSubscription.html) - How can a subscriber avoid missing messages while it is not listening for them?
 - [Dynamic Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DynamicRouter.html) - How can you avoid the dependency of the router on all possible destinations while maintaining its efficiency?
 - [Envelope Wrapper](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EnvelopeWrapper.html) - How can existing systems participate in a messaging exchange that places specific requirements on the message format, such as message header fields or encryption?  
 - [Event Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventMessage.html) - How can messaging be used to transmit events from one application to another?
 - [Event-Driven Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventDrivenConsumer.html) - How can an application automatically consume messages as they become available?
-- [Format Indicator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FormatIndicator.html) - How can a message’s data format be designed to allow for possible future changes?
+- [Format Indicator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FormatIndicator.html) - How can a message`s data format be designed to allow for possible future changes?
 - [Guaranteed Delivery](https://www.enterpriseintegrationpatterns.com/patterns/messaging/GuaranteedMessaging.html) - How can the sender make sure that a message will be delivered, even if the messaging system fails?
 - [Idempotent Receiver](https://www.enterpriseintegrationpatterns.com/patterns/messaging/IdempotentReceiver.html) - How can a message receiver deal with duplicate messages?
 - [Invalid Message Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/InvalidMessageChannel.html) - How can a messaging receiver gracefully handle receiving a message that makes no sense?
 - [Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Message.html) - How can two applications connected by a message channel exchange a piece of information?
 - [Message Dispatcher](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageDispatcher.html) - How can multiple consumers on a single channel coordinate their message processing?
-- [Message Expiration](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageExpiration.html) - How can a sender indicate when a message should be considered stale and thus shouldn’t be processed?
+- [Message Expiration](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageExpiration.html) - How can a sender indicate when a message should be considered stale and thus shouldn`t be processed?
 - [Message Translator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageTranslator.html) - How can systems using different data formats communicate with each other using messaging?  
 - [Message Broker](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBroker.html) - How can you decouple the destination of a message from the sender and maintain central control over the flow of messages?
 - [Message Bus](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBus.html) - What is an architecture that enables separate applications to work together, but in a decoupled fashion such that applications can be easily added or removed without affecting the others?  
