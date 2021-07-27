@@ -3,7 +3,8 @@
 A curated list of awesome integration patterns, software and resources. Inspired by awesome-... stuff.
 
 - [Awesome Integration](#awesome-integration)
-  - [API Management](#api-management) 
+  - [API Management](#api-management)
+  - [API Design](#api-design)
   - [API Gateway](#api-gateway)
   - [API Testing](#api-testing)
   - [BRE](#bre)
@@ -54,6 +55,10 @@ A curated list of awesome integration patterns, software and resources. Inspired
 - [Tyk API Management](https://tyk.io/api-lifecycle-management/) - Connect, build and control.
 - [webMethods API](https://www.softwareag.cloud/site/product/webmethods-api.html) - Software AG offerings for full life cycle API management are the webMethods API management. platform (for on-premises deployment) and the webMethods.io API (for the cloud).
 - [WSO2 API Manager](https://wso2.com/api-manager/) - Fully open-source API management platform.
+
+## API Design
+*API design, documentation and life-cycle automation tools.*
+- [Swagger Editor](https://swagger.io/tools/swagger-editor/) - Design, describe, and document your API on the first open source editor fully dedicated to OpenAPI-based APIs.
 
 ## API Gateway
 *API Gateways.*
