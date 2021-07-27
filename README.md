@@ -1,4 +1,4 @@
-# Awesome Integration
+# Awesome Integration [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of awesome integration patterns, software and resources. Inspired by awesome-... stuff.
 
@@ -22,14 +22,15 @@ A curated list of awesome integration patterns, software and resources. Inspired
   - [Workflow engine](#workflow-engine)
 - [Resources](#resources)
   - [API Specification](#api-specification) 
+  - [Articles](#articles)
   - [Connectors](#connectors)
   - [Data formats](#data-formats)
-  - [Design](#design)
   - [Enterprise Integration Patterns](#enterprise-integration-patterns) 
   - [Integration styles](#integration-styles)
   - [Market analysis](#market-analysis)
   - [Protocols](#protocols)
-  - [Validation](#validation)
+  - [Standard APIs](#standard-apis)
+  - [Structure & Validation](#structure-and-validation)
 - [Contributing](#contributing)
 
 ---
@@ -63,17 +64,17 @@ A curated list of awesome integration patterns, software and resources. Inspired
 - [KrakenD API Gateway](https://github.com/devopsfaith/krakend-ce) - Ultra-High performance API Gateway with middlewares.
 - [Ocelot](https://github.com/ThreeMammals/Ocelot) - .NET API Gateway.
 - [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway) -  API Gateway built on top of the Spring Ecosystem, including: Spring 5, Spring Boot 2 and Project Reactor.
-- [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway, supporting REST, GraphQL, TCP and gRPC protocols
+- [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway, supporting REST, GraphQL, TCP and gRPC protocols.
 
 ## API Testing
 *API testing tools.*
-* [Apache JMeter](https://jmeter.apache.org/) - An open source java based load testing tool.
-* [curl](https://github.com/curl/curl) - Command line tool and library for transferring data with URLs.
-* [HTTPie](https://httpie.io) - Command line HTTP client, far more dev-friendly than curl.
-* [Insomnia](https://insomnia.rest/products/insomnia) - Cross-platform HTTP and GraphQL Client.
-* [Karate](https://github.com/intuit/karate) - Open-source tool to combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework.
-* [Postman](https://www.postman.com/product/api-client/) - A tool to make HTTP requests, generate mock servers and make API documentation.
-* [SoapUI](https://www.soapui.org/tools/soapui) - An open-source web service testing application for SOAP and REST.
+- [Apache JMeter](https://jmeter.apache.org/) - An open source java based load testing tool.
+- [curl](https://github.com/curl/curl) - Command line tool and library for transferring data with URLs.
+- [HTTPie](https://httpie.io) - Command line HTTP client, far more dev-friendly than curl.
+- [Insomnia](https://insomnia.rest/products/insomnia) - Cross-platform HTTP and GraphQL Client.
+- [Karate](https://github.com/intuit/karate) - Open-source tool to combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework.
+- [Postman](https://www.postman.com/product/api-client/) - A tool to make HTTP requests, generate mock servers and make API documentation.
+- [SoapUI](https://www.soapui.org/tools/soapui) - An open-source web service testing application for SOAP and REST.
 
 ## BRE
 *Business Rules Engines and Business Rules Management Systems.*
@@ -99,6 +100,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 ## ESB
 *Enterprise service bus solutions.*
 - [Anypoint Platform](https://www.mulesoft.com/platform/enterprise-integration) - Combines API management and integration capabilities in a single platform from Mulesoft.
+- [Apache ServiceMix](https://servicemix.apache.org/) - A flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf.
 - [ArcESB](https://www.arcesb.com/integration/) - Synchronize data across applications, seamlessly integrate with partners, or make data publicly accessible.
 - [IBM App Connect](https://www.ibm.com/cloud/app-connect) - Connect applications together, regardless of the message formats or protocols that they support. Formerly known as IBM Integration Bus.
 - [NServiceBus](https://particular.net/nservicebus) - The most developer-friendly service bus for .NET.
@@ -107,6 +109,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Red Hat Fuse](https://www.redhat.com/en/technologies/jboss-middleware/fuse) - Distributed, cloud-native integration platform.
 - [Software AG webMethods Integration Server](https://www.softwareag.com/en_corporate/platform/integration-apis/webmethods-integration.html) - Integrate anything faster.
 - [TIBCO BusinessWorks](https://www.tibco.com/products/tibco-businessworks) - Implement enterprise patterns for hybrid integrations.
+- [UltraESB](https://www.adroitlogic.com/products/ultraesb/) - The only ESB that supports Zero-Copy proxying for extreme levels of performance utilizing Direct Memory Access (DMA) and the sendfile system call along with Non-Blocking IO.
 - [WSO2 Enterprise Integrator](https://wso2.com/integration/) - An API-centric, cloud-native, and distributed integration platform.
 
 ## ETL
@@ -115,7 +118,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [CloverETL](http://www.cloveretl.com/) - A data integration software suite for data migration and data warehousing, and for feeding data into business intelligence and reporting applications. 
 - [IBM DataStage](https://www.ibm.com/products/datastage) - A data integration platform that helps businesses understand, cleanse, transform, and deliver trusted information.
 - [Informatica PowerCenter](https://www.informatica.com/products/data-integration/powercenter.html) - Delivers enterprise data integration and management software powering analytics for big data and cloud.
-- [Microsoft SSIS ](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services) - SQL Server Integration Services is a platform for building enterprise-level data integration and data transformations solutions.
+- [Microsoft SSIS](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services) - SQL Server Integration Services is a platform for building enterprise-level data integration and data transformations solutions.
 - [Oracle Data Integrator](https://www.oracle.com/middleware/technologies/data-integrator.html) - A comprehensive data integration platform that covers all data integration requirements, including batch loads, integration processes, and SOA-enabled data services.
 - [Pentaho Data Integration](https://github.com/pentaho/pentaho-kettle) - Enables users to ingest, blend, cleanse, and prepare diverse data from any source with visual tools to eliminate coding and complexity.
 - [SAS Data Management](https://www.sas.com/en_us/software/data-management.html) - Helps transform, integrate, govern, and secure data while improving its overall quality and reliability.
@@ -130,12 +133,12 @@ allow both IT and citizen developers to construct process-centric and case-centr
 
 ## iPaaS
 *Integration Platform as a Service.*
-- [Anypoint Platform](https://www.mulesoft.com/platform/enterprise-integration) - Combines API management and integration capabilities in a single platform from Mulesoft.
+- [Anypoint Platform](https://www.mulesoft.com/platform/saas/cloudhub-ipaas-cloud-based-integration) - Combines API management and integration capabilities in a single platform from Mulesoft.
 - [Dell Boomi AtomSphere](https://boomi.com/platform) - Connect everyone to everything with the cloud-native, unified, open, intelligent platform.
 - [Jitterbit Harmony](https://www.jitterbit.com/platform/ipaas) - Integrates thousands of applications with pre-built templates and workflows to automate your business processes.
 - [IBM Cloud Integration](https://www.ibm.com/cloud/integration) - AI-powered approach to integration.
 - [Informatica Intelligent Cloud Services](https://www.informatica.com/products/cloud-integration.html) - Multiple cloud data management products designed to accelerate productivity and improve speed and scale.
-- [OpenText Alloy](https://businessnetwork.opentext.com/enterprise-data-management/) - Enterprise data management, organizations move beyond basic integration and turn data into insights and action.
+- [OpenText Alloy](https://businessnetwork.opentext.com/enterprise-data-management/) - Enterprise data management, organizations move beyond basic integration and turn data into insights and action. Formerly known as Liaison ALLOY Platform.
 - [Oracle Integration Cloud Service](https://www.oracle.com/integration/application-integration/) - Accelerates time to go live with pre-built connectivity to any SaaS or on-premises application.
 - [SnapLogic Intelligent Integration Platform](https://www.snaplogic.com/products/intelligent-integration-platform) - Connect your application and data landscape.
 - [Software AG webMethods Hybrid Integration Platform](https://www.softwareag.com/en_corporate/platform/integration-apis/application-integration.html) - One application integration platform integrates it all.
@@ -151,7 +154,14 @@ allow both IT and citizen developers to construct process-centric and case-centr
 
 ## Master Data Management
 *Master Data Management solutions.*
-- [Informatica Multidomain MDM](https://www.informatica.com/products/master-data-management/multidomain-mdm.html)
+- [IBM InfoSphere Master Data Management ](https://www.ibm.com/products/ibm-infosphere-master-data-management) - Comprehensive master data management.
+- [Informatica Multidomain MDM](https://www.informatica.com/products/master-data-management/multidomain-mdm.html) - All-in-one master data management.
+- [Oracle Enterprise Data Management](https://www.oracle.com/performance-management/enterprise-data-management/) - Adapt and respond to change faster and more effectively by managing your master data.
+- [SAP Master Data Governance](https://www.sap.com/products/master-data-governance.html) - Improve the quality and consistency of information across your organization by consolidating and centrally governing the master data lifecycle.
+- [SAS MDM](https://support.sas.com/en/software/mdm-support.html) - Provides a single, accurate and unified view of corporate data, integrating information from various data sources into one master record.
+- [Software AG OneData for MDM](https://www.softwareag.com/resources/Master-data-management) - Provides “one version of the truth” when it comes to data, ensuring that only reliable, accurate and approved information is flowing through your systems, processes and applications.
+- [Teradata MDM](https://www.teradata.co.uk/Products/Applications/Master-Data-Management) - Drives significant ROI using consistent reference data to establish an accurate analytical data foundation.
+- [TIBCO EBX](https://www.tibco.com/products/tibco-ebx-software) - A single solution to govern, manage, and consume all shared data assets.
 
 ## Messanging
 *Message brokers.*
@@ -162,7 +172,9 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Apache Qpid](https://qpid.apache.org) - Apache Qpid makes messaging tools that speak AMQP and support many languages and platforms.
 - [Eclipse Mosquitto](https://mosquitto.org/) - An lightweight open source message broker that implements the MQTT protocol.
 - [IBM MQ](https://www.ibm.com/products/mq) - Enterprise-grade messaging capabilities that skillfully and safely move information between applications.
+- [KubeMQ](https://kubemq.io/) - A Kubernetes Message Queue Broker Enterprise-grade message broker and message queue, scalable, high available and secured.
 - [NATS](https://github.com/nats-io/gnatsd) - Lightweight, high performance messaging system for microservices, IoT, and cloud native systems.
+- [Oracle AQ](https://www.oracle.com/database/technologies/advanced-queuing.html) - Oracle Advanced Queuing (AQ) provides enterprise message functionality across many industries and is widely used within the database itself. 
 - [RabbitMQ](https://www.rabbitmq.com) - An open-source message-broker that originally implemented the Advanced Message Queuing Protocol (AMQP).
 - [Red Hat AMQ](https://www.redhat.com/en/technologies/jboss-middleware/amq) - Red Hat AMQ-based on open source communities like Apache ActiveMQ and Apache Kafka.
 - [TIBCO Enterprise Message Service](https://www.tibco.com/products/tibco-enterprise-message-service) - TIBCO EMS is standards-based Java™ Message Service (JMS) implementation allows any application that supports JMS, whether home grown or third-party, to quickly and easily exchange messages.  
@@ -181,6 +193,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/) - Reliable cloud messaging as a service (MaaS) and simple hybrid integration.
 - [CloudAMQP](https://www.cloudamqp.com/) - RabbitMQ as a Service.
 - [Google Cloud Pub/Sub](https://cloud.google.com/pubsub) - Messaging and ingestion for event-driven systems and streaming analytics.
+- [IBM MQ on Cloud](https://www.ibm.com/cloud/mq) - Easily move data between enterprise applications, systems and services.
 - [IronMQ](https://www.iron.io/mq) - Elastic message queue created specifically with the cloud in mind.
 - [Solace PubSub+ Cloud](https://solace.com/products/platform/cloud/) - A complete event streaming, management and insights platform.
 - [Yandex Message Queue](https://cloud.yandex.com/en/services/message-queue) - Compatibility with the Amazon SQS HTTP API.
@@ -209,33 +222,38 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Bonita](https://github.com/bonitasoft/bonita-engine) - BPMN engine that comes with an optional development environment, a designer, an optional user interface and administrative tools.
 - [Cadence](https://github.com/uber/cadence) - Fault-Tolerant Stateful Code Platform.
 - [Camunda](https://github.com/camunda/camunda-bpm-platform) - An open-source workflow and decision automation platform.
-- [Conductor](https://github.com/Netflix/conductor) - Netflix’s Conductor is an orchestration engine that runs in the cloud.
+- [Conductor](https://github.com/Netflix/conductor) - Netflix Conductor is an orchestration engine that runs in the cloud.
 - [Elsa Core](https://github.com/elsa-workflows/elsa-core) -  A workflows library that enables workflow execution in any .NET Core application.
 - [Flowable](https://github.com/flowable/flowable-engine) - Provides a core set of open source business process engines that are compact and highly efficient.
 - [jBPM](https://www.jbpm.org/) - A toolkit for building business applications to help automate business processes and decisions.
 - [StackStorm](https://github.com/StackStorm/st2) - Robust Automation Engine providing Sensors, Triggers, Rules, Workflows, and Actions. StackStorm is how you “glue” your applications together.
 
 # Resources
+*Some useful specifications, patterns, articles and documentation.*
 ## API Specification
-* [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0) - The AsyncAPI specification settles the base for a greater and better tooling ecosystem for Event-Driven Architectures (EDA).
-* [GraphQL](https://github.com/graphql/graphql-spec) - A query language for APIs and a runtime for fulfilling those queries with your existing data.
-* [OpenAPI (ex.Swagger)](https://spec.openapis.org/oas/v3.1.0) - Defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. 
-* [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/) - RESTful API Modeling Language
-* [WSDL](http://www.w3.org/TR/wsdl20) - XML-based interface description language for SOAP based services.
-## Connectors
-* [JCA](https://projects.eclipse.org/projects/ee4j.jca) - Defines a standard architecture for Jakarta EE application components to connect to Enterprise Information Systems. Formerly Java EE Connector Architecture and J2EE Connector Architecture.
-* [Kafka Connect](https://kafka.apache.org/documentation/#connect) - A tool for scalably and reliably streaming data between Apache Kafka and other systems.
-## Data formats
-* [Apache Avro](https://github.com/apache/avro) - Data serialization system.
-* [JSON](https://datatracker.ietf.org/doc/html/rfc8259) - The JavaScript Object Notation (JSON) Data Interchange Format.
-* [XML](https://www.w3.org/TR/2006/REC-xml11-20060816/) - Extensible Markup Language (XML)
-
-## Design
+- [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0) - The AsyncAPI specification settles the base for a greater and better tooling ecosystem for Event-Driven Architectures (EDA).
+- [GraphQL](https://github.com/graphql/graphql-spec) - A query language for APIs and a runtime for fulfilling those queries with your existing data.
+- [OpenAPI (ex.Swagger)](https://spec.openapis.org/oas/v3.1.0) - Defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. 
+- [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/) - RESTful API Modeling Language.
+- [WSDL](http://www.w3.org/TR/wsdl20) - XML-based interface description language for SOAP based services.
+## Articles
 - [Enterprise Integration Using REST](http://martinfowler.com/articles/enterpriseREST.html) - Discusses the constraints and flexibility that you have with nonpublic APIs, and lessons learned from doing large scale RESTful integration across multiple teams.
 - [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html) - Explained by Martin Fowler, originally presented by Leonard Richardson.
+## Connectors
+- [JCA](https://projects.eclipse.org/projects/ee4j.jca) - Defines a standard architecture for Jakarta EE application components to connect to Enterprise Information Systems. Formerly Java EE Connector Architecture and J2EE Connector Architecture.
+- [Kafka Connect](https://kafka.apache.org/documentation/#connect) - A tool for scalably and reliably streaming data between Apache Kafka and other systems.
+## Data formats
+- [Apache Avro](https://github.com/apache/avro) - Data serialization system.
+- [BSON](https://bsonspec.org/) - Short for Binary JSON, is a binary-encoded serialization of JSON-like documents.
+- [CSV](https://datatracker.ietf.org/doc/html/rfc4180) - A comma-separated values (CSV) file is a delimited text file that uses a comma to separate values.
+- [JSON](https://datatracker.ietf.org/doc/html/rfc8259) - The JavaScript Object Notation (JSON) Data Interchange Format.
+- [NDJSON](https://github.com/ndjson/ndjson-spec) - A standard for delimiting JSON in stream protocols.
+- [Protocol Buffers](https://developers.google.com/protocol-buffers) - A language-neutral, platform-neutral extensible mechanism for serializing structured data.
+- [XML](https://www.w3.org/TR/2006/REC-xml11-20060816/) - Extensible Markup Language (XML).
+- [YAML](https://yaml.org/) - YAML is a human friendly data serialization standard for all programming languages.
 
 ## Enterprise Integration Patterns
-*Patterns from a book by Gregor Hohpe and Bobby Woolf*
+*Patterns from a book by Gregor Hohpe and Bobby Woolf.*
 - [Aggregator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html) - How do we combine the results of individual, but related messages so that they can be processed as a whole?  
 - [Canonical Data Model](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataModel.html) - How can you minimize dependencies when integrating applications that use different data formats?
 - [Channel Adapter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelAdapter.html) - How can you connect an application to the messaging system so that it can send and receive messages?
@@ -253,18 +271,18 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Dead Letter Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DeadLetterChannel.html) - What will the messaging system do with a message it cannot deliver?  
 - [Detour](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Detour.html) - How can you route a message through intermediate steps to perform validation, testing or debugging functions?
 - [Document Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DocumentMessage.html) - How can messaging be used to transfer data between applications?
-- [Durable Subscriber](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DurableSubscription.html) - How can a subscriber avoid missing messages while it’s not listening for them?
+- [Durable Subscriber](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DurableSubscription.html) - How can a subscriber avoid missing messages while it is not listening for them?
 - [Dynamic Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DynamicRouter.html) - How can you avoid the dependency of the router on all possible destinations while maintaining its efficiency?
 - [Envelope Wrapper](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EnvelopeWrapper.html) - How can existing systems participate in a messaging exchange that places specific requirements on the message format, such as message header fields or encryption?  
 - [Event Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventMessage.html) - How can messaging be used to transmit events from one application to another?
 - [Event-Driven Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventDrivenConsumer.html) - How can an application automatically consume messages as they become available?
-- [Format Indicator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FormatIndicator.html) - How can a message’s data format be designed to allow for possible future changes?
+- [Format Indicator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FormatIndicator.html) - How can a message`s data format be designed to allow for possible future changes?
 - [Guaranteed Delivery](https://www.enterpriseintegrationpatterns.com/patterns/messaging/GuaranteedMessaging.html) - How can the sender make sure that a message will be delivered, even if the messaging system fails?
 - [Idempotent Receiver](https://www.enterpriseintegrationpatterns.com/patterns/messaging/IdempotentReceiver.html) - How can a message receiver deal with duplicate messages?
 - [Invalid Message Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/InvalidMessageChannel.html) - How can a messaging receiver gracefully handle receiving a message that makes no sense?
 - [Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Message.html) - How can two applications connected by a message channel exchange a piece of information?
 - [Message Dispatcher](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageDispatcher.html) - How can multiple consumers on a single channel coordinate their message processing?
-- [Message Expiration](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageExpiration.html) - How can a sender indicate when a message should be considered stale and thus shouldn’t be processed?
+- [Message Expiration](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageExpiration.html) - How can a sender indicate when a message should be considered stale and thus shouldn`t be processed?
 - [Message Translator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageTranslator.html) - How can systems using different data formats communicate with each other using messaging?  
 - [Message Broker](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBroker.html) - How can you decouple the destination of a message from the sender and maintain central control over the flow of messages?
 - [Message Bus](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBus.html) - What is an architecture that enables separate applications to work together, but in a decoupled fashion such that applications can be easily added or removed without affecting the others?  
@@ -325,14 +343,19 @@ allow both IT and citizen developers to construct process-centric and case-centr
   - [The Forrester Wave™: Robotic Process Automation](https://www.forrester.com/go?objectid=RES161538)
 
 ## Protocols
-- [AMQP 0-9-1](https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf) - Advanced Message Queuing Protocol (AMQP) Version 0-9-1
-- [AMQP 1.0](http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-v1.0-os.html) - Advanced Message Queuing Protocol (AMQP) Version 1.0
+- [AMQP 0-9-1](https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf) - Advanced Message Queuing Protocol (AMQP) Version 0-9-1.
+- [AMQP 1.0](http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-v1.0-os.html) - Advanced Message Queuing Protocol (AMQP) Version 1.0.
 - [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) - The Hypertext Transfer Protocol (HTTP) is an application layer protocol for distributed, collaborative, hypermedia information systems.
 - [MQTT](https://mqtt.org/mqtt-specification/) - The Message Queuing Telemetry Transport (MQTT) is a lightweight, publish-subscribe network protocol that transports messages between devices.
 - [SOAP](https://www.w3.org/TR/soap/) - Simple Object Access Protocol is XML-based messaging protocol. 
-- [STOMP](https://stomp.github.io/) - STOMP is the Simple (or Streaming) Text Orientated Messaging Protocol.
+- [STOMP](https://stomp.github.io/) - Simple (or Streaming) Text Orientated Messaging Protocol.
 
-## Structure & Validation
+## Standard APIs
+- [JDBC](https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/) - Java Database Connectivity (JDBC) API provides universal data access from the Java programming language.
+- [JMS](https://javaee.github.io/jms-spec/) - Java Message Service (JMS) API.
+- [ODBC](https://docs.microsoft.com/en-us/sql/odbc/reference/odbc-overview) - Open Database Connectivity (ODBC) is a widely accepted application programming interface (API) for database access.
+
+## Structure And Validation
 - [JSON Schema](https://json-schema.org/) - A powerful tool for validating the structure of JSON data.
 - [XML Schema](https://www.w3.org/TR/xmlschema11-1/) - Offers facilities for describing the structure and constraining the contents of XML documents.
 
