@@ -189,6 +189,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/) - Reliable cloud messaging as a service (MaaS) and simple hybrid integration.
 - [CloudAMQP](https://www.cloudamqp.com/) - RabbitMQ as a Service.
 - [Google Cloud Pub/Sub](https://cloud.google.com/pubsub) - Messaging and ingestion for event-driven systems and streaming analytics.
+- [IBM MQ on Cloud](https://www.ibm.com/cloud/mq) - Easily move data between enterprise applications, systems and services.
 - [IronMQ](https://www.iron.io/mq) - Elastic message queue created specifically with the cloud in mind.
 - [Solace PubSub+ Cloud](https://solace.com/products/platform/cloud/) - A complete event streaming, management and insights platform.
 - [Yandex Message Queue](https://cloud.yandex.com/en/services/message-queue) - Compatibility with the Amazon SQS HTTP API.
