@@ -1,4 +1,4 @@
-# Awesome Integration
+# Awesome Integration [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of awesome integration patterns, software and resources. Inspired by awesome-... stuff.
 
