@@ -116,7 +116,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [CloverETL](http://www.cloveretl.com/) - A data integration software suite for data migration and data warehousing, and for feeding data into business intelligence and reporting applications. 
 - [IBM DataStage](https://www.ibm.com/products/datastage) - A data integration platform that helps businesses understand, cleanse, transform, and deliver trusted information.
 - [Informatica PowerCenter](https://www.informatica.com/products/data-integration/powercenter.html) - Delivers enterprise data integration and management software powering analytics for big data and cloud.
-- [Microsoft SSIS ](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services) - SQL Server Integration Services is a platform for building enterprise-level data integration and data transformations solutions.
+- [Microsoft SSIS](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services) - SQL Server Integration Services is a platform for building enterprise-level data integration and data transformations solutions.
 - [Oracle Data Integrator](https://www.oracle.com/middleware/technologies/data-integrator.html) - A comprehensive data integration platform that covers all data integration requirements, including batch loads, integration processes, and SOA-enabled data services.
 - [Pentaho Data Integration](https://github.com/pentaho/pentaho-kettle) - Enables users to ingest, blend, cleanse, and prepare diverse data from any source with visual tools to eliminate coding and complexity.
 - [SAS Data Management](https://www.sas.com/en_us/software/data-management.html) - Helps transform, integrate, govern, and secure data while improving its overall quality and reliability.
@@ -220,7 +220,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Bonita](https://github.com/bonitasoft/bonita-engine) - BPMN engine that comes with an optional development environment, a designer, an optional user interface and administrative tools.
 - [Cadence](https://github.com/uber/cadence) - Fault-Tolerant Stateful Code Platform.
 - [Camunda](https://github.com/camunda/camunda-bpm-platform) - An open-source workflow and decision automation platform.
-- [Conductor](https://github.com/Netflix/conductor) - Netflix’s Conductor is an orchestration engine that runs in the cloud.
+- [Conductor](https://github.com/Netflix/conductor) - Netflix Conductor is an orchestration engine that runs in the cloud.
 - [Elsa Core](https://github.com/elsa-workflows/elsa-core) -  A workflows library that enables workflow execution in any .NET Core application.
 - [Flowable](https://github.com/flowable/flowable-engine) - Provides a core set of open source business process engines that are compact and highly efficient.
 - [jBPM](https://www.jbpm.org/) - A toolkit for building business applications to help automate business processes and decisions.
