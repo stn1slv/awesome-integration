@@ -100,6 +100,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 ## ESB
 *Enterprise service bus solutions.*
 - [Anypoint Platform](https://www.mulesoft.com/platform/enterprise-integration) - Combines API management and integration capabilities in a single platform from Mulesoft.
+- [Apache ServiceMix](https://servicemix.apache.org/) - A flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf.
 - [ArcESB](https://www.arcesb.com/integration/) - Synchronize data across applications, seamlessly integrate with partners, or make data publicly accessible.
 - [IBM App Connect](https://www.ibm.com/cloud/app-connect) - Connect applications together, regardless of the message formats or protocols that they support. Formerly known as IBM Integration Bus.
 - [NServiceBus](https://particular.net/nservicebus) - The most developer-friendly service bus for .NET.
@@ -108,6 +109,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Red Hat Fuse](https://www.redhat.com/en/technologies/jboss-middleware/fuse) - Distributed, cloud-native integration platform.
 - [Software AG webMethods Integration Server](https://www.softwareag.com/en_corporate/platform/integration-apis/webmethods-integration.html) - Integrate anything faster.
 - [TIBCO BusinessWorks](https://www.tibco.com/products/tibco-businessworks) - Implement enterprise patterns for hybrid integrations.
+- [UltraESB](https://www.adroitlogic.com/products/ultraesb/) - The only ESB that supports Zero-Copy proxying for extreme levels of performance utilizing Direct Memory Access (DMA) and the sendfile system call along with Non-Blocking IO.
 - [WSO2 Enterprise Integrator](https://wso2.com/integration/) - An API-centric, cloud-native, and distributed integration platform.
 
 ## ETL
@@ -131,7 +133,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 
 ## iPaaS
 *Integration Platform as a Service.*
-- [Anypoint Platform](https://www.mulesoft.com/platform/enterprise-integration) - Combines API management and integration capabilities in a single platform from Mulesoft.
+- [Anypoint Platform](https://www.mulesoft.com/platform/saas/cloudhub-ipaas-cloud-based-integration) - Combines API management and integration capabilities in a single platform from Mulesoft.
 - [Dell Boomi AtomSphere](https://boomi.com/platform) - Connect everyone to everything with the cloud-native, unified, open, intelligent platform.
 - [Jitterbit Harmony](https://www.jitterbit.com/platform/ipaas) - Integrates thousands of applications with pre-built templates and workflows to automate your business processes.
 - [IBM Cloud Integration](https://www.ibm.com/cloud/integration) - AI-powered approach to integration.
@@ -351,7 +353,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 ## Standard APIs
 - [JDBC](https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/) - Java Database Connectivity (JDBC) API provides universal data access from the Java programming language.
 - [JMS](https://javaee.github.io/jms-spec/) - Java Message Service (JMS) API.
-- [ODBC](https://docs.microsoft.com/en-us/sql/odbc/reference/odbc-overview) - A standard application programming interface (API) for accessing database management systems (DBMS).
+- [ODBC](https://docs.microsoft.com/en-us/sql/odbc/reference/odbc-overview) - Open Database Connectivity (ODBC) is a widely accepted application programming interface (API) for database access.
 
 ## Structure And Validation
 - [JSON Schema](https://json-schema.org/) - A powerful tool for validating the structure of JSON data.
