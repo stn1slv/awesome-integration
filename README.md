@@ -16,7 +16,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
   - [iPaaS](#ipaas)
   - [Managed File Transfer](#managed-file-transfer)
   - [Master Data Management](#master-data-management)
-  - [Messanging](#messanging)
+  - [Messaging](#messaging)
     - [Messaging as a Service](#messaging-as-a-service)
   - [RPA](#robotic-process-automation)
   - [Self-service integration](#self-service-integration)
@@ -58,7 +58,11 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 ## API Design
 *API design, documentation and life-cycle automation tools.*
+- [OpenAPI Diff](https://github.com/OpenAPITools/openapi-diff) - Compare two OpenAPI specifications (3.x) and render the difference to HTML plaintext, or Markdown files.
+- [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator) - Allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (both 2.0 and 3.0 are supported).
+- [OpenAPI Style Validator](https://github.com/OpenAPITools/openapi-style-validator) - A customizable style validator to make sure your OpenAPI spec follows your organization's standards.
 - [Swagger Editor](https://swagger.io/tools/swagger-editor/) - Design, describe, and document your API on the first open source editor fully dedicated to OpenAPI-based APIs.
+- [Zally](https://github.com/zalando/zally) - A linter for OpenAPI specifications.
 
 ## API Gateway
 *API Gateways.*
@@ -168,7 +172,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Teradata MDM](https://www.teradata.co.uk/Products/Applications/Master-Data-Management) - Drives significant ROI using consistent reference data to establish an accurate analytical data foundation.
 - [TIBCO EBX](https://www.tibco.com/products/tibco-ebx-software) - A single solution to govern, manage, and consume all shared data assets.
 
-## Messanging
+## Messaging
 *Message brokers.*
 - [Apache ActiveMQ](https://activemq.apache.org) - Message broker that implements JMS and converts synchronous to asynchronous communication.
 - [Apache Kafka](https://kafka.apache.org) - High-throughput distributed messaging system.
