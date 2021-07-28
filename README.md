@@ -77,13 +77,24 @@ A curated list of awesome integration patterns, software and resources. Inspired
 
 ## API Testing
 *API testing tools.*
-- [Apache JMeter](https://jmeter.apache.org/) - An open source java based load testing tool.
-- [curl](https://github.com/curl/curl) - Command line tool and library for transferring data with URLs.
-- [HTTPie](https://httpie.io) - Command line HTTP client, far more dev-friendly than curl.
-- [Insomnia](https://insomnia.rest/products/insomnia) - Cross-platform HTTP and GraphQL Client.
-- [Karate](https://github.com/intuit/karate) - Open-source tool to combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework.
-- [Postman](https://www.postman.com/product/api-client/) - A tool to make HTTP requests, generate mock servers and make API documentation.
-- [SoapUI](https://www.soapui.org/tools/soapui) - An open-source web service testing application for SOAP and REST.
+- API clients
+  - [curl](https://github.com/curl/curl) - Command line tool and library for transferring data with URLs.
+  - [HTTPie](https://httpie.io) - Command line HTTP client, far more dev-friendly than curl.
+  - [Insomnia](https://insomnia.rest/products/insomnia) - Cross-platform HTTP and GraphQL Client.
+  - [Postman](https://www.postman.com/product/api-client/) - A tool to make HTTP requests, generate mock servers and make API documentation.
+  - [SoapUI](https://www.soapui.org/tools/soapui) - An open-source web service testing application for SOAP and REST.
+- Mocking tools
+  - [Microcks](https://github.com/microcks/microcks) - Open source Kubernetes Native tool for API Mocking and Testing. Supports AsyncAPI, OpenAPI, Postman Collections etc.
+  - [Mockable](https://www.mockable.io/) - A simple configurable service to mock out RESTful API or SOAP web-services.
+  - [Mockoon](https://mockoon.com/) - The easiest and quickest way to design and run mock REST APIs.
+  - [MockServer](https://github.com/mock-server/mockserver) - Easy mocking of any system you integrate with via HTTP or HTTPS.
+  - [Mocky](https://designer.mocky.io/) - A free and unlimited online service which allows to generate custom HTTP responses.
+  - [Prism](https://github.com/stoplightio/prism) - An open-source HTTP mock server that can mimic your API’s behavior as if you already built it.
+  - [WireMock](https://github.com/tomakehurst/wiremock) - Mock your APIs for fast, robust and comprehensive testing.
+- Testing tools and frameworks
+  - [Apache JMeter](https://jmeter.apache.org/) - An open source java based load testing tool.
+  - [Karate](https://github.com/intuit/karate) - Open-source tool to combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework.
+  - [REST Assured](https://github.com/rest-assured/rest-assured) - Java DSL for easy testing of REST services.
 
 ## BRE
 *Business Rules Engines and Business Rules Management Systems.*
