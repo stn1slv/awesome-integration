@@ -174,7 +174,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 
 ## Master Data Management
 *Master Data Management solutions.*
-- [IBM InfoSphere Master Data Management ](https://www.ibm.com/products/ibm-infosphere-master-data-management) - Comprehensive master data management.
+- [IBM InfoSphere Master Data Management](https://www.ibm.com/products/ibm-infosphere-master-data-management) - Comprehensive master data management.
 - [Informatica Multidomain MDM](https://www.informatica.com/products/master-data-management/multidomain-mdm.html) - All-in-one master data management.
 - [Oracle Enterprise Data Management](https://www.oracle.com/performance-management/enterprise-data-management/) - Adapt and respond to change faster and more effectively by managing your master data.
 - [SAP Master Data Governance](https://www.sap.com/products/master-data-governance.html) - Improve the quality and consistency of information across your organization by consolidating and centrally governing the master data lifecycle.
