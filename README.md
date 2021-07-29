@@ -1,6 +1,6 @@
 # Awesome Integration [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome integration patterns, software and resources. Inspired by awesome-... stuff.
+A curated list of awesome integration patterns, software and resources.
 
 - [Awesome Integration](#awesome-integration)
   - [API Management](#api-management)
@@ -89,7 +89,7 @@ A curated list of awesome integration patterns, software and resources. Inspired
   - [Mockoon](https://mockoon.com/) - The easiest and quickest way to design and run mock REST APIs.
   - [MockServer](https://github.com/mock-server/mockserver) - Easy mocking of any system you integrate with via HTTP or HTTPS.
   - [Mocky](https://designer.mocky.io/) - A free and unlimited online service which allows to generate custom HTTP responses.
-  - [Prism](https://github.com/stoplightio/prism) - An open-source HTTP mock server that can mimic your API’s behavior as if you already built it.
+  - [Prism](https://github.com/stoplightio/prism) - An open-source HTTP mock server that can mimic your API`s behavior as if you already built it.
   - [WireMock](https://github.com/tomakehurst/wiremock) - Mock your APIs for fast, robust and comprehensive testing.
 - Testing tools and frameworks
   - [Apache JMeter](https://jmeter.apache.org/) - An open source java based load testing tool.
