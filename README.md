@@ -2,7 +2,7 @@
 
 A curated list of awesome integration patterns, software and resources.
 
-- [Awesome Integration](#awesome-integration)
+## Contents
   - [API Management](#api-management)
   - [API Design](#api-design)
   - [API Gateway](#api-gateway)
