@@ -33,7 +33,6 @@ A curated list of awesome integration patterns, software and resources.
   - [Protocols](#protocols)
   - [Standard APIs](#standard-apis)
   - [Structure & Validation](#structure-and-validation)
-- [Contributing](#contributing)
 
 ---
 ## Projects
@@ -380,5 +379,5 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [JSON Schema](https://json-schema.org/) - A powerful tool for validating the structure of JSON data.
 - [XML Schema](https://www.w3.org/TR/xmlschema11-1/) - Offers facilities for describing the structure and constraining the contents of XML documents.
 
-# Contributing
+## Contributing
 Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/stn1slv/awesome-integration/blob/main/CONTRIBUTING.md) first.
