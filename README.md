@@ -381,8 +381,4 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [XML Schema](https://www.w3.org/TR/xmlschema11-1/) - Offers facilities for describing the structure and constraining the contents of XML documents.
 
 # Contributing
-1. Fork it!
-2. Create your branch: ```git checkout -b my-new-branch```
-3. Commit your changes: ```git commit -am 'fix stuff'```
-4. Push to the branch: ```git push origin my-new-branch```
-5. Submit a pull request
+Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/stn1slv/awesome-integration/blob/main/CONTRIBUTING.md) first.
