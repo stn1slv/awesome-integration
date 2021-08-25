@@ -212,6 +212,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Anypoint MQ](https://www.mulesoft.com/platform/anypoint-mq-message-queue) - Enterprise-class cloud messaging, fully integrated with Anypoint Platform.
 - [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/) - Reliable cloud messaging as a service (MaaS) and simple hybrid integration.
 - [CloudAMQP](https://www.cloudamqp.com/) - RabbitMQ as a Service.
+- [CloudKarafka](https://www.cloudkarafka.com/) - Affordable and straightforward, fully managed Kafka clusters available on AWS and Google Cloud.
 - [Google Cloud Pub/Sub](https://cloud.google.com/pubsub) - Messaging and ingestion for event-driven systems and streaming analytics.
 - [IBM MQ on Cloud](https://www.ibm.com/cloud/mq) - Easily move data between enterprise applications, systems and services.
 - [IronMQ](https://www.iron.io/mq) - Elastic message queue created specifically with the cloud in mind.
