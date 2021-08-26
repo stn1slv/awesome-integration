@@ -14,13 +14,13 @@ A curated list of awesome integration patterns, software and resources.
   - [ESB](#esb)
   - [ETL](#etl)
   - [Integration Frameworks](#integration-frameworks)
-  - [iPaaS](#ipaas)
+  - [iPaaS](#ipaas)  
+  - [MaaS](#maas)
   - [Managed File Transfer](#managed-file-transfer)
   - [Master Data Management](#master-data-management)
   - [Messaging](#messaging)
-    - [Messaging as a Service](#messaging-as-a-service)
-  - [RPA](#robotic-process-automation)
-  - [Self-service integration](#self-service-integration)
+  - [RPA](#rpa)
+  - [Self-Service Integration](#self-service-integration)
   - [Workflow engine](#workflow-engine)
 - [Resources](#resources)
   - [API Specification](#api-specification) 
@@ -32,7 +32,7 @@ A curated list of awesome integration patterns, software and resources.
   - [Market analysis](#market-analysis)
   - [Protocols](#protocols)
   - [Standard APIs](#standard-apis)
-  - [Structure & Validation](#structure-and-validation)
+  - [Structure and Validation](#structure-and-validation)
 
 ---
 ## Projects
@@ -165,6 +165,27 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [TIBCO Cloud Integration](https://www.tibco.com/products/cloud-integration) - Empower everyone to integrate anything with API-led and event-driven integration.
 - [Workato](https://www.workato.com/) - A single platform for integration & workflow automation across your organization.
 
+### MaaS
+*Cloud messaging as a service (MaaS).*
+- [Amazon MQ](https://aws.amazon.com/amazon-mq) - Fully managed message broker service for Apache ActiveMQ and RabbitMQ.
+- [Amazon MSK](https://aws.amazon.com/msk) -  Amazon Managed Streaming for Apache Kafka.
+- [Amazon SQS](https://aws.amazon.com/sqs) - Amazon Simple Queue Service.
+- [Amazon SNS](https://aws.amazon.com/sns) - Amazon Simple Notification Service. Pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications.
+- [Alibaba Cloud Message Queue for Apache Kafka](https://www.alibabacloud.com/product/kafka) - Fully-managed Apache Kafka service from Alibaba Cloud.
+- [Alibaba Cloud Message Queue for RabbitMQ](https://www.alibabacloud.com/product/rabbitmq) - A distributed, fully managed, and professional messaging service that features high throughput, low latency, and high scalability.
+- [Alibaba Cloud Message Service](https://www.alibabacloud.com/product/message-service) - A distributed message queuing and notification service that supports concurrent operations to facilitate message transfer between applications and decoupled systems.
+- [AlibabaMQ for Apache RocketMQ](https://www.alibabacloud.com/product/mq) - A  distributed message queue service that supports reliable message-based asynchronous communication among microservices, distributed systems, and serverless applications.
+- [Anypoint MQ](https://www.mulesoft.com/platform/anypoint-mq-message-queue) - Enterprise-class cloud messaging, fully integrated with Anypoint Platform.
+- [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/) - Reliable cloud messaging as a service (MaaS) and simple hybrid integration.
+- [CloudAMQP](https://www.cloudamqp.com/) - RabbitMQ as a Service.
+- [CloudKarafka](https://www.cloudkarafka.com/) - Affordable and straightforward, fully managed Kafka clusters available on AWS and Google Cloud.
+- [Google Cloud Pub/Sub](https://cloud.google.com/pubsub) - Messaging and ingestion for event-driven systems and streaming analytics.
+- [IBM MQ on Cloud](https://www.ibm.com/cloud/mq) - Easily move data between enterprise applications, systems and services.
+- [IronMQ](https://www.iron.io/mq) - Elastic message queue created specifically with the cloud in mind.
+- [Solace PubSub+ Cloud](https://solace.com/products/platform/cloud/) - A complete event streaming, management and insights platform.
+- [Yandex Message Queue](https://cloud.yandex.com/en/services/message-queue) - Compatibility with the Amazon SQS HTTP API.
+- [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka) - Managed Apache Kafka service.
+
 ### Managed File Transfer
 *Managed file transfer (MFT) solutions.*
 - [ArcESB Managed File Transfer](https://www.arcesb.com/mft/) - All-in-One Enterprise-Class MFT.
@@ -199,28 +220,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Red Hat AMQ](https://www.redhat.com/en/technologies/jboss-middleware/amq) - Red Hat AMQ-based on open source communities like Apache ActiveMQ and Apache Kafka.
 - [TIBCO Enterprise Message Service](https://www.tibco.com/products/tibco-enterprise-message-service) - TIBCO EMS is standards-based Java™ Message Service (JMS) implementation allows any application that supports JMS, whether home grown or third-party, to quickly and easily exchange messages.  
 
-#### Messaging as a Service
-*Cloud messaging as a service (MaaS).*
-- [Amazon MQ](https://aws.amazon.com/amazon-mq) - Fully managed message broker service for Apache ActiveMQ and RabbitMQ.
-- [Amazon MSK](https://aws.amazon.com/msk) -  Amazon Managed Streaming for Apache Kafka.
-- [Amazon SQS](https://aws.amazon.com/sqs) - Amazon Simple Queue Service.
-- [Amazon SNS](https://aws.amazon.com/sns) - Amazon Simple Notification Service. Pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications.
-- [Alibaba Cloud Message Queue for Apache Kafka](https://www.alibabacloud.com/product/kafka) - Fully-managed Apache Kafka service from Alibaba Cloud.
-- [Alibaba Cloud Message Queue for RabbitMQ](https://www.alibabacloud.com/product/rabbitmq) - A distributed, fully managed, and professional messaging service that features high throughput, low latency, and high scalability.
-- [Alibaba Cloud Message Service](https://www.alibabacloud.com/product/message-service) - A distributed message queuing and notification service that supports concurrent operations to facilitate message transfer between applications and decoupled systems.
-- [AlibabaMQ for Apache RocketMQ](https://www.alibabacloud.com/product/mq) - A  distributed message queue service that supports reliable message-based asynchronous communication among microservices, distributed systems, and serverless applications.
-- [Anypoint MQ](https://www.mulesoft.com/platform/anypoint-mq-message-queue) - Enterprise-class cloud messaging, fully integrated with Anypoint Platform.
-- [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/) - Reliable cloud messaging as a service (MaaS) and simple hybrid integration.
-- [CloudAMQP](https://www.cloudamqp.com/) - RabbitMQ as a Service.
-- [CloudKarafka](https://www.cloudkarafka.com/) - Affordable and straightforward, fully managed Kafka clusters available on AWS and Google Cloud.
-- [Google Cloud Pub/Sub](https://cloud.google.com/pubsub) - Messaging and ingestion for event-driven systems and streaming analytics.
-- [IBM MQ on Cloud](https://www.ibm.com/cloud/mq) - Easily move data between enterprise applications, systems and services.
-- [IronMQ](https://www.iron.io/mq) - Elastic message queue created specifically with the cloud in mind.
-- [Solace PubSub+ Cloud](https://solace.com/products/platform/cloud/) - A complete event streaming, management and insights platform.
-- [Yandex Message Queue](https://cloud.yandex.com/en/services/message-queue) - Compatibility with the Amazon SQS HTTP API.
-- [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka) - Managed Apache Kafka service.
-
-### Robotic Process Automation
+### RPA
 *Robotic Process Automation (RPA) solutions.*
 - [Automation Anywhere](https://www.automationanywhere.com/) - Intelligent Automation Ecosystem.
 - [Blue Prism](https://www.blueprism.com/products/intelligent-rpa-automation/) - Intelligent automation - business-developed and no-code automation RPA platform.
@@ -347,7 +347,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - API Management
   - [Gartner Critical Capabilities for Full Life Cycle API Management](https://www.gartner.com/doc/code/468184)
   - [Gartner Magic Quadrant for Full Life Cycle API Management](https://www.gartner.com/doc/code/464116)
-  - [The Forrester Wave™: API Management Solutions](https://www.forrester.com/go?objectid=RES159081)
+  - [The Forrester Wave: API Management Solutions](https://www.forrester.com/go?objectid=RES159081)
 - BPM
   - [Gartner Critical Capabilities for Intelligent Business Process Management Suites](https://www.gartner.com/doc/code/292486)
   - [Gartner Magic Quadrant for Intelligent Business Process Management Suites](https://www.gartner.com/doc/code/345694)
@@ -357,11 +357,11 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - iPaaS
   - [Gartner Critical Capabilities for Enterprise Integration Platform as a Service](https://www.gartner.com/doc/code/434187)
   - [Gartner Magic Quadrant for Enterprise Integration Platform as a Service](https://www.gartner.com/doc/code/397953)
-  - [The Forrester Wave™: Strategic iPaaS And Hybrid Integration Platforms](https://www.forrester.com/report/The+Forrester+Wave+Strategic+iPaaS+And+Hybrid+Integration+Platforms+Q1+2019/-/E-RES141621)
+  - [The Forrester Wave: Strategic iPaaS And Hybrid Integration Platforms](https://www.forrester.com/report/The+Forrester+Wave+Strategic+iPaaS+And+Hybrid+Integration+Platforms+Q1+2019/-/E-RES141621)
 - RPA
   - [Gartner Critical Capabilities for Robotic Process Automation](https://www.gartner.com/doc/code/465756)
   - [Gartner Magic Quadrant for Robotic Process Automation](https://www.gartner.com/doc/code/441474)
-  - [The Forrester Wave™: Robotic Process Automation](https://www.forrester.com/go?objectid=RES161538)
+  - [The Forrester Wave: Robotic Process Automation](https://www.forrester.com/go?objectid=RES161538)
 
 ### Protocols
 - [AMQP 0-9-1](https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf) - Advanced Message Queuing Protocol (AMQP) Version 0-9-1.
@@ -377,7 +377,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [JMS](https://javaee.github.io/jms-spec/) - Java Message Service (JMS) API.
 - [ODBC](https://docs.microsoft.com/en-us/sql/odbc/reference/odbc-overview) - Open Database Connectivity (ODBC) is a widely accepted application programming interface (API) for database access.
 
-### Structure And Validation
+### Structure and Validation
 - [JSON Schema](https://json-schema.org/) - A powerful tool for validating the structure of JSON data.
 - [XML Schema](https://www.w3.org/TR/xmlschema11-1/) - Offers facilities for describing the structure and constraining the contents of XML documents.
 
