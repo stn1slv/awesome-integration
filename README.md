@@ -14,11 +14,11 @@ A curated list of awesome integration patterns, software and resources.
   - [ESB](#esb)
   - [ETL](#etl)
   - [Integration Frameworks](#integration-frameworks)
-  - [iPaaS](#ipaas)
+  - [iPaaS](#ipaas)  
+  - [MaaS](#maas)
   - [Managed File Transfer](#managed-file-transfer)
   - [Master Data Management](#master-data-management)
   - [Messaging](#messaging)
-  - [Messaging as a Service](#messaging-as-a-service)
   - [RPA](#rpa)
   - [Self-Service Integration](#self-service-integration)
   - [Workflow engine](#workflow-engine)
@@ -165,6 +165,27 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [TIBCO Cloud Integration](https://www.tibco.com/products/cloud-integration) - Empower everyone to integrate anything with API-led and event-driven integration.
 - [Workato](https://www.workato.com/) - A single platform for integration & workflow automation across your organization.
 
+### MaaS
+*Cloud messaging as a service (MaaS).*
+- [Amazon MQ](https://aws.amazon.com/amazon-mq) - Fully managed message broker service for Apache ActiveMQ and RabbitMQ.
+- [Amazon MSK](https://aws.amazon.com/msk) -  Amazon Managed Streaming for Apache Kafka.
+- [Amazon SQS](https://aws.amazon.com/sqs) - Amazon Simple Queue Service.
+- [Amazon SNS](https://aws.amazon.com/sns) - Amazon Simple Notification Service. Pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications.
+- [Alibaba Cloud Message Queue for Apache Kafka](https://www.alibabacloud.com/product/kafka) - Fully-managed Apache Kafka service from Alibaba Cloud.
+- [Alibaba Cloud Message Queue for RabbitMQ](https://www.alibabacloud.com/product/rabbitmq) - A distributed, fully managed, and professional messaging service that features high throughput, low latency, and high scalability.
+- [Alibaba Cloud Message Service](https://www.alibabacloud.com/product/message-service) - A distributed message queuing and notification service that supports concurrent operations to facilitate message transfer between applications and decoupled systems.
+- [AlibabaMQ for Apache RocketMQ](https://www.alibabacloud.com/product/mq) - A  distributed message queue service that supports reliable message-based asynchronous communication among microservices, distributed systems, and serverless applications.
+- [Anypoint MQ](https://www.mulesoft.com/platform/anypoint-mq-message-queue) - Enterprise-class cloud messaging, fully integrated with Anypoint Platform.
+- [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/) - Reliable cloud messaging as a service (MaaS) and simple hybrid integration.
+- [CloudAMQP](https://www.cloudamqp.com/) - RabbitMQ as a Service.
+- [CloudKarafka](https://www.cloudkarafka.com/) - Affordable and straightforward, fully managed Kafka clusters available on AWS and Google Cloud.
+- [Google Cloud Pub/Sub](https://cloud.google.com/pubsub) - Messaging and ingestion for event-driven systems and streaming analytics.
+- [IBM MQ on Cloud](https://www.ibm.com/cloud/mq) - Easily move data between enterprise applications, systems and services.
+- [IronMQ](https://www.iron.io/mq) - Elastic message queue created specifically with the cloud in mind.
+- [Solace PubSub+ Cloud](https://solace.com/products/platform/cloud/) - A complete event streaming, management and insights platform.
+- [Yandex Message Queue](https://cloud.yandex.com/en/services/message-queue) - Compatibility with the Amazon SQS HTTP API.
+- [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka) - Managed Apache Kafka service.
+
 ### Managed File Transfer
 *Managed file transfer (MFT) solutions.*
 - [ArcESB Managed File Transfer](https://www.arcesb.com/mft/) - All-in-One Enterprise-Class MFT.
@@ -198,27 +219,6 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [RabbitMQ](https://www.rabbitmq.com) - An open-source message-broker that originally implemented the Advanced Message Queuing Protocol (AMQP).
 - [Red Hat AMQ](https://www.redhat.com/en/technologies/jboss-middleware/amq) - Red Hat AMQ-based on open source communities like Apache ActiveMQ and Apache Kafka.
 - [TIBCO Enterprise Message Service](https://www.tibco.com/products/tibco-enterprise-message-service) - TIBCO EMS is standards-based Java™ Message Service (JMS) implementation allows any application that supports JMS, whether home grown or third-party, to quickly and easily exchange messages.  
-
-### Messaging as a Service
-*Cloud messaging as a service (MaaS).*
-- [Amazon MQ](https://aws.amazon.com/amazon-mq) - Fully managed message broker service for Apache ActiveMQ and RabbitMQ.
-- [Amazon MSK](https://aws.amazon.com/msk) -  Amazon Managed Streaming for Apache Kafka.
-- [Amazon SQS](https://aws.amazon.com/sqs) - Amazon Simple Queue Service.
-- [Amazon SNS](https://aws.amazon.com/sns) - Amazon Simple Notification Service. Pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications.
-- [Alibaba Cloud Message Queue for Apache Kafka](https://www.alibabacloud.com/product/kafka) - Fully-managed Apache Kafka service from Alibaba Cloud.
-- [Alibaba Cloud Message Queue for RabbitMQ](https://www.alibabacloud.com/product/rabbitmq) - A distributed, fully managed, and professional messaging service that features high throughput, low latency, and high scalability.
-- [Alibaba Cloud Message Service](https://www.alibabacloud.com/product/message-service) - A distributed message queuing and notification service that supports concurrent operations to facilitate message transfer between applications and decoupled systems.
-- [AlibabaMQ for Apache RocketMQ](https://www.alibabacloud.com/product/mq) - A  distributed message queue service that supports reliable message-based asynchronous communication among microservices, distributed systems, and serverless applications.
-- [Anypoint MQ](https://www.mulesoft.com/platform/anypoint-mq-message-queue) - Enterprise-class cloud messaging, fully integrated with Anypoint Platform.
-- [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/) - Reliable cloud messaging as a service (MaaS) and simple hybrid integration.
-- [CloudAMQP](https://www.cloudamqp.com/) - RabbitMQ as a Service.
-- [CloudKarafka](https://www.cloudkarafka.com/) - Affordable and straightforward, fully managed Kafka clusters available on AWS and Google Cloud.
-- [Google Cloud Pub/Sub](https://cloud.google.com/pubsub) - Messaging and ingestion for event-driven systems and streaming analytics.
-- [IBM MQ on Cloud](https://www.ibm.com/cloud/mq) - Easily move data between enterprise applications, systems and services.
-- [IronMQ](https://www.iron.io/mq) - Elastic message queue created specifically with the cloud in mind.
-- [Solace PubSub+ Cloud](https://solace.com/products/platform/cloud/) - A complete event streaming, management and insights platform.
-- [Yandex Message Queue](https://cloud.yandex.com/en/services/message-queue) - Compatibility with the Amazon SQS HTTP API.
-- [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka) - Managed Apache Kafka service.
 
 ### RPA
 *Robotic Process Automation (RPA) solutions.*
