@@ -32,7 +32,7 @@ A curated list of awesome integration patterns, software and resources.
   - [Market analysis](#market-analysis)
   - [Protocols](#protocols)
   - [Standard APIs](#standard-apis)
-  - [Structure & Validation](#structure-and-validation)
+  - [Structure and Validation](#structure-and-validation)
 
 ---
 ## Projects
@@ -347,7 +347,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - API Management
   - [Gartner Critical Capabilities for Full Life Cycle API Management](https://www.gartner.com/doc/code/468184)
   - [Gartner Magic Quadrant for Full Life Cycle API Management](https://www.gartner.com/doc/code/464116)
-  - [The Forrester Wave™: API Management Solutions](https://www.forrester.com/go?objectid=RES159081)
+  - [The Forrester Wave: API Management Solutions](https://www.forrester.com/go?objectid=RES159081)
 - BPM
   - [Gartner Critical Capabilities for Intelligent Business Process Management Suites](https://www.gartner.com/doc/code/292486)
   - [Gartner Magic Quadrant for Intelligent Business Process Management Suites](https://www.gartner.com/doc/code/345694)
@@ -357,11 +357,11 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - iPaaS
   - [Gartner Critical Capabilities for Enterprise Integration Platform as a Service](https://www.gartner.com/doc/code/434187)
   - [Gartner Magic Quadrant for Enterprise Integration Platform as a Service](https://www.gartner.com/doc/code/397953)
-  - [The Forrester Wave™: Strategic iPaaS And Hybrid Integration Platforms](https://www.forrester.com/report/The+Forrester+Wave+Strategic+iPaaS+And+Hybrid+Integration+Platforms+Q1+2019/-/E-RES141621)
+  - [The Forrester Wave: Strategic iPaaS And Hybrid Integration Platforms](https://www.forrester.com/report/The+Forrester+Wave+Strategic+iPaaS+And+Hybrid+Integration+Platforms+Q1+2019/-/E-RES141621)
 - RPA
   - [Gartner Critical Capabilities for Robotic Process Automation](https://www.gartner.com/doc/code/465756)
   - [Gartner Magic Quadrant for Robotic Process Automation](https://www.gartner.com/doc/code/441474)
-  - [The Forrester Wave™: Robotic Process Automation](https://www.forrester.com/go?objectid=RES161538)
+  - [The Forrester Wave: Robotic Process Automation](https://www.forrester.com/go?objectid=RES161538)
 
 ### Protocols
 - [AMQP 0-9-1](https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf) - Advanced Message Queuing Protocol (AMQP) Version 0-9-1.
@@ -377,7 +377,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [JMS](https://javaee.github.io/jms-spec/) - Java Message Service (JMS) API.
 - [ODBC](https://docs.microsoft.com/en-us/sql/odbc/reference/odbc-overview) - Open Database Connectivity (ODBC) is a widely accepted application programming interface (API) for database access.
 
-### Structure And Validation
+### Structure and Validation
 - [JSON Schema](https://json-schema.org/) - A powerful tool for validating the structure of JSON data.
 - [XML Schema](https://www.w3.org/TR/xmlschema11-1/) - Offers facilities for describing the structure and constraining the contents of XML documents.
 
