@@ -19,7 +19,7 @@ A curated list of awesome integration patterns, software and resources.
   - [Master Data Management](#master-data-management)
   - [Messaging](#messaging)
     - [Messaging as a Service](#messaging-as-a-service)
-  - [RPA](#robotic-process-automation)
+  - [RPA](#rpa)
   - [Self-service integration](#self-service-integration)
   - [Workflow engine](#workflow-engine)
 - [Resources](#resources)
@@ -220,7 +220,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Yandex Message Queue](https://cloud.yandex.com/en/services/message-queue) - Compatibility with the Amazon SQS HTTP API.
 - [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka) - Managed Apache Kafka service.
 
-### Robotic Process Automation
+### RPA
 *Robotic Process Automation (RPA) solutions.*
 - [Automation Anywhere](https://www.automationanywhere.com/) - Intelligent Automation Ecosystem.
 - [Blue Prism](https://www.blueprism.com/products/intelligent-rpa-automation/) - Intelligent automation - business-developed and no-code automation RPA platform.
