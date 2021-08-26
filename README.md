@@ -20,7 +20,7 @@ A curated list of awesome integration patterns, software and resources.
   - [Messaging](#messaging)
     - [Messaging as a Service](#messaging-as-a-service)
   - [RPA](#rpa)
-  - [Self-Service integration](#self-service-integration)
+  - [Self-Service Integration](#self-service-integration)
   - [Workflow engine](#workflow-engine)
 - [Resources](#resources)
   - [API Specification](#api-specification) 
