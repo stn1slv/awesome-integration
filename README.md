@@ -18,7 +18,7 @@ A curated list of awesome integration patterns, software and resources.
   - [Managed File Transfer](#managed-file-transfer)
   - [Master Data Management](#master-data-management)
   - [Messaging](#messaging)
-    - [Messaging as a Service](#messaging-as-a-service)
+  - [Messaging as a Service](#messaging-as-a-service)
   - [RPA](#rpa)
   - [Self-Service Integration](#self-service-integration)
   - [Workflow engine](#workflow-engine)
