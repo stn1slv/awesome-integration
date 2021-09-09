@@ -1,6 +1,6 @@
 # Awesome Integration [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome integration software, patterns and resources.
+A curated list of awesome [system integration](https://en.wikipedia.org/wiki/System_integration) software, patterns and resources.
 
 ## Contents
 - [Projects](#projects)
