@@ -1,6 +1,8 @@
 # Awesome Integration [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome [system integration](https://en.wikipedia.org/wiki/System_integration) software, patterns and resources.
+> A curated list of awesome system integration software, patterns and resources.
+
+System integration is the process of linking together different IT systems (components) to functionally cooperate as a whole.
 
 ## Contents
 - [Projects](#projects)
