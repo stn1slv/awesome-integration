@@ -1,6 +1,6 @@
 # Awesome Integration [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome integration patterns, software and resources.
+A curated list of awesome integration software, patterns and resources.
 
 ## Contents
 - [Projects](#projects)
@@ -26,10 +26,10 @@ A curated list of awesome integration patterns, software and resources.
   - [API Specification](#api-specification) 
   - [Articles](#articles)
   - [Connectors](#connectors)
-  - [Data formats](#data-formats)
+  - [Data Formats](#data-formats)
   - [Enterprise Integration Patterns](#enterprise-integration-patterns) 
-  - [Integration styles](#integration-styles)
-  - [Market analysis](#market-analysis)
+  - [Integration Styles](#integration-styles)
+  - [Market Analysis](#market-analysis)
   - [Protocols](#protocols)
   - [Standard APIs](#standard-apis)
   - [Structure and Validation](#structure-and-validation)
