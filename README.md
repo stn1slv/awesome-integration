@@ -85,6 +85,10 @@ System integration is the process of linking together different IT systems (co
   - [Insomnia](https://insomnia.rest/products/insomnia) - Cross-platform HTTP and GraphQL Client.
   - [Postman](https://www.postman.com/product/api-client/) - A tool to make HTTP requests, generate mock servers and make API documentation.
   - [SoapUI](https://www.soapui.org/tools/soapui) - An open-source web service testing application for SOAP and REST.
+- MQ clients
+  - [JMSToolBox](https://github.com/jmstoolbox/jmstoolbox) - An universal JMS Client able to interact with the greatest number of JMS based message brokers.
+  - [kcat](https://github.com/edenhill/kcat) - A generic non-JVM producer and consumer for Apache Kafka, think of it as a netcat for Kafka. Formerly known as kafkacat.
+  - [Offset Explorer](https://www.kafkatool.com) - A GUI application for managing and using Apache Kafka clusters. Formerly known as Kafka Tool.
 - Mocking tools
   - [Microcks](https://github.com/microcks/microcks) - Open source Kubernetes Native tool for API Mocking and Testing. Supports AsyncAPI, OpenAPI, Postman Collections etc.
   - [Mockable](https://www.mockable.io/) - A simple configurable service to mock out RESTful API or SOAP web-services.
