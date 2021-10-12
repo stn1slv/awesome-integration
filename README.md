@@ -363,7 +363,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - iPaaS
   - [Gartner Critical Capabilities for Enterprise Integration Platform as a Service](https://www.gartner.com/doc/code/434187)
   - [Gartner Magic Quadrant for Enterprise Integration Platform as a Service](https://www.gartner.com/doc/code/397953)
-  - [The Forrester Wave: Strategic iPaaS And Hybrid Integration Platforms](https://www.forrester.com/report/The+Forrester+Wave+Strategic+iPaaS+And+Hybrid+Integration+Platforms+Q1+2019/-/E-RES141621)
+  - [The Forrester Wave: Enterprise iPaaS](https://www.forrester.com/report/the-forrester-wave-tm-enterprise-ipaas-q4-2021/RES176201)
 - RPA
   - [Gartner Critical Capabilities for Robotic Process Automation](https://www.gartner.com/doc/code/465756)
   - [Gartner Magic Quadrant for Robotic Process Automation](https://www.gartner.com/doc/code/441474)
