@@ -40,8 +40,8 @@ System integration is the process of linking together different IT systems (co
 ## Projects
 ### API Management
 *API Management solutions.*
-- [Anypoint Platform](https://www.mulesoft.com/platform/api/manager) - Combines API management and integration capabilities in a single platform from Mulesoft.
 - [Akana API Management Platform](https://www.akana.com/products/api-platform) - Accelerate digital transformation. Manage the full API lifecycle. Deploy across multiple clouds. And ensure compliance.
+- [Anypoint Platform](https://www.mulesoft.com/platform/api/manager) - Combines API management and integration capabilities in a single platform from Mulesoft.
 - [Amazon API Management](https://aws.amazon.com/api-gateway/api-management/) - API management strategies allow you to monitor and manage APIs in a secure and scalable way.
 - [Amplify API Management Platform](https://www.axway.com/en/products/amplify-api-management-platform) - An open platform for API management from Axway.
 - [Apigee](https://cloud.google.com/apigee) - API Management solution from Google.
@@ -68,6 +68,7 @@ System integration is the process of linking together different IT systems (co
 
 ### API Gateway
 *API Gateways.*
+- [Ambassador Edge Stack](https://www.getambassador.io/products/edge-stack/api-gateway/) - Kubernetes-native API Gateway.
 - [Apache APISIX](https://apisix.apache.org) - Dynamic, real-time, high-performance API gateway.
 - [Gloo Edge](https://www.solo.io/products/gloo-edge/) - An Envoy Proxy-based API Gateway.
 - [Goku API Gateway](https://github.com/eolinker/goku) - Golang-based microservice gateway that enables high-performance dynamic routing,service orchestration, multi-tenancy management, API access control, etc.
