@@ -82,6 +82,7 @@ System integration is the process of linking together different IT systems (co
 *API testing tools.*
 - API clients
   - [curl](https://github.com/curl/curl) - Command line tool and library for transferring data with URLs.
+  - [curlie](https://curlie.io) - A frontend to curl that adds the ease of use of httpie, without compromising on features and performance.
   - [HTTPie](https://httpie.io) - Command line HTTP client, far more dev-friendly than curl.
   - [Insomnia](https://insomnia.rest/products/insomnia) - Cross-platform HTTP and GraphQL Client.
   - [Postman](https://www.postman.com/product/api-client/) - A tool to make HTTP requests, generate mock servers and make API documentation.
