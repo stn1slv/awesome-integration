@@ -388,6 +388,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [JDBC](https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/) - Java Database Connectivity (JDBC) API provides universal data access from the Java programming language.
 - [JMS](https://javaee.github.io/jms-spec/) - Java Message Service (JMS) API.
 - [ODBC](https://docs.microsoft.com/en-us/sql/odbc/reference/odbc-overview) - Open Database Connectivity (ODBC) is a widely accepted application programming interface (API) for database access.
+- [OData](https://www.odata.org/) - An open protocol that allows the creation and consumption of queryable and interoperable REST APIs in a simple and standard way.
 
 ### Structure and Validation
 - [JSON Schema](https://json-schema.org/) - A powerful tool for validating the structure of JSON data.
