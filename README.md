@@ -115,6 +115,7 @@ System integration is the process of linking together different IT systems (co
 *Business Process Management solutions.*
 - [Appian BPM Suite](https://appian.com/platform/complete-automation/business-process-management-bpm.html) - Platform combines low-code development with process management to
 allow both IT and citizen developers to construct process-centric and case-centric applications.
+- [Genpack Cora SeQuence](https://www.genpact.com/cora/sequence) - Orchestrate a more effective flow, generate growth, improve cost efficiency, and drive business agility.
 - [IBM Business Automation Workflow](https://www.ibm.com/products/business-automation-workflow) - A comprehensive business process management platform.
 - [Oracle BPM Suite](https://www.oracle.com/middleware/technologies/bpm.html) - An integrated environment for developing, administering, and using business applications centered around business processes.
 - [Pega Platform](https://www.pega.com/products/platform) - A combined business process management and robotic process automation (RPA) platform with advanced workforce analytics from Pegasystems.
