@@ -119,6 +119,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [IBM Business Automation Workflow](https://www.ibm.com/products/business-automation-workflow) - A comprehensive business process management platform.
 - [Oracle BPM Suite](https://www.oracle.com/middleware/technologies/bpm.html) - An integrated environment for developing, administering, and using business applications centered around business processes.
 - [Pega Platform](https://www.pega.com/products/platform) - A combined business process management and robotic process automation (RPA) platform with advanced workforce analytics from Pegasystems.
+- [Red Hat Process Automation Manager](https://www.redhat.com/en/technologies/jboss-middleware/process-automation-manager) - An application development platform that enables developers and business experts to create cloud-native applications that automate business operations.
 - [SAP Process Orchestration](https://www.sap.com/products/process-orchestration.html) - A business process management offering and application infrastructure. 
 - [TIBCO BPM Enterprise](https://www.tibco.com/products/business-process-management) - A business process management platform with capabilities for process automation, process documentation, human capital management, process patterns, and predictive operations analytics.
 
