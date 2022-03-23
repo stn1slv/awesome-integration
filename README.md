@@ -203,6 +203,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 *Managed file transfer (MFT) solutions.*
 - [ArcESB Managed File Transfer](https://www.arcesb.com/mft/) - All-in-One Enterprise-Class MFT.
 - [Axway Managed File Transfer](https://www.axway.com/en/products/managed-file-transfer) - Make file transfer services easy to use.
+- [Cornerstone MFT](https://southrivertech.com/products/cornerstone/) - Enterprise MFT Server Solution with high availability and failover to eliminate downtime.
 - [IBM Sterling Secure File Transfer](https://www.ibm.com/products/secure-file-transfer) - Move over 1 million files per day with a fast and scalable file transfer platform.
 - [Oracle Managed File Transfer](https://www.oracle.com/middleware/technologies/mft/managed-file-transfer.html) - Enables secure file exchange and management.
 
