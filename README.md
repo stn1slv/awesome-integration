@@ -13,6 +13,7 @@ System integration is the process of linking together different IT systems (co
   - [BRE](#bre)
   - [BPM](#bpm)
   - [Data Mapping Solution](#data-mapping-solution) 
+  - [eiPaaS](#eipaas)
   - [ESB](#esb)
   - [ETL](#etl)
   - [Integration Frameworks](#integration-frameworks)
@@ -177,6 +178,15 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Software AG webMethods Hybrid Integration Platform](https://www.softwareag.com/en_corporate/platform/integration-apis/application-integration.html) - One application integration platform integrates it all.
 - [TIBCO Cloud Integration](https://www.tibco.com/products/cloud-integration) - Empower everyone to integrate anything with API-led and event-driven integration.
 - [Workato](https://www.workato.com/) - A single platform for integration & workflow automation across your organization.
+
+### eiPaaS
+*Embedded Integration Platform as a Service.*
+- [apideck](https://www.apideck.com/) - A set of unified APIs to build native integrations with other SaaS providers. Available as REST and GraphQL APIs.
+- [Blendbase](https://github.com/blendbase/blendbase): Single open-source GraphQL API to connect CRMs to your SaaS. Query any customer CRM system (Salesforce, Hubspot and more) with a single API query from your SaaS app.
+- [Merge](https://www.merge.dev/) – One API to integrate with all HR, payroll, recruiting, accounting, ticketing, and CRM platforms.
+- [Paragon](https://www.useparagon.com/) - Embedded solution for integrating your product with third-party SaaS apps, providing unified integration experience.
+
+
 
 ### MaaS
 *Cloud messaging as a service (MaaS).*
