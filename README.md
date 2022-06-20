@@ -195,6 +195,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Google Cloud Pub/Sub](https://cloud.google.com/pubsub) - Messaging and ingestion for event-driven systems and streaming analytics.
 - [IBM MQ on Cloud](https://www.ibm.com/cloud/mq) - Easily move data between enterprise applications, systems and services.
 - [IronMQ](https://www.iron.io/mq) - Elastic message queue created specifically with the cloud in mind.
+- [Oracle Cloud Streaming](https://www.oracle.com/cloud/cloud-native/streaming/) - A real-time, serverless, Apache Kafka-compatible event streaming platform.
 - [Solace PubSub+ Cloud](https://solace.com/products/platform/cloud/) - A complete event streaming, management and insights platform.
 - [Yandex Message Queue](https://cloud.yandex.com/en/services/message-queue) - Compatibility with the Amazon SQS HTTP API.
 - [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka) - Managed Apache Kafka service.
