@@ -193,6 +193,8 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [CloudAMQP](https://www.cloudamqp.com/) - RabbitMQ as a Service.
 - [CloudKarafka](https://www.cloudkarafka.com/) - Affordable and straightforward, fully managed Kafka clusters available on AWS and Google Cloud.
 - [Google Cloud Pub/Sub](https://cloud.google.com/pubsub) - Messaging and ingestion for event-driven systems and streaming analytics.
+- [Huawei Cloud Distributed Message Service](https://www.huaweicloud.com/intl/en-us/product/dms.html) - A fully managed, high-performance message queuing service that enables reliable, flexible, and asynchronous communication between distributed applications.
+- [Huawei Cloud Distributed Message Service for Kafka](https://www.huaweicloud.com/intl/en-us/product/dmskafka.html) - Managed Apache Kafka service.
 - [IBM MQ on Cloud](https://www.ibm.com/cloud/mq) - Easily move data between enterprise applications, systems and services.
 - [IronMQ](https://www.iron.io/mq) - Elastic message queue created specifically with the cloud in mind.
 - [Oracle Cloud Streaming](https://www.oracle.com/cloud/cloud-native/streaming/) - A real-time, serverless, Apache Kafka-compatible event streaming platform.
