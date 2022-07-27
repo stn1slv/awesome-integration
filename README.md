@@ -102,6 +102,7 @@ System integration is the process of linking together different IT systems (co
 - Testing tools and frameworks
   - [Apache JMeter](https://jmeter.apache.org/) - An open source java based load testing tool.
   - [Karate](https://github.com/intuit/karate) - Open-source tool to combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework.
+  - [Pyresttest](https://github.com/svanoort/pyresttest) - A REST testing and API microbenchmarking tool.
   - [REST Assured](https://github.com/rest-assured/rest-assured) - Java DSL for easy testing of REST services.
   - [Schemathesis](https://github.com/schemathesis/schemathesis) - Property-based testing for API schemas.
 
