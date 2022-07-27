@@ -81,6 +81,7 @@ System integration is the process of linking together different IT systems (co
 ### API Testing
 *API testing tools.*
 - API clients
+  - [Advanced REST Client](https://github.com/advanced-rest-client/arc-electron) - An open-source and free for everyone API tool out of a passion for giving the developer community tools they need.
   - [curl](https://github.com/curl/curl) - Command line tool and library for transferring data with URLs.
   - [curlie](https://curlie.io) - A frontend to curl that adds the ease of use of httpie, without compromising on features and performance.
   - [HTTPie](https://httpie.io) - Command line HTTP client, far more dev-friendly than curl.
