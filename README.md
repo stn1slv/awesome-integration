@@ -8,6 +8,7 @@ System integration is the process of linking together different IT systems (co
 - [Projects](#projects)
   - [API Management](#api-management)
   - [API Design](#api-design)
+  - [API Documentation](#api-documentation)
   - [API Gateway](#api-gateway)
   - [API Testing](#api-testing)
   - [BRE](#bre)
@@ -78,6 +79,12 @@ System integration is the process of linking together different IT systems (co
 - [Ocelot](https://github.com/ThreeMammals/Ocelot) - .NET API Gateway.
 - [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway) -  API Gateway built on top of the Spring Ecosystem, including: Spring 5, Spring Boot 2 and Project Reactor.
 - [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway, supporting REST, GraphQL, TCP and gRPC protocols.
+
+### API Documentation
+*API portals and documentation tools.*
+- [Redoc](https://github.com/Redocly/redoc) - An open-source tool for generating documentation from OpenAPI (fka Swagger) definitions.
+- [Slate](https://github.com/slatedocs/slate) - Beautiful static documentation for your API.
+- [Swagger UI](https://github.com/swagger-api/swagger-ui) - Visualize OpenAPI specification definitions in an intuitive UI.
 
 ### API Testing
 *API testing tools.*
