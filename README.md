@@ -68,6 +68,17 @@ System integration is the process of linking together different IT systems (co
 - [Swagger Editor](https://swagger.io/tools/swagger-editor/) - Design, describe, and document your API on the first open source editor fully dedicated to OpenAPI-based APIs.
 - [Zally](https://github.com/zalando/zally) - A linter for OpenAPI specifications.
 
+### API Documentation
+*API portals and documentation tools.*
+- [APITree](https://www.apitree.com/) - The central place for managing and sharing API specifications.
+- [OpenAPI Explorer](https://github.com/Rhosys/openapi-explorer) - OpenAPI Web component to generate a UI from the spec.
+- [RapiDoc](https://github.com/rapi-doc/RapiDoc) - Create beautiful, customizable, interactive API documentation from OpenAPI Specification.
+- [Redoc](https://github.com/Redocly/redoc) - An open-source tool for generating documentation from OpenAPI (fka Swagger) definitions.
+- [Slate](https://github.com/slatedocs/slate) - Beautiful static documentation for your API.
+- [SwaggerHub](https://swagger.io/tools/swaggerhub/) - An integrated API design and documentation platform, built for teams to drive consistency and discipline across the API development workflow.
+- [Swagger UI](https://github.com/swagger-api/swagger-ui) - Visualize OpenAPI specification definitions in an intuitive UI.
+
+
 ### API Gateway
 *API Gateways.*
 - [Ambassador Edge Stack](https://www.getambassador.io/products/edge-stack/api-gateway/) - Kubernetes-native API Gateway.
@@ -79,12 +90,6 @@ System integration is the process of linking together different IT systems (co
 - [Ocelot](https://github.com/ThreeMammals/Ocelot) - .NET API Gateway.
 - [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway) -  API Gateway built on top of the Spring Ecosystem, including: Spring 5, Spring Boot 2 and Project Reactor.
 - [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway, supporting REST, GraphQL, TCP and gRPC protocols.
-
-### API Documentation
-*API portals and documentation tools.*
-- [Redoc](https://github.com/Redocly/redoc) - An open-source tool for generating documentation from OpenAPI (fka Swagger) definitions.
-- [Slate](https://github.com/slatedocs/slate) - Beautiful static documentation for your API.
-- [Swagger UI](https://github.com/swagger-api/swagger-ui) - Visualize OpenAPI specification definitions in an intuitive UI.
 
 ### API Testing
 *API testing tools.*
