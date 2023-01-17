@@ -226,6 +226,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Cornerstone MFT](https://southrivertech.com/products/cornerstone/) - Enterprise MFT Server Solution with high availability and failover to eliminate downtime.
 - [IBM Sterling Secure File Transfer](https://www.ibm.com/products/secure-file-transfer) - Move over 1 million files per day with a fast and scalable file transfer platform.
 - [Oracle Managed File Transfer](https://www.oracle.com/middleware/technologies/mft/managed-file-transfer.html) - Enables secure file exchange and management.
+- [TIBCO Managed File Transfer](https://www.tibco.com/products/tibco-managed-file-transfer) - Securely support all file transfer use cases from a single, centrally managed MFT platform.
 
 ### Master Data Management
 *Master Data Management solutions.*
