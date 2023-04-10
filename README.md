@@ -289,6 +289,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 ## Resources
 *Some useful specifications, patterns, articles and documentation.*
 ### API Specification
+- [API Blueprint](https://apiblueprint.org) - A high-level API description language that is used to design and document APIs.
 - [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0) - The AsyncAPI specification settles the base for a greater and better tooling ecosystem for Event-Driven Architectures (EDA).
 - [GraphQL](https://github.com/graphql/graphql-spec) - A query language for APIs and a runtime for fulfilling those queries with your existing data.
 - [OpenAPI (ex.Swagger)](https://spec.openapis.org/oas/v3.1.0) - Defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. 
