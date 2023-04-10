@@ -71,6 +71,7 @@ System integration is the process of linking together different IT systems (co
 ### API Documentation
 *API portals and documentation tools.*
 - [APITree](https://www.apitree.com/) - The central place for managing and sharing API specifications.
+- [DapperDox](http://dapperdox.io) - An Open-Source API documentation generator and server for OpenAPI/Swagger specifications.
 - [OpenAPI Explorer](https://github.com/Rhosys/openapi-explorer) - OpenAPI Web component to generate a UI from the spec.
 - [RapiDoc](https://github.com/rapi-doc/RapiDoc) - Create beautiful, customizable, interactive API documentation from OpenAPI Specification.
 - [Redoc](https://github.com/Redocly/redoc) - An open-source tool for generating documentation from OpenAPI (fka Swagger) definitions.
