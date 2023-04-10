@@ -90,6 +90,7 @@ System integration is the process of linking together different IT systems (co
 - [KrakenD API Gateway](https://github.com/devopsfaith/krakend-ce) - Ultra-High performance API Gateway with middlewares.
 - [Ocelot](https://github.com/ThreeMammals/Ocelot) - .NET API Gateway.
 - [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway) -  API Gateway built on top of the Spring Ecosystem, including: Spring 5, Spring Boot 2 and Project Reactor.
+- [Traefik](https://github.com/traefik/traefik) - A modern, open-source API gateway that is designed to handle dynamic container environments, such as Kubernetes, Docker Swarm, and Mesos. It provides features such as load balancing, SSL/TLS termination, rate limiting, circuit breaking, and more.
 - [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway, supporting REST, GraphQL, TCP and gRPC protocols.
 
 ### API Testing
