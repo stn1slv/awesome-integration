@@ -106,6 +106,7 @@ System integration is the process of linking together different IT systems (co
 - MQ clients
   - [JMSToolBox](https://github.com/jmstoolbox/jmstoolbox) - An universal JMS Client able to interact with the greatest number of JMS based message brokers.
   - [kcat](https://github.com/edenhill/kcat) - A generic non-JVM producer and consumer for Apache Kafka, think of it as a netcat for Kafka. Formerly known as kafkacat.
+  - [MQTT Explorer](https://github.com/thomasnordquist/MQTT-Explorer) - An all-round MQTT client that provides a structured topic overview.
   - [Offset Explorer](https://www.kafkatool.com) - A GUI application for managing and using Apache Kafka clusters. Formerly known as Kafka Tool.
   - [Service Bus Explorer](https://github.com/paolosalvatori/ServiceBusExplorer) - A GUI app for Azure Service Bus which provides advanced features like import/export functionality or the ability to test topic, queues, subscriptions, relay services, notification hubs and events hubs.
 - Mocking tools
