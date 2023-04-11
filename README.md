@@ -41,23 +41,23 @@ System integration is the process of linking together different IT systems (co
 ## Projects
 ### API Management
 *API Management solutions.*
-- [Akana API Management Platform](https://www.akana.com/products/api-platform) - Accelerate digital transformation. Manage the full API lifecycle. Deploy across multiple clouds. And ensure compliance.
-- [Anypoint Platform](https://www.mulesoft.com/platform/api/manager) - Combines API management and integration capabilities in a single platform from Mulesoft.
-- [Amazon API Management](https://aws.amazon.com/api-gateway/api-management/) - API management strategies allow you to monitor and manage APIs in a secure and scalable way.
-- [Amplify API Management Platform](https://www.axway.com/en/products/amplify-api-management-platform) - An open platform for API management from Axway.
-- [Apigee](https://cloud.google.com/apigee) - API Management solution from Google.
-- [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) - A hybrid, multicloud management platform for APIs across all environments.
-- [DigitMarket API Manager](https://www.torryharris.com/products/digitmarket-api-manager-for-api-management) - A complete package to help manage your APIs and make them into tools that propel your business forward by Torry Harris.
-- [Gravitee.io API Management](https://www.gravitee.io/products/api-management) - Flexible, lightweight and blazing-fast Open Source solution.
-- [IBM API Connect](https://www.ibm.com/cloud/api-connect) - A complete, intuitive and scalable API platform that lets you create, expose, manage and monetize APIs across clouds.
-- [Kong Enterprise](https://konghq.com/products/kong-enterprise) - The service connectivity platform.
-- [Layer7 API Management](https://www.broadcom.com/products/software/api-management) - Continuous API Management from Broadcom.
-- [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale) - Cloud-native development made simpler and more flexible.
-- [Sensedia API Management](https://www.sensedia.com/api-management-platform) - Full life cycle API management platform.
-- [TIBCO Cloud Mashery](https://www.tibco.com/products/api-management) - The cloud-native API platform you can deploy anywhere, and manage APIs from everywhere.
-- [Tyk API Management](https://tyk.io/api-lifecycle-management/) - Connect, build and control.
-- [webMethods API](https://www.softwareag.cloud/site/product/webmethods-api.html) - Software AG offerings for full life cycle API management are the webMethods API management. platform (for on-premises deployment) and the webMethods.io API (for the cloud).
-- [WSO2 API Manager](https://wso2.com/api-manager/) - Fully open-source API management platform.
+- [Akana API Management Platform](https://www.akana.com/products/api-platform) - A comprehensive platform that accelerates digital transformation, manages the full API lifecycle, and ensures compliance while deploying across multiple clouds.
+- [Anypoint Platform](https://www.mulesoft.com/platform/api/manager) - A single, unified platform from Mulesoft that combines API management and integration capabilities, allowing you to design, build, and manage APIs with ease.
+- [Amazon API Management](https://aws.amazon.com/api-gateway/api-management/) - A secure and scalable API management solution that enables you to monitor and manage APIs in a flexible and efficient way.
+- [Amplify API Management Platform](https://www.axway.com/en/products/amplify-api-management-platform) - An open platform for API management from Axway, which provides comprehensive API management capabilities and allows you to build, run, and manage APIs with ease.
+- [Apigee](https://cloud.google.com/apigee) - A leading API management solution from Google that provides comprehensive API management capabilities and helps you create, secure, and scale APIs with ease.
+- [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) - A hybrid, multicloud management platform for APIs across all environments, which enables you to manage APIs with ease, secure them, and gain insights into their performance.
+- [DigitMarket API Manager](https://www.torryharris.com/products/digitmarket-api-manager-for-api-management) - A complete package from Torry Harris that helps you manage your APIs and turn them into tools that can drive your business forward.
+- [Gravitee.io API Management](https://www.gravitee.io/products/api-management) - A flexible, lightweight, and open-source API management solution that provides comprehensive API management capabilities and helps you manage your APIs with ease.
+- [IBM API Connect](https://www.ibm.com/cloud/api-connect) - A complete, intuitive, and scalable API platform that allows you to create, expose, manage, and monetize APIs across clouds.
+- [Kong Enterprise](https://konghq.com/products/kong-enterprise) - A comprehensive service connectivity platform that provides a range of API management capabilities and allows you to manage APIs, microservices, and service meshes with ease.
+- [Layer7 API Management](https://www.broadcom.com/products/software/api-management) - A continuous API management solution from Broadcom that provides comprehensive API management capabilities and helps you manage APIs throughout their lifecycle.
+- [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale) - A cloud-native API management solution that simplifies the development of APIs and makes them more flexible.
+- [Sensedia API Management](https://www.sensedia.com/api-management-platform) - A full lifecycle API management platform that provides comprehensive API management capabilities and helps you manage APIs throughout their lifecycle.
+- [TIBCO Cloud Mashery](https://www.tibco.com/products/api-management) - A cloud-native API platform from TIBCO that enables you to deploy APIs anywhere and manage them from everywhere.
+- [Tyk API Management](https://tyk.io/api-lifecycle-management/) - A powerful API management solution that allows you to connect, build, and control APIs with ease.
+- [webMethods API](https://www.softwareag.cloud/site/product/webmethods-api.html) - A comprehensive API management solution from Software AG that provides full lifecycle API management capabilities and enables you to manage APIs in both on-premises and cloud environments.
+- [WSO2 API Manager](https://wso2.com/api-manager/) - A fully open-source API management platform that provides comprehensive API management capabilities and allows you to manage APIs with ease.
 
 ### API Design
 *API design, documentation and life-cycle automation tools.*
