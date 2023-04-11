@@ -62,6 +62,7 @@ System integration is the process of linking together different IT systems (co
 ### API Design
 *API design, documentation and life-cycle automation tools.*
 - [Dredd](https://github.com/apiaryio/dredd) - A language-agnostic command-line tool for validating API description document against backend implementation of the API.
+- [OpenAPI-GUI](https://github.com/Mermade/openapi-gui) - A graphical user interface for designing and validating OpenAPI specs.
 - [OpenAPI Diff](https://github.com/OpenAPITools/openapi-diff) - Compare two OpenAPI specifications (3.x) and render the difference to HTML plaintext, or Markdown files.
 - [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator) - Allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (both 2.0 and 3.0 are supported).
 - [OpenAPI Style Validator](https://github.com/OpenAPITools/openapi-style-validator) - A customizable style validator to make sure your OpenAPI spec follows your organization's standards.
