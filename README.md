@@ -84,16 +84,16 @@ System integration is the process of linking together different IT systems (co
 
 ### API Gateway
 *API Gateways.*
-- [Apinto](https://github.com/eolinker/goku) - Golang-based microservice gateway that enables high-performance dynamic routing,service orchestration, multi-tenancy management, API access control, etc.
-- [Ambassador Edge Stack](https://www.getambassador.io/products/edge-stack/api-gateway/) - Kubernetes-native API Gateway.
-- [Apache APISIX](https://apisix.apache.org) - Dynamic, real-time, high-performance API gateway.
-- [Gloo Edge](https://www.solo.io/products/gloo-edge/) - An Envoy Proxy-based API Gateway.
-- [Kong API Gateway](https://github.com/Kong/kong) - Cloud-native, platform-agnostic, scalable API Gateway distinguished for its high performance and extensibility via plugins.
-- [KrakenD API Gateway](https://github.com/devopsfaith/krakend-ce) - Ultra-High performance API Gateway with middlewares.
-- [Ocelot](https://github.com/ThreeMammals/Ocelot) - .NET API Gateway.
-- [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway) -  API Gateway built on top of the Spring Ecosystem, including: Spring 5, Spring Boot 2 and Project Reactor.
-- [Traefik](https://github.com/traefik/traefik) - A modern, open-source API gateway that is designed to handle dynamic container environments, such as Kubernetes, Docker Swarm, and Mesos. It provides features such as load balancing, SSL/TLS termination, rate limiting, circuit breaking, and more.
-- [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway, supporting REST, GraphQL, TCP and gRPC protocols.
+- [Apinto](https://github.com/eolinker/goku) - A Golang-based microservice gateway that provides dynamic routing, service orchestration, multi-tenancy management, and API access control.
+- [Ambassador Edge Stack](https://www.getambassador.io/products/edge-stack/api-gateway/) - A Kubernetes-native API Gateway that helps manage APIs at scale with its customizable routing, authentication, and rate-limiting features.
+- [Apache APISIX](https://apisix.apache.org) - A dynamic, real-time, and high-performance API Gateway that leverages Apache plugins for enhanced functionality.
+- [Gloo Edge](https://www.solo.io/products/gloo-edge/) - An Envoy Proxy-based API Gateway that provides advanced traffic management, security, and observability features for modern microservices architectures.
+- [Kong API Gateway](https://github.com/Kong/kong) - A cloud-native, platform-agnostic, and scalable API Gateway that supports plugins for easy integration with third-party services.
+- [KrakenD API Gateway](https://github.com/devopsfaith/krakend-ce) - An ultra-high performance API Gateway that leverages middlewares for fast and efficient API management.
+- [Ocelot](https://github.com/ThreeMammals/Ocelot) - A .NET API Gateway that provides a simple and elegant way to manage APIs with its intuitive routing and middleware configuration.
+- [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway) -  An API Gateway built on top of the Spring ecosystem, providing advanced routing and filtering features for Spring applications.
+- [Traefik](https://github.com/traefik/traefik) - A modern, open-source API Gateway that is designed to handle dynamic container environments such as Kubernetes, Docker Swarm, and Mesos. It provides load balancing, SSL/TLS termination, rate limiting, circuit breaking, and more.
+- [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway that supports REST, GraphQL, TCP, and gRPC protocols. It provides advanced API management features such as rate limiting, access control, and analytics.
 
 ### API Testing
 *API testing tools.*
