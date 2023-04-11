@@ -278,18 +278,18 @@ allow both IT and citizen developers to construct process-centric and case-centr
 
 ### Workflow engine
 *Workflow and orchestration engines.*
-- [Activiti](https://github.com/Activiti/Activiti) - A lightweight and java-centric open-source BPMN engine.
-- [Apache Airflow](https://github.com/apache/airflow) - A platform to programmatically author, schedule, and monitor workflows.
-- [Argo Workflows](https://github.com/argoproj/argo-workflows) -  An open source container-native workflow engine for orchestrating parallel jobs on Kubernetes.
-- [Azkaban](https://github.com/azkaban/azkaban) - A distributed Workflow Manager, implemented at LinkedIn to solve the problem of Hadoop job dependencies.
-- [Bonita](https://github.com/bonitasoft/bonita-engine) - BPMN engine that comes with an optional development environment, a designer, an optional user interface and administrative tools.
-- [Cadence](https://github.com/uber/cadence) - Fault-Tolerant Stateful Code Platform.
-- [Camunda](https://github.com/camunda/camunda-bpm-platform) - An open-source workflow and decision automation platform.
-- [Conductor](https://github.com/Netflix/conductor) - Netflix Conductor is an orchestration engine that runs in the cloud.
-- [Elsa Core](https://github.com/elsa-workflows/elsa-core) -  A workflows library that enables workflow execution in any .NET Core application.
-- [Flowable](https://github.com/flowable/flowable-engine) - Provides a core set of open source business process engines that are compact and highly efficient.
-- [jBPM](https://www.jbpm.org/) - A toolkit for building business applications to help automate business processes and decisions.
-- [StackStorm](https://github.com/StackStorm/st2) - Robust Automation Engine providing Sensors, Triggers, Rules, Workflows, and Actions. StackStorm is how you “glue” your applications together.
+- [Activiti](https://github.com/Activiti/Activiti) - A lightweight and Java-centric open-source engine for executing BPMN (Business Process Model and Notation) workflows.
+- [Apache Airflow](https://github.com/apache/airflow) - A platform that allows you to create, schedule, and monitor workflows programmatically, making it easier to manage and automate complex data pipelines.
+- [Argo Workflows](https://github.com/argoproj/argo-workflows) - An open-source, container-native workflow engine designed to orchestrate parallel jobs on Kubernetes, making it easier to manage and automate complex workflows in a cloud-native environment.
+- [Azkaban](https://github.com/azkaban/azkaban) - A distributed workflow manager that helps solve the problem of Hadoop job dependencies, making it easier to schedule and manage workflows in large-scale data processing environments.
+- [Bonita](https://github.com/bonitasoft/bonita-engine) - An open-source BPMN engine that comes with a designer and optional development environment, making it easier to build and automate complex business processes.
+- [Cadence](https://github.com/uber/cadence) - A fault-tolerant, stateful code platform that makes it easier to build and manage complex, long-running applications.
+- [Camunda](https://github.com/camunda/camunda-bpm-platform) - An open-source workflow and decision automation platform that helps you automate business processes and decisions in a flexible and scalable way.
+- [Conductor](https://github.com/Netflix/conductor) - A cloud-based orchestration engine designed to run and manage workflows in a microservices architecture.
+- [Elsa Core](https://github.com/elsa-workflows/elsa-core) -  A library that enables workflow execution in any .NET Core application, making it easier to automate business processes in .NET environments.
+- [Flowable](https://github.com/flowable/flowable-engine) - A set of open-source business process engines that are compact and efficient, making it easier to automate business processes in a scalable and reliable way.
+- [jBPM](https://www.jbpm.org/) -  A toolkit for building business applications that helps you automate business processes and decisions, making it easier to manage complex workflows.
+- [StackStorm](https://github.com/StackStorm/st2) - A robust automation engine that provides sensors, triggers, rules, workflows, and actions to help you automate and orchestrate complex workflows and applications.
 
 ## Resources
 *Some useful specifications, patterns, articles and documentation.*
