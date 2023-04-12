@@ -183,9 +183,9 @@ allow both IT and citizen developers to construct process-centric and case-centr
 
 ### Integration Frameworks
 *Integration frameworks based on known Enterprise Integration Patterns.*
-- [Apache Camel](https://camel.apache.org) - Glues together different transport APIs via Enterprise Integration Patterns.
-- [Ballerina](https://ballerina.io/) - An open-source programming language that makes it easier to use, combine, and create network services.
-- [Spring Integration](https://spring.io/projects/spring-integration) - Extends the Spring programming model to support the well-known Enterprise Integration Patterns.
+- [Apache Camel](https://github.com/apache/camel/) - Glues together different transport APIs via Enterprise Integration Patterns.
+- [Ballerina](https://github.com/ballerina-platform/ballerina-lang) - An open-source programming language that makes it easier to use, combine, and create network services.
+- [Spring Integration](https://github.com/spring-projects/spring-integration) - Extends the Spring programming model to support the well-known Enterprise Integration Patterns.
 
 ### iPaaS
 *Integration Platform as a Service.*
@@ -248,16 +248,16 @@ allow both IT and citizen developers to construct process-centric and case-centr
 ### Messaging
 *Message brokers.*
 - [Apache ActiveMQ](https://activemq.apache.org) - Message broker that implements JMS and converts synchronous to asynchronous communication.
-- [Apache Kafka](https://kafka.apache.org) - High-throughput distributed messaging system.
-- [Apache Pulsar](https://pulsar.apache.org) - Distributed pub/sub-messaging system.
-- [Apache RocketMQ](https://rocketmq.apache.org) - Fast, reliable, and scalable distributed messaging platform.
+- [Apache Kafka](https://github.com/apache/kafka) - High-throughput distributed messaging system.
+- [Apache Pulsar](https://github.com/apache/pulsar) - Distributed pub/sub-messaging system.
+- [Apache RocketMQ](https://github.com/apache/rocketmq) - Fast, reliable, and scalable distributed messaging platform.
 - [Apache Qpid](https://qpid.apache.org) - Apache Qpid makes messaging tools that speak AMQP and support many languages and platforms.
-- [Eclipse Mosquitto](https://mosquitto.org/) - An lightweight open source message broker that implements the MQTT protocol.
+- [Eclipse Mosquitto](https://github.com/eclipse/mosquitto) - An lightweight open source message broker that implements the MQTT protocol.
 - [IBM MQ](https://www.ibm.com/products/mq) - Enterprise-grade messaging capabilities that skillfully and safely move information between applications.
 - [KubeMQ](https://kubemq.io/) - A Kubernetes Message Queue Broker Enterprise-grade message broker and message queue, scalable, high available and secured.
 - [NATS](https://github.com/nats-io/gnatsd) - Lightweight, high performance messaging system for microservices, IoT, and cloud native systems.
 - [Oracle AQ](https://www.oracle.com/database/technologies/advanced-queuing.html) - Oracle Advanced Queuing (AQ) provides enterprise message functionality across many industries and is widely used within the database itself. 
-- [RabbitMQ](https://www.rabbitmq.com) - An open-source message-broker that originally implemented the Advanced Message Queuing Protocol (AMQP).
+- [RabbitMQ](https://github.com/rabbitmq/rabbitmq-server) - An open-source message-broker that originally implemented the Advanced Message Queuing Protocol (AMQP).
 - [Redpanda](https://github.com/vectorizedio/redpanda) - A streaming platform for mission critical workloads. Kafka® compatible, No Zookeeper®, no JVM, and no code changes required.
 - [Red Hat AMQ](https://www.redhat.com/en/technologies/jboss-middleware/amq) - Red Hat AMQ-based on open source communities like Apache ActiveMQ and Apache Kafka.
 - [TIBCO Enterprise Message Service](https://www.tibco.com/products/tibco-enterprise-message-service) - TIBCO EMS is standards-based Java™ Message Service (JMS) implementation allows any application that supports JMS, whether home grown or third-party, to quickly and easily exchange messages.
@@ -290,17 +290,17 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Conductor](https://github.com/Netflix/conductor) - A cloud-based orchestration engine designed to run and manage workflows in a microservices architecture.
 - [Elsa Core](https://github.com/elsa-workflows/elsa-core) -  A library that enables workflow execution in any .NET Core application, making it easier to automate business processes in .NET environments.
 - [Flowable](https://github.com/flowable/flowable-engine) - A set of open-source business process engines that are compact and efficient, making it easier to automate business processes in a scalable and reliable way.
-- [jBPM](https://www.jbpm.org/) -  A toolkit for building business applications that helps you automate business processes and decisions, making it easier to manage complex workflows.
+- [jBPM](https://github.com/kiegroup/jbpm) -  A toolkit for building business applications that helps you automate business processes and decisions, making it easier to manage complex workflows.
 - [StackStorm](https://github.com/StackStorm/st2) - A robust automation engine that provides sensors, triggers, rules, workflows, and actions to help you automate and orchestrate complex workflows and applications.
 
 ## Resources
 *Some useful specifications, patterns, articles and documentation.*
 ### API Specification
-- [API Blueprint](https://apiblueprint.org) - A high-level API description language that is used to design and document APIs.
-- [AsyncAPI](https://www.asyncapi.com/docs/specifications/v2.0.0) - The AsyncAPI specification settles the base for a greater and better tooling ecosystem for Event-Driven Architectures (EDA).
+- [API Blueprint](https://github.com/apiaryio/api-blueprint) - A high-level API description language that is used to design and document APIs.
+- [AsyncAPI](https://github.com/asyncapi/spec) - The AsyncAPI specification settles the base for a greater and better tooling ecosystem for Event-Driven Architectures (EDA).
 - [GraphQL](https://github.com/graphql/graphql-spec) - A query language for APIs and a runtime for fulfilling those queries with your existing data.
-- [JSON:API](https://jsonapi.org) - A specification for building APIs that provides a standardized way to represent resources, relationships, and metadata.
-- [OpenAPI (ex.Swagger)](https://spec.openapis.org/oas/v3.1.0) - Defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. 
+- [JSON:API](https://github.com/json-api/json-api) - A specification for building APIs that provides a standardized way to represent resources, relationships, and metadata.
+- [OpenAPI (ex.Swagger)](https://github.com/OAI/OpenAPI-Specification) - Defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. 
 - [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/) - RESTful API Modeling Language.
 - [WSDL](http://www.w3.org/TR/wsdl20) - XML-based interface description language for SOAP based services.
 ### Articles
@@ -315,7 +315,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [CSV](https://datatracker.ietf.org/doc/html/rfc4180) - A comma-separated values (CSV) file is a delimited text file that uses a comma to separate values.
 - [JSON](https://datatracker.ietf.org/doc/html/rfc8259) - The JavaScript Object Notation (JSON) Data Interchange Format.
 - [NDJSON](https://github.com/ndjson/ndjson-spec) - A standard for delimiting JSON in stream protocols.
-- [Protocol Buffers](https://developers.google.com/protocol-buffers) - A language-neutral, platform-neutral extensible mechanism for serializing structured data.
+- [Protocol Buffers](https://github.com/protocolbuffers/protobuf) - A language-neutral, platform-neutral extensible mechanism for serializing structured data.
 - [XML](https://www.w3.org/TR/2006/REC-xml11-20060816/) - Extensible Markup Language (XML).
 - [YAML](https://yaml.org/) - YAML is a human friendly data serialization standard for all programming languages.
 
