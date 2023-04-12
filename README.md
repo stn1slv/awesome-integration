@@ -31,6 +31,7 @@ System integration is the process of linking together different IT systems (co
   - [Connectors](#connectors)
   - [Data Formats](#data-formats)
   - [Enterprise Integration Patterns](#enterprise-integration-patterns) 
+  - [Integration Architecture Patterns](#integration-architecture-patterns)
   - [Integration Styles](#integration-styles)
   - [Market Analysis](#market-analysis)
   - [Protocols](#protocols)
@@ -381,6 +382,9 @@ System integration is the process of linking together different IT systems (co
 - [Test Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TestMessage.html) - What happens, though, if a component is actively processing messages, but garbles outgoing messages due to an internal fault?  
 - [Transactional Client](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TransactionalClient.html) - How can a client control its transactions with the messaging system?  
 - [Wire Tap](https://www.enterpriseintegrationpatterns.com/patterns/messaging/WireTap.html) - How do you inspect messages that travel on a point-to-point channel?  
+
+### Integration Architecture Patterns
+- [API-led Connectivity pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/API-led-Connectivity-Pattern.md)
 
 ### Integration Styles
 - [File Transfer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FileTransferIntegration.html)
