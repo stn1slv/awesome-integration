@@ -67,13 +67,13 @@ System integration is the process of linking together different IT systems (co
 - [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator) - Allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (both 2.0 and 3.0 are supported).
 - [OpenAPI Style Validator](https://github.com/OpenAPITools/openapi-style-validator) - A customizable style validator to make sure your OpenAPI spec follows your organization's standards.
 - [Spectral](https://github.com/stoplightio/spectral) - A JSON/YAML linter with out of the box support for OpenAPI 3.0 & 2.0 and AsyncAPI.
-- [Swagger Editor](https://swagger.io/tools/swagger-editor/) - Design, describe, and document your API on the first open source editor fully dedicated to OpenAPI-based APIs.
+- [Swagger Editor](https://github.com/swagger-api/swagger-editor) - Design, describe, and document your API on the first open source editor fully dedicated to OpenAPI-based APIs.
 - [Zally](https://github.com/zalando/zally) - A linter for OpenAPI specifications.
 
 ### API Documentation
 *API portals and documentation tools.*
 - [APITree](https://www.apitree.com/) - The central place for managing and sharing API specifications.
-- [DapperDox](http://dapperdox.io) - An Open-Source API documentation generator and server for OpenAPI/Swagger specifications.
+- [DapperDox](https://github.com/DapperDox/dapperdox) - An Open-Source API documentation generator and server for OpenAPI/Swagger specifications.
 - [OpenAPI Explorer](https://github.com/Rhosys/openapi-explorer) - OpenAPI Web component to generate a UI from the spec.
 - [RapiDoc](https://github.com/rapi-doc/RapiDoc) - Create beautiful, customizable, interactive API documentation from OpenAPI Specification.
 - [Redoc](https://github.com/Redocly/redoc) - An open-source tool for generating documentation from OpenAPI (fka Swagger) definitions.
@@ -86,12 +86,12 @@ System integration is the process of linking together different IT systems (co
 *API Gateways.*
 - [Apinto](https://github.com/eolinker/goku) - A Golang-based microservice gateway that provides dynamic routing, service orchestration, multi-tenancy management, and API access control.
 - [Ambassador Edge Stack](https://www.getambassador.io/products/edge-stack/api-gateway/) - A Kubernetes-native API Gateway that helps manage APIs at scale with its customizable routing, authentication, and rate-limiting features.
-- [Apache APISIX](https://apisix.apache.org) - A dynamic, real-time, and high-performance API Gateway that leverages Apache plugins for enhanced functionality.
+- [Apache APISIX](https://github.com/apache/apisix) - A dynamic, real-time, and high-performance API Gateway that leverages Apache plugins for enhanced functionality.
 - [Gloo Edge](https://www.solo.io/products/gloo-edge/) - An Envoy Proxy-based API Gateway that provides advanced traffic management, security, and observability features for modern microservices architectures.
 - [Kong API Gateway](https://github.com/Kong/kong) - A cloud-native, platform-agnostic, and scalable API Gateway that supports plugins for easy integration with third-party services.
 - [KrakenD API Gateway](https://github.com/devopsfaith/krakend-ce) - An ultra-high performance API Gateway that leverages middlewares for fast and efficient API management.
 - [Ocelot](https://github.com/ThreeMammals/Ocelot) - A .NET API Gateway that provides a simple and elegant way to manage APIs with its intuitive routing and middleware configuration.
-- [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway) -  An API Gateway built on top of the Spring ecosystem, providing advanced routing and filtering features for Spring applications.
+- [Spring Cloud Gateway](https://github.com/spring-cloud/spring-cloud-gateway) -  An API Gateway built on top of the Spring ecosystem, providing advanced routing and filtering features for Spring applications.
 - [Traefik](https://github.com/traefik/traefik) - A modern, open-source API Gateway that is designed to handle dynamic container environments such as Kubernetes, Docker Swarm, and Mesos. It provides load balancing, SSL/TLS termination, rate limiting, circuit breaking, and more.
 - [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway that supports REST, GraphQL, TCP, and gRPC protocols. It provides advanced API management features such as rate limiting, access control, and analytics.
 
@@ -100,9 +100,9 @@ System integration is the process of linking together different IT systems (co
 - API clients
   - [Advanced REST Client](https://github.com/advanced-rest-client/arc-electron) - An open-source and free for everyone API tool out of a passion for giving the developer community tools they need.
   - [curl](https://github.com/curl/curl) - Command line tool and library for transferring data with URLs.
-  - [curlie](https://curlie.io) - A frontend to curl that adds the ease of use of httpie, without compromising on features and performance.
-  - [HTTPie](https://httpie.io) - Command line HTTP client, far more dev-friendly than curl.
-  - [Insomnia](https://insomnia.rest/products/insomnia) - Cross-platform HTTP and GraphQL Client.
+  - [curlie](https://github.com/rs/curlie) - A frontend to curl that adds the ease of use of httpie, without compromising on features and performance.
+  - [HTTPie](https://github.com/httpie/httpie) - Command line HTTP client, far more dev-friendly than curl.
+  - [Insomnia](https://github.com/Kong/insomnia) - Cross-platform HTTP and GraphQL Client.
   - [Postman](https://www.postman.com/product/api-client/) - A tool to make HTTP requests, generate mock servers and make API documentation.
   - [SoapUI](https://www.soapui.org/tools/soapui) - An open-source web service testing application for SOAP and REST.
 - MQ clients
@@ -120,7 +120,7 @@ System integration is the process of linking together different IT systems (co
   - [Prism](https://github.com/stoplightio/prism) - An open-source HTTP mock server that can mimic your API`s behavior as if you already built it.
   - [WireMock](https://github.com/tomakehurst/wiremock) - Mock your APIs for fast, robust and comprehensive testing.
 - Testing tools and frameworks
-  - [Apache JMeter](https://jmeter.apache.org/) - An open source java based load testing tool.
+  - [Apache JMeter](https://github.com/apache/jmeter) - An open source java based load testing tool.
   - [Karate](https://github.com/intuit/karate) - Open-source tool to combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework.
   - [Pyresttest](https://github.com/svanoort/pyresttest) - A REST testing and API microbenchmarking tool.
   - [REST Assured](https://github.com/rest-assured/rest-assured) - Java DSL for easy testing of REST services.
@@ -128,10 +128,10 @@ System integration is the process of linking together different IT systems (co
 
 ### BRE
 *Business Rules Engines and Business Rules Management Systems.*
-- [Drools](https://www.drools.org) - Open source tool with full runtime support for Decision Model and Notation (DMN) models at Conformance level 3 and an Eclipse IDE plugin for core development.
+- [Drools](https://github.com/kiegroup/drools) - Open source tool with full runtime support for Decision Model and Notation (DMN) models at Conformance level 3 and an Eclipse IDE plugin for core development.
 - [Easy Rules](https://github.com/j-easy/easy-rules) - A simple Java rules engine.
 - [NxBRE](https://github.com/ddossot/NxBRE/wiki) - Open-source rule engine for the .NET platform.
-- [OpenL Tablets](http://openl-tablets.org/) - An open source business rules engine (BRE, BRMS) and decision management system.
+- [OpenL Tablets](https://github.com/openl-tablets/openl-tablets) - An open source business rules engine (BRE, BRMS) and decision management system.
 
 ### BPM
 *Business Process Management solutions.*
@@ -147,7 +147,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 
 ### Data Mapping Solution
 *Data Mapping solutions.*
-- [AltasMap](https://www.atlasmap.io/) - Data mapping solution with interactive web based user interface, that simplifies configuring integrations between Java, XML, CSV and JSON data sources.
+- [AltasMap](https://github.com/atlasmap/atlasmap) - Data mapping solution with interactive web based user interface, that simplifies configuring integrations between Java, XML, CSV and JSON data sources.
 - [Altova MapForce](https://www.altova.com/mapforce) - A graphical data mapping tool for any-to-any conversion and integration.
 - [JOLT](https://github.com/bazaarvoice/jolt) - JSON to JSON transformation library written in Java where the "specification" for the transform is itself a JSON document.
 - [JSLT](https://github.com/schibsted/jslt) - A complete query and transformation language for JSON. The language design is inspired by jq, XPath, and XQuery.
@@ -158,7 +158,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 - [Apache ServiceMix](https://servicemix.apache.org/) - A flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf.
 - [ArcESB](https://www.arcesb.com/integration/) - Synchronize data across applications, seamlessly integrate with partners, or make data publicly accessible.
 - [IBM App Connect](https://www.ibm.com/cloud/app-connect) - Connect applications together, regardless of the message formats or protocols that they support. Formerly known as IBM Integration Bus.
-- [NServiceBus](https://particular.net/nservicebus) - The most developer-friendly service bus for .NET.
+- [NServiceBus](https://github.com/Particular/NServiceBus) - The most developer-friendly service bus for .NET.
 - [Oracle Service Bus](https://www.oracle.com/middleware/technologies/service-bus.html) - Transforms complex and brittle architectures into agile integration networks by connecting, virtualizing, and managing interactions between services and applications.
 - [Oracle SOA Suite](https://www.oracle.com/middleware/technologies/soasuite.html) - Enables system developers to set up and manage services and to orchestrate them into composite applications and business processes.
 - [Red Hat Fuse](https://www.redhat.com/en/technologies/jboss-middleware/fuse) - Distributed, cloud-native integration platform.
@@ -169,7 +169,7 @@ allow both IT and citizen developers to construct process-centric and case-centr
 
 ### ETL
 *ETL/ELT and data integration tools.*
-- [Apache NiFi](https://nifi.apache.org/) - Apache NiFi is an integrated data logistics platform for automating the movement of data between disparate systems.
+- [Apache NiFi](https://github.com/apache/nifi) - Apache NiFi is an integrated data logistics platform for automating the movement of data between disparate systems.
 - [CloverETL](http://www.cloveretl.com/) - A data integration software suite for data migration and data warehousing, and for feeding data into business intelligence and reporting applications. 
 - [Hevo](https://hevodata.com/) - Hevo Data is a Fully Automated, No-code Data Pipeline Platform supports 150+ ready-to-use integrations across Databases, SaaS Applications, Cloud Storage, SDKs, and Streaming Services.
 - [IBM DataStage](https://www.ibm.com/products/datastage) - A data integration platform that helps businesses understand, cleanse, transform, and deliver trusted information.
