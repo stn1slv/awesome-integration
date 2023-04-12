@@ -61,25 +61,25 @@ System integration is the process of linking together different IT systems (co
 
 ### API Design
 *API design, documentation and life-cycle automation tools.*
-- [Dredd](https://github.com/apiaryio/dredd) - A language-agnostic command-line tool for validating API description document against backend implementation of the API.
-- [OpenAPI-GUI](https://github.com/Mermade/openapi-gui) - A graphical user interface for designing and validating OpenAPI specs.
-- [OpenAPI Diff](https://github.com/OpenAPITools/openapi-diff) - Compare two OpenAPI specifications (3.x) and render the difference to HTML plaintext, or Markdown files.
-- [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator) - Allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (both 2.0 and 3.0 are supported).
-- [OpenAPI Style Validator](https://github.com/OpenAPITools/openapi-style-validator) - A customizable style validator to make sure your OpenAPI spec follows your organization's standards.
-- [Spectral](https://github.com/stoplightio/spectral) - A JSON/YAML linter with out of the box support for OpenAPI 3.0 & 2.0 and AsyncAPI.
-- [Swagger Editor](https://github.com/swagger-api/swagger-editor) - Design, describe, and document your API on the first open source editor fully dedicated to OpenAPI-based APIs.
-- [Zally](https://github.com/zalando/zally) - A linter for OpenAPI specifications.
+- [Dredd](https://github.com/apiaryio/dredd) - Validate API description docs against backend implementation using this language-agnostic CLI tool.
+- [OpenAPI-GUI](https://github.com/Mermade/openapi-gui) - Create and validate OpenAPI specs with ease using this intuitive graphical user interface.
+- [OpenAPI Diff](https://github.com/OpenAPITools/openapi-diff) - Compare OpenAPI specs with version control and visualize the differences in HTML or Markdown format.
+- [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator) - Automate the creation of API client libraries, server stubs, documentation and config files with this powerful OpenAPI Spec tool.
+- [OpenAPI Style Validator](https://github.com/OpenAPITools/openapi-style-validator) - Ensure that your OpenAPI specs meet your organization's standards with this flexible and customizable style validator.
+- [Spectral](https://github.com/stoplightio/spectral) - Detect and fix errors in your JSON/YAML files using this linter tool that supports OpenAPI 3.0 & 2.0 and AsyncAPI.
+- [Swagger Editor](https://github.com/swagger-api/swagger-editor) - Create, describe, and document your API with ease using this open source editor built specifically for OpenAPI-based APIs.
+- [Zally](https://github.com/zalando/zally) - Ensure the quality of your OpenAPI specs with this linter tool that provides extensive analysis and feedback.
 
 ### API Documentation
 *API portals and documentation tools.*
-- [APITree](https://www.apitree.com/) - The central place for managing and sharing API specifications.
-- [DapperDox](https://github.com/DapperDox/dapperdox) - An Open-Source API documentation generator and server for OpenAPI/Swagger specifications.
-- [OpenAPI Explorer](https://github.com/Rhosys/openapi-explorer) - OpenAPI Web component to generate a UI from the spec.
-- [RapiDoc](https://github.com/rapi-doc/RapiDoc) - Create beautiful, customizable, interactive API documentation from OpenAPI Specification.
-- [Redoc](https://github.com/Redocly/redoc) - An open-source tool for generating documentation from OpenAPI (fka Swagger) definitions.
-- [Slate](https://github.com/slatedocs/slate) - Beautiful static documentation for your API.
-- [SwaggerHub](https://swagger.io/tools/swaggerhub/) - An integrated API design and documentation platform, built for teams to drive consistency and discipline across the API development workflow.
-- [Swagger UI](https://github.com/swagger-api/swagger-ui) - Visualize OpenAPI specification definitions in an intuitive UI.
+- [APITree](https://www.apitree.com/) - A tool for managing and sharing API specifications, with version control, API testing automation, and integration with popular API tools.
+- [DapperDox](https://github.com/DapperDox/dapperdox) - An open-source API documentation generator and server for OpenAPI/Swagger specifications, with customizable documentation, automated updates, and easy sharing.
+- [OpenAPI Explorer](https://github.com/Rhosys/openapi-explorer) - A tool for generating user interfaces from OpenAPI specifications, making it easier for software engineers to visualize and interact with APIs.
+- [RapiDoc](https://github.com/rapi-doc/RapiDoc) - A tool that generates customizable, interactive API documentation from OpenAPI Specification, with a range of design options.
+- [Redoc](https://github.com/Redocly/redoc) - An open-source tool for generating documentation from OpenAPI (fka Swagger) definitions, with customizable themes, language support, and branding.
+- [Slate](https://github.com/slatedocs/slate) - A powerful tool that creates static API documentation from markdown, with API reference docs and code samples.
+- [SwaggerHub](https://swagger.io/tools/swaggerhub/) - An integrated API design and documentation platform built for teams, with versioning, testing automation, and integration with popular API tools.
+- [Swagger UI](https://github.com/swagger-api/swagger-ui) - An intuitive tool for exploring and interacting with APIs, with API specification visualization, endpoint exploration, and built-in interactive console.
 
 
 ### API Gateway
@@ -98,59 +98,58 @@ System integration is the process of linking together different IT systems (co
 ### API Testing
 *API testing tools.*
 - API clients
-  - [Advanced REST Client](https://github.com/advanced-rest-client/arc-electron) - An open-source and free for everyone API tool out of a passion for giving the developer community tools they need.
-  - [curl](https://github.com/curl/curl) - Command line tool and library for transferring data with URLs.
-  - [curlie](https://github.com/rs/curlie) - A frontend to curl that adds the ease of use of httpie, without compromising on features and performance.
-  - [HTTPie](https://github.com/httpie/httpie) - Command line HTTP client, far more dev-friendly than curl.
-  - [Insomnia](https://github.com/Kong/insomnia) - Cross-platform HTTP and GraphQL Client.
-  - [Postman](https://www.postman.com/product/api-client/) - A tool to make HTTP requests, generate mock servers and make API documentation.
-  - [SoapUI](https://www.soapui.org/tools/soapui) - An open-source web service testing application for SOAP and REST.
+  - [Advanced REST Client](https://github.com/advanced-rest-client/arc-electron) - An open-source API tool designed for testing and debugging RESTful web services.
+  - [curl](https://github.com/curl/curl) - Command-line tool for transferring data with URLs over various protocols.
+  - [curlie](https://github.com/rs/curlie) - Frontend to curl with the ease of use of httpie without compromising on performance and features.
+  - [HTTPie](https://github.com/httpie/httpie) - User-friendly command-line HTTP client that simplifies HTTP request/response inspection and manipulation.
+  - [Insomnia](https://github.com/Kong/insomnia) - Cross-platform HTTP and GraphQL client designed to make API testing and debugging easier.
+  - [Postman](https://www.postman.com/product/api-client/) - Comprehensive tool for simplifying API development and testing processes with features such as making HTTP requests, generating mock servers, and creating API documentation.
+  - [SoapUI](https://www.soapui.org/tools/soapui) - Open-source web service testing application designed for testing SOAP and REST web services.
 - MQ clients
-  - [JMSToolBox](https://github.com/jmstoolbox/jmstoolbox) - An universal JMS Client able to interact with the greatest number of JMS based message brokers.
-  - [kcat](https://github.com/edenhill/kcat) - A generic non-JVM producer and consumer for Apache Kafka, think of it as a netcat for Kafka. Formerly known as kafkacat.
-  - [MQTT Explorer](https://github.com/thomasnordquist/MQTT-Explorer) - An all-round MQTT client that provides a structured topic overview.
-  - [Offset Explorer](https://www.kafkatool.com) - A GUI application for managing and using Apache Kafka clusters. Formerly known as Kafka Tool.
-  - [Service Bus Explorer](https://github.com/paolosalvatori/ServiceBusExplorer) - A GUI app for Azure Service Bus which provides advanced features like import/export functionality or the ability to test topic, queues, subscriptions, relay services, notification hubs and events hubs.
+  - [JMSToolBox](https://github.com/jmstoolbox/jmstoolbox) - Universal JMS client designed to interact with a wide range of JMS-based message brokers.
+  - [kcat](https://github.com/edenhill/kcat) - Generic non-JVM producer and consumer for Apache Kafka, functioning as a netcat for Kafka.
+  - [MQTT Explorer](https://github.com/thomasnordquist/MQTT-Explorer) - All-round MQTT client with a structured topic overview, suitable for debugging and testing MQTT-based systems.
+  - [Offset Explorer](https://www.kafkatool.com) - GUI application for managing and using Apache Kafka clusters, formerly known as Kafka Tool.
+  - [Service Bus Explorer](https://github.com/paolosalvatori/ServiceBusExplorer) - GUI app for Azure Service Bus, offering advanced features like import/export functionality and the ability to test topic, queues, subscriptions, relay services, notification hubs, and events hubs.
 - Mocking tools
-  - [Microcks](https://github.com/microcks/microcks) - Open source Kubernetes Native tool for API Mocking and Testing. Supports AsyncAPI, OpenAPI, Postman Collections etc.
-  - [Mockable](https://www.mockable.io/) - A simple configurable service to mock out RESTful API or SOAP web-services.
-  - [Mockoon](https://mockoon.com/) - The easiest and quickest way to design and run mock REST APIs.
+  - [Microcks](https://github.com/microcks/microcks) - Open-source Kubernetes-native tool for API mocking and testing, supporting AsyncAPI, OpenAPI, Postman Collections, etc.
+  - [Mockable](https://www.mockable.io/) - Simple configurable service to mock out RESTful API or SOAP web-services.
+  - [Mockoon](https://mockoon.com/) - Easy-to-use tool for designing and running mock REST APIs.
   - [MockServer](https://github.com/mock-server/mockserver) - Easy mocking of any system you integrate with via HTTP or HTTPS.
-  - [Mocky](https://designer.mocky.io/) - A free and unlimited online service which allows to generate custom HTTP responses.
-  - [Prism](https://github.com/stoplightio/prism) - An open-source HTTP mock server that can mimic your API`s behavior as if you already built it.
-  - [WireMock](https://github.com/tomakehurst/wiremock) - Mock your APIs for fast, robust and comprehensive testing.
+  - [Mocky](https://designer.mocky.io/) - Free and unlimited online service for generating custom HTTP responses.
+  - [Prism](https://github.com/stoplightio/prism) - Open-source HTTP mock server that can mimic your API's behavior as if you already built it.
+  - [WireMock](https://github.com/tomakehurst/wiremock) - Mock your APIs for fast, robust, and comprehensive testing.
 - Testing tools and frameworks
-  - [Apache JMeter](https://github.com/apache/jmeter) - An open source java based load testing tool.
-  - [Karate](https://github.com/intuit/karate) - Open-source tool to combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework.
-  - [Pyresttest](https://github.com/svanoort/pyresttest) - A REST testing and API microbenchmarking tool.
+  - [Apache JMeter](https://github.com/apache/jmeter) - Open-source Java-based load testing tool that can be used to test the performance and scalability of web applications, databases, and other network services.
+  - [Karate](https://github.com/intuit/karate) - Open-source tool that combines API test-automation, mocks, performance-testing, and even UI automation into a single, unified framework.
+  - [Pyresttest](https://github.com/svanoort/pyresttest) - Java DSL for easy testing of REST services.
   - [REST Assured](https://github.com/rest-assured/rest-assured) - Java DSL for easy testing of REST services.
-  - [Schemathesis](https://github.com/schemathesis/schemathesis) - Property-based testing for API schemas.
+  - [Schemathesis](https://github.com/schemathesis/schemathesis) - Python library for property-based testing of API schemas.
 
 ### BRE
 *Business Rules Engines and Business Rules Management Systems.*
-- [Drools](https://github.com/kiegroup/drools) - Open source tool with full runtime support for Decision Model and Notation (DMN) models at Conformance level 3 and an Eclipse IDE plugin for core development.
-- [Easy Rules](https://github.com/j-easy/easy-rules) - A simple Java rules engine.
-- [NxBRE](https://github.com/ddossot/NxBRE/wiki) - Open-source rule engine for the .NET platform.
-- [OpenL Tablets](https://github.com/openl-tablets/openl-tablets) - An open source business rules engine (BRE, BRMS) and decision management system.
+- [Drools](https://github.com/kiegroup/drools) - Open-source tool that supports Decision Model and Notation (DMN) models at Conformance level 3 with an Eclipse IDE plugin for core development.
+- [Easy Rules](https://github.com/j-easy/easy-rules) - Simple Java rules engine for straightforward rule processing.
+- [NxBRE](https://github.com/ddossot/NxBRE/wiki) - Open-source rule engine specifically designed for the .NET platform.
+- [OpenL Tablets](https://github.com/openl-tablets/openl-tablets) - Open-source business rules engine (BRE, BRMS) and decision management system that allows users to define, manage, and execute business rules and decision tables.
 
 ### BPM
 *Business Process Management solutions.*
-- [Appian BPM Suite](https://appian.com/platform/complete-automation/business-process-management-bpm.html) - Platform combines low-code development with process management to
-allow both IT and citizen developers to construct process-centric and case-centric applications.
-- [Genpack Cora SeQuence](https://www.genpact.com/cora/sequence) - Orchestrate a more effective flow, generate growth, improve cost efficiency, and drive business agility.
-- [IBM Business Automation Workflow](https://www.ibm.com/products/business-automation-workflow) - A comprehensive business process management platform.
-- [Oracle BPM Suite](https://www.oracle.com/middleware/technologies/bpm.html) - An integrated environment for developing, administering, and using business applications centered around business processes.
-- [Pega Platform](https://www.pega.com/products/platform) - A combined business process management and robotic process automation (RPA) platform with advanced workforce analytics from Pegasystems.
-- [Red Hat Process Automation Manager](https://www.redhat.com/en/technologies/jboss-middleware/process-automation-manager) - An application development platform that enables developers and business experts to create cloud-native applications that automate business operations.
+- [Appian BPM Suite](https://appian.com/platform/complete-automation/business-process-management-bpm.html) - A platform that combines low-code development with process management, allowing both IT and citizen developers to construct process-centric and case-centric applications.
+- [Genpack Cora SeQuence](https://www.genpact.com/cora/sequence) - A tool for orchestrating business processes, driving business agility and improving cost efficiency.
+- [IBM Business Automation Workflow](https://www.ibm.com/products/business-automation-workflow) - A comprehensive business process management platform for developing and administering business applications.
+- [Oracle BPM Suite](https://www.oracle.com/middleware/technologies/bpm.html) - An integrated environment for developing, administering, and using business applications that are centered around business processes.
+- [Pega Platform](https://www.pega.com/products/platform) - A platform for business process management and robotic process automation (RPA) with advanced workforce analytics.
+- [Red Hat Process Automation Manager](https://www.redhat.com/en/technologies/jboss-middleware/process-automation-manager) - Application development platform that enables developers and business experts to create cloud-native applications that automate business operations.
 - [SAP Process Orchestration](https://www.sap.com/products/process-orchestration.html) - A business process management offering and application infrastructure. 
-- [TIBCO BPM Enterprise](https://www.tibco.com/products/business-process-management) - A business process management platform with capabilities for process automation, process documentation, human capital management, process patterns, and predictive operations analytics.
+- [TIBCO BPM Enterprise](https://www.tibco.com/products/business-process-management) - Business process management platform that offers capabilities for process automation, documentation, human capital management, process patterns, and predictive operations analytics.
 
 ### Data Mapping Solution
 *Data Mapping solutions.*
-- [AltasMap](https://github.com/atlasmap/atlasmap) - Data mapping solution with interactive web based user interface, that simplifies configuring integrations between Java, XML, CSV and JSON data sources.
-- [Altova MapForce](https://www.altova.com/mapforce) - A graphical data mapping tool for any-to-any conversion and integration.
-- [JOLT](https://github.com/bazaarvoice/jolt) - JSON to JSON transformation library written in Java where the "specification" for the transform is itself a JSON document.
-- [JSLT](https://github.com/schibsted/jslt) - A complete query and transformation language for JSON. The language design is inspired by jq, XPath, and XQuery.
+- [AltasMap](https://github.com/atlasmap/atlasmap) - A web-based data mapping solution that simplifies integration between Java, XML, CSV, and JSON data sources. Its interactive user interface makes configuring integrations easy.
+- [Altova MapForce](https://www.altova.com/mapforce) - A graphical data mapping tool that can handle any-to-any conversion and integration tasks. It simplifies complex mapping tasks, enabling software engineers to complete projects faster.
+- [JOLT](https://github.com/bazaarvoice/jolt) - A Java-based JSON-to-JSON transformation library that uses a JSON document as the "specification" for the transform. JOLT provides a simple way for software engineers to transform JSON data.
+- [JSLT](https://github.com/schibsted/jslt) - A complete query and transformation language for JSON that is inspired by jq, XPath, and XQuery. With JSLT, software engineers can quickly and easily transform JSON data to meet their needs.
 
 ### ESB
 *Enterprise service bus solutions.*
