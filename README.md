@@ -1,4 +1,4 @@
-# Awesome Integration [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Integration [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/stn1slv/awesome-integration/week/)
 
 > A curated list of awesome system integration software, patterns and resources.
 
