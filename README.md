@@ -83,7 +83,6 @@ System integration is the process of linking together different IT systems (co
 - [SwaggerHub](https://swagger.io/tools/swaggerhub/) - An integrated API design and documentation platform built for teams, with versioning, testing automation, and integration with popular API tools.
 - [Swagger UI](https://github.com/swagger-api/swagger-ui) - An intuitive tool for exploring and interacting with APIs, with API specification visualization, endpoint exploration, and built-in interactive console.
 
-
 ### API Gateway
 *API Gateways.*
 - [Apinto](https://github.com/eolinker/goku) - A Golang-based microservice gateway that provides dynamic routing, service orchestration, multi-tenancy management, and API access control.
@@ -314,6 +313,9 @@ System integration is the process of linking together different IT systems (co
   - [API Designer](https://apiacademy.learnupon.com/) - API design basics and best practicese.
   - [API Product Manager](https://apiacademy.co/2020/05/virtual-api-academy-workshop/) - Management APIs as products.
   - [API Security Architect](https://apiacademy.co/api-certification/) - Securing APIs using modern architectures.
+- IBM
+  - [IBM Certified Solution Implementer – API Connect v10.0.3](https://www.ibm.com/training/certification/C0002604#exam) - An intermediate-level certification is intended for developers who are responsible for developing, publishing, configuring, and managing APIs using IBM API Connect v10.0.3.
+  - [IBM Certified Solution Developer – App Connect Enterprise V11](https://www.ibm.com/training/certification/C0003107#exam) - An intermediate level certification is intended for solution developers who have the knowledge and experience to use IBM App Connect V11.0 to develop, deploy, tune, and support platform-independent message flow applications that use various messaging topologies to transport messages between service requesters and service providers, as well as enable the messages to be routed, transformed, validated, and enriched during processing.
 
 ### Connectors
 - [JCA](https://projects.eclipse.org/projects/ee4j.jca) - Defines a standard architecture for Jakarta EE application components to connect to Enterprise Information Systems. Formerly Java EE Connector Architecture and J2EE Connector Architecture.
