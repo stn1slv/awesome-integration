@@ -28,6 +28,7 @@ System integration is the process of linking together different IT systems (co
 - [Resources](#resources)
   - [API Specification](#api-specification) 
   - [Articles](#articles)
+  - [Certifications](#certifications)
   - [Connectors](#connectors)
   - [Data Formats](#data-formats)
   - [Enterprise Integration Patterns](#enterprise-integration-patterns) 
@@ -303,9 +304,17 @@ System integration is the process of linking together different IT systems (co
 - [OpenAPI (ex.Swagger)](https://github.com/OAI/OpenAPI-Specification) - A language-agnostic specification for creating RESTful APIs that enables both humans and machines to understand the capabilities of a service without the need for source code or documentation.
 - [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/) - A RESTful API Modeling Language that allows software engineers to design and create efficient APIs by modeling resources, endpoints, and interactions.
 - [WSDL](http://www.w3.org/TR/wsdl20) - A powerful XML-based interface description language for SOAP-based services that enables software engineers to describe the functionality of a web service and automate the creation of client code.
+
 ### Articles
 - [Enterprise Integration Using REST](http://martinfowler.com/articles/enterpriseREST.html) - Discusses the constraints and flexibility that you have with nonpublic APIs, and lessons learned from doing large scale RESTful integration across multiple teams.
 - [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html) - Explained by Martin Fowler, originally presented by Leonard Richardson.
+
+### Certifications
+- API Academy
+  - [API Designer](https://apiacademy.learnupon.com/) - API design basics and best practicese.
+  - [API Product Manager](https://apiacademy.co/2020/05/virtual-api-academy-workshop/) - Management APIs as products.
+  - [API Security Architect](https://apiacademy.co/api-certification/) - Securing APIs using modern architectures.
+
 ### Connectors
 - [JCA](https://projects.eclipse.org/projects/ee4j.jca) - Defines a standard architecture for Jakarta EE application components to connect to Enterprise Information Systems. Formerly Java EE Connector Architecture and J2EE Connector Architecture.
 - [Kafka Connect](https://kafka.apache.org/documentation/#connect) - A tool for scalably and reliably streaming data between Apache Kafka and other systems.
