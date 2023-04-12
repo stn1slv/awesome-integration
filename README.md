@@ -2,6 +2,8 @@
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/stn1slv/awesome-integration/main.yml)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/stn1slv/awesome-integration/week/)
+![Logo](.github/logos/dark.png#gh-dark-mode-only)
+![Logo](.github/logos/light.png#gh-light-mode-only)
 
 > A curated list of awesome system integration software, patterns and resources.
 
