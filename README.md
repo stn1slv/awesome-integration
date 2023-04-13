@@ -2,7 +2,7 @@
 
 > A curated list of awesome system integration software, patterns and resources.
 
-System integration is the process of linking together different IT systems (components) to functionally cooperate as a whole.
+System integration is the process of linking together different IT systems (components) to functionally cooperate as a whole.
 
 ## Contents
 - [Projects](#projects)
@@ -440,10 +440,10 @@ System integration is the process of linking together different IT systems (co
 - [Hybrid Integration pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Hybrid-Integration-Pattern.md) - Integrate systems and applications that are deployed both on-premises and in the cloud using a combination of integration technologies.
 
 ### Integration Styles
-- [File Transfer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FileTransferIntegration.html)
-- [Messaging](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Messaging.html)
-- [Remote Procedure Invocation](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EncapsulatedSynchronousIntegration.html)
-- [Shared Database](https://www.enterpriseintegrationpatterns.com/patterns/messaging/SharedDataBaseIntegration.html)
+- [File Transfer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FileTransferIntegration.html) - Data is exchanged through file exchange between applications.
+- [Messaging](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Messaging.html) - Applications exchange messages using a messaging infrastructure.
+- [Remote Procedure Invocation](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EncapsulatedSynchronousIntegration.html) - Applications call functions or procedures on a remote server over a network.
+- [Shared Database](https://www.enterpriseintegrationpatterns.com/patterns/messaging/SharedDataBaseIntegration.html) - Multiple applications access and manipulate the same data through a common database.
 
 ### Market Analysis
 - API Management
