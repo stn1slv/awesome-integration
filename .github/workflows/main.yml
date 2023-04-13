@@ -6,7 +6,15 @@ jobs:
   Awesome_Lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - run: npx awesome-lint
+      # Checks the status of hyperlinks in .md files in verbose mode
+      - name: Check links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-verbose-mode: 'yes'
+      # Run Awesome lint
+      - name: Awesome lint
+        run: npx awesome-lint
