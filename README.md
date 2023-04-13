@@ -59,7 +59,7 @@ System integration is the process of linking together different IT systems (co
 - [TIBCO Cloud Mashery](https://www.tibco.com/products/api-management) - A cloud-native API platform from TIBCO that enables you to deploy APIs anywhere and manage them from everywhere.
 - [Tyk API Management](https://tyk.io/api-lifecycle-management/) - A powerful API management solution that allows you to connect, build, and control APIs with ease.
 - [webMethods API](https://www.softwareag.cloud/site/product/webmethods-api.html) - A comprehensive API management solution from Software AG that provides full lifecycle API management capabilities and enables you to manage APIs in both on-premises and cloud environments.
-- [WSO2 API Manager](https://wso2.com/api-manager/) - A fully open-source API management platform that provides comprehensive API management capabilities and allows you to manage APIs with ease.
+- [WSO2 API Manager](https://github.com/wso2/product-apim) - A fully open-source API management platform that provides comprehensive API management capabilities and allows you to manage APIs with ease.
 
 ### API Design
 *API design, documentation and life-cycle automation tools.*
