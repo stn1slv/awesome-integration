@@ -128,6 +128,7 @@ System integration is the process of linking together different IT systems (co
   - [Pyresttest](https://github.com/svanoort/pyresttest) - Java DSL for easy testing of REST services.
   - [REST Assured](https://github.com/rest-assured/rest-assured) - Java DSL for easy testing of REST services.
   - [Schemathesis](https://github.com/schemathesis/schemathesis) - Python library for property-based testing of API schemas.
+  - [Taurus](https://github.com/Blazemeter/taurus) - An open-source framework for continuous testing that simplifies test execution and management through a user-friendly interface and integrates with various testing tools and frameworks.
 
 ### BRE
 *Business Rules Engines and Business Rules Management Systems.*
