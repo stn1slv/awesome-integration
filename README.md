@@ -25,14 +25,16 @@ System integration is the process of linking together different IT systems (com
   - [RPA](#rpa)
   - [Self-Service Integration](#self-service-integration)
   - [Workflow engine](#workflow-engine)
+- [Integration Patterns](#integration-patterns)
+  - [Enterprise Integration Patterns](#enterprise-integration-patterns) 
+  - [Integration Architecture Patterns](#integration-architecture-patterns)
+  - [SOA Patterns](#soa-patterns)
 - [Resources](#resources)
   - [API Specification](#api-specification) 
   - [Articles](#articles)
   - [Certifications](#certifications)
   - [Connectors](#connectors)
   - [Data Formats](#data-formats)
-  - [Enterprise Integration Patterns](#enterprise-integration-patterns) 
-  - [Integration Architecture Patterns](#integration-architecture-patterns)
   - [Integration Styles](#integration-styles)
   - [Market Analysis](#market-analysis)
   - [Protocols](#protocols)
@@ -102,7 +104,7 @@ System integration is the process of linking together different IT systems (com
 - [Kong API Gateway](https://github.com/Kong/kong) - A cloud-native, platform-agnostic, and scalable API Gateway that supports plugins for easy integration with third-party services.
 - [KrakenD API Gateway](https://github.com/devopsfaith/krakend-ce) - An ultra-high performance API Gateway that leverages middlewares for fast and efficient API management.
 - [Ocelot](https://github.com/ThreeMammals/Ocelot) - A .NET API Gateway that provides a simple and elegant way to manage APIs with its intuitive routing and middleware configuration.
-- [Spring Cloud Gateway](https://github.com/spring-cloud/spring-cloud-gateway) -  An API Gateway built on top of the Spring ecosystem, providing advanced routing and filtering features for Spring applications.
+- [Spring Cloud Gateway](https://github.com/spring-cloud/spring-cloud-gateway) - An API Gateway built on top of the Spring ecosystem, providing advanced routing and filtering features for Spring applications.
 - [Traefik](https://github.com/traefik/traefik) - A modern, open-source API Gateway that is designed to handle dynamic container environments such as Kubernetes, Docker Swarm, and Mesos. It provides load balancing, SSL/TLS termination, rate limiting, circuit breaking, and more.
 - [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway that supports REST, GraphQL, TCP, and gRPC protocols. It provides advanced API management features such as rate limiting, access control, and analytics.
 
@@ -203,8 +205,8 @@ System integration is the process of linking together different IT systems (com
 - [Apache NiFi](https://github.com/apache/nifi) - An automated data integration platform that efficiently moves data between disparate systems.
 - [CloverETL](http://www.cloveretl.com/) - A comprehensive data integration software suite, ideal for data migration, warehousing, and feeding data into BI and reporting apps. 
 - [Hevo](https://hevodata.com/) - A fully automated, no-code data pipeline platform supporting 150+ integrations across databases, SaaS apps, cloud storage, SDKs, and streaming services.
-- [IBM DataStage](https://www.ibm.com/products/datastage) -  A powerful data integration platform that helps businesses understand, cleanse, transform, and deliver trusted information.
-- [Informatica PowerCenter](https://www.informatica.com/products/data-integration/powercenter.html) -  A trusted enterprise data integration and management software powering analytics for big data and cloud.
+- [IBM DataStage](https://www.ibm.com/products/datastage) - A powerful data integration platform that helps businesses understand, cleanse, transform, and deliver trusted information.
+- [Informatica PowerCenter](https://www.informatica.com/products/data-integration/powercenter.html) - A trusted enterprise data integration and management software powering analytics for big data and cloud.
 - [Microsoft SSIS](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services) - A reliable platform for building enterprise-level data integration and transformation solutions.
 - [Oracle Data Integrator](https://www.oracle.com/middleware/technologies/data-integrator.html) - A comprehensive data integration platform that covers all data integration requirements, including batch loads, integration processes, and SOA-enabled data services.
 - [Pentaho Data Integration](https://github.com/pentaho/pentaho-kettle) - A user-friendly platform that enables users to ingest, blend, cleanse, and prepare diverse data from any source with visual tools, eliminating the need for coding and complexity.
@@ -244,7 +246,7 @@ System integration is the process of linking together different IT systems (com
 ### MaaS
 *Cloud Messaging as a Service (MaaS) refers to cloud-based messaging platforms that enable reliable, secure, and scalable communication between distributed applications and services. These platforms provide various messaging patterns such as publish-subscribe, request-reply, and streaming. They also offer features such as message routing, filtering, transformation, and persistence, and support various protocols and APIs for integration with different systems.*
 - [Amazon MQ](https://aws.amazon.com/amazon-mq) - A fully managed message broker service that supports Apache ActiveMQ and RabbitMQ. It provides a reliable, secure, and scalable messaging infrastructure for your applications.
-- [Amazon MSK](https://aws.amazon.com/msk) -  A fully managed service for Apache Kafka that simplifies the setup, scaling, and management of Kafka clusters. It provides a highly available, durable, and performant messaging service for your data streaming needs.
+- [Amazon MSK](https://aws.amazon.com/msk) - A fully managed service for Apache Kafka that simplifies the setup, scaling, and management of Kafka clusters. It provides a highly available, durable, and performant messaging service for your data streaming needs.
 - [Amazon SQS](https://aws.amazon.com/sqs) - A fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications. It offers a reliable, secure, and highly available message storage and delivery system.
 - [Amazon SNS](https://aws.amazon.com/sns) - A fully managed pub/sub messaging service that enables you to send and receive messages between distributed systems, microservices, and event-driven serverless applications. It offers a flexible, scalable, and cost-effective way to notify subscribers of events and messages.
 - [Alibaba Cloud Message Queue for Apache Kafka](https://www.alibabacloud.com/product/kafka) - A fully managed Apache Kafka service that provides high-throughput, low-latency, and highly available message streaming for your applications. It offers easy integration with other Alibaba Cloud services and seamless data migration.
@@ -272,7 +274,7 @@ System integration is the process of linking together different IT systems (com
 *Managed File Transfer (MFT) solutions provide secure and reliable file transfer capabilities that help organizations meet regulatory compliance requirements, improve operational efficiency, and reduce the risk of data breaches. MFT software typically includes features such as encryption, digital signatures, user access controls, and detailed audit logs to ensure that data is transmitted securely and can be tracked throughout the transfer process.*
 - [ArcESB Managed File Transfer](https://www.arcesb.com/mft/) - A comprehensive solution for enterprises seeking to streamline file transfer processes. Its user-friendly interface and powerful capabilities provide an all-in-one MFT solution that can efficiently handle file transfers.
 - [Axway Managed File Transfer](https://www.axway.com/en/products/managed-file-transfer) - Designed to simplify file transfer services for businesses, this MFT solution offers advanced features and security measures to ensure secure and reliable data transfer.
-- [Cornerstone MFT](https://southrivertech.com/products/cornerstone/) -  An enterprise-level MFT server solution with high availability and failover capabilities, providing an efficient way to automate and manage large-scale file transfers.
+- [Cornerstone MFT](https://southrivertech.com/products/cornerstone/) - An enterprise-level MFT server solution with high availability and failover capabilities, providing an efficient way to automate and manage large-scale file transfers.
 - [IBM Sterling Secure File Transfer](https://www.ibm.com/products/secure-file-transfer) - A fast and scalable file transfer platform that offers advanced security features and flexible architecture. It is ideal for businesses that require a reliable and secure MFT platform.
 - [Oracle Managed File Transfer](https://www.oracle.com/middleware/technologies/mft/managed-file-transfer.html) - A comprehensive MFT solution that enables secure file exchange and management, providing a reliable and efficient way for businesses to transfer data with ease.
 - [TIBCO Managed File Transfer](https://www.tibco.com/products/tibco-managed-file-transfer) - A centrally managed MFT platform with powerful automation capabilities and advanced security features, capable of supporting all file transfer use cases. It is an ideal choice for businesses that require a comprehensive MFT solution.
@@ -346,102 +348,16 @@ System integration is the process of linking together different IT systems (com
 - [Cadence](https://github.com/uber/cadence) - A fault-tolerant, stateful code platform that makes it easier to build and manage complex, long-running applications.
 - [Camunda](https://github.com/camunda/camunda-bpm-platform) - An open-source workflow and decision automation platform that helps you automate business processes and decisions in a flexible and scalable way.
 - [Conductor](https://github.com/Netflix/conductor) - A cloud-based orchestration engine designed to run and manage workflows in a microservices architecture.
-- [Elsa Core](https://github.com/elsa-workflows/elsa-core) -  A library that enables workflow execution in any .NET Core application, making it easier to automate business processes in .NET environments.
+- [Elsa Core](https://github.com/elsa-workflows/elsa-core) - A library that enables workflow execution in any .NET Core application, making it easier to automate business processes in .NET environments.
 - [Flowable](https://github.com/flowable/flowable-engine) - A set of open-source business process engines that are compact and efficient, making it easier to automate business processes in a scalable and reliable way.
-- [jBPM](https://github.com/kiegroup/jbpm) -  A toolkit for building business applications that helps you automate business processes and decisions, making it easier to manage complex workflows.
+- [jBPM](https://github.com/kiegroup/jbpm) - A toolkit for building business applications that helps you automate business processes and decisions, making it easier to manage complex workflows.
 - [StackStorm](https://github.com/StackStorm/st2) - A robust automation engine that provides sensors, triggers, rules, workflows, and actions to help you automate and orchestrate complex workflows and applications.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
-## Resources
-*Some useful specifications, patterns, articles and documentation.*
-### API Specification
-- [API Blueprint](https://github.com/apiaryio/api-blueprint) - A powerful high-level language for designing and documenting APIs that allows software engineers to easily collaborate and create efficient APIs.
-- [AsyncAPI](https://github.com/asyncapi/spec) - An essential tool for developing Event-Driven Architectures (EDA) and enables engineers to build a better tooling ecosystem.
-- [GraphQL](https://github.com/graphql/graphql-spec) - A sophisticated query language and runtime for building efficient APIs that empowers engineers to retrieve data from existing systems with ease.
-- [JSON:API](https://github.com/json-api/json-api) - A standardized specification for building APIs that simplifies the representation of resources, relationships, and metadata, making it easier for software engineers to create efficient APIs.
-- [OpenAPI (ex.Swagger)](https://github.com/OAI/OpenAPI-Specification) - A language-agnostic specification for creating RESTful APIs that enables both humans and machines to understand the capabilities of a service without the need for source code or documentation.
-- [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/) - A RESTful API Modeling Language that allows software engineers to design and create efficient APIs by modeling resources, endpoints, and interactions.
-- [WSDL](http://www.w3.org/TR/wsdl20) - A powerful XML-based interface description language for SOAP-based services that enables software engineers to describe the functionality of a web service and automate the creation of client code.
-
-<!--lint disable-->
-**[⬆ back to top](#contents)**
-<!--lint enable-->
-### Articles
-- [Enterprise Integration Using REST](http://martinfowler.com/articles/enterpriseREST.html) - Discusses the constraints and flexibility that you have with nonpublic APIs, and lessons learned from doing large scale RESTful integration across multiple teams.
-- [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html) - Explained by Martin Fowler, originally presented by Leonard Richardson.
-
-<!--lint disable-->
-**[⬆ back to top](#contents)**
-<!--lint enable-->
-### Certifications
-- API Academy
-  - [API Designer](https://apiacademy.learnupon.com/) - Validate your understanding of API design basics and best practices.
-  - [API Product Manager](https://apiacademy.co/2020/05/virtual-api-academy-workshop/) - Demonstrate your proficiency in managing APIs as products.
-  - [API Security Architect](https://apiacademy.co/api-certification/) - Validate your expertise in securing APIs using modern architectures.
-- IBM
-  - [IBM Certified Solution Developer – App Connect Enterprise V11](https://www.ibm.com/training/certification/C0003107#exam) - Validate your intermediate-level knowledge and experience to develop, deploy, tune, and support platform-independent message flow applications using IBM App Connect V11.0.
-  - [IBM Certified Solution Implementer – API Connect v10.0.3](https://www.ibm.com/training/certification/C0002604#exam) - Demonstrate your intermediate-level knowledge and skills to develop, publish, configure, and manage APIs using IBM API Connect v10.0.3.
-- Gravitee
-  - [Event-native API Management Foundations](https://gravitee.getlearnworlds.com/course/gravitee-event-native-api-management-foundations) - Basics of Event-native API Management.
-  - [Event-native API Management Professional](https://gravitee.getlearnworlds.com/course/gravitee-enap-certification) - Focuses on some more advanced API Management concepts, plus foundational knowledge around how to use Gravitee API Management.
-- Kong
-  - [Kong Gateway Certified Associate](https://konghq.com/academy/exam-preparation) - Validate your entry-level knowledge and skills on Kong Gateway for developers, DevOps, and architects.
-- Mulesoft
-  - [MuleSoft Certified Developer - Level 1](https://training.mulesoft.com/certification/developer-mule4-level1) - Validate your knowledge and skills to design, build, test and debug, deploy, and manage basic APIs and integrations using MuleSoft.
-  - [MuleSoft Certified Developer - Level 2](https://training.mulesoft.com/certification/developer-mule4-level2) - Validate your ability to work on production-ready Mule applications that address and balance critical non-functional requirements including monitoring, performance, maintainability, reliability, and security.
-  - [MuleSoft Certified Integration Architect - Level 1](https://training.mulesoft.com/certification/architect-integration-level1) - Validate your knowledge and skills to translate functional and non-functional requirements into integration interfaces and implementations.
-  - [MuleSoft Certified Platform Architect - Level 1](https://training.mulesoft.com/certification/architect-platform-level1) - Validate your knowledge and skills to direct the emergence of an effective application network out of individual integration solutions following API-led connectivity across an organization using Anypoint Platform.
-- Oracle
-  - [Oracle Business Process Management Suite 12c Certified Implementation Specialist](https://education.oracle.com/oracle-business-process-management-suite-12c-essentials/pexam_1Z0-435) - Validate your expertise in implementing Oracle BPM Suite 12c solution.
-  - [Oracle Cloud Platform Application Integration 2022 Certified Professional](https://education.oracle.com/oracle-cloud-platform-application-integration-2022-certified-professional/trackp_OCPAI2022CP) - Validate your understanding of Oracle Application Integration to implement these Cloud services.
-  - [Oracle Data Integrator 12c Certified Implementation Specialist](https://education.oracle.com/oracle-data-integrator-12c-certified-implementation-specialist/trackp_379) - Validate your expertise in selling or implementing Oracle Data Integration 12c solutions.
-  - [Oracle SOA Suite 12c Certified Implementation Specialist](https://education.oracle.com/oracle-soa-suite-12c-essentials/pexam_1Z0-434) - Validate your expertise in implementing solutions based on Oracle SOA Suite 12c.
-- Red Hat
-  - [Red Hat Certified Specialist in API Management](https://www.redhat.com/en/services/certification/red-hat-certified-specialist-api-management) -  Validates the ability to create and maintain enterprise APIs using the Red Hat 3scale API Management platform.
-  - [Red Hat Certified Specialist in Business Rules](https://www.redhat.com/en/services/certification/rhcs-business-rules) - Checks the knowledge, skills, and abilities needed to perform tasks involving the implementation and management of business logic using the Red Hat JBoss BRMS.
-  - [Red Hat Certified Specialist in Cloud-native Integration](https://www.redhat.com/en/services/certification/rhcs-cloud-native-integration) -  Validates the ability to create and maintain enterprise integration services based on Red Hat Fuse, Camel, and APIs.
-  - [Red Hat Certified Specialist in Event-Driven Development with Kafka](https://www.redhat.com/en/services/certification/red-hat-certified-specialist-event-driven-development-kafka) - Validates the ability to develop applications using Apache Kafka and Apache Kafka Streams.
-- TIBCO
-  - [TIBCO BusinessWorks Associate](https://www.tibco.com/services/education/certification/tibco-businessworks-associate-certification-exam) - Checks the understanding of Business Studio and TIBCO Cloud Integration, designing application components (modules, WSDL, REST API), developing integration applications, and testing, deploying, and managing applications.
-  - [TIBCO BusinessWorks Certified Professional](https://www.tibco.com/services/education/certification/tibco-businessworks-6-certification-exam) - Validates the ability to design, develop, deploy, monitor, and manage TIBCO BusinessWorks applications of average complexity with minimal supervision.
-  - [TIBCO BusinessWorks Container Edition Certified Professional](https://www.tibco.com/services/education/certification/tibco-businessworks-container-edition-certification-exam) - Validates the ability to develop, deploy, and manage TIBCO BusinessWorks Container Edition applications of average complexity with minimal supervision.
-  - [TIBCO BPM Enterprise Associate](https://www.tibco.com/services/education/certification/tibco-bpm-enterprise-associate-certification-exam) - Checks the understanding of TIBCO BPM's features and capabilities, developing and managing business processes, and deploying and testing process applications.
-  - [TIBCO BPM Enterprise Certified Professional](https://www.tibco.com/services/education/certification/tibco-bpm-enterprise-5-certification-exam) - Validates the ability to design, develop, deploy, and manage business processes using TIBCO BPM Enterprise Suite.
-  - [TIBCO Cloud Associate Certification](https://www.tibco.com/services/education/certification/tibco-cloud-associate-certification-exam) - Validates the skills and knowledge required to work with TIBCO Cloud, including its key components and features.
-  - [TIBCO Cloud API Management Associate](https://www.tibco.com/services/education/certification/tibco-mashery-associate-certification-exam) - Covers topics such as API definition creation and testing, API key authentication, and using the Developer Portal and I/O docs.
-  - [TIBCO Cloud API Management Certified Professional](https://www.tibco.com/services/education/certification/tibco-cloud-api-management-professional-certification-exam) - Validates the ability to implement TIBCO Cloud Mesh, OAuth-based security, and manage SOAP services.
-  - [TIBCO Cloud Integration Associate](https://www.tibco.com/services/education/certification/tibco-cloud-integration-associate-certification-exam) - Validates the skills and knowledge required to work with TIBCO Cloud Integration, including its Connect, Develop, and Integrate capabilities.
-  - [TIBCO Cloud Integration - Connect Associate](https://www.tibco.com/services/education/certification/tibco-cloud-integration-connect-associate-certification-exam) - Checks the usage of Connect capability of TIBCO Cloud Integration, installing On-Premise Agent, creating connections and integration apps, and configuring flows.
-  - [TIBCO Cloud Integration - Connect Certified Professional](https://www.tibco.com/services/education/certification/tibco-cloud-integration-connect-certified-professional-exam) - Checks the creation and management of connections, ensuring connection security, and troubleshooting issues related to connections in TIBCO Cloud Integration.
-  - [TIBCO Cloud Integration Certified Professional](https://www.tibco.com/services/education/certification/tibco-cloud-integration-certified-professional-exam) - Checks the knowledge about capabilities and benefits, integrating, developing, and connecting applications, creating APIs using the API Modeler and Mock functionality, and more.
-  - [TIBCO Messaging Associate](https://www.tibco.com/services/education/certification/tibco-messaging-associate-certification-exam) - Covers topics such as TIBCO Enterprise Message Service (EMS), TIBCO FTL, TIBCO eFTL, as well as other messaging technologies such as Apache Kafka, Apache Pulsar, and Eclipse Mosquitto.
-  - [TIBCO Messaging Certified Professional](https://www.tibco.com/services/education/certification/tibco-messaging-certified-professional-exam) - Validates the skills and knowledge required to work with TIBCO Messaging and its components, including TIBCO Enterprise Message Service (EMS), TIBCO FTL, and TIBCO eFTL.
-
-<!--lint disable-->
-**[⬆ back to top](#contents)**
-<!--lint enable-->
-### Connectors
-- [JCA](https://projects.eclipse.org/projects/ee4j.jca) - Defines a standard architecture for Jakarta EE application components to connect to Enterprise Information Systems. Formerly Java EE Connector Architecture and J2EE Connector Architecture.
-- [Kafka Connect](https://kafka.apache.org/documentation/#connect) - A tool for scalably and reliably streaming data between Apache Kafka and other systems.
-
-<!--lint disable-->
-**[⬆ back to top](#contents)**
-<!--lint enable-->
-### Data Formats
-- [Apache Avro](https://github.com/apache/avro) - Data serialization system that provides compact, fast, and efficient serialization of structured data. It supports schema evolution, allows for efficient data compression, and is designed to work well with big data processing frameworks.
-- [BSON](https://bsonspec.org/) - Binary-encoded serialization format for JSON-like documents that is designed to be lightweight and efficient. It supports rich data types and is widely used in NoSQL databases, such as MongoDB.
-- [CSV](https://datatracker.ietf.org/doc/html/rfc4180) - A simple and widely used data format that stores tabular data in plain text. It is easy to read and write, and can be processed by most programming languages.
-- [JSON](https://datatracker.ietf.org/doc/html/rfc8259) - A lightweight and easy-to-read data format that is widely used for data exchange. It supports a wide range of data types and is compatible with many programming languages.
-- [NDJSON](https://github.com/ndjson/ndjson-spec) - A standard for delimiting JSON objects in stream protocols. It allows for efficient processing of large JSON datasets and is widely used in big data processing.
-- [Protocol Buffers](https://github.com/protocolbuffers/protobuf) - A language-neutral and platform-neutral serialization mechanism that is designed to be highly efficient and extensible. It supports rich data types and is widely used in distributed systems, such as gRPC and Apache Kafka.
-- [XML](https://www.w3.org/TR/2006/REC-xml11-20060816/) - A flexible and widely used markup language that is used for storing and exchanging structured data. It supports rich data types and is compatible with many programming languages.
-- [YAML](https://yaml.org/) - A human-friendly and easy-to-read data serialization format that is widely used for configuration files and data exchange. It supports rich data types and is compatible with most programming languages.
-
-<!--lint disable-->
-**[⬆ back to top](#contents)**
-<!--lint enable-->
+## Integration Patterns
+*Integration patterns provide standardized solutions for common integration problems within an enterprise. Enterprise Integration Patterns (EIP) provide a common language for describing integration problems and solutions, while Integration Architecture Patterns address high-level concerns of enterprise architects. Service-Oriented Architecture (SOA) patterns provide guidance for designing and implementing service-oriented architectures, ensuring that services are scalable, reusable, and loosely coupled.*
 ### Enterprise Integration Patterns
 *Patterns from a book by Gregor Hohpe and Bobby Woolf.*
 - [Aggregator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html) - How do we combine the results of individual, but related messages so that they can be processed as a whole?  
@@ -510,11 +426,228 @@ System integration is the process of linking together different IT systems (com
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### Integration Architecture Patterns
+*Design patterns used to connect systems and applications in an efficient and seamless manner.*
 - [API-led Connectivity pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/API-led-Connectivity-Pattern.md) - Use APIs to connect different systems and applications.
 - [Anti Corruption Layer Pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Anti-Corruption-Layer-Pattern.md) - Add a layer to isolate and transform data between systems.
 - [Change Data Capture Pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Introduction-to-Change-Data-Capture.md) - Capture and propagate changes made to a database or data source in real-time.
 - [Hybrid API Management pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Hybrid-API-Management-Pattern.md) - Manage APIs that span both cloud and on-premises environments using a central control plane.
 - [Hybrid Integration pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Hybrid-Integration-Pattern.md) - Integrate systems and applications that are deployed both on-premises and in the cloud using a combination of integration technologies.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### SOA Patterns
+*SOA patterns are design solutions that provide guidelines and best practices for developing flexible and reusable service-oriented applications. These patterns address various aspects of service-oriented application design, including service identification, interaction, composition, and granularity.*
+- Foundational Inventory Patterns
+   - [Canonical Protocol](https://patterns.arcitura.com/soa-patterns/design_patterns/canonical_protocol) - Defines a common communication protocol between services to enable interoperability and decoupling.
+   - [Canonical Schema](https://patterns.arcitura.com/soa-patterns/design_patterns/canonical_schema) - Defines a standard data model and format for exchanging data between services.
+   - [Domain Inventory](https://patterns.arcitura.com/soa-patterns/design_patterns/domain_inventory) - Identifies and categorizes the types of services within a particular domain.
+   - [Enterprise Inventory](https://patterns.arcitura.com/soa-patterns/design_patterns/enterprise_inventory) - Identifies and categorizes the types of services within a particular domain.
+   - [Logic Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/logic_centralization) - Centralizes business logic within a service layer to reduce redundancy and promote consistency.
+   - [Service Layers](https://patterns.arcitura.com/soa-patterns/design_patterns/service_layers) - Centralizes business logic within a service layer to reduce redundancy and promote consistency.
+   - [Service Normalization](https://patterns.arcitura.com/soa-patterns/design_patterns/service_normalization) - Centralizes business logic within a service layer to reduce redundancy and promote consistency.
+
+- Logical Inventory Layer Patterns
+   - [Entity Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/entity_abstraction) - Abstracts data entities to simplify data access and reduce coupling.
+   - [Process Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/process_abstraction) - Abstracts processes to improve reusability and maintainability.
+   - [Utility Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/utility_abstraction) - Abstracts common utilities to reduce duplication and promote consistency.
+   - [Micro Task Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/micro_task_abstraction) - Breaks down tasks into smaller, more granular tasks for easier management.
+
+- Inventory Centralization Patterns
+   - [Policy Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/policy_centralization) - Centralizes policies to reduce duplication and improve consistency.
+   - [Process Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/process_centralization) - Centralizes processes to improve reusability and maintainability.
+   - [Rules Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/rules_centralization) - Centralizes business rules to reduce duplication and promote consistency.
+   - [Schema Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/schema_centralization) - Centralizes data schemas to reduce duplication and improve consistency.
+
+- Inventory Implementation Patterns
+   - [Canonical Resources](https://patterns.arcitura.com/soa-patterns/design_patterns/canonical_resources) - Defines a standard set of resources for common functionality across services.
+   - [Cross-Domain Utility Layer](https://patterns.arcitura.com/soa-patterns/design_patterns/cross_domain_utility_layer) - Uses multiple protocols for improved performance and flexibility.
+   - [Dual Protocols](https://patterns.arcitura.com/soa-patterns/design_patterns/dual_protocols) - Defines a common utility layer across multiple domains.
+   - [Inventory Endpoint](https://patterns.arcitura.com/soa-patterns/design_patterns/inventory_endpoint) - Defines a standard endpoint for accessing inventory resources.
+   - [Service Grid](https://patterns.arcitura.com/soa-patterns/design_patterns/service_grid) - Provides a framework for managing and scaling services.
+   - [State Repository](https://patterns.arcitura.com/soa-patterns/design_patterns/state_repository) - Stores and manages service state information.
+   - [Stateful Services](https://patterns.arcitura.com/soa-patterns/design_patterns/stateful_services) - Maintains state information across service invocations.
+   - [Augmented Protocols](https://patterns.arcitura.com/soa-patterns/design_patterns/augmented_protocols) - Enhances protocols with additional features.
+
+- Inventory Governance Patterns
+   - [Canonical Expression](https://patterns.arcitura.com/soa-patterns/design_patterns/canonical_expression) - Defines a standard expression language for inventory data.
+   - [Canonical Versioning](https://patterns.arcitura.com/soa-patterns/design_patterns/canonical_versioning) - Defines a standard versioning scheme for inventory resources.
+   - [Metadata Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/metadata_centralization) - Centralizes metadata to reduce duplication and improve consistency.
+
+- Foundational Service Patterns
+   - [Agnostic Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/agnostic_capability) - Abstracts service capabilities for improved flexibility.
+   - [Agnostic Context](https://patterns.arcitura.com/soa-patterns/design_patterns/agnostic_context) - Abstracts service context for improved flexibility.
+   - [Functional Decomposition](https://patterns.arcitura.com/soa-patterns/design_patterns/functional_decomposition) - Breaks down services into smaller, more manageable components.
+   - [Non-Agnostic Context](https://patterns.arcitura.com/soa-patterns/design_patterns/non_agnostic_context) - Breaks down services into smaller, more manageable components.
+   - [Service Encapsulation](https://patterns.arcitura.com/soa-patterns/design_patterns/service_encapsulation) - Encapsulates service functionality for improved maintainability.
+
+- Service Implementation Patterns
+   - [Partial State Deferral](https://patterns.arcitura.com/soa-patterns/design_patterns/partial_state_deferral) - Encapsulates service functionality for improved maintainability.
+   - [Partial Validation](https://patterns.arcitura.com/soa-patterns/design_patterns/partial_validation) - Validates only relevant data for improved performance.
+   - [Redundant Implementation](https://patterns.arcitura.com/soa-patterns/design_patterns/redundant_implementation) - Implements multiple versions of a service for improved flexibility.
+   - [Service Data Replication](https://patterns.arcitura.com/soa-patterns/design_patterns/service_data_replication) - Replicates data across multiple services for improved performance.
+   - [Service Façade](https://patterns.arcitura.com/soa-patterns/design_patterns/service_facade) - Provides a simplified interface to a complex service for improved usability.
+   - [UI Mediator](https://patterns.arcitura.com/soa-patterns/design_patterns/ui_mediator) - Mediates between the user interface and underlying services for improved usability.
+   - [Reference Data Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/reference_data_centralization) - Centralizes reference data to reduce duplication and improve consistency.
+   - [Microservice Deployment](https://patterns.arcitura.com/soa-patterns/design_patterns/microservice_deployment) - Deploys services as independent, autonomous units for improved scalability and resilience.
+   - [Containerization](https://patterns.arcitura.com/soa-patterns/design_patterns/containerization) - How can an environment be provided with maximum support for services with high-performance recovery and scalability requirements?
+
+- Service Security Patterns
+   - [Exception Shielding](https://patterns.arcitura.com/soa-patterns/design_patterns/exception_shielding) - Protects against security vulnerabilities through proper handling of exceptions.
+   - [Message Screening](https://patterns.arcitura.com/soa-patterns/design_patterns/message_screening) - Screens messages for malicious content.
+   - [Service Perimeter Guard](https://patterns.arcitura.com/soa-patterns/design_patterns/service_perimeter_guard) - Guards the service perimeter to prevent unauthorized access.
+   - [Trusted Subsystem](https://patterns.arcitura.com/soa-patterns/design_patterns/trusted_subsystem) - Establishes trust between subsystems for improved security.
+
+- Service Contract Design Patterns
+   - [Concurrent Contracts](https://patterns.arcitura.com/soa-patterns/design_patterns/concurrent_contracts) - Allows multiple versions of a service contract to coexist simultaneously.
+   - [Contract Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/contract_centralization) - Centralizes service contracts to improve consistency and reduce duplication.
+   - [Contract Denormalization](https://patterns.arcitura.com/soa-patterns/design_patterns/contract_denormalization) - Centralizes service contracts to improve consistency and reduce duplication.
+   - [Decoupled Contract](https://patterns.arcitura.com/soa-patterns/design_patterns/decoupled_contract) - Decouples service contracts from their implementation for improved flexibility.
+   - [Validation Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/validation_abstraction) - Abstracts validation logic to improve reusability and maintainability.
+
+- Legacy Encapsulation Patterns
+   - [File Gateway](https://patterns.arcitura.com/soa-patterns/design_patterns/file_gateway) - Provides a gateway to access legacy file-based systems.
+   - [Legacy Wrapper](https://patterns.arcitura.com/soa-patterns/design_patterns/legacy_wrapper) - Wraps legacy systems to expose them as services.
+   - [Multi-Channel Endpoint](https://patterns.arcitura.com/soa-patterns/design_patterns/multi_channel_endpoint) - Provides multiple communication channels to access legacy systems.
+
+- Service Governance Patterns
+   - [Compatible Change](https://patterns.arcitura.com/soa-patterns/design_patterns/compatible_change) - Enables changes to a service without breaking existing clients.
+   - [Decomposed Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/decomposed_capability) - Breaks down a service capability into smaller, more manageable pieces.
+   - [Distributed Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/distributed_capability) - Breaks down a service capability into smaller, more manageable pieces.
+   - [Proxy Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/proxy_capability) - Provides a proxy to a remote service capability to improve performance and reduce network overhead.
+   - [Service Decomposition](https://patterns.arcitura.com/soa-patterns/design_patterns/service_decomposition) - Breaks down a monolithic service into smaller, more manageable pieces.
+   - [Service Refactoring](https://patterns.arcitura.com/soa-patterns/design_patterns/service_refactoring) - Refactors a service to improve its design and performance.
+   - [Termination Notification](https://patterns.arcitura.com/soa-patterns/design_patterns/termination_notification) - Notifies clients of a service's termination.
+   - [Version Identification](https://patterns.arcitura.com/soa-patterns/design_patterns/version_identification) - Identifies the version of a service. 
+
+- Capability Composition Patterns
+   - [Capability Composition](https://patterns.arcitura.com/soa-patterns/design_patterns/capability_composition) - Combines multiple service capabilities to create a new capability.
+   - [Capability Recomposition](https://patterns.arcitura.com/soa-patterns/design_patterns/capability_recomposition) - Recombines existing service capabilities to create a new capability.
+
+- Service Messaging Patterns
+   - [Asynchronous Queuing](https://patterns.arcitura.com/soa-patterns/design_patterns/asynchronous_queuing) - Uses a message queue to decouple services and improve scalability and reliability.
+   - [Event-Driven Messaging](https://patterns.arcitura.com/soa-patterns/design_patterns/event_driven_messaging) - Uses events to trigger service invocations and reduce coupling.
+   - [Intermediate Routing](https://patterns.arcitura.com/soa-patterns/design_patterns/intermediate_routing) - Uses intermediate routing nodes to improve performance and flexibility.
+   - [Messaging Metadata](https://patterns.arcitura.com/soa-patterns/design_patterns/messaging_metadata) - Uses metadata to describe and manage service messages.
+   - [Reliable Messaging](https://patterns.arcitura.com/soa-patterns/design_patterns/reliable_messaging) - Ensures message delivery and reliability in a distributed environment.
+   - [Service Agent](https://patterns.arcitura.com/soa-patterns/design_patterns/service_agent) - Acts as a proxy for a remote service to improve performance and reduce network overhead.
+   - [Service Callback](https://patterns.arcitura.com/soa-patterns/design_patterns/service_callback) - Uses callbacks to communicate between services.
+   - [Service Instance Routing](https://patterns.arcitura.com/soa-patterns/design_patterns/service_instance_routing) - Routes messages based on the service instance to improve performance and scalability.
+   - [Service Messaging](https://patterns.arcitura.com/soa-patterns/design_patterns/service_messaging) - Describes the communication between services.
+   - [State Messaging](https://patterns.arcitura.com/soa-patterns/design_patterns/state_messaging) - Uses messages to manage state information in a distributed environment.
+
+- Composition Implementation Patterns
+   - [Agnostic Sub-Controller](https://patterns.arcitura.com/soa-patterns/design_patterns/agnostic_sub_controller) - Separates sub-controllers from the main controller to improve reusability and maintainability.
+   - [Atomic Service Transaction](https://patterns.arcitura.com/soa-patterns/design_patterns/atomic_service_transaction) - Uses transactions to ensure atomicity and consistency across multiple service invocations.
+   - [Compensating Service Transaction](https://patterns.arcitura.com/soa-patterns/design_patterns/compensating_service_transaction) - Reverses the effects of a failed transaction.
+   - [Composition Autonomy](https://patterns.arcitura.com/soa-patterns/design_patterns/composition_autonomy) - Enables services to act autonomously within a composition.
+
+- Service Interaction Security Patterns
+   - [Brokered Authentication](https://patterns.arcitura.com/soa-patterns/design_patterns/brokered_authentication) - Authenticates clients through a broker.
+   - [Data Confidentiality](https://patterns.arcitura.com/soa-patterns/design_patterns/data_confidentiality) - Ensures data confidentiality in a distributed environment.
+   - [Data Origin Authentication](https://patterns.arcitura.com/soa-patterns/design_patterns/data_origin_authentication) - Authenticates the origin of a message.
+   - [Direct Authentication](https://patterns.arcitura.com/soa-patterns/design_patterns/direct_authentication) - Authenticates clients directly.
+
+- Transformation Patterns
+   - [Data Format Transformation](https://patterns.arcitura.com/soa-patterns/design_patterns/data_format_transformation) - Transforms data formats to enable interoperability.
+   - [Data Model Transformation](https://patterns.arcitura.com/soa-patterns/design_patterns/data_model_transformation) - Transforms data models to enable interoperability.
+   - [Protocol Bridging](https://patterns.arcitura.com/soa-patterns/design_patterns/protocol_bridging) - Bridges between different protocols to enable interoperability.
+
+- REST-inspired Patterns
+   - [Entity Linking](https://patterns.arcitura.com/soa-patterns/design_patterns/entity_linking) - Links related resources to enable navigation and discovery.
+   - [Lightweight Endpoint](https://patterns.arcitura.com/soa-patterns/design_patterns/lightweight_endpoint) - Provides a lightweight endpoint for resource access.
+   - [Reusable Contract](https://patterns.arcitura.com/soa-patterns/design_patterns/reusable_contract) - Reuses common contracts to improve consistency and reduce duplication.
+   - [Content Negotiation](https://patterns.arcitura.com/soa-patterns/design_patterns/content_negotiation) - Negotiates the content format between clients and servers.
+   - [Endpoint Redirection](https://patterns.arcitura.com/soa-patterns/design_patterns/endpoint_redirection) - Redirects clients to alternative endpoints.
+   - [Idempotent Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/idempotent_capability) - Ensures that the same action can be performed multiple times without changing the system state.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+## Resources
+*Some useful specifications, standards, articles and documentation.*
+### API Specification
+- [API Blueprint](https://github.com/apiaryio/api-blueprint) - A powerful high-level language for designing and documenting APIs that allows software engineers to easily collaborate and create efficient APIs.
+- [AsyncAPI](https://github.com/asyncapi/spec) - An essential tool for developing Event-Driven Architectures (EDA) and enables engineers to build a better tooling ecosystem.
+- [GraphQL](https://github.com/graphql/graphql-spec) - A sophisticated query language and runtime for building efficient APIs that empowers engineers to retrieve data from existing systems with ease.
+- [JSON:API](https://github.com/json-api/json-api) - A standardized specification for building APIs that simplifies the representation of resources, relationships, and metadata, making it easier for software engineers to create efficient APIs.
+- [OpenAPI (ex.Swagger)](https://github.com/OAI/OpenAPI-Specification) - A language-agnostic specification for creating RESTful APIs that enables both humans and machines to understand the capabilities of a service without the need for source code or documentation.
+- [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/) - A RESTful API Modeling Language that allows software engineers to design and create efficient APIs by modeling resources, endpoints, and interactions.
+- [WSDL](http://www.w3.org/TR/wsdl20) - A powerful XML-based interface description language for SOAP-based services that enables software engineers to describe the functionality of a web service and automate the creation of client code.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### Articles
+- [Enterprise Integration Using REST](http://martinfowler.com/articles/enterpriseREST.html) - Discusses the constraints and flexibility that you have with nonpublic APIs, and lessons learned from doing large scale RESTful integration across multiple teams.
+- [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html) - Explained by Martin Fowler, originally presented by Leonard Richardson.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### Certifications
+- API Academy
+  - [API Designer](https://apiacademy.learnupon.com/) - Validate your understanding of API design basics and best practices.
+  - [API Product Manager](https://apiacademy.co/2020/05/virtual-api-academy-workshop/) - Demonstrate your proficiency in managing APIs as products.
+  - [API Security Architect](https://apiacademy.co/api-certification/) - Validate your expertise in securing APIs using modern architectures.
+- IBM
+  - [IBM Certified Solution Developer – App Connect Enterprise V11](https://www.ibm.com/training/certification/C0003107#exam) - Validate your intermediate-level knowledge and experience to develop, deploy, tune, and support platform-independent message flow applications using IBM App Connect V11.0.
+  - [IBM Certified Solution Implementer – API Connect v10.0.3](https://www.ibm.com/training/certification/C0002604#exam) - Demonstrate your intermediate-level knowledge and skills to develop, publish, configure, and manage APIs using IBM API Connect v10.0.3.
+- Gravitee
+  - [Event-native API Management Foundations](https://gravitee.getlearnworlds.com/course/gravitee-event-native-api-management-foundations) - Basics of Event-native API Management.
+  - [Event-native API Management Professional](https://gravitee.getlearnworlds.com/course/gravitee-enap-certification) - Focuses on some more advanced API Management concepts, plus foundational knowledge around how to use Gravitee API Management.
+- Kong
+  - [Kong Gateway Certified Associate](https://konghq.com/academy/exam-preparation) - Validate your entry-level knowledge and skills on Kong Gateway for developers, DevOps, and architects.
+- Mulesoft
+  - [MuleSoft Certified Developer - Level 1](https://training.mulesoft.com/certification/developer-mule4-level1) - Validate your knowledge and skills to design, build, test and debug, deploy, and manage basic APIs and integrations using MuleSoft.
+  - [MuleSoft Certified Developer - Level 2](https://training.mulesoft.com/certification/developer-mule4-level2) - Validate your ability to work on production-ready Mule applications that address and balance critical non-functional requirements including monitoring, performance, maintainability, reliability, and security.
+  - [MuleSoft Certified Integration Architect - Level 1](https://training.mulesoft.com/certification/architect-integration-level1) - Validate your knowledge and skills to translate functional and non-functional requirements into integration interfaces and implementations.
+  - [MuleSoft Certified Platform Architect - Level 1](https://training.mulesoft.com/certification/architect-platform-level1) - Validate your knowledge and skills to direct the emergence of an effective application network out of individual integration solutions following API-led connectivity across an organization using Anypoint Platform.
+- Oracle
+  - [Oracle Business Process Management Suite 12c Certified Implementation Specialist](https://education.oracle.com/oracle-business-process-management-suite-12c-essentials/pexam_1Z0-435) - Validate your expertise in implementing Oracle BPM Suite 12c solution.
+  - [Oracle Cloud Platform Application Integration 2022 Certified Professional](https://education.oracle.com/oracle-cloud-platform-application-integration-2022-certified-professional/trackp_OCPAI2022CP) - Validate your understanding of Oracle Application Integration to implement these Cloud services.
+  - [Oracle Data Integrator 12c Certified Implementation Specialist](https://education.oracle.com/oracle-data-integrator-12c-certified-implementation-specialist/trackp_379) - Validate your expertise in selling or implementing Oracle Data Integration 12c solutions.
+  - [Oracle SOA Suite 12c Certified Implementation Specialist](https://education.oracle.com/oracle-soa-suite-12c-essentials/pexam_1Z0-434) - Validate your expertise in implementing solutions based on Oracle SOA Suite 12c.
+- Red Hat
+  - [Red Hat Certified Specialist in API Management](https://www.redhat.com/en/services/certification/red-hat-certified-specialist-api-management) - Validates the ability to create and maintain enterprise APIs using the Red Hat 3scale API Management platform.
+  - [Red Hat Certified Specialist in Business Rules](https://www.redhat.com/en/services/certification/rhcs-business-rules) - Checks the knowledge, skills, and abilities needed to perform tasks involving the implementation and management of business logic using the Red Hat JBoss BRMS.
+  - [Red Hat Certified Specialist in Cloud-native Integration](https://www.redhat.com/en/services/certification/rhcs-cloud-native-integration) - Validates the ability to create and maintain enterprise integration services based on Red Hat Fuse, Camel, and APIs.
+  - [Red Hat Certified Specialist in Event-Driven Development with Kafka](https://www.redhat.com/en/services/certification/red-hat-certified-specialist-event-driven-development-kafka) - Validates the ability to develop applications using Apache Kafka and Apache Kafka Streams.
+- TIBCO
+  - [TIBCO BusinessWorks Associate](https://www.tibco.com/services/education/certification/tibco-businessworks-associate-certification-exam) - Checks the understanding of Business Studio and TIBCO Cloud Integration, designing application components (modules, WSDL, REST API), developing integration applications, and testing, deploying, and managing applications.
+  - [TIBCO BusinessWorks Certified Professional](https://www.tibco.com/services/education/certification/tibco-businessworks-6-certification-exam) - Validates the ability to design, develop, deploy, monitor, and manage TIBCO BusinessWorks applications of average complexity with minimal supervision.
+  - [TIBCO BusinessWorks Container Edition Certified Professional](https://www.tibco.com/services/education/certification/tibco-businessworks-container-edition-certification-exam) - Validates the ability to develop, deploy, and manage TIBCO BusinessWorks Container Edition applications of average complexity with minimal supervision.
+  - [TIBCO BPM Enterprise Associate](https://www.tibco.com/services/education/certification/tibco-bpm-enterprise-associate-certification-exam) - Checks the understanding of TIBCO BPM's features and capabilities, developing and managing business processes, and deploying and testing process applications.
+  - [TIBCO BPM Enterprise Certified Professional](https://www.tibco.com/services/education/certification/tibco-bpm-enterprise-5-certification-exam) - Validates the ability to design, develop, deploy, and manage business processes using TIBCO BPM Enterprise Suite.
+  - [TIBCO Cloud Associate Certification](https://www.tibco.com/services/education/certification/tibco-cloud-associate-certification-exam) - Validates the skills and knowledge required to work with TIBCO Cloud, including its key components and features.
+  - [TIBCO Cloud API Management Associate](https://www.tibco.com/services/education/certification/tibco-mashery-associate-certification-exam) - Covers topics such as API definition creation and testing, API key authentication, and using the Developer Portal and I/O docs.
+  - [TIBCO Cloud API Management Certified Professional](https://www.tibco.com/services/education/certification/tibco-cloud-api-management-professional-certification-exam) - Validates the ability to implement TIBCO Cloud Mesh, OAuth-based security, and manage SOAP services.
+  - [TIBCO Cloud Integration Associate](https://www.tibco.com/services/education/certification/tibco-cloud-integration-associate-certification-exam) - Validates the skills and knowledge required to work with TIBCO Cloud Integration, including its Connect, Develop, and Integrate capabilities.
+  - [TIBCO Cloud Integration - Connect Associate](https://www.tibco.com/services/education/certification/tibco-cloud-integration-connect-associate-certification-exam) - Checks the usage of Connect capability of TIBCO Cloud Integration, installing On-Premise Agent, creating connections and integration apps, and configuring flows.
+  - [TIBCO Cloud Integration - Connect Certified Professional](https://www.tibco.com/services/education/certification/tibco-cloud-integration-connect-certified-professional-exam) - Checks the creation and management of connections, ensuring connection security, and troubleshooting issues related to connections in TIBCO Cloud Integration.
+  - [TIBCO Cloud Integration Certified Professional](https://www.tibco.com/services/education/certification/tibco-cloud-integration-certified-professional-exam) - Checks the knowledge about capabilities and benefits, integrating, developing, and connecting applications, creating APIs using the API Modeler and Mock functionality, and more.
+  - [TIBCO Messaging Associate](https://www.tibco.com/services/education/certification/tibco-messaging-associate-certification-exam) - Covers topics such as TIBCO Enterprise Message Service (EMS), TIBCO FTL, TIBCO eFTL, as well as other messaging technologies such as Apache Kafka, Apache Pulsar, and Eclipse Mosquitto.
+  - [TIBCO Messaging Certified Professional](https://www.tibco.com/services/education/certification/tibco-messaging-certified-professional-exam) - Validates the skills and knowledge required to work with TIBCO Messaging and its components, including TIBCO Enterprise Message Service (EMS), TIBCO FTL, and TIBCO eFTL.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### Connectors
+- [JCA](https://projects.eclipse.org/projects/ee4j.jca) - Defines a standard architecture for Jakarta EE application components to connect to Enterprise Information Systems. Formerly Java EE Connector Architecture and J2EE Connector Architecture.
+- [Kafka Connect](https://kafka.apache.org/documentation/#connect) - A tool for scalably and reliably streaming data between Apache Kafka and other systems.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### Data Formats
+- [Apache Avro](https://github.com/apache/avro) - Data serialization system that provides compact, fast, and efficient serialization of structured data. It supports schema evolution, allows for efficient data compression, and is designed to work well with big data processing frameworks.
+- [BSON](https://bsonspec.org/) - Binary-encoded serialization format for JSON-like documents that is designed to be lightweight and efficient. It supports rich data types and is widely used in NoSQL databases, such as MongoDB.
+- [CSV](https://datatracker.ietf.org/doc/html/rfc4180) - A simple and widely used data format that stores tabular data in plain text. It is easy to read and write, and can be processed by most programming languages.
+- [JSON](https://datatracker.ietf.org/doc/html/rfc8259) - A lightweight and easy-to-read data format that is widely used for data exchange. It supports a wide range of data types and is compatible with many programming languages.
+- [NDJSON](https://github.com/ndjson/ndjson-spec) - A standard for delimiting JSON objects in stream protocols. It allows for efficient processing of large JSON datasets and is widely used in big data processing.
+- [Protocol Buffers](https://github.com/protocolbuffers/protobuf) - A language-neutral and platform-neutral serialization mechanism that is designed to be highly efficient and extensible. It supports rich data types and is widely used in distributed systems, such as gRPC and Apache Kafka.
+- [XML](https://www.w3.org/TR/2006/REC-xml11-20060816/) - A flexible and widely used markup language that is used for storing and exchanging structured data. It supports rich data types and is compatible with many programming languages.
+- [YAML](https://yaml.org/) - A human-friendly and easy-to-read data serialization format that is widely used for configuration files and data exchange. It supports rich data types and is compatible with most programming languages.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
