@@ -28,6 +28,7 @@ System integration is the process of linking together different IT systems (com
 - [Integration Patterns](#integration-patterns)
   - [Enterprise Integration Patterns](#enterprise-integration-patterns) 
   - [Integration Architecture Patterns](#integration-architecture-patterns)
+  - [Microservice API Patterns](#microservice-api-patterns)
   - [SOA Patterns](#soa-patterns)
 - [Resources](#resources)
   - [API Specification](#api-specification) 
@@ -432,6 +433,74 @@ System integration is the process of linking together different IT systems (com
 - [Change Data Capture Pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Introduction-to-Change-Data-Capture.md) - Capture and propagate changes made to a database or data source in real-time.
 - [Hybrid API Management pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Hybrid-API-Management-Pattern.md) - Manage APIs that span both cloud and on-premises environments using a central control plane.
 - [Hybrid Integration pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Hybrid-Integration-Pattern.md) - Integrate systems and applications that are deployed both on-premises and in the cloud using a combination of integration technologies.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### Microservice API Patterns
+*MAP (Microservice API Patterns) is a set of proven solutions to common problems encountered when designing, implementing, and maintaining message-based APIs. It focuses on the message representations or payloads exchanged during API calls and their impact on the design and runtime qualities of an API. Proper governance of API specifications and implementations is essential for their long-term maintenance.*
+- Foundation
+    - [Frontend Integration](https://microservice-api-patterns.org/patterns/foundation/FrontendIntegration)
+    - [Backend Integration](https://microservice-api-patterns.org/patterns/foundation/BackendIntegration)
+    - [Public API](https://microservice-api-patterns.org/patterns/foundation/PublicAPI)
+    - [Community API](https://microservice-api-patterns.org/patterns/foundation/CommunityAPI)
+    - [Solution-Internal API](https://microservice-api-patterns.org/patterns/foundation/SolutionInternalAPI)
+    - [API Description](https://microservice-api-patterns.org/patterns/foundation/APIDescription)
+
+- Responsibility
+    - Endpoint Roles
+        - [Processing Resource](https://microservice-api-patterns.org/patterns/responsibility/endpointRoles/ProcessingResource)
+        - [Information Holder Resource](https://microservice-api-patterns.org/patterns/responsibility/endpointRoles/InformationHolderResource)
+    - Operation Responsibilities
+        - [State Creation Operation](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation)
+        - [Retrieval Operation](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/RetrievalOperation)
+        - [State Transition Operation](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateTransitionOperation)
+        - [Computation Function](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/ComputationFunction)
+    - Information Holder Types
+        - [Operational Data Holder](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/OperationalDataHolder)
+        - [Master Data Holder](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/MasterDataHolder)
+        - [Reference Data Holder](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/ReferenceDataHolder)
+        - [Link Lookup Resource](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/LinkLookupResource)
+        - [Data Transfer Resource](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/DataTransferResource)
+- Structure
+    - Representation Elements
+        - [Atomic Parameter](https://microservice-api-patterns.org/patterns/structure/representationElements/AtomicParameter)
+        - [Atomic Parameter List](https://microservice-api-patterns.org/patterns/structure/representationElements/AtomicParameterList)
+        - [Parameter Tree](https://microservice-api-patterns.org/patterns/structure/representationElements/ParameterTree)
+        - [Parameter Forest](https://microservice-api-patterns.org/patterns/structure/representationElements/ParameterForest)
+    - Element Stereotypes
+        - [Data Element](https://microservice-api-patterns.org/patterns/structure/elementStereotypes/DataElement)
+        - [Metadata Element](https://microservice-api-patterns.org/patterns/structure/elementStereotypes/MetadataElement)
+        - [Id Element](https://microservice-api-patterns.org/patterns/structure/elementStereotypes/IdElement)
+        - [Link Element](https://microservice-api-patterns.org/patterns/structure/elementStereotypes/LinkElement)
+    - Special Purpose Representations
+        - [API Key](https://microservice-api-patterns.org/patterns/structure/specialPurposeRepresentations/APIKey)
+        - [Error Report](https://microservice-api-patterns.org/patterns/structure/specialPurposeRepresentations/ErrorReport)
+        - [Context Representation](https://microservice-api-patterns.org/patterns/structure/specialPurposeRepresentations/ContextRepresentation)
+- Quality
+    - Reference Management        
+        - [Embedded Entity](https://microservice-api-patterns.org/patterns/quality/referenceManagement/EmbeddedEntity)        
+        - [Linked Information Holder](https://microservice-api-patterns.org/patterns/quality/referenceManagement/LinkedInformationHolder)
+    - Data Transfer Parsimony        
+        - [Pagination](https://microservice-api-patterns.org/patterns/quality/dataTransferParsimony/Pagination)
+        - [Wish List](https://microservice-api-patterns.org/patterns/quality/dataTransferParsimony/WishList)
+        - [Wish Template](https://microservice-api-patterns.org/patterns/quality/dataTransferParsimony/WishTemplate)
+        - [Conditional Request](https://microservice-api-patterns.org/patterns/quality/dataTransferParsimony/ConditionalRequest)
+        - [Request Bundle](https://microservice-api-patterns.org/patterns/quality/dataTransferParsimony/RequestBundle)
+
+    - Quality Management and Governance        
+        - [Pricing Plan](https://microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/PricingPlan)        
+        - [Rate Limit](https://microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/RateLimit)
+        - [Service Level Agreement](https://microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/ServiceLevelAgreement)
+
+- Evolution
+    - [Version Identifier](https://microservice-api-patterns.org/patterns/evolution/VersionIdentifier)
+    - [Semantic Versioning](https://microservice-api-patterns.org/patterns/evolution/SemanticVersioning)
+    - [Two In Production](https://microservice-api-patterns.org/patterns/evolution/TwoInProduction)
+    - [Aggressive Obsolescence](https://microservice-api-patterns.org/patterns/evolution/AggressiveObsolescence)
+    - [Experimental Preview](https://microservice-api-patterns.org/patterns/evolution/ExperimentalPreview)
+    - [Limited Lifetime Guarantee](https://microservice-api-patterns.org/patterns/evolution/LimitedLifetimeGuarantee)
+    - [Eternal Lifetime Guarantee](https://microservice-api-patterns.org/patterns/evolution/EternalLifetimeGuarantee)
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
