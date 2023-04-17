@@ -424,6 +424,7 @@ System integration is the process of linking together different IT systems (com
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### Integration Architecture Patterns
+*Design patterns used to connect systems and applications in an efficient and seamless manner.*
 - [API-led Connectivity pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/API-led-Connectivity-Pattern.md) - Use APIs to connect different systems and applications.
 - [Anti Corruption Layer Pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Anti-Corruption-Layer-Pattern.md) - Add a layer to isolate and transform data between systems.
 - [Change Data Capture Pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Introduction-to-Change-Data-Capture.md) - Capture and propagate changes made to a database or data source in real-time.
@@ -433,7 +434,6 @@ System integration is the process of linking together different IT systems (com
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
-
 ## Resources
 *Some useful specifications, standards, articles and documentation.*
 ### API Specification
