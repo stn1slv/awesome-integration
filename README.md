@@ -357,6 +357,7 @@ System integration is the process of linking together different IT systems (com
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ## Integration Patterns
+*Integration patterns provide standardized solutions for common integration problems within an enterprise. Enterprise Integration Patterns (EIP) provide a common language for describing integration problems and solutions, while Integration Architecture Patterns address high-level concerns of enterprise architects. Service-Oriented Architecture (SOA) patterns provide guidance for designing and implementing service-oriented architectures, ensuring that services are scalable, reusable, and loosely coupled.*
 ### Enterprise Integration Patterns
 *Patterns from a book by Gregor Hohpe and Bobby Woolf.*
 - [Aggregator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html) - How do we combine the results of individual, but related messages so that they can be processed as a whole?  
