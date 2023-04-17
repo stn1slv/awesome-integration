@@ -25,14 +25,15 @@ System integration is the process of linking together different IT systems (com
   - [RPA](#rpa)
   - [Self-Service Integration](#self-service-integration)
   - [Workflow engine](#workflow-engine)
+- [Integration Patterns](#integration-patterns)
+  - [Enterprise Integration Patterns](#enterprise-integration-patterns) 
+  - [Integration Architecture Patterns](#integration-architecture-patterns)
 - [Resources](#resources)
   - [API Specification](#api-specification) 
   - [Articles](#articles)
   - [Certifications](#certifications)
   - [Connectors](#connectors)
   - [Data Formats](#data-formats)
-  - [Enterprise Integration Patterns](#enterprise-integration-patterns) 
-  - [Integration Architecture Patterns](#integration-architecture-patterns)
   - [Integration Styles](#integration-styles)
   - [Market Analysis](#market-analysis)
   - [Protocols](#protocols)
@@ -354,8 +355,87 @@ System integration is the process of linking together different IT systems (com
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
+## Integration Patterns
+### Enterprise Integration Patterns
+*Patterns from a book by Gregor Hohpe and Bobby Woolf.*
+- [Aggregator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html) - How do we combine the results of individual, but related messages so that they can be processed as a whole?  
+- [Canonical Data Model](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataModel.html) - How can you minimize dependencies when integrating applications that use different data formats?
+- [Channel Adapter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelAdapter.html) - How can you connect an application to the messaging system so that it can send and receive messages?
+- [Channel Purger](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelPurger.html) - How can you keep 'left-over' messages on a channel from disturbing tests or running systems?
+- [Claim Check](https://www.enterpriseintegrationpatterns.com/patterns/messaging/StoreInLibrary.html) - How can we reduce the data volume of message sent across the system without sacrificing information content?  
+- [Command Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CommandMessage.html) - How can messaging be used to invoke a procedure in another application?  
+- [Competing Consumers](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CompetingConsumers.html) - How can a messaging client process multiple messages concurrently?
+- [Composed Message Processor](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DistributionAggregate.html) - How can you maintain the overall message flow when processing a message consisting of multiple elements, each of which may require different processing?  
+- [Content Enricher](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DataEnricher.html) - How do we communicate with another system if the message originator does not have all the required data items available?  
+- [Content Filter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentFilter.html) - How do you simplify dealing with a large message, when you are interested only in a few data items?  
+- [Content-Based Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentBasedRouter.html) - How do we handle a situation where the implementation of a single logical function (e.g., inventory check) is spread across multiple physical systems?  
+- [Control Bus](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ControlBus.html) - How can we effectively administer a messaging system that is distributed across multiple platforms and a wide geographic area?  
+- [Correlation Identifier](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CorrelationIdentifier.html) - How does a requestor that has received a reply know which request this is the reply for?
+- [Datatype Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DatatypeChannel.html) - How can the application send a data item such that the receiver will know how to process it?
+- [Dead Letter Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DeadLetterChannel.html) - What will the messaging system do with a message it cannot deliver?  
+- [Detour](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Detour.html) - How can you route a message through intermediate steps to perform validation, testing or debugging functions?
+- [Document Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DocumentMessage.html) - How can messaging be used to transfer data between applications?
+- [Durable Subscriber](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DurableSubscription.html) - How can a subscriber avoid missing messages while it is not listening for them?
+- [Dynamic Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DynamicRouter.html) - How can you avoid the dependency of the router on all possible destinations while maintaining its efficiency?
+- [Envelope Wrapper](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EnvelopeWrapper.html) - How can existing systems participate in a messaging exchange that places specific requirements on the message format, such as message header fields or encryption?  
+- [Event Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventMessage.html) - How can messaging be used to transmit events from one application to another?
+- [Event-Driven Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventDrivenConsumer.html) - How can an application automatically consume messages as they become available?
+- [Format Indicator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FormatIndicator.html) - How can a message`s data format be designed to allow for possible future changes?
+- [Guaranteed Delivery](https://www.enterpriseintegrationpatterns.com/patterns/messaging/GuaranteedMessaging.html) - How can the sender make sure that a message will be delivered, even if the messaging system fails?
+- [Idempotent Receiver](https://www.enterpriseintegrationpatterns.com/patterns/messaging/IdempotentReceiver.html) - How can a message receiver deal with duplicate messages?
+- [Invalid Message Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/InvalidMessageChannel.html) - How can a messaging receiver gracefully handle receiving a message that makes no sense?
+- [Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Message.html) - How can two applications connected by a message channel exchange a piece of information?
+- [Message Dispatcher](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageDispatcher.html) - How can multiple consumers on a single channel coordinate their message processing?
+- [Message Expiration](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageExpiration.html) - How can a sender indicate when a message should be considered stale and thus shouldn`t be processed?
+- [Message Translator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageTranslator.html) - How can systems using different data formats communicate with each other using messaging?  
+- [Message Broker](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBroker.html) - How can you decouple the destination of a message from the sender and maintain central control over the flow of messages?
+- [Message Bus](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBus.html) - What is an architecture that enables separate applications to work together, but in a decoupled fashion such that applications can be easily added or removed without affecting the others?  
+- [Message Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageChannel.html) - How does one application communicate with another using messaging?
+- [Message Endpoint](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageEndpoint.html) - How does an application connect to a messaging channel to send and receive messages?
+- [Message Filter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Filter.html) - How can a component avoid receiving uninteresting messages?
+- [Message History](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageHistory.html) - How can we effectively analyze and debug the flow of messages in a loosely coupled system?  
+- [Message Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageRouter.html) - How can you decouple individual processing steps so that messages can be passed to different filters depending on a set of conditions?
+- [Message Sequence](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageSequence.html) - How can messaging transmit an arbitrarily large amount of data?
+- [Message Store](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageStore.html) - How can we report against message information without disturbing the loosely coupled and transient nature of a messaging system?  
+- [Messaging Bridge](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingBridge.html) - How can multiple messaging systems be connected so that messages available on one are also available on the others?
+- [Messaging Gateway](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingGateway.html) - How do you encapsulate access to the messaging system from the rest of the application?
+- [Messaging Mapper](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingMapper.html) - How do you move data between domain objects and the messaging infrastructure while keeping the two independent of each other?
+- [Normalizer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Normalizer.html) - How do you process messages that are semantically equivalent, but arrive in a different format?
+- [Pipes and Filters](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PipesAndFilters.html) - How can we perform complex processing on a message while maintaining independence and flexibility?  
+- [Point-to-Point Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PointToPointChannel.html) - How can the caller be sure that exactly one receiver will receive the document or perform the call?
+- [Polling Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PollingConsumer.html) - How can an application consume a message when the application is ready?  
+- [Process Manager](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ProcessManager.html) - How do we route a message through multiple processing steps when the required steps may not be known at design-time and may not be sequential?
+- [Publish-Subscribe Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PublishSubscribeChannel.html) - How can the sender broadcast an event to all interested receivers?
+- [Recipient List](https://www.enterpriseintegrationpatterns.com/patterns/messaging/RecipientList.html) - How do we route a message to a list of dynamically specified recipients?
+- [Request-Reply](https://www.enterpriseintegrationpatterns.com/patterns/messaging/RequestReply.html) - When an application sends a message, how can it get a response from the receiver?
+- [Resequencer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Resequencer.html) - How can we get a stream of related but out-of-sequence messages back into the correct order?
+- [Return Address](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ReturnAddress.html) - How does a replier know where to send the reply?
+- [Routing Slip](https://www.enterpriseintegrationpatterns.com/patterns/messaging/RoutingTable.html) - How do we route a message consecutively through a series of processing steps when the sequence of steps is not known at design-time and may vary for each message?  
+- [Scatter-Gather](https://www.enterpriseintegrationpatterns.com/patterns/messaging/BroadcastAggregate.html) - How do you maintain the overall message flow when a message needs to be sent to multiple recipients, each of which may send a reply?  
+- [Selective Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageSelector.html) - How can a message consumer select which messages it wishes to receive?  
+- [Service Activator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingAdapter.html) - How can an application design a service to be invoked both via various messaging technologies and via non-messaging techniques?
+- [Smart Proxy](https://www.enterpriseintegrationpatterns.com/patterns/messaging/SmartProxy.html) - How can you track messages on a service that publishes reply messages to the Return Address specified by the requestor?
+- [Splitter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Sequencer.html) - How can we process a message if it contains multiple elements, each of which may have to be processed in a different way?  
+- [Test Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TestMessage.html) - What happens, though, if a component is actively processing messages, but garbles outgoing messages due to an internal fault?  
+- [Transactional Client](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TransactionalClient.html) - How can a client control its transactions with the messaging system?  
+- [Wire Tap](https://www.enterpriseintegrationpatterns.com/patterns/messaging/WireTap.html) - How do you inspect messages that travel on a point-to-point channel?  
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### Integration Architecture Patterns
+- [API-led Connectivity pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/API-led-Connectivity-Pattern.md) - Use APIs to connect different systems and applications.
+- [Anti Corruption Layer Pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Anti-Corruption-Layer-Pattern.md) - Add a layer to isolate and transform data between systems.
+- [Change Data Capture Pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Introduction-to-Change-Data-Capture.md) - Capture and propagate changes made to a database or data source in real-time.
+- [Hybrid API Management pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Hybrid-API-Management-Pattern.md) - Manage APIs that span both cloud and on-premises environments using a central control plane.
+- [Hybrid Integration pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Hybrid-Integration-Pattern.md) - Integrate systems and applications that are deployed both on-premises and in the cloud using a combination of integration technologies.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+
 ## Resources
-*Some useful specifications, patterns, articles and documentation.*
+*Some useful specifications, standards, articles and documentation.*
 ### API Specification
 - [API Blueprint](https://github.com/apiaryio/api-blueprint) - A powerful high-level language for designing and documenting APIs that allows software engineers to easily collaborate and create efficient APIs.
 - [AsyncAPI](https://github.com/asyncapi/spec) - An essential tool for developing Event-Driven Architectures (EDA) and enables engineers to build a better tooling ecosystem.
@@ -438,83 +518,6 @@ System integration is the process of linking together different IT systems (com
 - [Protocol Buffers](https://github.com/protocolbuffers/protobuf) - A language-neutral and platform-neutral serialization mechanism that is designed to be highly efficient and extensible. It supports rich data types and is widely used in distributed systems, such as gRPC and Apache Kafka.
 - [XML](https://www.w3.org/TR/2006/REC-xml11-20060816/) - A flexible and widely used markup language that is used for storing and exchanging structured data. It supports rich data types and is compatible with many programming languages.
 - [YAML](https://yaml.org/) - A human-friendly and easy-to-read data serialization format that is widely used for configuration files and data exchange. It supports rich data types and is compatible with most programming languages.
-
-<!--lint disable-->
-**[⬆ back to top](#contents)**
-<!--lint enable-->
-### Enterprise Integration Patterns
-*Patterns from a book by Gregor Hohpe and Bobby Woolf.*
-- [Aggregator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html) - How do we combine the results of individual, but related messages so that they can be processed as a whole?  
-- [Canonical Data Model](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataModel.html) - How can you minimize dependencies when integrating applications that use different data formats?
-- [Channel Adapter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelAdapter.html) - How can you connect an application to the messaging system so that it can send and receive messages?
-- [Channel Purger](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelPurger.html) - How can you keep 'left-over' messages on a channel from disturbing tests or running systems?
-- [Claim Check](https://www.enterpriseintegrationpatterns.com/patterns/messaging/StoreInLibrary.html) - How can we reduce the data volume of message sent across the system without sacrificing information content?  
-- [Command Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CommandMessage.html) - How can messaging be used to invoke a procedure in another application?  
-- [Competing Consumers](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CompetingConsumers.html) - How can a messaging client process multiple messages concurrently?
-- [Composed Message Processor](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DistributionAggregate.html) - How can you maintain the overall message flow when processing a message consisting of multiple elements, each of which may require different processing?  
-- [Content Enricher](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DataEnricher.html) - How do we communicate with another system if the message originator does not have all the required data items available?  
-- [Content Filter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentFilter.html) - How do you simplify dealing with a large message, when you are interested only in a few data items?  
-- [Content-Based Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentBasedRouter.html) - How do we handle a situation where the implementation of a single logical function (e.g., inventory check) is spread across multiple physical systems?  
-- [Control Bus](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ControlBus.html) - How can we effectively administer a messaging system that is distributed across multiple platforms and a wide geographic area?  
-- [Correlation Identifier](https://www.enterpriseintegrationpatterns.com/patterns/messaging/CorrelationIdentifier.html) - How does a requestor that has received a reply know which request this is the reply for?
-- [Datatype Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DatatypeChannel.html) - How can the application send a data item such that the receiver will know how to process it?
-- [Dead Letter Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DeadLetterChannel.html) - What will the messaging system do with a message it cannot deliver?  
-- [Detour](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Detour.html) - How can you route a message through intermediate steps to perform validation, testing or debugging functions?
-- [Document Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DocumentMessage.html) - How can messaging be used to transfer data between applications?
-- [Durable Subscriber](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DurableSubscription.html) - How can a subscriber avoid missing messages while it is not listening for them?
-- [Dynamic Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DynamicRouter.html) - How can you avoid the dependency of the router on all possible destinations while maintaining its efficiency?
-- [Envelope Wrapper](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EnvelopeWrapper.html) - How can existing systems participate in a messaging exchange that places specific requirements on the message format, such as message header fields or encryption?  
-- [Event Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventMessage.html) - How can messaging be used to transmit events from one application to another?
-- [Event-Driven Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventDrivenConsumer.html) - How can an application automatically consume messages as they become available?
-- [Format Indicator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FormatIndicator.html) - How can a message`s data format be designed to allow for possible future changes?
-- [Guaranteed Delivery](https://www.enterpriseintegrationpatterns.com/patterns/messaging/GuaranteedMessaging.html) - How can the sender make sure that a message will be delivered, even if the messaging system fails?
-- [Idempotent Receiver](https://www.enterpriseintegrationpatterns.com/patterns/messaging/IdempotentReceiver.html) - How can a message receiver deal with duplicate messages?
-- [Invalid Message Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/InvalidMessageChannel.html) - How can a messaging receiver gracefully handle receiving a message that makes no sense?
-- [Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Message.html) - How can two applications connected by a message channel exchange a piece of information?
-- [Message Dispatcher](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageDispatcher.html) - How can multiple consumers on a single channel coordinate their message processing?
-- [Message Expiration](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageExpiration.html) - How can a sender indicate when a message should be considered stale and thus shouldn`t be processed?
-- [Message Translator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageTranslator.html) - How can systems using different data formats communicate with each other using messaging?  
-- [Message Broker](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBroker.html) - How can you decouple the destination of a message from the sender and maintain central control over the flow of messages?
-- [Message Bus](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBus.html) - What is an architecture that enables separate applications to work together, but in a decoupled fashion such that applications can be easily added or removed without affecting the others?  
-- [Message Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageChannel.html) - How does one application communicate with another using messaging?
-- [Message Endpoint](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageEndpoint.html) - How does an application connect to a messaging channel to send and receive messages?
-- [Message Filter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Filter.html) - How can a component avoid receiving uninteresting messages?
-- [Message History](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageHistory.html) - How can we effectively analyze and debug the flow of messages in a loosely coupled system?  
-- [Message Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageRouter.html) - How can you decouple individual processing steps so that messages can be passed to different filters depending on a set of conditions?
-- [Message Sequence](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageSequence.html) - How can messaging transmit an arbitrarily large amount of data?
-- [Message Store](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageStore.html) - How can we report against message information without disturbing the loosely coupled and transient nature of a messaging system?  
-- [Messaging Bridge](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingBridge.html) - How can multiple messaging systems be connected so that messages available on one are also available on the others?
-- [Messaging Gateway](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingGateway.html) - How do you encapsulate access to the messaging system from the rest of the application?
-- [Messaging Mapper](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingMapper.html) - How do you move data between domain objects and the messaging infrastructure while keeping the two independent of each other?
-- [Normalizer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Normalizer.html) - How do you process messages that are semantically equivalent, but arrive in a different format?
-- [Pipes and Filters](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PipesAndFilters.html) - How can we perform complex processing on a message while maintaining independence and flexibility?  
-- [Point-to-Point Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PointToPointChannel.html) - How can the caller be sure that exactly one receiver will receive the document or perform the call?
-- [Polling Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PollingConsumer.html) - How can an application consume a message when the application is ready?  
-- [Process Manager](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ProcessManager.html) - How do we route a message through multiple processing steps when the required steps may not be known at design-time and may not be sequential?
-- [Publish-Subscribe Channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/PublishSubscribeChannel.html) - How can the sender broadcast an event to all interested receivers?
-- [Recipient List](https://www.enterpriseintegrationpatterns.com/patterns/messaging/RecipientList.html) - How do we route a message to a list of dynamically specified recipients?
-- [Request-Reply](https://www.enterpriseintegrationpatterns.com/patterns/messaging/RequestReply.html) - When an application sends a message, how can it get a response from the receiver?
-- [Resequencer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Resequencer.html) - How can we get a stream of related but out-of-sequence messages back into the correct order?
-- [Return Address](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ReturnAddress.html) - How does a replier know where to send the reply?
-- [Routing Slip](https://www.enterpriseintegrationpatterns.com/patterns/messaging/RoutingTable.html) - How do we route a message consecutively through a series of processing steps when the sequence of steps is not known at design-time and may vary for each message?  
-- [Scatter-Gather](https://www.enterpriseintegrationpatterns.com/patterns/messaging/BroadcastAggregate.html) - How do you maintain the overall message flow when a message needs to be sent to multiple recipients, each of which may send a reply?  
-- [Selective Consumer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageSelector.html) - How can a message consumer select which messages it wishes to receive?  
-- [Service Activator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingAdapter.html) - How can an application design a service to be invoked both via various messaging technologies and via non-messaging techniques?
-- [Smart Proxy](https://www.enterpriseintegrationpatterns.com/patterns/messaging/SmartProxy.html) - How can you track messages on a service that publishes reply messages to the Return Address specified by the requestor?
-- [Splitter](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Sequencer.html) - How can we process a message if it contains multiple elements, each of which may have to be processed in a different way?  
-- [Test Message](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TestMessage.html) - What happens, though, if a component is actively processing messages, but garbles outgoing messages due to an internal fault?  
-- [Transactional Client](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TransactionalClient.html) - How can a client control its transactions with the messaging system?  
-- [Wire Tap](https://www.enterpriseintegrationpatterns.com/patterns/messaging/WireTap.html) - How do you inspect messages that travel on a point-to-point channel?  
-
-<!--lint disable-->
-**[⬆ back to top](#contents)**
-<!--lint enable-->
-### Integration Architecture Patterns
-- [API-led Connectivity pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/API-led-Connectivity-Pattern.md) - Use APIs to connect different systems and applications.
-- [Anti Corruption Layer Pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Anti-Corruption-Layer-Pattern.md) - Add a layer to isolate and transform data between systems.
-- [Change Data Capture Pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Introduction-to-Change-Data-Capture.md) - Capture and propagate changes made to a database or data source in real-time.
-- [Hybrid API Management pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Hybrid-API-Management-Pattern.md) - Manage APIs that span both cloud and on-premises environments using a central control plane.
-- [Hybrid Integration pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Hybrid-Integration-Pattern.md) - Integrate systems and applications that are deployed both on-premises and in the cloud using a combination of integration technologies.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
