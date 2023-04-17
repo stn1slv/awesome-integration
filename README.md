@@ -439,85 +439,85 @@ System integration is the process of linking together different IT systems (com
 *SOA patterns are design solutions that provide guidelines and best practices for developing flexible and reusable service-oriented applications. These patterns address various aspects of service-oriented application design, including service identification, interaction, composition, and granularity.*
 -   Foundational Inventory Patterns
     -   [Canonical Protocol](https://patterns.arcitura.com/soa-patterns/design_patterns/canonical_protocol) - Defines a common communication protocol between services to enable interoperability and decoupling.
-    -   [Canonical Schema](https://patterns.arcitura.com/soa-patterns/design_patterns/canonical_schema)
-    -   [Domain Inventory](https://patterns.arcitura.com/soa-patterns/design_patterns/domain_inventory)
-    -   [Enterprise Inventory](https://patterns.arcitura.com/soa-patterns/design_patterns/enterprise_inventory)
-    -   [Logic Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/logic_centralization)
-    -   [Service Layers](https://patterns.arcitura.com/soa-patterns/design_patterns/service_layers)
-    -   [Service Normalization](https://patterns.arcitura.com/soa-patterns/design_patterns/service_normalization)
+    -   [Canonical Schema](https://patterns.arcitura.com/soa-patterns/design_patterns/canonical_schema) - Defines a standard data model and format for exchanging data between services.
+    -   [Domain Inventory](https://patterns.arcitura.com/soa-patterns/design_patterns/domain_inventory) - Identifies and categorizes the types of services within a particular domain.
+    -   [Enterprise Inventory](https://patterns.arcitura.com/soa-patterns/design_patterns/enterprise_inventory) - Identifies and categorizes the types of services within a particular domain.
+    -   [Logic Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/logic_centralization) - Centralizes business logic within a service layer to reduce redundancy and promote consistency.
+    -   [Service Layers](https://patterns.arcitura.com/soa-patterns/design_patterns/service_layers) - Centralizes business logic within a service layer to reduce redundancy and promote consistency.
+    -   [Service Normalization](https://patterns.arcitura.com/soa-patterns/design_patterns/service_normalization) - Centralizes business logic within a service layer to reduce redundancy and promote consistency.
 
 -   Logical Inventory Layer Patterns
-    -   [Entity Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/entity_abstraction)
-    -   [Process Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/process_abstraction)
-    -   [Utility Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/utility_abstraction)
-    -   [Micro Task Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/micro_task_abstraction)
+    -   [Entity Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/entity_abstraction) - Abstracts data entities to simplify data access and reduce coupling.
+    -   [Process Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/process_abstraction) - Abstracts processes to improve reusability and maintainability.
+    -   [Utility Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/utility_abstraction) - Abstracts common utilities to reduce duplication and promote consistency.
+    -   [Micro Task Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/micro_task_abstraction) - Breaks down tasks into smaller, more granular tasks for easier management.
 
 -   Inventory Centralization Patterns
-    -   [Policy Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/policy_centralization)
-    -   [Process Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/process_centralization)
-    -   [Rules Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/rules_centralization)
-    -   [Schema Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/schema_centralization)
+    -   [Policy Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/policy_centralization) - Centralizes policies to reduce duplication and improve consistency.
+    -   [Process Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/process_centralization) - Centralizes processes to improve reusability and maintainability.
+    -   [Rules Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/rules_centralization) - Centralizes business rules to reduce duplication and promote consistency.
+    -   [Schema Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/schema_centralization) - Centralizes data schemas to reduce duplication and improve consistency.
 
 -   Inventory Implementation Patterns
-    -   [Canonical Resources](https://patterns.arcitura.com/soa-patterns/design_patterns/canonical_resources)
-    -   [Cross-Domain Utility Layer](https://patterns.arcitura.com/soa-patterns/design_patterns/cross_domain_utility_layer)
-    -   [Dual Protocols](https://patterns.arcitura.com/soa-patterns/design_patterns/dual_protocols)
-    -   [Inventory Endpoint](https://patterns.arcitura.com/soa-patterns/design_patterns/inventory_endpoint)
-    -   [Service Grid](https://patterns.arcitura.com/soa-patterns/design_patterns/service_grid)
-    -   [State Repository](https://patterns.arcitura.com/soa-patterns/design_patterns/state_repository)
-    -   [Stateful Services](https://patterns.arcitura.com/soa-patterns/design_patterns/stateful_services)
-    -   [Augmented Protocols](https://patterns.arcitura.com/soa-patterns/design_patterns/augmented_protocols)
+    -   [Canonical Resources](https://patterns.arcitura.com/soa-patterns/design_patterns/canonical_resources) - Defines a standard set of resources for common functionality across services.
+    -   [Cross-Domain Utility Layer](https://patterns.arcitura.com/soa-patterns/design_patterns/cross_domain_utility_layer) - Uses multiple protocols for improved performance and flexibility.
+    -   [Dual Protocols](https://patterns.arcitura.com/soa-patterns/design_patterns/dual_protocols) - Defines a common utility layer across multiple domains.
+    -   [Inventory Endpoint](https://patterns.arcitura.com/soa-patterns/design_patterns/inventory_endpoint) - Defines a standard endpoint for accessing inventory resources.
+    -   [Service Grid](https://patterns.arcitura.com/soa-patterns/design_patterns/service_grid) - Provides a framework for managing and scaling services.
+    -   [State Repository](https://patterns.arcitura.com/soa-patterns/design_patterns/state_repository) - Stores and manages service state information.
+    -   [Stateful Services](https://patterns.arcitura.com/soa-patterns/design_patterns/stateful_services) - Maintains state information across service invocations.
+    -   [Augmented Protocols](https://patterns.arcitura.com/soa-patterns/design_patterns/augmented_protocols) - Enhances protocols with additional features.
 
 -   Inventory Governance Patterns
-    -   [Canonical Expression](https://patterns.arcitura.com/soa-patterns/design_patterns/canonical_expression)
-    -   [Canonical Versioning](https://patterns.arcitura.com/soa-patterns/design_patterns/canonical_versioning)
-    -   [Metadata Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/metadata_centralization)
+    -   [Canonical Expression](https://patterns.arcitura.com/soa-patterns/design_patterns/canonical_expression) - Defines a standard expression language for inventory data.
+    -   [Canonical Versioning](https://patterns.arcitura.com/soa-patterns/design_patterns/canonical_versioning) - Defines a standard versioning scheme for inventory resources.
+    -   [Metadata Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/metadata_centralization) - Centralizes metadata to reduce duplication and improve consistency.
 
 -   Foundational Service Patterns
-    -   [Agnostic Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/agnostic_capability)
-    -   [Agnostic Context](https://patterns.arcitura.com/soa-patterns/design_patterns/agnostic_context)
-    -   [Functional Decomposition](https://patterns.arcitura.com/soa-patterns/design_patterns/functional_decomposition)
-    -   [Non-Agnostic Context](https://patterns.arcitura.com/soa-patterns/design_patterns/non_agnostic_context)
-    -   [Service Encapsulation](https://patterns.arcitura.com/soa-patterns/design_patterns/service_encapsulation)
+    -   [Agnostic Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/agnostic_capability) - Abstracts service capabilities for improved flexibility.
+    -   [Agnostic Context](https://patterns.arcitura.com/soa-patterns/design_patterns/agnostic_context) - Abstracts service context for improved flexibility.
+    -   [Functional Decomposition](https://patterns.arcitura.com/soa-patterns/design_patterns/functional_decomposition) - Breaks down services into smaller, more manageable components.
+    -   [Non-Agnostic Context](https://patterns.arcitura.com/soa-patterns/design_patterns/non_agnostic_context) - Breaks down services into smaller, more manageable components.
+    -   [Service Encapsulation](https://patterns.arcitura.com/soa-patterns/design_patterns/service_encapsulation) - Encapsulates service functionality for improved maintainability.
 
 -   Service Implementation Patterns
-    -   [Partial State Deferral](https://patterns.arcitura.com/soa-patterns/design_patterns/partial_state_deferral)
-    -   [Partial Validation](https://patterns.arcitura.com/soa-patterns/design_patterns/partial_validation)
-    -   [Redundant Implementation](https://patterns.arcitura.com/soa-patterns/design_patterns/redundant_implementation)
-    -   [Service Data Replication](https://patterns.arcitura.com/soa-patterns/design_patterns/service_data_replication)
-    -   [Service Façade](https://patterns.arcitura.com/soa-patterns/design_patterns/service_facade)
-    -   [UI Mediator](https://patterns.arcitura.com/soa-patterns/design_patterns/ui_mediator)
-    -   [Reference Data Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/reference_data_centralization)
-    -   [Microservice Deployment](https://patterns.arcitura.com/soa-patterns/design_patterns/microservice_deployment)
-    -   [Containerization](https://patterns.arcitura.com/soa-patterns/design_patterns/containerization)
+    -   [Partial State Deferral](https://patterns.arcitura.com/soa-patterns/design_patterns/partial_state_deferral) - Encapsulates service functionality for improved maintainability.
+    -   [Partial Validation](https://patterns.arcitura.com/soa-patterns/design_patterns/partial_validation) - Validates only relevant data for improved performance.
+    -   [Redundant Implementation](https://patterns.arcitura.com/soa-patterns/design_patterns/redundant_implementation) - Implements multiple versions of a service for improved flexibility.
+    -   [Service Data Replication](https://patterns.arcitura.com/soa-patterns/design_patterns/service_data_replication) - Replicates data across multiple services for improved performance.
+    -   [Service Façade](https://patterns.arcitura.com/soa-patterns/design_patterns/service_facade) - Provides a simplified interface to a complex service for improved usability.
+    -   [UI Mediator](https://patterns.arcitura.com/soa-patterns/design_patterns/ui_mediator) - Mediates between the user interface and underlying services for improved usability.
+    -   [Reference Data Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/reference_data_centralization) - Centralizes reference data to reduce duplication and improve consistency.
+    -   [Microservice Deployment](https://patterns.arcitura.com/soa-patterns/design_patterns/microservice_deployment) - Deploys services as independent, autonomous units for improved scalability and resilience.
+    -   [Containerization](https://patterns.arcitura.com/soa-patterns/design_patterns/containerization) - 
 
 -   Service Security Patterns
-    -   [Exception Shielding](https://patterns.arcitura.com/soa-patterns/design_patterns/exception_shielding)
-    -   [Message Screening](https://patterns.arcitura.com/soa-patterns/design_patterns/message_screening)
-    -   [Service Perimeter Guard](https://patterns.arcitura.com/soa-patterns/design_patterns/service_perimeter_guard)
-    -   [Trusted Subsystem](https://patterns.arcitura.com/soa-patterns/design_patterns/trusted_subsystem)
+    -   [Exception Shielding](https://patterns.arcitura.com/soa-patterns/design_patterns/exception_shielding) - 
+    -   [Message Screening](https://patterns.arcitura.com/soa-patterns/design_patterns/message_screening) - 
+    -   [Service Perimeter Guard](https://patterns.arcitura.com/soa-patterns/design_patterns/service_perimeter_guard) - 
+    -   [Trusted Subsystem](https://patterns.arcitura.com/soa-patterns/design_patterns/trusted_subsystem) - 
 
 -   Service Contract Design Patterns
-    -   [Concurrent Contracts](https://patterns.arcitura.com/soa-patterns/design_patterns/concurrent_contracts)
-    -   [Contract Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/contract_centralization)
-    -   [Contract Denormalization](https://patterns.arcitura.com/soa-patterns/design_patterns/contract_denormalization)
-    -   [Decoupled Contract](https://patterns.arcitura.com/soa-patterns/design_patterns/decoupled_contract)
-    -   [Validation Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/validation_abstraction)
+    -   [Concurrent Contracts](https://patterns.arcitura.com/soa-patterns/design_patterns/concurrent_contracts) - 
+    -   [Contract Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/contract_centralization) - 
+    -   [Contract Denormalization](https://patterns.arcitura.com/soa-patterns/design_patterns/contract_denormalization) - 
+    -   [Decoupled Contract](https://patterns.arcitura.com/soa-patterns/design_patterns/decoupled_contract) - 
+    -   [Validation Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/validation_abstraction) - 
 
 -   Legacy Encapsulation Patterns
-    -   [File Gateway](https://patterns.arcitura.com/soa-patterns/design_patterns/file_gateway)
-    -   [Legacy Wrapper](https://patterns.arcitura.com/soa-patterns/design_patterns/legacy_wrapper)
-    -   [Multi-Channel Endpoint](https://patterns.arcitura.com/soa-patterns/design_patterns/multi_channel_endpoint)
+    -   [File Gateway](https://patterns.arcitura.com/soa-patterns/design_patterns/file_gateway) - 
+    -   [Legacy Wrapper](https://patterns.arcitura.com/soa-patterns/design_patterns/legacy_wrapper) - 
+    -   [Multi-Channel Endpoint](https://patterns.arcitura.com/soa-patterns/design_patterns/multi_channel_endpoint) - 
 
 -   Service Governance Patterns
-    -   [Compatible Change](https://patterns.arcitura.com/soa-patterns/design_patterns/compatible_change)
-    -   [Decomposed Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/decomposed_capability)
-    -   [Distributed Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/distributed_capability)
-    -   [Proxy Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/proxy_capability)
-    -   [Service Decomposition](https://patterns.arcitura.com/soa-patterns/design_patterns/service_decomposition)
-    -   [Service Refactoring](https://patterns.arcitura.com/soa-patterns/design_patterns/service_refactoring)
-    -   [Termination Notification](https://patterns.arcitura.com/soa-patterns/design_patterns/termination_notification)
-    -   [Version Identification](https://patterns.arcitura.com/soa-patterns/design_patterns/version_identification)
+    -   [Compatible Change](https://patterns.arcitura.com/soa-patterns/design_patterns/compatible_change) - 
+    -   [Decomposed Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/decomposed_capability) - 
+    -   [Distributed Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/distributed_capability) - 
+    -   [Proxy Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/proxy_capability) - 
+    -   [Service Decomposition](https://patterns.arcitura.com/soa-patterns/design_patterns/service_decomposition) - 
+    -   [Service Refactoring](https://patterns.arcitura.com/soa-patterns/design_patterns/service_refactoring) - 
+    -   [Termination Notification](https://patterns.arcitura.com/soa-patterns/design_patterns/termination_notification) - 
+    -   [Version Identification](https://patterns.arcitura.com/soa-patterns/design_patterns/version_identification) - 
 
 -   Capability Composition Patterns
     -   [Capability Composition](https://patterns.arcitura.com/soa-patterns/design_patterns/capability_composition)
