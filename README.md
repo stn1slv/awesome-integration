@@ -61,9 +61,8 @@ System integration is the process of linking together different IT systems (com
 - [webMethods API](https://www.softwareag.cloud/site/product/webmethods-api.html) - A comprehensive API management solution from Software AG that provides full lifecycle API management capabilities and enables you to manage APIs in both on-premises and cloud environments.
 - [WSO2 API Manager](https://github.com/wso2/product-apim) - A fully open-source API management platform that provides comprehensive API management capabilities and allows you to manage APIs with ease.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
-
 ### API Design
 *API design, documentation, and life-cycle automation tools streamline the process of creating, maintaining, and evolving APIs. These tools offer efficient means to design consistent and scalable APIs, generate comprehensive documentation, and automate various stages of the API life-cycle, enhancing developer experience and promoting API adoption.*
 - [Dredd](https://github.com/apiaryio/dredd) - Validate API description docs against backend implementation using this language-agnostic CLI tool.
@@ -75,7 +74,7 @@ System integration is the process of linking together different IT systems (com
 - [Swagger Editor](https://github.com/swagger-api/swagger-editor) - Create, describe, and document your API with ease using this open source editor built specifically for OpenAPI-based APIs.
 - [Zally](https://github.com/zalando/zally) - Ensure the quality of your OpenAPI specs with this linter tool that provides extensive analysis and feedback.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### API Documentation
 *Explore a collection of tools and platforms designed to create, maintain, and present clear, concise, and user-friendly documentation for APIs. These resources facilitate seamless collaboration between developers and enable effective communication of API functionalities and specifications.*
@@ -89,7 +88,7 @@ System integration is the process of linking together different IT systems (com
 - [SwaggerHub](https://swagger.io/tools/swaggerhub/) - An integrated API design and documentation platform built for teams, with versioning, testing automation, and integration with popular API tools.
 - [Swagger UI](https://github.com/swagger-api/swagger-ui) - An intuitive tool for exploring and interacting with APIs, with API specification visualization, endpoint exploration, and built-in interactive console.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### API Gateway
 *API Gateways act as intermediaries between client applications and backend services, enabling key features such as request routing, authentication, rate limiting, and caching. They simplify the process of managing, securing, and monitoring APIs by providing a unified entry point for various services.*
@@ -104,7 +103,7 @@ System integration is the process of linking together different IT systems (com
 - [Traefik](https://github.com/traefik/traefik) - A modern, open-source API Gateway that is designed to handle dynamic container environments such as Kubernetes, Docker Swarm, and Mesos. It provides load balancing, SSL/TLS termination, rate limiting, circuit breaking, and more.
 - [Tyk API Gateway](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway that supports REST, GraphQL, TCP, and gRPC protocols. It provides advanced API management features such as rate limiting, access control, and analytics.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### API Testing
 *The API testing tools section provides a list of software tools and frameworks that developers can use to test REST APIs and message brokers. This section includes GUI clients for testing REST APIs and message brokers, mocking tools for simulating API responses, as well as various testing tools and frameworks to automate testing processes.*
@@ -140,7 +139,7 @@ System integration is the process of linking together different IT systems (com
   - [Schemathesis](https://github.com/schemathesis/schemathesis) - Python library for property-based testing of API schemas.
   - [Taurus](https://github.com/Blazemeter/taurus) - An open-source framework for continuous testing that simplifies test execution and management through a user-friendly interface and integrates with various testing tools and frameworks.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### BRE
 *Business Rules Engines and Business Rules Management Systems (BRMS) are software systems that allow organizations to define, manage, and execute business rules. These rules are used to automate decision-making processes, enforce business policies, and ensure regulatory compliance. A BRMS provides a way for organizations to centrally manage their business rules and make changes to them quickly and easily, without requiring changes to the underlying code. It is a valuable tool for businesses that need to be agile and respond quickly to changing market conditions.*
@@ -149,7 +148,7 @@ System integration is the process of linking together different IT systems (com
 - [NxBRE](https://github.com/ddossot/NxBRE/wiki) - Open-source rule engine specifically designed for the .NET platform.
 - [OpenL Tablets](https://github.com/openl-tablets/openl-tablets) - Open-source business rules engine (BRE, BRMS) and decision management system that allows users to define, manage, and execute business rules and decision tables.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### BPM
 *BPM solutions are software tools that help businesses streamline and automate their operational processes to improve efficiency and productivity. These solutions typically provide features such as process modeling, workflow management, task automation, and reporting. They can be used to automate a wide range of processes, from simple tasks like data entry to complex workflows involving multiple departments and stakeholders.*
@@ -162,7 +161,7 @@ System integration is the process of linking together different IT systems (com
 - [SAP Process Orchestration](https://www.sap.com/products/process-orchestration.html) - A business process management offering and application infrastructure. 
 - [TIBCO BPM Enterprise](https://www.tibco.com/products/business-process-management) - Business process management platform that offers capabilities for process automation, documentation, human capital management, process patterns, and predictive operations analytics.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Data Mapping Solution
 *Data Mapping tools are used to define and transform data between different systems, applications, and formats. These tools allow for the mapping of data from source to target, allowing for data transformation and integration. This section covers different data mapping solutions that can be used to facilitate data mapping and transformation processes for different use cases.*
@@ -171,7 +170,7 @@ System integration is the process of linking together different IT systems (com
 - [JOLT](https://github.com/bazaarvoice/jolt) - A Java-based JSON-to-JSON transformation library that uses a JSON document as the "specification" for the transform. JOLT provides a simple way for software engineers to transform JSON data.
 - [JSLT](https://github.com/schibsted/jslt) - A complete query and transformation language for JSON that is inspired by jq, XPath, and XQuery. With JSLT, software engineers can quickly and easily transform JSON data to meet their needs.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### ESB
 *Enterprise Service Bus (ESB) solutions facilitate the integration of disparate systems and applications by providing a communication layer that allows them to exchange information. ESBs offer a range of capabilities such as message routing, transformation, protocol conversion, and data mediation. They typically support various messaging patterns and communication protocols and provide a centralized platform for managing and monitoring message traffic.*
@@ -188,7 +187,7 @@ System integration is the process of linking together different IT systems (com
 - [UltraESB](https://www.adroitlogic.com/products/ultraesb/) - An ESB that supports zero-copy proxying for extreme performance utilizing Direct Memory Access and Non-Blocking IO.
 - [WSO2 Enterprise Integrator](https://wso2.com/integration/) - An API-centric, cloud-native, and distributed integration platform designed to provide a robust solution for software engineers.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### ETL
 *ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) are processes used to integrate and consolidate data from multiple sources. This section covers a range of open source and commercial tools for performing these tasks, including data ingestion, transformation, and loading into data warehouses or other data storage systems.*
@@ -204,7 +203,7 @@ System integration is the process of linking together different IT systems (com
 - [Stitch](https://www.stitchdata.com/) - A simple yet powerful ETL service that integrates data from dozens of different sources, ideal for businesses of all sizes.
 - [Talend Data Integration](https://www.talend.com/products/integrate-data/) - A versatile platform that brings data together from multiple sources to power all your business decisions.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Integration Frameworks
 *The Integration frameworks section includes software tools and libraries that help developers implement and manage integration patterns in their applications. These frameworks are based on well-established Enterprise Integration Patterns (EIPs), which provide a standard vocabulary and architecture for designing and implementing integration solutions. The frameworks in this section can help simplify the process of integrating different systems, applications, and data sources by providing pre-built connectors, message routing, and transformation capabilities.*
@@ -212,7 +211,7 @@ System integration is the process of linking together different IT systems (com
 - [Ballerina](https://github.com/ballerina-platform/ballerina-lang) - An open-source programming language that simplifies the creation, usage, and combination of network services.
 - [Spring Integration](https://github.com/spring-projects/spring-integration) - An extension of the Spring programming model that supports Enterprise Integration Patterns, allowing for streamlined integration of various systems.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### iPaaS
 *Integration Platform as a Service (iPaaS) is a cloud-based platform that enables businesses to integrate different systems, applications, and data sources with ease. It provides a unified platform for managing data flows between various systems, simplifying the process of integrating different systems and automating workflows. iPaaS tools typically provide a visual interface for designing, deploying, and managing integrations, as well as pre-built connectors and APIs for integrating with popular systems and services.*
@@ -228,7 +227,7 @@ System integration is the process of linking together different IT systems (com
 - [TIBCO Cloud Integration](https://www.tibco.com/products/cloud-integration) - A flexible platform that enables software engineers to integrate anything with API-led and event-driven integration. This platform empowers everyone to integrate anything, making integration processes faster and more efficient.
 - [Workato](https://www.workato.com/) - A single platform for integration and workflow automation across your organization, providing software engineers with a powerful platform for simplifying integration processes and streamlining operations.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### MaaS
 *Cloud Messaging as a Service (MaaS) refers to cloud-based messaging platforms that enable reliable, secure, and scalable communication between distributed applications and services. These platforms provide various messaging patterns such as publish-subscribe, request-reply, and streaming. They also offer features such as message routing, filtering, transformation, and persistence, and support various protocols and APIs for integration with different systems.*
@@ -254,7 +253,7 @@ System integration is the process of linking together different IT systems (com
 - [Yandex Message Queue](https://cloud.yandex.com/en/services/message-queue) - A cloud messaging service with compatibility to Amazon SQS HTTP API, making it easy to integrate with existing systems and services.
 - [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka) - A fully-managed Apache Kafka service with automated scaling, monitoring, and maintenance, providing hassle-free data streaming.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Managed File Transfer
 *Managed File Transfer (MFT) solutions provide secure and reliable file transfer capabilities that help organizations meet regulatory compliance requirements, improve operational efficiency, and reduce the risk of data breaches. MFT software typically includes features such as encryption, digital signatures, user access controls, and detailed audit logs to ensure that data is transmitted securely and can be tracked throughout the transfer process.*
@@ -265,7 +264,7 @@ System integration is the process of linking together different IT systems (com
 - [Oracle Managed File Transfer](https://www.oracle.com/middleware/technologies/mft/managed-file-transfer.html) - A comprehensive MFT solution that enables secure file exchange and management, providing a reliable and efficient way for businesses to transfer data with ease.
 - [TIBCO Managed File Transfer](https://www.tibco.com/products/tibco-managed-file-transfer) - A centrally managed MFT platform with powerful automation capabilities and advanced security features, capable of supporting all file transfer use cases. It is an ideal choice for businesses that require a comprehensive MFT solution.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Master Data Management
 *Master Data Management solutions help organizations create a single, authoritative source of accurate and consistent data across different systems, applications, and departments. These tools provide capabilities for data profiling, cleansing, enrichment, and governance, enabling organizations to improve data quality, reduce errors, and increase operational efficiency.*
@@ -278,7 +277,7 @@ System integration is the process of linking together different IT systems (com
 - [Teradata MDM](https://www.teradata.co.uk/Products/Applications/Master-Data-Management) - Establishes an accurate analytical data foundation by using consistent reference data, driving significant ROI.
 - [TIBCO EBX](https://www.tibco.com/products/tibco-ebx-software) - A single solution to govern, manage, and consume all shared data assets, ensuring greater consistency and accuracy across your organization.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Messaging
 *Message brokers are a type of middleware that allows communication between different applications or systems by facilitating the exchange of messages. They can handle different messaging patterns, such as point-to-point, publish-subscribe, and request-reply, and provide features such as message transformation, routing, and filtering.*
@@ -298,7 +297,7 @@ System integration is the process of linking together different IT systems (com
 - [TIBCO Enterprise Message Service](https://www.tibco.com/products/tibco-enterprise-message-service) - A standards-based JMS implementation that allows for easy exchange of messages between applications. Offers reliable and efficient message delivery and supports various messaging protocols and patterns.
 - [VerneMQ](https://github.com/vernemq/vernemq) - A high-performance distributed MQTT message broker designed for scalability and reliability. Offers efficient and reliable message delivery and supports multiple messaging protocols and patterns.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### RPA
 *Robotic Process Automation (RPA) solutions are software tools that automate repetitive, rule-based tasks within business processes. RPA bots can perform tasks such as data entry, data extraction, and data processing with accuracy and speed, freeing up human workers to focus on more complex tasks.*
@@ -307,7 +306,7 @@ System integration is the process of linking together different IT systems (com
 - [UiPath](https://www.uipath.com/product) - A platform that provides RPA solutions for automating repetitive digital tasks typically performed by people. This solution offers a comprehensive automation platform that enables businesses to automate their processes and increase efficiency.
 - [WorkFusion](https://www.workfusion.com/platform/) - An automation platform for the enterprise that offers RPA solutions. This platform is designed to automate manual tasks, reduce errors and improve efficiency. It offers a comprehensive set of tools for automating workflows and streamlining operations.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Self-Service Integration
 *Self-service and citizen integrator tools are designed to enable non-technical users to build integrations without the need for extensive programming knowledge. These tools typically feature drag-and-drop interfaces and pre-built connectors for popular applications and services.*
@@ -317,7 +316,7 @@ System integration is the process of linking together different IT systems (com
 - [Oracle Self-Service Integration](https://docs.oracle.com/en/cloud/paas/self-service-integration-cloud/index.html) - Automate tasks between various cloud applications with ease using Oracle's Self-Service Integration tool, providing a seamless and efficient integration process.
 - [Zapier](https://zapier.com/) - An intuitive automation tool that connects hundreds of web services to create automations between processes with ease, streamlining tasks, and enhancing overall productivity.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Workflow engine
 *Software tools that enable the design, execution, and monitoring of complex workflows or business processes. Workflow engines provide a way to automate and streamline business processes, while orchestration engines help to manage the interactions between different systems or services.*
@@ -334,7 +333,7 @@ System integration is the process of linking together different IT systems (com
 - [jBPM](https://github.com/kiegroup/jbpm) -  A toolkit for building business applications that helps you automate business processes and decisions, making it easier to manage complex workflows.
 - [StackStorm](https://github.com/StackStorm/st2) - A robust automation engine that provides sensors, triggers, rules, workflows, and actions to help you automate and orchestrate complex workflows and applications.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ## Resources
 *Some useful specifications, patterns, articles and documentation.*
@@ -347,13 +346,13 @@ System integration is the process of linking together different IT systems (com
 - [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/) - A RESTful API Modeling Language that allows software engineers to design and create efficient APIs by modeling resources, endpoints, and interactions.
 - [WSDL](http://www.w3.org/TR/wsdl20) - A powerful XML-based interface description language for SOAP-based services that enables software engineers to describe the functionality of a web service and automate the creation of client code.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Articles
 - [Enterprise Integration Using REST](http://martinfowler.com/articles/enterpriseREST.html) - Discusses the constraints and flexibility that you have with nonpublic APIs, and lessons learned from doing large scale RESTful integration across multiple teams.
 - [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html) - Explained by Martin Fowler, originally presented by Leonard Richardson.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Certifications
 - API Academy
@@ -399,13 +398,13 @@ System integration is the process of linking together different IT systems (com
   - [TIBCO Messaging Associate](https://www.tibco.com/services/education/certification/tibco-messaging-associate-certification-exam) - Covers topics such as TIBCO Enterprise Message Service (EMS), TIBCO FTL, TIBCO eFTL, as well as other messaging technologies such as Apache Kafka, Apache Pulsar, and Eclipse Mosquitto.
   - [TIBCO Messaging Certified Professional](https://www.tibco.com/services/education/certification/tibco-messaging-certified-professional-exam) - Validates the skills and knowledge required to work with TIBCO Messaging and its components, including TIBCO Enterprise Message Service (EMS), TIBCO FTL, and TIBCO eFTL.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Connectors
 - [JCA](https://projects.eclipse.org/projects/ee4j.jca) - Defines a standard architecture for Jakarta EE application components to connect to Enterprise Information Systems. Formerly Java EE Connector Architecture and J2EE Connector Architecture.
 - [Kafka Connect](https://kafka.apache.org/documentation/#connect) - A tool for scalably and reliably streaming data between Apache Kafka and other systems.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Data Formats
 - [Apache Avro](https://github.com/apache/avro) - Data serialization system that provides compact, fast, and efficient serialization of structured data. It supports schema evolution, allows for efficient data compression, and is designed to work well with big data processing frameworks.
@@ -417,7 +416,7 @@ System integration is the process of linking together different IT systems (com
 - [XML](https://www.w3.org/TR/2006/REC-xml11-20060816/) - A flexible and widely used markup language that is used for storing and exchanging structured data. It supports rich data types and is compatible with many programming languages.
 - [YAML](https://yaml.org/) - A human-friendly and easy-to-read data serialization format that is widely used for configuration files and data exchange. It supports rich data types and is compatible with most programming languages.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Enterprise Integration Patterns
 *Patterns from a book by Gregor Hohpe and Bobby Woolf.*
@@ -483,7 +482,7 @@ System integration is the process of linking together different IT systems (com
 - [Transactional Client](https://www.enterpriseintegrationpatterns.com/patterns/messaging/TransactionalClient.html) - How can a client control its transactions with the messaging system?  
 - [Wire Tap](https://www.enterpriseintegrationpatterns.com/patterns/messaging/WireTap.html) - How do you inspect messages that travel on a point-to-point channel?  
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Integration Architecture Patterns
 - [API-led Connectivity pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/API-led-Connectivity-Pattern.md) - Use APIs to connect different systems and applications.
@@ -492,7 +491,7 @@ System integration is the process of linking together different IT systems (com
 - [Hybrid API Management pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Hybrid-API-Management-Pattern.md) - Manage APIs that span both cloud and on-premises environments using a central control plane.
 - [Hybrid Integration pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Hybrid-Integration-Pattern.md) - Integrate systems and applications that are deployed both on-premises and in the cloud using a combination of integration technologies.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Integration Styles
 - [File Transfer](https://www.enterpriseintegrationpatterns.com/patterns/messaging/FileTransferIntegration.html) - Data is exchanged through file exchange between applications.
@@ -500,7 +499,7 @@ System integration is the process of linking together different IT systems (com
 - [Remote Procedure Invocation](https://www.enterpriseintegrationpatterns.com/patterns/messaging/EncapsulatedSynchronousIntegration.html) - Applications call functions or procedures on a remote server over a network.
 - [Shared Database](https://www.enterpriseintegrationpatterns.com/patterns/messaging/SharedDataBaseIntegration.html) - Multiple applications access and manipulate the same data through a common database.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Market Analysis
 - API Management
@@ -522,7 +521,7 @@ System integration is the process of linking together different IT systems (com
   - [Gartner Magic Quadrant for Robotic Process Automation](https://www.gartner.com/doc/code/441474)
   - [The Forrester Wave: Robotic Process Automation](https://www.forrester.com/go?objectid=RES161538)
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Protocols
 - [AMQP 0-9-1](https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf) - A message queuing protocol that enables the exchange of messages between applications or systems. AMQP 0-9-1 provides reliability, security, and flexibility to handle complex messaging scenarios.
@@ -534,7 +533,7 @@ System integration is the process of linking together different IT systems (com
 - [SOAP](https://www.w3.org/TR/soap/) - A messaging protocol that uses XML to enable communication between systems. SOAP supports a wide range of messaging scenarios, including distributed computing and enterprise applications.
 - [STOMP](https://stomp.github.io/) - A messaging protocol that offers simple, text-oriented communication between systems. STOMP is ideal for low-latency, high-performance messaging scenarios.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Standard APIs
 - [JDBC](https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/) - A Java-based API that provides universal data access to relational databases. JDBC offers a consistent and efficient way to access and manipulate data, making it a popular choice among developers.
@@ -542,14 +541,14 @@ System integration is the process of linking together different IT systems (com
 - [ODBC](https://docs.microsoft.com/en-us/sql/odbc/reference/odbc-overview) - A widely accepted API that provides a standardized way to access data from various database management systems. ODBC offers a consistent interface to access data, making it easy to develop database applications.
 - [OData](https://www.odata.org/) - An open protocol that enables the creation and consumption of queryable and interoperable REST APIs. OData simplifies the development of REST APIs and offers a standardized way to access data.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ### Structure and Validation
 - [JSON Schema](https://json-schema.org/) - A powerful tool for validating the structure of JSON data. JSON Schema enables developers to ensure that JSON data conforms to a specific structure, making it easier to process and manipulate.
 - [Schematron](https://www.schematron.com) - A rule-based validation language that enables developers to define and validate business rules, data reporting, quality control, and other validation scenarios. Schematron offers a flexible way to validate XML documents.
 - [XML Schema](https://www.w3.org/TR/xmlschema11-1/) - A schema language that offers facilities for describing the structure and constraining the contents of XML documents. XML Schema enables developers to ensure that XML data conforms to a specific structure, making it easier to process and manipulate.
 
-<!--lint ignore awesome-list-item-->
+<!--lint ignore remark-lint:double-link-->
 **[⬆ back to top](#contents)**
 ## Contributing
 Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/stn1slv/awesome-integration/blob/main/CONTRIBUTING.md) first.
