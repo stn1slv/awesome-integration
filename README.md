@@ -28,6 +28,7 @@ System integration is the process of linking together different IT systems (com
 - [Integration Patterns](#integration-patterns)
   - [Enterprise Integration Patterns](#enterprise-integration-patterns) 
   - [Integration Architecture Patterns](#integration-architecture-patterns)
+  - [SOA Patterns](#soa-patterns)
 - [Resources](#resources)
   - [API Specification](#api-specification) 
   - [Articles](#articles)
@@ -430,6 +431,13 @@ System integration is the process of linking together different IT systems (com
 - [Change Data Capture Pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Introduction-to-Change-Data-Capture.md) - Capture and propagate changes made to a database or data source in real-time.
 - [Hybrid API Management pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Hybrid-API-Management-Pattern.md) - Manage APIs that span both cloud and on-premises environments using a central control plane.
 - [Hybrid Integration pattern](https://github.com/chanakaudaya/solution-architecture-patterns/blob/master/vendor-neutral/Hybrid-Integration-Pattern.md) - Integrate systems and applications that are deployed both on-premises and in the cloud using a combination of integration technologies.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### SOA Patterns
+*SOA patterns are design solutions that provide guidelines and best practices for developing flexible and reusable service-oriented applications. These patterns address various aspects of service-oriented application design, including service identification, interaction, composition, and granularity.*
+- [Canonical Protocol](https://patterns.arcitura.com/soa-patterns/design_patterns/canonical_protocol) - Defines a common communication protocol between services to enable interoperability and decoupling.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
