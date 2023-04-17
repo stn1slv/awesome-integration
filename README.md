@@ -60,8 +60,9 @@ System integration is the process of linking together different IT systems (com
 - [Tyk API Management](https://tyk.io/api-lifecycle-management/) - A powerful API management solution that allows you to connect, build, and control APIs with ease.
 - [webMethods API](https://www.softwareag.cloud/site/product/webmethods-api.html) - A comprehensive API management solution from Software AG that provides full lifecycle API management capabilities and enables you to manage APIs in both on-premises and cloud environments.
 - [WSO2 API Manager](https://github.com/wso2/product-apim) - A fully open-source API management platform that provides comprehensive API management capabilities and allows you to manage APIs with ease.
-
+<!--lint disable-->
 **[⬆ back to top](#contents)** #lint-ignore
+<!--lint enable-->
 ### API Design
 *API design, documentation, and life-cycle automation tools streamline the process of creating, maintaining, and evolving APIs. These tools offer efficient means to design consistent and scalable APIs, generate comprehensive documentation, and automate various stages of the API life-cycle, enhancing developer experience and promoting API adoption.*
 - [Dredd](https://github.com/apiaryio/dredd) - Validate API description docs against backend implementation using this language-agnostic CLI tool.
