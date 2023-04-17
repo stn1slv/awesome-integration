@@ -531,7 +531,7 @@ System integration is the process of linking together different IT systems (com
    - [Messaging Metadata](https://patterns.arcitura.com/soa-patterns/design_patterns/messaging_metadata) - Uses metadata to describe and manage service messages.
    - [Reliable Messaging](https://patterns.arcitura.com/soa-patterns/design_patterns/reliable_messaging) - Ensures message delivery and reliability in a distributed environment.
    - [Service Agent](https://patterns.arcitura.com/soa-patterns/design_patterns/service_agent) - Acts as a proxy for a remote service to improve performance and reduce network overhead.
-   - [Service Callback](https://patterns.arcitura.com/soa-patterns/design_patterns/service_callback) - Uses callbacks to communicate between services
+   - [Service Callback](https://patterns.arcitura.com/soa-patterns/design_patterns/service_callback) - Uses callbacks to communicate between services.
    - [Service Instance Routing](https://patterns.arcitura.com/soa-patterns/design_patterns/service_instance_routing) - Routes messages based on the service instance to improve performance and scalability.
    - [Service Messaging](https://patterns.arcitura.com/soa-patterns/design_patterns/service_messaging) - Describes the communication between services.
    - [State Messaging](https://patterns.arcitura.com/soa-patterns/design_patterns/state_messaging) - Uses messages to manage state information in a distributed environment.
