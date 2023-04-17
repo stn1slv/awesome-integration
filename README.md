@@ -489,76 +489,76 @@ System integration is the process of linking together different IT systems (com
     -   [UI Mediator](https://patterns.arcitura.com/soa-patterns/design_patterns/ui_mediator) - Mediates between the user interface and underlying services for improved usability.
     -   [Reference Data Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/reference_data_centralization) - Centralizes reference data to reduce duplication and improve consistency.
     -   [Microservice Deployment](https://patterns.arcitura.com/soa-patterns/design_patterns/microservice_deployment) - Deploys services as independent, autonomous units for improved scalability and resilience.
-    -   [Containerization](https://patterns.arcitura.com/soa-patterns/design_patterns/containerization) - 
+    -   [Containerization](https://patterns.arcitura.com/soa-patterns/design_patterns/containerization) - How can an environment be provided with maximum support for services with high-performance recovery and scalability requirements?
 
 -   Service Security Patterns
-    -   [Exception Shielding](https://patterns.arcitura.com/soa-patterns/design_patterns/exception_shielding) - 
-    -   [Message Screening](https://patterns.arcitura.com/soa-patterns/design_patterns/message_screening) - 
-    -   [Service Perimeter Guard](https://patterns.arcitura.com/soa-patterns/design_patterns/service_perimeter_guard) - 
-    -   [Trusted Subsystem](https://patterns.arcitura.com/soa-patterns/design_patterns/trusted_subsystem) - 
+    -   [Exception Shielding](https://patterns.arcitura.com/soa-patterns/design_patterns/exception_shielding) - Protects against security vulnerabilities through proper handling of exceptions.
+    -   [Message Screening](https://patterns.arcitura.com/soa-patterns/design_patterns/message_screening) - Screens messages for malicious content.
+    -   [Service Perimeter Guard](https://patterns.arcitura.com/soa-patterns/design_patterns/service_perimeter_guard) - Guards the service perimeter to prevent unauthorized access.
+    -   [Trusted Subsystem](https://patterns.arcitura.com/soa-patterns/design_patterns/trusted_subsystem) - Establishes trust between subsystems for improved security.
 
 -   Service Contract Design Patterns
-    -   [Concurrent Contracts](https://patterns.arcitura.com/soa-patterns/design_patterns/concurrent_contracts) - 
-    -   [Contract Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/contract_centralization) - 
-    -   [Contract Denormalization](https://patterns.arcitura.com/soa-patterns/design_patterns/contract_denormalization) - 
-    -   [Decoupled Contract](https://patterns.arcitura.com/soa-patterns/design_patterns/decoupled_contract) - 
-    -   [Validation Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/validation_abstraction) - 
+    -   [Concurrent Contracts](https://patterns.arcitura.com/soa-patterns/design_patterns/concurrent_contracts) - Allows multiple versions of a service contract to coexist simultaneously.
+    -   [Contract Centralization](https://patterns.arcitura.com/soa-patterns/design_patterns/contract_centralization) - Centralizes service contracts to improve consistency and reduce duplication.
+    -   [Contract Denormalization](https://patterns.arcitura.com/soa-patterns/design_patterns/contract_denormalization) - Centralizes service contracts to improve consistency and reduce duplication.
+    -   [Decoupled Contract](https://patterns.arcitura.com/soa-patterns/design_patterns/decoupled_contract) - Decouples service contracts from their implementation for improved flexibility.
+    -   [Validation Abstraction](https://patterns.arcitura.com/soa-patterns/design_patterns/validation_abstraction) - Abstracts validation logic to improve reusability and maintainability.
 
 -   Legacy Encapsulation Patterns
-    -   [File Gateway](https://patterns.arcitura.com/soa-patterns/design_patterns/file_gateway) - 
-    -   [Legacy Wrapper](https://patterns.arcitura.com/soa-patterns/design_patterns/legacy_wrapper) - 
-    -   [Multi-Channel Endpoint](https://patterns.arcitura.com/soa-patterns/design_patterns/multi_channel_endpoint) - 
+    -   [File Gateway](https://patterns.arcitura.com/soa-patterns/design_patterns/file_gateway) - Provides a gateway to access legacy file-based systems.
+    -   [Legacy Wrapper](https://patterns.arcitura.com/soa-patterns/design_patterns/legacy_wrapper) - Wraps legacy systems to expose them as services.
+    -   [Multi-Channel Endpoint](https://patterns.arcitura.com/soa-patterns/design_patterns/multi_channel_endpoint) - Provides multiple communication channels to access legacy systems.
 
 -   Service Governance Patterns
-    -   [Compatible Change](https://patterns.arcitura.com/soa-patterns/design_patterns/compatible_change) - 
-    -   [Decomposed Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/decomposed_capability) - 
-    -   [Distributed Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/distributed_capability) - 
-    -   [Proxy Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/proxy_capability) - 
-    -   [Service Decomposition](https://patterns.arcitura.com/soa-patterns/design_patterns/service_decomposition) - 
-    -   [Service Refactoring](https://patterns.arcitura.com/soa-patterns/design_patterns/service_refactoring) - 
-    -   [Termination Notification](https://patterns.arcitura.com/soa-patterns/design_patterns/termination_notification) - 
-    -   [Version Identification](https://patterns.arcitura.com/soa-patterns/design_patterns/version_identification) - 
+    -   [Compatible Change](https://patterns.arcitura.com/soa-patterns/design_patterns/compatible_change) - Enables changes to a service without breaking existing clients.
+    -   [Decomposed Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/decomposed_capability) - Breaks down a service capability into smaller, more manageable pieces.
+    -   [Distributed Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/distributed_capability) - Breaks down a service capability into smaller, more manageable pieces.
+    -   [Proxy Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/proxy_capability) - Provides a proxy to a remote service capability to improve performance and reduce network overhead.
+    -   [Service Decomposition](https://patterns.arcitura.com/soa-patterns/design_patterns/service_decomposition) - Breaks down a monolithic service into smaller, more manageable pieces.
+    -   [Service Refactoring](https://patterns.arcitura.com/soa-patterns/design_patterns/service_refactoring) - Refactors a service to improve its design and performance.
+    -   [Termination Notification](https://patterns.arcitura.com/soa-patterns/design_patterns/termination_notification) - Notifies clients of a service's termination.
+    -   [Version Identification](https://patterns.arcitura.com/soa-patterns/design_patterns/version_identification) - Identifies the version of a service. 
 
 -   Capability Composition Patterns
-    -   [Capability Composition](https://patterns.arcitura.com/soa-patterns/design_patterns/capability_composition)
-    -   [Capability Recomposition](https://patterns.arcitura.com/soa-patterns/design_patterns/capability_recomposition)
+    -   [Capability Composition](https://patterns.arcitura.com/soa-patterns/design_patterns/capability_composition) - Combines multiple service capabilities to create a new capability.
+    -   [Capability Recomposition](https://patterns.arcitura.com/soa-patterns/design_patterns/capability_recomposition) - Recombines existing service capabilities to create a new capability.
 
 -   Service Messaging Patterns
-    -   [Asynchronous Queuing](https://patterns.arcitura.com/soa-patterns/design_patterns/asynchronous_queuing)
-    -   [Event-Driven Messaging](https://patterns.arcitura.com/soa-patterns/design_patterns/event_driven_messaging)
-    -   [Intermediate Routing](https://patterns.arcitura.com/soa-patterns/design_patterns/intermediate_routing)
-    -   [Messaging Metadata](https://patterns.arcitura.com/soa-patterns/design_patterns/messaging_metadata)
-    -   [Reliable Messaging](https://patterns.arcitura.com/soa-patterns/design_patterns/reliable_messaging)
-    -   [Service Agent](https://patterns.arcitura.com/soa-patterns/design_patterns/service_agent)
-    -   [Service Callback](https://patterns.arcitura.com/soa-patterns/design_patterns/service_callback)
-    -   [Service Instance Routing](https://patterns.arcitura.com/soa-patterns/design_patterns/service_instance_routing)
-    -   [Service Messaging](https://patterns.arcitura.com/soa-patterns/design_patterns/service_messaging)
-    -   [State Messaging](https://patterns.arcitura.com/soa-patterns/design_patterns/state_messaging)
+    -   [Asynchronous Queuing](https://patterns.arcitura.com/soa-patterns/design_patterns/asynchronous_queuing) - Uses a message queue to decouple services and improve scalability and reliability.
+    -   [Event-Driven Messaging](https://patterns.arcitura.com/soa-patterns/design_patterns/event_driven_messaging) - Uses events to trigger service invocations and reduce coupling.
+    -   [Intermediate Routing](https://patterns.arcitura.com/soa-patterns/design_patterns/intermediate_routing) - Uses intermediate routing nodes to improve performance and flexibility.
+    -   [Messaging Metadata](https://patterns.arcitura.com/soa-patterns/design_patterns/messaging_metadata) - Uses metadata to describe and manage service messages.
+    -   [Reliable Messaging](https://patterns.arcitura.com/soa-patterns/design_patterns/reliable_messaging) - Ensures message delivery and reliability in a distributed environment.
+    -   [Service Agent](https://patterns.arcitura.com/soa-patterns/design_patterns/service_agent) - Acts as a proxy for a remote service to improve performance and reduce network overhead.
+    -   [Service Callback](https://patterns.arcitura.com/soa-patterns/design_patterns/service_callback) - Uses callbacks to communicate between services
+    -   [Service Instance Routing](https://patterns.arcitura.com/soa-patterns/design_patterns/service_instance_routing) - Routes messages based on the service instance to improve performance and scalability.
+    -   [Service Messaging](https://patterns.arcitura.com/soa-patterns/design_patterns/service_messaging) - Describes the communication between services.
+    -   [State Messaging](https://patterns.arcitura.com/soa-patterns/design_patterns/state_messaging) - Uses messages to manage state information in a distributed environment.
 
 -   Composition Implementation Patterns
-    -   [Agnostic Sub-Controller](https://patterns.arcitura.com/soa-patterns/design_patterns/agnostic_sub_controller)
-    -   [Atomic Service Transaction](https://patterns.arcitura.com/soa-patterns/design_patterns/atomic_service_transaction)
-    -   [Compensating Service Transaction](https://patterns.arcitura.com/soa-patterns/design_patterns/compensating_service_transaction)
-    -   [Composition Autonomy](https://patterns.arcitura.com/soa-patterns/design_patterns/composition_autonomy)
+    -   [Agnostic Sub-Controller](https://patterns.arcitura.com/soa-patterns/design_patterns/agnostic_sub_controller) - Separates sub-controllers from the main controller to improve reusability and maintainability.
+    -   [Atomic Service Transaction](https://patterns.arcitura.com/soa-patterns/design_patterns/atomic_service_transaction) - Uses transactions to ensure atomicity and consistency across multiple service invocations.
+    -   [Compensating Service Transaction](https://patterns.arcitura.com/soa-patterns/design_patterns/compensating_service_transaction) - Reverses the effects of a failed transaction.
+    -   [Composition Autonomy](https://patterns.arcitura.com/soa-patterns/design_patterns/composition_autonomy) - Enables services to act autonomously within a composition.
 
 -   Service Interaction Security Patterns
-    -   [Brokered Authentication](https://patterns.arcitura.com/soa-patterns/design_patterns/brokered_authentication)
-    -   [Data Confidentiality](https://patterns.arcitura.com/soa-patterns/design_patterns/data_confidentiality)
-    -   [Data Origin Authentication](https://patterns.arcitura.com/soa-patterns/design_patterns/data_origin_authentication)
-    -   [Direct Authentication](https://patterns.arcitura.com/soa-patterns/design_patterns/direct_authentication)
+    -   [Brokered Authentication](https://patterns.arcitura.com/soa-patterns/design_patterns/brokered_authentication) - Authenticates clients through a broker.
+    -   [Data Confidentiality](https://patterns.arcitura.com/soa-patterns/design_patterns/data_confidentiality) - Ensures data confidentiality in a distributed environment.
+    -   [Data Origin Authentication](https://patterns.arcitura.com/soa-patterns/design_patterns/data_origin_authentication) - Authenticates the origin of a message.
+    -   [Direct Authentication](https://patterns.arcitura.com/soa-patterns/design_patterns/direct_authentication) - Authenticates clients directly.
 
 -   Transformation Patterns
-    -   [Data Format Transformation](https://patterns.arcitura.com/soa-patterns/design_patterns/data_format_transformation)
-    -   [Data Model Transformation](https://patterns.arcitura.com/soa-patterns/design_patterns/data_model_transformation)
-    -   [Protocol Bridging](https://patterns.arcitura.com/soa-patterns/design_patterns/protocol_bridging)
+    -   [Data Format Transformation](https://patterns.arcitura.com/soa-patterns/design_patterns/data_format_transformation) - Transforms data formats to enable interoperability.
+    -   [Data Model Transformation](https://patterns.arcitura.com/soa-patterns/design_patterns/data_model_transformation) - Transforms data models to enable interoperability.
+    -   [Protocol Bridging](https://patterns.arcitura.com/soa-patterns/design_patterns/protocol_bridging) - Bridges between different protocols to enable interoperability.
 
 -   REST-inspired Patterns
-    -   [Entity Linking](https://patterns.arcitura.com/soa-patterns/design_patterns/entity_linking)
-    -   [Lightweight Endpoint](https://patterns.arcitura.com/soa-patterns/design_patterns/lightweight_endpoint)
-    -   [Reusable Contract](https://patterns.arcitura.com/soa-patterns/design_patterns/reusable_contract)
-    -   [Content Negotiation](https://patterns.arcitura.com/soa-patterns/design_patterns/content_negotiation)
-    -   [Endpoint Redirection](https://patterns.arcitura.com/soa-patterns/design_patterns/endpoint_redirection)
-    -   [Idempotent Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/idempotent_capability)
+    -   [Entity Linking](https://patterns.arcitura.com/soa-patterns/design_patterns/entity_linking) - Links related resources to enable navigation and discovery.
+    -   [Lightweight Endpoint](https://patterns.arcitura.com/soa-patterns/design_patterns/lightweight_endpoint) - Provides a lightweight endpoint for resource access.
+    -   [Reusable Contract](https://patterns.arcitura.com/soa-patterns/design_patterns/reusable_contract) - Reuses common contracts to improve consistency and reduce duplication.
+    -   [Content Negotiation](https://patterns.arcitura.com/soa-patterns/design_patterns/content_negotiation) - Negotiates the content format between clients and servers.
+    -   [Endpoint Redirection](https://patterns.arcitura.com/soa-patterns/design_patterns/endpoint_redirection) - Redirects clients to alternative endpoints.
+    -   [Idempotent Capability](https://patterns.arcitura.com/soa-patterns/design_patterns/idempotent_capability) - Ensures that the same action can be performed multiple times without changing the system state.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
