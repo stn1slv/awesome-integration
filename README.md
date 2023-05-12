@@ -655,11 +655,17 @@ System integration is the process of linking together different IT systems (com
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### Certifications
-- API Academy
-  - [API Designer](https://apiacademy.learnupon.com/) - Validate your understanding of API design basics and best practices.
-  - [API Product Manager](https://apiacademy.co/2020/05/virtual-api-academy-workshop/) - Demonstrate your proficiency in managing APIs as products.
-  - [API Security Architect](https://apiacademy.co/api-certification/) - Validate your expertise in securing APIs using modern architectures.
-- Boomi
+<details>
+<summary>API Academy</summary>
+  
+- [API Designer](https://apiacademy.learnupon.com/) - Validate your understanding of API design basics and best practices.
+- [API Product Manager](https://apiacademy.co/2020/05/virtual-api-academy-workshop/) - Demonstrate your proficiency in managing APIs as products.
+- [API Security Architect](https://apiacademy.co/api-certification/) - Validate your expertise in securing APIs using modern architectures.
+  
+</details>
+<details>
+<summary>Boomi</summary>
+  
   - [Associate Administrator Certification](https://community.boomi.com/s/learning-plan-detail-standard?ltui__urlRecordId=aOM6S0000008OIKWA2&ltui__urlRedirect=learning-plan-detail-standard) - Validates an individual's foundational knowledge and skills in managing and administering the Boomi platform, focusing on platform monitoring, troubleshooting, and security.
   - [Associate Developer Certification](https://community.boomi.com/s/learning-plan-detail-standard?ltui__urlRecordId=aOM6S0000008OIeWAM&ltui__urlRedirect=learning-plan-detail-standard) - Demonstrates a candidate's basic understanding of building and deploying integration processes using the Boomi platform, including design patterns, deployment, and error handling.
   - [Associate EDI for X12 Certification](https://community.boomi.com/s/learning-plan-detail-standard?ltui__urlRecordId=aOM6S0000008OIFWA2&ltui__urlRedirect=learning-plan-detail-standard) - Validates an individual's proficiency in using Boomi to design, develop, and manage Electronic Data Interchange (EDI) integrations with the X12 standard, covering essential concepts like EDI document structure and trading partner management.
@@ -672,36 +678,68 @@ System integration is the process of linking together different IT systems (com
   - [Professional Flow Developer Certification](https://community.boomi.com/s/learning-plan-detail-standard?ltui__urlRecordId=aOM6S0000008OIUWA2&ltui__urlRedirect=learning-plan-detail-standard) - Showcases an individual's advanced capabilities in designing, developing, and managing business applications using Boomi Flow, including complex workflow design, custom UI components, and integration with external systems.
   - [Professional Linux Operational Administrator Certification](https://community.boomi.com/s/learning-plan-detail-standard?ltui__urlRecordId=aOM6S0000008OI5WAM&ltui__urlRedirect=learning-plan-detail-standard) - Confirms a candidate's proficiency in managing and administering Boomi on Linux systems, covering topics such as system installation, configuration, security, and performance optimization.
   - [Professional Windows Operational Administrator Certification](https://community.boomi.com/s/learning-plan-detail-standard?ltui__urlRecordId=aOM6S0000008OIAWA2&ltui__urlRedirect=learning-plan-detail-standard) - Validates an individual's expertise in managing and administering Boomi on Windows systems, focusing on system installation, configuration, security, and performance optimization.
-- IBM
+  
+</details>
+<details>
+<summary>IBM</summary>
+  
   - [IBM Certified Solution Developer – App Connect Enterprise V11](https://www.ibm.com/training/certification/C0003107#exam) - Validate your intermediate-level knowledge and experience to develop, deploy, tune, and support platform-independent message flow applications using IBM App Connect V11.0.
   - [IBM Certified Solution Implementer – API Connect v10.0.3](https://www.ibm.com/training/certification/C0002604#exam) - Demonstrate your intermediate-level knowledge and skills to develop, publish, configure, and manage APIs using IBM API Connect v10.0.3.
-- Gravitee
+
+</details>
+<details>
+<summary>Gravitee</summary>
+
   - [Event-native API Management Foundations](https://gravitee.getlearnworlds.com/course/gravitee-event-native-api-management-foundations) - Basics of Event-native API Management.
   - [Event-native API Management Professional](https://gravitee.getlearnworlds.com/course/gravitee-enap-certification) - Focuses on some more advanced API Management concepts, plus foundational knowledge around how to use Gravitee API Management.
-- Kong
+  
+</details>
+<details>
+<summary>Kong</summary>
+  
   - [Kong Gateway Certified Associate](https://konghq.com/academy/exam-preparation) - Validate your entry-level knowledge and skills on Kong Gateway for developers, DevOps, and architects.
-- Mulesoft
+
+</details>
+<details>
+<summary>Mulesoft</summary>
+  
   - [MuleSoft Certified Developer - Level 1](https://training.mulesoft.com/certification/developer-mule4-level1) - Validate your knowledge and skills to design, build, test and debug, deploy, and manage basic APIs and integrations using MuleSoft.
   - [MuleSoft Certified Developer - Level 2](https://training.mulesoft.com/certification/developer-mule4-level2) - Validate your ability to work on production-ready Mule applications that address and balance critical non-functional requirements including monitoring, performance, maintainability, reliability, and security.
   - [MuleSoft Certified Integration Architect - Level 1](https://training.mulesoft.com/certification/architect-integration-level1) - Validate your knowledge and skills to translate functional and non-functional requirements into integration interfaces and implementations.
   - [MuleSoft Certified Platform Architect - Level 1](https://training.mulesoft.com/certification/architect-platform-level1) - Validate your knowledge and skills to direct the emergence of an effective application network out of individual integration solutions following API-led connectivity across an organization using Anypoint Platform.
-- Oracle
+
+</details>
+<details>
+<summary>Oracle</summary>
+
   - [Oracle Business Process Management Suite 12c Certified Implementation Specialist](https://education.oracle.com/oracle-business-process-management-suite-12c-essentials/pexam_1Z0-435) - Validate your expertise in implementing Oracle BPM Suite 12c solution.
   - [Oracle Cloud Platform Application Integration 2022 Certified Professional](https://education.oracle.com/oracle-cloud-platform-application-integration-2022-certified-professional/trackp_OCPAI2022CP) - Validate your understanding of Oracle Application Integration to implement these Cloud services.
   - [Oracle Data Integrator 12c Certified Implementation Specialist](https://education.oracle.com/oracle-data-integrator-12c-certified-implementation-specialist/trackp_379) - Validate your expertise in selling or implementing Oracle Data Integration 12c solutions.
   - [Oracle SOA Suite 12c Certified Implementation Specialist](https://education.oracle.com/oracle-soa-suite-12c-essentials/pexam_1Z0-434) - Validate your expertise in implementing solutions based on Oracle SOA Suite 12c.
-- Red Hat
+
+</details>
+<details>
+<summary>Red Hat</summary>
+ 
   - [Red Hat Certified Specialist in API Management](https://www.redhat.com/en/services/certification/red-hat-certified-specialist-api-management) - Validates the ability to create and maintain enterprise APIs using the Red Hat 3scale API Management platform.
   - [Red Hat Certified Specialist in Business Rules](https://www.redhat.com/en/services/certification/rhcs-business-rules) - Checks the knowledge, skills, and abilities needed to perform tasks involving the implementation and management of business logic using the Red Hat JBoss BRMS.
   - [Red Hat Certified Specialist in Cloud-native Integration](https://www.redhat.com/en/services/certification/rhcs-cloud-native-integration) - Validates the ability to create and maintain enterprise integration services based on Red Hat Fuse, Camel, and APIs.
   - [Red Hat Certified Specialist in Event-Driven Development with Kafka](https://www.redhat.com/en/services/certification/red-hat-certified-specialist-event-driven-development-kafka) - Validates the ability to develop applications using Apache Kafka and Apache Kafka Streams.
-- SnapLogic
+  
+</details>
+<details>
+<summary>SnapLogic</summary>
+
   - [SnapLogic Administrator Certification](https://learn.snaplogic.com/snaplogic-administrator-certification) - Assesses your ability to handle administrative tasks for SnapLogic instances.
   - [SnapLogic Architect Certification](https://learn.snaplogic.com/snaplogic-architect-certification) - Evaluates your knowledge of integration reference architectures and key strategies for the SnapLogic platform, covering topics like SnapLogic Architecture, Snaplex Requirements, Pipeline Lifecycle Management, Advanced Data Transformations, API Management, Resumable Pipelines, and Best Practices.
   - [SnapLogic Certified Enterprise Automation Professional](https://learn.snaplogic.com/snaplogic-certified-automation-professional) - An advanced certification covering topics like SnapLogic platform, asset management, workflows, expression language, tasks, pipeline modularization, migration, and user assistance videos for various endpoints.
   - [SnapLogic Developer Certification](https://learn.snaplogic.com/snaplogic-developer-certification) - Testing your expertise in using the SnapLogic SDK, implementing different parts of Snap functionality, and building custom Snaps.
   - [SnapLogic Integrator Certification](https://learn.snaplogic.com/snaplogic-integrator-certification-1) - Focuses on topics such as beginner training, ultra tasks, pipeline migration, and user assistance videos covering various integration endpoints.
-- TIBCO
+
+</details>
+<details>
+<summary>TIBCO</summary>
+
   - [TIBCO BusinessWorks Associate](https://www.tibco.com/services/education/certification/tibco-businessworks-associate-certification-exam) - Checks the understanding of Business Studio and TIBCO Cloud Integration, designing application components (modules, WSDL, REST API), developing integration applications, and testing, deploying, and managing applications.
   - [TIBCO BusinessWorks Certified Professional](https://www.tibco.com/services/education/certification/tibco-businessworks-6-certification-exam) - Validates the ability to design, develop, deploy, monitor, and manage TIBCO BusinessWorks applications of average complexity with minimal supervision.
   - [TIBCO BusinessWorks Container Edition Certified Professional](https://www.tibco.com/services/education/certification/tibco-businessworks-container-edition-certification-exam) - Validates the ability to develop, deploy, and manage TIBCO BusinessWorks Container Edition applications of average complexity with minimal supervision.
@@ -716,10 +754,13 @@ System integration is the process of linking together different IT systems (com
   - [TIBCO Cloud Integration Certified Professional](https://www.tibco.com/services/education/certification/tibco-cloud-integration-certified-professional-exam) - Checks the knowledge about capabilities and benefits, integrating, developing, and connecting applications, creating APIs using the API Modeler and Mock functionality, and more.
   - [TIBCO Messaging Associate](https://www.tibco.com/services/education/certification/tibco-messaging-associate-certification-exam) - Covers topics such as TIBCO Enterprise Message Service (EMS), TIBCO FTL, TIBCO eFTL, as well as other messaging technologies such as Apache Kafka, Apache Pulsar, and Eclipse Mosquitto.
   - [TIBCO Messaging Certified Professional](https://www.tibco.com/services/education/certification/tibco-messaging-certified-professional-exam) - Validates the skills and knowledge required to work with TIBCO Messaging and its components, including TIBCO Enterprise Message Service (EMS), TIBCO FTL, and TIBCO eFTL.
+  
+</details>
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
+
 ### Connectors
 - [JCA](https://projects.eclipse.org/projects/ee4j.jca) - Defines a standard architecture for Jakarta EE application components to connect to Enterprise Information Systems. Formerly Java EE Connector Architecture and J2EE Connector Architecture.
 - [Kafka Connect](https://kafka.apache.org/documentation/#connect) - A tool for scalably and reliably streaming data between Apache Kafka and other systems.
