@@ -759,9 +759,9 @@ System integration is the process of linking together different IT systems (com
 <details>
 <summary>Workato</summary>
 
-- [Workato Automation Pro I](https://academy.workato.com/enterprise-automation-i-exam)
-- [Workato Automation Pro II](https://academy.workato.com/enterprise-automation-ii-exam)
-- [Workato Automation Pro II](https://academy.workato.com/automation-pro-iii-exam)
+- [Workato Automation Pro I](https://academy.workato.com/enterprise-automation-i-exam) - Fundamentals of business automation processes.
+- [Workato Automation Pro II](https://academy.workato.com/enterprise-automation-ii-exam) - Advanced and practical approaches to automation.
+- [Workato Automation Pro III](https://academy.workato.com/automation-pro-iii-exam) - In-depth series of badged modules for maximizing Workato's potential.
 
 </details>
 
