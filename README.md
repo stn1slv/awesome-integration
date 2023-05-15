@@ -764,6 +764,20 @@ System integration is the process of linking together different IT systems (com
 - [Workato Automation Pro II](https://academy.workato.com/automation-pro-iii-exam)
 
 </details>
+<details>
+<summary>WSO2</summary>
+
+- [WSO2 Certified API Manager Developer - V3](https://wso2.com/training/certification/certified-api-manager-developer/) - Assesses your expertise in designing, developing, and publishing APIs using WSO2 API Manager V3, including API lifecycle management, access control, and API documentation.
+- [WSO2 Certified API Manager Developer - V4 - Micro Integrator Profile](https://wso2.com/training/certification/certified-api-manager-developer-v4-micro-integrator-profile/) - Validates your expertise in designing, developing, and publishing APIs using the Micro Integrator profile of WSO2 API Manager V4. It covers API lifecycle management, access control, and API documentation within the Micro Integrator context.
+- [WSO2 Certified API Manager Expert - V3](https://wso2.com/training/certification/certified-api-manager-expert/) - Confirms your advanced skills and knowledge in using WSO2 API Manager V3 for API management, including API creation, publishing, security, policy implementation, and analytics.
+- [WSO2 Certified API Manager Expert - V4 - API Management Profile](https://wso2.com/training/certification/api-manager-expert-v4-api-management-profile/) - Demonstrates your proficiency in using WSO2 API Manager V4 for API management tasks, such as creating, publishing, and securing APIs, as well as implementing policies and analytics.
+- [WSO2 Certified Enterprise Integrator Developer - V6](https://wso2.com/training/certification/certified-enterprise-integrator6-developer/) - Validates your ability to develop, deploy, and manage integration solutions using WSO2 Enterprise Integrator V6, including knowledge of its components, such as the ESB profile, Message Broker, and Business Process Server.
+- [WSO2 Certified Enterprise Integrator Developer - V7 - Micro Integrator](https://wso2.com/training/certification/certified-enterprise-integrator-developer-micro-integrator/) - Validates your knowledge and skills in using the Micro Integrator profile of WSO2 Enterprise Integrator V7 to develop, deploy, and manage integration solutions.
+- [WSO2 Certified Enterprise Integrator Developer - V7 - Streaming Integrator](https://wso2.com/training/certification/certified-enterprise-integrator-developer-streaming-integrator/) - Demonstrates your expertise in using the Streaming Integrator profile of WSO2 Enterprise Integrator V7 to develop, deploy, and manage real-time data integration and streaming analytics solutions.
+- [WSO2 Certified Enterprise Integrator Expert - V6](https://wso2.com/training/certification/certified-enterprise-integrator6-expert/) - Tests your in-depth knowledge and skills in using WSO2 Enterprise Integrator V6 for complex integration scenarios, including best practices, troubleshooting, and performance tuning.
+- [WSO2 Certified Solutions Architect Associate](https://wso2.com/training/certification/certified-solutions-architect-associate/) - Assesses your understanding of the fundamental concepts and principles of WSO2 product architecture, as well as your ability to design and implement solutions using WSO2 technologies.
+
+</details>
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
