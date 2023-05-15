@@ -756,6 +756,14 @@ System integration is the process of linking together different IT systems (com
 - [TIBCO Messaging Certified Professional](https://www.tibco.com/services/education/certification/tibco-messaging-certified-professional-exam) - Validates the skills and knowledge required to work with TIBCO Messaging and its components, including TIBCO Enterprise Message Service (EMS), TIBCO FTL, and TIBCO eFTL.
   
 </details>
+<details>
+<summary>Workato</summary>
+
+- [Workato Automation Pro I](https://academy.workato.com/enterprise-automation-i-exam)
+- [Workato Automation Pro II](https://academy.workato.com/enterprise-automation-ii-exam)
+- [Workato Automation Pro II](https://academy.workato.com/automation-pro-iii-exam)
+
+</details>
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
