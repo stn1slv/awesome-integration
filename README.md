@@ -648,6 +648,9 @@ System integration is the process of linking together different IT systems (com
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### Articles
+- [API-Security-Checklist](https://github.com/shieldfy/API-Security-Checklist) - Best practices about REST API security.
+- [Architectural Styles and
+the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) - Roy Fielding's dissertation defining REST.
 - [Enterprise Integration Using REST](http://martinfowler.com/articles/enterpriseREST.html) - Discusses the constraints and flexibility that you have with nonpublic APIs, and lessons learned from doing large scale RESTful integration across multiple teams.
 - [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html) - Explained by Martin Fowler, originally presented by Leonard Richardson.
 
