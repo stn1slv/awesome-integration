@@ -353,7 +353,7 @@ System integration is the process of linking together different IT systems (com
 - [Flowable](https://github.com/flowable/flowable-engine) - A set of open-source business process engines that are compact and efficient, making it easier to automate business processes in a scalable and reliable way.
 - [jBPM](https://github.com/kiegroup/jbpm) - A toolkit for building business applications that helps you automate business processes and decisions, making it easier to manage complex workflows.
 - [StackStorm](https://github.com/StackStorm/st2) - A robust automation engine that provides sensors, triggers, rules, workflows, and actions to help you automate and orchestrate complex workflows and applications.
-- [Temporal]([https://github.com/temporalio](https://github.com/temporalio/temporal)) - An open-source platform that uses a workflow-as-code approach to make your applications more reliable and scalable (SDKs are available for Go, Java, Python, TypeScript, and other languages). 
+- [Temporal](https://github.com/temporalio/temporal) - An open-source platform that uses a workflow-as-code approach to make your applications more reliable and scalable. 
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
