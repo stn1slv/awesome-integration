@@ -733,6 +733,12 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
   
 </details>
 <details>
+<summary>SAP</summary>
+  
+- [SAP Certified Development Associate - SAP Integration Suite](https://training.sap.com/certification/c_cpi_14) - Validates that the candidate possesses the fundamental and core knowledge required of the SAP Integration Suite profile.
+  
+</details>
+<details>
 <summary>SnapLogic</summary>
 
 - [SnapLogic Administrator Certification](https://learn.snaplogic.com/snaplogic-administrator-certification) - Assesses your ability to handle administrative tasks for SnapLogic instances.
