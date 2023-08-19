@@ -1,0 +1,31 @@
+name: Update github stars
+
+on:
+  schedule:
+    - cron: '0 0 * * 3'  # Every Wednesday at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v3
+    - name: Init repo
+      run: |
+        git config --global user.name 'stn1slv'
+        git config --global user.email 'stn1slv@users.noreply.github.com'
+        git pull origin main
+    - name: Run your commands here
+      run: |
+        # Replace this with the actual commands you want to run
+        wget https://github.com/stn1slv/markdown-github-stars-updater/releases/latest/markdown-github-stars-updater-linux-amd64 -o markdown-github-stars-updater
+        chmod +x ./markdown-github-stars-updater
+        ./markdown-github-stars-updater README.md
+    - name: Commit report
+      run: |
+          git status
+          git add README.md
+          git commit -am "Github stars updated"
+          git push origin main
