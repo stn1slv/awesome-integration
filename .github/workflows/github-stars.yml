@@ -27,8 +27,10 @@ jobs:
         pwd  # Print current working directory
         ls   # List files in the current directory
         echo $PATH  # Print the PATH environment variable  
+    - name: Print Executable Information
+      run: file ./markdown-github-stars-updater
     - name: Execute
-      run: ./markdown-github-stars-updater ./README.md  
+      run: bash ./markdown-github-stars-updater ./README.md  
     - name: Commit report
       run: |
           git status
