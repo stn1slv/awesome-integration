@@ -12,11 +12,11 @@ jobs:
     steps:
     - name: Check out code
       uses: actions/checkout@v3
-    - name: Init repo
-      run: |
-        git config --global user.name 'stn1slv'
-        git config --global user.email 'stn1slv@users.noreply.github.com'
-        git pull origin main
+    # - name: Init repo
+    #   run: |
+    #     git config --global user.name 'stn1slv'
+    #     git config --global user.email 'stn1slv@users.noreply.github.com'
+    #     git pull origin main
     - name: Run your commands here
       run: |
         wget https://github.com/stn1slv/markdown-github-stars-updater/releases/latest/markdown-github-stars-updater-linux-amd64 -o markdown-github-stars-updater
@@ -29,4 +29,5 @@ jobs:
           git status
           git add README.md
           git commit -am "Github stars updated"
-          git push origin main
+          git push
+        #   git push origin main
