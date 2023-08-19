@@ -22,6 +22,11 @@ jobs:
         curl -L -o markdown-github-stars-updater https://github.com/stn1slv/markdown-github-stars-updater/releases/latest/markdown-github-stars-updater-linux-amd64
     - name: Make executable
       run:  chmod +x ./markdown-github-stars-updater
+    - name: Debug Information
+      run: |
+        pwd  # Print current working directory
+        ls   # List files in the current directory
+        echo $PATH  # Print the PATH environment variable  
     - name: Execute
       run: ./markdown-github-stars-updater ./README.md  
     - name: Commit report
