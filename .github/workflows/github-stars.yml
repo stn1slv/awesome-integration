@@ -19,10 +19,11 @@ jobs:
         git pull origin main
     - name: Run your commands here
       run: |
-        # Replace this with the actual commands you want to run
         wget https://github.com/stn1slv/markdown-github-stars-updater/releases/latest/markdown-github-stars-updater-linux-amd64 -o markdown-github-stars-updater
+        echo "Markdown GitHub Stars updater is downloaded"
         chmod +x ./markdown-github-stars-updater
-        ./markdown-github-stars-updater README.md
+        echo "Listing current directory" && ls -l
+        ./markdown-github-stars-updater ./README.md
     - name: Commit report
       run: |
           git status
