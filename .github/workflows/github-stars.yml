@@ -22,7 +22,7 @@ jobs:
         curl -o markdown-github-stars-updater https://github.com/stn1slv/markdown-github-stars-updater/releases/latest/markdown-github-stars-updater-linux-amd64
         chmod +x ./markdown-github-stars-updater
         echo "Listing current directory" && ls -l
-        ./markdown-github-stars-updater ./README.md
+        sh ./markdown-github-stars-updater ./README.md
     - name: Commit report
       run: |
           git status
