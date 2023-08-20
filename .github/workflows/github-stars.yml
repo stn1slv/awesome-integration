@@ -36,7 +36,12 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Commit report
       run: |
-          git status
-          git add README.md
-          git commit -am "Github stars updated"
-          git push origin main
+          # Check if there are any changes
+          if [ -n "$(git diff --exit-code)" ]; then
+            git status
+            git add README.md
+            git commit -am "Github stars updated"
+            git push origin main
+          else
+            echo "No changes to commit."
+          fi
