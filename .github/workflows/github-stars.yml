@@ -32,6 +32,8 @@ jobs:
       run: file ./markdown-github-stars-updater
     - name: Execute
       run: ./markdown-github-stars-updater ./README.md  
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Commit report
       run: |
           git status
