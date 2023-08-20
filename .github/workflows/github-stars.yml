@@ -19,7 +19,7 @@ jobs:
     #     git pull origin main
     - name: Download Markdown GitHub Stars updater
       run: |
-        wget -O markdown-github-stars-updater https://github.com/stn1slv/markdown-github-stars-updater/releases/download/v0.0.3/markdown-github-stars-updater-linux-amd64
+        wget -O markdown-github-stars-updater https://github.com/stn1slv/markdown-github-stars-updater/releases/download/v0.0.4/markdown-github-stars-updater-linux-arm64
     - name: Make executable
       run:  chmod +x ./markdown-github-stars-updater
     - name: Debug Information
