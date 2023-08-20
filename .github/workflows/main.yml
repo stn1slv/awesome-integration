@@ -1,4 +1,4 @@
-name: CI
+name: Linting & checking links
 on:
   pull_request:
     branches: [main]
