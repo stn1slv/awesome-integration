@@ -17,12 +17,23 @@ jobs:
         git config --global user.name 'stn1slv'
         git config --global user.email 'stn1slv@users.noreply.github.com'
         git pull origin main
-    - name: Run your commands here
+    - name: Download Markdown GitHub Stars updater
       run: |
-        # Replace this with the actual commands you want to run
-        wget https://github.com/stn1slv/markdown-github-stars-updater/releases/latest/markdown-github-stars-updater-linux-amd64 -o markdown-github-stars-updater
-        chmod +x ./markdown-github-stars-updater
-        ./markdown-github-stars-updater README.md
+        wget -O markdown-github-stars-updater https://github.com/stn1slv/markdown-github-stars-updater/releases/download/v0.0.4/markdown-github-stars-updater-linux-amd64
+    - name: Make executable
+      run:  chmod +x ./markdown-github-stars-updater
+    # - name: Debug Information
+    #   run: |
+    #     pwd  # Print current working directory
+    #     ls   # List files in the current directory
+    #     echo $PATH  # Print the PATH environment variable
+    #     dpkg --print-architecture
+    # - name: Print Executable Information
+    #   run: file ./markdown-github-stars-updater
+    - name: Execute
+      run: ./markdown-github-stars-updater ./README.md  
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Commit report
       run: |
           git status
