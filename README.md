@@ -83,7 +83,6 @@ System integration is the process of linking together different IT systems (com
 <!--lint enable-->
 ### API Documentation
 *Explore a collection of tools and platforms designed to create, maintain, and present clear, concise, and user-friendly documentation for APIs. These resources facilitate seamless collaboration between developers and enable effective communication of API functionalities and specifications.*
-- [APITree](https://www.apitree.com/) - A tool for managing and sharing API specifications, with version control, API testing automation, and integration with popular API tools.
 - [DapperDox (⭐390)](https://github.com/DapperDox/dapperdox) - An open-source API documentation generator and server for OpenAPI/Swagger specifications, with customizable documentation, automated updates, and easy sharing.
 - [OpenAPI Explorer (⭐236)](https://github.com/Rhosys/openapi-explorer) - A tool for generating user interfaces from OpenAPI specifications, making it easier for software engineers to visualize and interact with APIs.
 - [RapiDoc (⭐1.4k)](https://github.com/rapi-doc/RapiDoc) - A tool that generates customizable, interactive API documentation from OpenAPI Specification, with a range of design options.
@@ -193,7 +192,7 @@ System integration is the process of linking together different IT systems (com
 - [NServiceBus (⭐2k)](https://github.com/Particular/NServiceBus) - A .NET-based service bus that offers an intuitive developer-friendly environment.
 - [Oracle Service Bus](https://www.oracle.com/middleware/technologies/service-bus.html) - An integration platform that connects, virtualizes, and manages interactions between services and applications.
 - [Oracle SOA Suite](https://www.oracle.com/middleware/technologies/soasuite.html) - A platform that enables system developers to set up and manage services and to orchestrate them into composite applications and business processes.
-- [Red Hat Fuse](https://www.redhat.com/en/technologies/jboss-middleware/fuse) - A cloud-native integration platform that supports distributed integration capabilities.
+- [Red Hat Fuse](https://developers.redhat.com/products/fuse/overview) - A cloud-native integration platform that supports distributed integration capabilities.
 - [Software AG webMethods Integration Server](https://www.softwareag.com/en_corporate/platform/integration-apis/webmethods-integration.html) - An integration platform that enables faster integration of any application.
 - [TIBCO BusinessWorks](https://www.tibco.com/products/tibco-businessworks) - A platform that implements enterprise patterns for hybrid integrations.
 - [UltraESB](https://www.adroitlogic.com/products/ultraesb/) - An ESB that supports zero-copy proxying for extreme performance utilizing Direct Memory Access and Non-Blocking IO.
