@@ -13,11 +13,11 @@ System integration is the process of linking together different IT systems (com
   - [API Testing](#api-testing)
   - [BRE](#bre)
   - [BPM](#bpm)
-  - [Data Mapping Solution](#data-mapping-solution) 
+  - [Data Mapping Solution](#data-mapping-solution)
   - [ESB](#esb)
   - [ETL](#etl)
   - [Integration Frameworks](#integration-frameworks)
-  - [iPaaS](#ipaas)  
+  - [iPaaS](#ipaas)
   - [MaaS](#maas)
   - [Managed File Transfer](#managed-file-transfer)
   - [Master Data Management](#master-data-management)
@@ -26,12 +26,12 @@ System integration is the process of linking together different IT systems (com
   - [Self-Service Integration](#self-service-integration)
   - [Workflow engine](#workflow-engine)
 - [Integration Patterns](#integration-patterns)
-  - [Enterprise Integration Patterns](#enterprise-integration-patterns) 
+  - [Enterprise Integration Patterns](#enterprise-integration-patterns)
   - [Integration Architecture Patterns](#integration-architecture-patterns)
   - [Microservice API Patterns](#microservice-api-patterns)
   - [SOA Patterns](#soa-patterns)
 - [Resources](#resources)
-  - [API Specification](#api-specification) 
+  - [API Specification](#api-specification)
   - [Articles](#articles)
   - [Certifications](#certifications)
   - [Connectors](#connectors)
@@ -91,6 +91,7 @@ System integration is the process of linking together different IT systems (com
 - [Stoplight Elements (⭐1.3k)](https://github.com/stoplightio/elements) - Beautiful API documentation powered by OpenAPI and Markdown. Use these UI components to create API reference documentation, or more complete documentation with Markdown articles covering tutorials, how-to guides, etc.
 - [SwaggerHub](https://swagger.io/tools/swaggerhub/) - An integrated API design and documentation platform built for teams, with versioning, testing automation, and integration with popular API tools.
 - [Swagger UI (⭐25k)](https://github.com/swagger-api/swagger-ui) - An intuitive tool for exploring and interacting with APIs, with API specification visualization, endpoint exploration, and built-in interactive console.
+- [SpectaQL (⭐1k)](https://github.com/anvilco/spectaql) - A Node.js library that generates static documentation for a GraphQL schema from various sources, including live endpoint, query result, and SDL files.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
