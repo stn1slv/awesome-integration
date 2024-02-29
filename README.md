@@ -674,6 +674,18 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
   
 </details>
 <details>
+<summary>APIsec University</summary>
+  
+- [API Documentation Best Practices](https://www.apisecuniversity.com/courses/api-documentation-best-practices) - The 2-hour course covers everything you need to know to create, automate, and publish API documentation your developers, partners and users will love. You wll also learn why API documentation is the foundation for strong governance, effective API security, and achieving your API business goals.
+- [API Penetration Testing](https://www.apisecuniversity.com/courses/api-penetration-testing) - The API Penetration Testing course covers all the key topics to become an APIsec professional. This hands-on course includes over 12 hours of live instruction and provides detailed labs on API hacking techniques and how to uncover vulnerabilities.
+- [API Security for PCI Compliance](https://www.apisecuniversity.com/courses/api-security-for-pci-compliance) - This 60-minute course examines the new PCI DSS 4.0 requirements and details the API security obligations for compliance. DSS 4.0 introduces API security concerns for the time ever - enroll to understand what the implications are for your organization.
+- [API Security Fundamentals](https://www.apisecuniversity.com/courses/api-security-fundamentals) - The 90-minute course covers the core threats to APIs and how to prevent breaches. Learn the OWASP API Security Top 10, examine real-world API attacks, and understand the 3 Pillars of API Security.
+- [Certified API Security Analyst](https://www.apisecuniversity.com/courses/certified-api-security-analyst-exam) - The CASA exam is designed to test your expertise in API security threats, risks, and best practices. Students are expected to have completed the OWASP API Security and Beyond! course before attempting to earn the CASA certification.
+- [OWASP API Security Top 10](https://www.apisecuniversity.com/courses/owasp-api-security-top-10-and-beyond) - The 90-minute course provides a deep-dive into the 2023 edition of the OWASP API Security Top 10 - and covers key concepts that didn't make it into the Top 10.
+- [Securing API Servers](https://www.apisecuniversity.com/courses/securing-api-servers) - Learn key concepts for keeping API servers secure - from CORS to error handling to rate limiting and more.
+  
+</details>
+<details>
 <summary>Boomi</summary>
   
 - [Associate Administrator Certification](https://community.boomi.com/s/learning-plan-detail-standard?ltui__urlRecordId=aOM6S0000008OIKWA2&ltui__urlRedirect=learning-plan-detail-standard) - Validates an individual's foundational knowledge and skills in managing and administering the Boomi platform, focusing on platform monitoring, troubleshooting, and security.
