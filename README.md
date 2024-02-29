@@ -674,8 +674,7 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
   
 </details>
 <details>
-<summary>APIsec University
-</summary>
+<summary>APIsec University</summary>
   
 - [API Documentation Best Practices](https://www.apisecuniversity.com/courses/api-documentation-best-practices) - The 2-hour course covers everything you need to know to create, automate, and publish API documentation your developers, partners and users will love. You’ll also learn why API documentation is the foundation for strong governance, effective API security, and achieving your API business goals.
 - [API Penetration Testing](https://www.apisecuniversity.com/courses/api-penetration-testing) - The API Penetration Testing course covers all the key topics to become an APIsec professional. This hands-on course includes over 12 hours of live instruction and provides detailed labs on API hacking techniques and how to uncover vulnerabilities..
