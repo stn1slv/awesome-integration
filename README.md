@@ -14,6 +14,7 @@ System integration is the process of linking together different IT systems (com
   - [BRE](#bre)
   - [BPM](#bpm)
   - [Data Mapping Solution](#data-mapping-solution)
+  - [Distributed Execution Platform](#distributed-execution-platform)
   - [ESB](#esb)
   - [ETL](#etl)
   - [Integration Frameworks](#integration-frameworks)
@@ -180,6 +181,13 @@ System integration is the process of linking together different IT systems (com
 - [Altova MapForce](https://www.altova.com/mapforce) - A graphical data mapping tool that can handle any-to-any conversion and integration tasks. It simplifies complex mapping tasks, enabling software engineers to complete projects faster.
 - [JOLT (⭐1.4k)](https://github.com/bazaarvoice/jolt) - A Java-based JSON-to-JSON transformation library that uses a JSON document as the "specification" for the transform. JOLT provides a simple way for software engineers to transform JSON data.
 - [JSLT (⭐600)](https://github.com/schibsted/jslt) - A complete query and transformation language for JSON that is inspired by jq, XPath, and XQuery. With JSLT, software engineers can quickly and easily transform JSON data to meet their needs.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### Distributed Execution Platform
+*Distributed Execution Platforms merge the capabilities of iPaaS, Workflow Engines, and MaaS into a virtual unified environment for seamless system and data integration across diverse applications and data sources. They are used to design, automate, and monitor distributed workflows, providing real-time data connectivity between systems in remote environments. This platform enables developers to build, deploy, and manage distributed, data-driven applications using long lived cloud functions deployed to multiple locations at once.*
+ - [Scramjet Platform](https://scramjet.org/cloud-platform/) - a robust environment enabling seamless data integration and real-time processing across distributed systems. It simplifies complex workflows and stream processing, with standards-based coding patterns and under 5 minute end-to-end setup.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
