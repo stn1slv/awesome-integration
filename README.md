@@ -185,13 +185,6 @@ System integration is the process of linking together different IT systems (com
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
-### Distributed Execution Platform
-*Distributed Execution Platforms merge the capabilities of iPaaS, Workflow Engines, and MaaS into a virtual unified environment for seamless system and data integration across diverse applications and data sources. They are used to design, automate, and monitor distributed workflows, providing real-time data connectivity between systems in remote environments. This platform enables developers to build, deploy, and manage distributed, data-driven applications using long lived cloud functions deployed to multiple locations at once.*
- - [Scramjet Platform](https://scramjet.org/cloud-platform/) - a robust environment enabling seamless data integration and real-time processing across distributed systems. It simplifies complex workflows and stream processing, with standards-based coding patterns and under 5 minute end-to-end setup.
-
-<!--lint disable-->
-**[⬆ back to top](#contents)**
-<!--lint enable-->
 ### ESB
 *Enterprise Service Bus (ESB) solutions facilitate the integration of disparate systems and applications by providing a communication layer that allows them to exchange information. ESBs offer a range of capabilities such as message routing, transformation, protocol conversion, and data mediation. They typically support various messaging patterns and communication protocols and provide a centralized platform for managing and monitoring message traffic.*
 - [Anypoint Platform](https://www.mulesoft.com/platform/enterprise-integration) - A comprehensive API management and integration platform that simplifies connecting applications from Mulesoft.
@@ -246,6 +239,7 @@ System integration is the process of linking together different IT systems (com
 - [Informatica Intelligent Cloud Services](https://www.informatica.com/products/cloud-integration.html) - A suite of cloud data management products designed to accelerate productivity and improve speed and scale. Software engineers can use this platform to manage data and integrate applications efficiently.
 - [OpenText Alloy](https://businessnetwork.opentext.com/enterprise-data-management/) - A powerful enterprise data management platform that empowers organizations to move beyond basic integration and turn data into insights and action. Software engineers can use this platform to manage data and improve business outcomes.
 - [Oracle Integration Cloud Service](https://www.oracle.com/integration/application-integration/) - A robust platform that accelerates time to go live with pre-built connectivity to any SaaS or on-premises application. Software engineers can use this platform to simplify integration processes and streamline operations.
+- [Scramjet Platform](https://scramjet.org/cloud-platform/) - A lightweight environment enabling seamless data integration and real-time processing across distributed systems. It simplifies complex workflows and stream processing, with standards-based coding patterns and under 5 minute end-to-end setup. Comes in on-premise and SaaS renditions.
 - [SnapLogic Intelligent Integration Platform](https://www.snaplogic.com/products/intelligent-integration-platform) - A comprehensive integration platform that connects various applications and data landscapes. Software engineers can use this platform to integrate data and applications quickly and efficiently.
 - [Software AG webMethods Hybrid Integration Platform](https://www.softwareag.com/en_corporate/platform/integration-apis/application-integration.html) - An all-in-one integration platform that enables software engineers to integrate all their applications in a single platform. This platform simplifies integration processes and improves efficiency.
 - [TIBCO Cloud Integration](https://www.tibco.com/products/cloud-integration) - A flexible platform that enables software engineers to integrate anything with API-led and event-driven integration. This platform empowers everyone to integrate anything, making integration processes faster and more efficient.
@@ -365,6 +359,8 @@ System integration is the process of linking together different IT systems (com
 - [Elsa Core (⭐5.5k)](https://github.com/elsa-workflows/elsa-core) - A library that enables workflow execution in any .NET Core application, making it easier to automate business processes in .NET environments.
 - [Flowable (⭐7.2k)](https://github.com/flowable/flowable-engine) - A set of open-source business process engines that are compact and efficient, making it easier to automate business processes in a scalable and reliable way.
 - [jBPM (⭐1.5k)](https://github.com/kiegroup/jbpm) - A toolkit for building business applications that helps you automate business processes and decisions, making it easier to manage complex workflows.
+- [Scramjet Transform Hub(⭐64)](https://github.com/scramjetorg/transform-hub) - A lightweight FaaS execution engine for running
+long lived functions in Python and JavaScript with Docker, Kubernetes and Process backends.
 - [StackStorm (⭐5.8k)](https://github.com/StackStorm/st2) - A robust automation engine that provides sensors, triggers, rules, workflows, and actions to help you automate and orchestrate complex workflows and applications.
 - [Temporal (⭐9.3k)](https://github.com/temporalio/temporal) - An open-source platform that uses a workflow-as-code approach to make your applications more reliable and scalable. 
 
