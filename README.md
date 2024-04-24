@@ -686,6 +686,14 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
   
 </details>
 <details>
+<summary>Apollo</summary>
+
+- [Apollo Graph Developer - Associate Certification](https://www.apollographql.com/tutorials/exams/apollo-graph-associate) - Developers who obtain this certification possess a solid foundational knowledge of GraphQL and the Apollo tool suite to design a schema, run an Apollo Server 4, and perform queries with Apollo Client 3 on the frontend.
+
+- [Apollo Graph Developer - Professional Certification](https://www.apollographql.com/tutorials/certifications/apollo-graph-professional) - Developers who obtain this certification demonstrate strong familiarity with Apollo Federation concepts. They can apply those concepts to build a federated supergraph or move an existing monolithic graph to federation.
+
+</details>
+<details>
 <summary>Boomi</summary>
   
 - [Associate Administrator Certification](https://community.boomi.com/s/learning-plan-detail-standard?ltui__urlRecordId=aOM6S0000008OIKWA2&ltui__urlRedirect=learning-plan-detail-standard) - Validates an individual's foundational knowledge and skills in managing and administering the Boomi platform, focusing on platform monitoring, troubleshooting, and security.
