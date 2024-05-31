@@ -116,6 +116,7 @@ System integration is the process of linking together different IT systems (com
 *The API testing tools section provides a list of software tools and frameworks that developers can use to test REST APIs and message brokers. This section includes GUI clients for testing REST APIs and message brokers, mocking tools for simulating API responses, as well as various testing tools and frameworks to automate testing processes.*
 - API clients
   - [Advanced REST Client (⭐1.3k)](https://github.com/advanced-rest-client/arc-electron) - An open-source API tool designed for testing and debugging RESTful web services.
+  - [Bruno](https://github.com/usebruno/bruno) - A fast, git-friendly, and offline-only opensource API client.
   - [curl (⭐34k)](https://github.com/curl/curl) - Command-line tool for transferring data with URLs over various protocols.
   - [curlie (⭐2.6k)](https://github.com/rs/curlie) - Frontend to curl with the ease of use of httpie without compromising on performance and features.
   - [HTTPie (⭐32k)](https://github.com/httpie/httpie) - User-friendly command-line HTTP client that simplifies HTTP request/response inspection and manipulation.
