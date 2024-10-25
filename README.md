@@ -109,6 +109,7 @@ System integration is the process of linking together different IT systems (com
 - [Spring Cloud Gateway (⭐4.5k)](https://github.com/spring-cloud/spring-cloud-gateway) - An API Gateway built on top of the Spring ecosystem, providing advanced routing and filtering features for Spring applications.
 - [Traefik (⭐50k)](https://github.com/traefik/traefik) - A modern, open-source API Gateway that is designed to handle dynamic container environments such as Kubernetes, Docker Swarm, and Mesos. It provides load balancing, SSL/TLS termination, rate limiting, circuit breaking, and more.
 - [Tyk API Gateway (⭐9.6k)](https://github.com/TykTechnologies/tyk) - An open source Enterprise API Gateway that supports REST, GraphQL, TCP, and gRPC protocols. It provides advanced API management features such as rate limiting, access control, and analytics.
+- [Zuplo Multi-cloud API Gateway](https://zuplo.com/features/multi-cloud) - A fully-managed, serverless gateway that runs at the edge, in over 200 data-centers around the world. Zuplo's gateway can connect to any backend (AWS, Azure, GCP, private data-center, etc.)
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
