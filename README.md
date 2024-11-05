@@ -63,6 +63,7 @@ System integration is the process of linking together different IT systems (com
 - [Tyk API Management](https://tyk.io/api-lifecycle-management/) - A powerful API management solution that allows you to connect, build, and control APIs with ease.
 - [webMethods API](https://www.softwareag.cloud/site/product/webmethods-api.html) - A comprehensive API management solution from Software AG that provides full lifecycle API management capabilities and enables you to manage APIs in both on-premises and cloud environments.
 - [WSO2 API Manager (⭐845)](https://github.com/wso2/product-apim) - A fully open-source API management platform that provides comprehensive API management capabilities and allows you to manage APIs with ease.
+- [Zuplo API Management](https://zuplo.com) - Light-weight, fully-managed API Management platform, built for developers with unique features like GitOps, fast deployments to the edge, unlimited preview environments, full OpenAPI support, API monetization with Stripe, and more.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
