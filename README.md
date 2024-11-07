@@ -675,8 +675,8 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
 <summary>API Academy</summary>
   
 - [API Designer](https://apiacademy.learnupon.com/) - Validate your understanding of API design basics and best practices.
-- [API Product Manager](https://apiacademy.co/2020/05/virtual-api-academy-workshop/) - Demonstrate your proficiency in managing APIs as products.
-- [API Security Architect](https://apiacademy.co/api-certification/) - Validate your expertise in securing APIs using modern architectures.
+- [API Product Manager](https://apiacademy.learnupon.com/) - Demonstrate your proficiency in managing APIs as products.
+- [API Security Architect](https://apiacademy.learnupon.com/) - Validate your expertise in securing APIs using modern architectures.
   
 </details>
 <details>
