@@ -123,6 +123,7 @@ System integration is the process of linking together different IT systems (com
   - [curl (⭐36k)](https://github.com/curl/curl) - Command-line tool for transferring data with URLs over various protocols.
   - [curlie (⭐2.8k)](https://github.com/rs/curlie) - Frontend to curl with the ease of use of httpie without compromising on performance and features.
   - [HTTPie (⭐34k)](https://github.com/httpie/httpie) - User-friendly command-line HTTP client that simplifies HTTP request/response inspection and manipulation.
+  - [Hoppscotch](https://github.com/hoppscotch/hoppscotch) - A fast, open-source API development tool available as a web app.
   - [Insomnia (⭐35k)](https://github.com/Kong/insomnia) - Cross-platform HTTP and GraphQL client designed to make API testing and debugging easier.
   - [posting (⭐6.2k)](https://github.com/darrenburns/posting) - The modern API client that lives in your terminal.
   - [Postman](https://www.postman.com/product/api-client/) - Comprehensive tool for simplifying API development and testing processes with features such as making HTTP requests, generating mock servers, and creating API documentation.
