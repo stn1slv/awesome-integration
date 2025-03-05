@@ -307,7 +307,6 @@ System integration is the process of linking together different IT systems (com
 - [Reltio](https://www.reltio.com/products/multidomain-mdm) - A cloud-native multi-domain MDM platform delivered as a SaaS offering. Reltio combines master data management with built-in data quality, governance, and even graph technology for relationships, enabling a real-time, 360° view of business entities.
 - [SAP Master Data Governance](https://www.sap.com/products/master-data-governance.html) - Streamlines and improves the quality and consistency of your data by consolidating and centrally governing your master data lifecycle.
 - [SAS MDM](https://support.sas.com/en/software/mdm-support.html) - Provides a unified view of your corporate data, integrating information from various sources into one master record for greater accuracy and consistency.
-- [Software AG OneData for MDM](https://www.softwareag.com/resources/Master-data-management) - Ensures that only reliable, accurate, and approved information flows through your systems, processes, and applications, providing "one version of the truth."
 - [Teradata MDM](https://www.teradata.co.uk/Products/Applications/Master-Data-Management) - Establishes an accurate analytical data foundation by using consistent reference data, driving significant ROI.
 - [TIBCO EBX](https://www.tibco.com/products/tibco-ebx-software) - A single solution to govern, manage, and consume all shared data assets, ensuring greater consistency and accuracy across your organization.
 
