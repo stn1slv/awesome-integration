@@ -218,7 +218,7 @@ System integration is the process of linking together different IT systems (com
 *ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) are processes used to integrate and consolidate data from multiple sources. This section covers a range of open source and commercial tools for performing these tasks, including data ingestion, transformation, and loading into data warehouses or other data storage systems.*
 - [Apache NiFi (⭐5.1k)](https://github.com/apache/nifi) - An automated data integration platform that efficiently moves data between disparate systems.
 - [Airbyte (⭐17k)](https://github.com/airbytehq/airbyte) - Data integration platform for ELT pipelines from APIs, databases & files to databases, warehouses & lakes.
-- [CloverETL](http://www.cloveretl.com/) - A comprehensive data integration software suite, ideal for data migration, warehousing, and feeding data into BI and reporting apps. 
+- [CloverDX](https://www.cloverdx.com/) - Commercial ETL suite (originally open-source) for designing data transformations and orchestrating data workflows at scale​. 
 - [Hevo](https://hevodata.com/) - A fully automated, no-code data pipeline platform supporting 150+ integrations across databases, SaaS apps, cloud storage, SDKs, and streaming services.
 - [IBM DataStage](https://www.ibm.com/products/datastage) - A powerful data integration platform that helps businesses understand, cleanse, transform, and deliver trusted information.
 - [Informatica PowerCenter](https://www.informatica.com/products/data-integration/powercenter.html) - A trusted enterprise data integration and management software powering analytics for big data and cloud.
