@@ -290,6 +290,7 @@ System integration is the process of linking together different IT systems (com
 - [Titan MFT Server](https://southrivertech.com/titan-mft-server/) - An enterprise-level MFT server solution with high availability and failover capabilities, providing an efficient way to automate and manage large-scale file transfers.
 - [IBM Sterling Secure File Transfer](https://www.ibm.com/products/secure-file-transfer) - A fast and scalable file transfer platform that offers advanced security features and flexible architecture. It is ideal for businesses that require a reliable and secure MFT platform.
 - [Oracle Managed File Transfer](https://www.oracle.com/middleware/technologies/mft/managed-file-transfer.html) - A comprehensive MFT solution that enables secure file exchange and management, providing a reliable and efficient way for businesses to transfer data with ease.
+- [Progress MOVEit](https://www.progress.com/moveit) - Secure managed file transfer solution (Progress Software, formerly Ipswitch) providing guaranteed delivery, end-to-end encryption, automation, integrity verification, and compliance tools for mission-critical transfers in regulated industries.
 - [TIBCO Managed File Transfer](https://www.tibco.com/products/tibco-managed-file-transfer) - A centrally managed MFT platform with powerful automation capabilities and advanced security features, capable of supporting all file transfer use cases. It is an ideal choice for businesses that require a comprehensive MFT solution.
 
 <!--lint disable-->
