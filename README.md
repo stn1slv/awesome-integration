@@ -167,6 +167,7 @@ System integration is the process of linking together different IT systems (com
 - [NxBRE (⭐131)](https://github.com/ddossot/NxBRE) - Open-source rule engine specifically designed for the .NET platform.
 - [OpenL Tablets (⭐164)](https://github.com/openl-tablets/openl-tablets) - Open-source business rules engine (BRE, BRMS) and decision management system that allows users to define, manage, and execute business rules and decision tables.
 - [Progress Corticon](https://www.progress.com/corticon) - A model-driven business rules management system enabling fast rule creation without coding while delivering high-performance automated decisions with guaranteed integrity.
+- [Red Hat Decision Manager](https://access.redhat.com/products/red-hat-decision-manager) - Formerly known as JBoss BRMS, it builds on the Drools rule engine. Offers advanced rule authoring with Decision Model and Notation (DMN) support, business-friendly UIs, and enterprise-grade features for high availability, making it suitable for large-scale decision automation.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
