@@ -83,16 +83,16 @@ System integration is the process of linking together different IT systems (com
 <!--lint enable-->
 ### API Documentation
 *Explore a collection of tools and platforms designed to create, maintain, and present clear, concise, and user-friendly documentation for APIs. These resources facilitate seamless collaboration between developers and enable effective communication of API functionalities and specifications.*
-- [DapperDox (⭐414)](https://github.com/DapperDox/dapperdox) - An open-source API documentation generator and server for OpenAPI/Swagger specifications, with customizable documentation, automated updates, and easy sharing.
-- [OpenAPI Explorer (⭐322)](https://github.com/Rhosys/openapi-explorer) - A tool for generating user interfaces from OpenAPI specifications, making it easier for software engineers to visualize and interact with APIs.
-- [RapiDoc (⭐1.7k)](https://github.com/rapi-doc/RapiDoc) - A tool that generates customizable, interactive API documentation from OpenAPI Specification, with a range of design options.
-- [Redoc (⭐24k)](https://github.com/Redocly/redoc) - An open-source tool for generating documentation from OpenAPI (fka Swagger) definitions, with customizable themes, language support, and branding.
-- [Slate (⭐36k)](https://github.com/slatedocs/slate) - A powerful tool that creates static API documentation from markdown, with API reference docs and code samples.
-- [Stoplight Elements (⭐1.9k)](https://github.com/stoplightio/elements) - Beautiful API documentation powered by OpenAPI and Markdown. Use these UI components to create API reference documentation, or more complete documentation with Markdown articles covering tutorials, how-to guides, etc.
-- [SwaggerHub](https://swagger.io/tools/swaggerhub/) - An integrated API design and documentation platform built for teams, with versioning, testing automation, and integration with popular API tools.
-- [Swagger UI (⭐27k)](https://github.com/swagger-api/swagger-ui) - An intuitive tool for exploring and interacting with APIs, with API specification visualization, endpoint exploration, and built-in interactive console.
-- [SpectaQL (⭐1.1k)](https://github.com/anvilco/spectaql) - A Node.js library that generates static documentation for a GraphQL schema from various sources, including live endpoint, query result, and SDL files.
-- [Zudoku (⭐144)](https://github.com/zuplo/zudoku) - An open-source, OpenAPI powered, highly customizable API documentation framework for building quality developer experiences.
+- [DapperDox (⭐414)](https://github.com/DapperDox/dapperdox) - Generates elegant, interactive API documentation from OpenAPI/Swagger specs with easy customization and automated updates.
+- [OpenAPI Explorer (⭐322)](https://github.com/Rhosys/openapi-explorer) - Creates intuitive, interactive user interfaces from OpenAPI specs, simplifying API exploration and testing.
+- [RapiDoc (⭐1.7k)](https://github.com/rapi-doc/RapiDoc) - Produces highly customizable, interactive API documentation with responsive design and rich configuration options.
+- [Redoc (⭐24k)](https://github.com/Redocly/redoc) - Delivers clean, modern documentation with advanced theming, multi-language support, and seamless integration.
+- [Slate (⭐36k)](https://github.com/slatedocs/slate) - Converts markdown into stylish, static API documentation with intuitive navigation and clear code examples.
+- [Stoplight Elements (⭐1.9k)](https://github.com/stoplightio/elements) - Provides modular, attractive UI components for building comprehensive API reference and tutorial documentation.
+- [SwaggerHub](https://swagger.io/tools/swaggerhub/) - An integrated API design and documentation hub that enhances team collaboration, version control, and automated testing.
+- [Swagger UI (⭐27k)](https://github.com/swagger-api/swagger-ui) - Offers an interactive, in-browser tool for visualizing and testing APIs directly from OpenAPI specifications.
+- [SpectaQL (⭐1.1k)](https://github.com/anvilco/spectaql) - Generates static, customizable documentation for GraphQL schemas, making complex API structures easy to understand.
+- [Zudoku (⭐144)](https://github.com/zuplo/zudoku) - A customizable framework built on OpenAPI, focused on delivering exceptional developer experiences through quality documentation.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
