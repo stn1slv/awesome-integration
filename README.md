@@ -243,114 +243,114 @@ System integration is the process of linking together different IT systems (com
 <!--lint enable-->
 ### iPaaS
 *Integration Platform as a Service (iPaaS) is a cloud-based platform that enables businesses to integrate different systems, applications, and data sources with ease. It provides a unified platform for managing data flows between various systems, simplifying the process of integrating different systems and automating workflows. iPaaS tools typically provide a visual interface for designing, deploying, and managing integrations, as well as pre-built connectors and APIs for integrating with popular systems and services.*
-- [Anypoint Platform](https://www.mulesoft.com/platform/saas/cloudhub-ipaas-cloud-based-integration) - A powerful integration platform that combines API management and integration capabilities in a single platform, enabling software engineers to integrate various applications with ease.
-- [Boomi AtomSphere](https://boomi.com/platform) - A cloud-native, unified, open, and intelligent platform that connects everything and everyone, allowing software engineers to create and manage integrations easily.
-- [Celigo Integration Platform](https://www.celigo.com/platform/) - A cloud iPaaS focused on ease of use and prebuilt solutions, especially popular for SaaS-to-SaaS integrations. Celigo (Integrator.io) offers an intuitive interface and a library of templates enabling quick connectivity between business apps.
-- [Jitterbit Harmony](https://www.jitterbit.com/platform/ipaas) - A comprehensive integration platform that provides pre-built templates and workflows to automate business processes. It integrates thousands of applications and simplifies integration for software engineers.
-- [IBM Cloud Integration](https://www.ibm.com/cloud/integration) - A next-generation integration platform that uses AI to provide software engineers with an innovative approach to integration. This platform accelerates integration processes, making it faster and more scalable.
-- [IBM webMethods](https://www.ibm.com/products/webmethods) - An all-in-one integration platform that enables software engineers to integrate all their applications in a single platform. This platform simplifies integration processes and improves efficiency.
-- [Informatica Intelligent Cloud Services](https://www.informatica.com/products/cloud-integration.html) - A suite of cloud data management products designed to accelerate productivity and improve speed and scale. Software engineers can use this platform to manage data and integrate applications efficiently.
-- [OpenText Alloy](https://businessnetwork.opentext.com/enterprise-data-management/) - A powerful enterprise data management platform that empowers organizations to move beyond basic integration and turn data into insights and action. Software engineers can use this platform to manage data and improve business outcomes.
-- [Oracle Integration Cloud Service](https://www.oracle.com/integration/application-integration/) - A robust platform that accelerates time to go live with pre-built connectivity to any SaaS or on-premises application. Software engineers can use this platform to simplify integration processes and streamline operations.
-- [SAP Integration Suite](https://www.sap.com/products/technology-platform/integration-suite.html) - A cloud-native integration platform (formerly SAP Cloud Platform Integration) for connecting on-premise and cloud applications. It offers pre-built adapters, API management, and event brokering as part of SAP Business Technology Platform.
-- [SnapLogic Intelligent Integration Platform](https://www.snaplogic.com/products/intelligent-integration-platform) - A comprehensive integration platform that connects various applications and data landscapes. Software engineers can use this platform to integrate data and applications quickly and efficiently.
-- [TIBCO Cloud Integration](https://www.tibco.com/products/cloud-integration) - A flexible platform that enables software engineers to integrate anything with API-led and event-driven integration. This platform empowers everyone to integrate anything, making integration processes faster and more efficient.
-- [Tray.io](https://tray.ai/) - A low-code general automation platform that empowers citizen integrators to build integrations and workflows via a drag-and-drop interface. Tray.io emphasizes ease-of-use and scalability, enabling business teams to integrate cloud services and automate processes without heavy coding.
-- [Workato](https://www.workato.com/) - A single platform for integration and workflow automation across your organization, providing software engineers with a powerful platform for simplifying integration processes and streamlining operations.
+- [Anypoint Platform](https://www.mulesoft.com/platform/saas/cloudhub-ipaas-cloud-based-integration) - Combines API management and integration into one platform, enabling seamless connectivity across diverse applications.
+- [Boomi AtomSphere](https://boomi.com/platform) - Cloud-native, intelligent platform that connects systems effortlessly while automating integration processes.
+- [Celigo Integration Platform](https://www.celigo.com/platform/) - User-friendly iPaaS with prebuilt templates for rapid SaaS-to-SaaS integrations and intuitive drag-and-drop design.
+- [Jitterbit Harmony](https://www.jitterbit.com/platform/ipaas) - Comprehensive integration solution offering prebuilt workflows and automation templates to accelerate business processes.
+- [IBM Cloud Integration](https://www.ibm.com/cloud/integration) - Next-generation platform leveraging AI to streamline integration, increase scalability, and speed up deployment.
+- [IBM webMethods](https://www.ibm.com/products/webmethods) - All-in-one integration platform that unifies applications, simplifies processes, and boosts overall efficiency.
+- [Informatica Intelligent Cloud Services](https://www.informatica.com/products/cloud-integration.html) - Suite of cloud data management tools that accelerates productivity and simplifies application and data integration.
+- [OpenText Alloy](https://businessnetwork.opentext.com/enterprise-data-management/) - Enterprise data management solution that transforms basic integration into actionable insights and smarter decision-making.
+- [Oracle Integration Cloud Service](https://www.oracle.com/integration/application-integration/) - Robust platform with prebuilt connectivity for both SaaS and on-premises apps, streamlining integration processes.
+- [SAP Integration Suite](https://www.sap.com/products/technology-platform/integration-suite.html) - Cloud-native solution offering prebuilt adapters, API management, and event brokering for end-to-end connectivity.
+- [SnapLogic Intelligent Integration Platform](https://www.snaplogic.com/products/intelligent-integration-platform) - AI-driven platform that connects applications and data rapidly, ensuring efficient and scalable integrations.
+- [TIBCO Cloud Integration](https://www.tibco.com/products/cloud-integration) - Flexible, API-led and event-driven platform that empowers you to integrate virtually any system quickly.
+- [Tray.io](https://tray.ai/) - Low-code automation platform with a drag-and-drop interface, making it simple to build scalable integrations and workflows.
+- [Workato](https://www.workato.com/) - Unified integration and workflow automation solution that simplifies complex processes and enhances operational efficiency.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### MaaS
 *Cloud Messaging as a Service (MaaS) refers to cloud-based messaging platforms that enable reliable, secure, and scalable communication between distributed applications and services. These platforms provide various messaging patterns such as publish-subscribe, request-reply, and streaming. They also offer features such as message routing, filtering, transformation, and persistence, and support various protocols and APIs for integration with different systems.*
-- [Amazon MQ](https://aws.amazon.com/amazon-mq) - A fully managed message broker service that supports Apache ActiveMQ and RabbitMQ. It provides a reliable, secure, and scalable messaging infrastructure for your applications.
-- [Amazon MSK](https://aws.amazon.com/msk) - A fully managed service for Apache Kafka that simplifies the setup, scaling, and management of Kafka clusters. It provides a highly available, durable, and performant messaging service for your data streaming needs.
-- [Amazon SQS](https://aws.amazon.com/sqs) - A fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications. It offers a reliable, secure, and highly available message storage and delivery system.
-- [Amazon SNS](https://aws.amazon.com/sns) - A fully managed pub/sub messaging service that enables you to send and receive messages between distributed systems, microservices, and event-driven serverless applications. It offers a flexible, scalable, and cost-effective way to notify subscribers of events and messages.
-- [Alibaba Cloud Message Queue for Apache Kafka](https://www.alibabacloud.com/product/kafka) - A fully managed Apache Kafka service that provides high-throughput, low-latency, and highly available message streaming for your applications. It offers easy integration with other Alibaba Cloud services and seamless data migration.
-- [Alibaba Cloud Message Queue for RabbitMQ](https://www.alibabacloud.com/product/rabbitmq) - A distributed and fully managed messaging service that provides high scalability, low latency, and high throughput for your applications. It offers flexible deployment options, easy management, and robust security features.
-- [Alibaba Cloud Message Service](https://www.alibabacloud.com/product/message-service) - A distributed messaging and notification service that enables concurrent operations and message transfer between applications and decoupled systems. It offers high reliability, scalability, and fault tolerance for your messaging needs.
-- [AlibabaMQ for Apache RocketMQ](https://www.alibabacloud.com/product/mq) - A distributed message queue service that supports reliable message-based asynchronous communication among microservices, distributed systems, and serverless applications. It provides high availability, scalability, and durability for your message streaming needs.
-- [Anypoint MQ](https://www.mulesoft.com/platform/anypoint-mq-message-queue) - An enterprise-class cloud messaging service that is fully integrated with Anypoint Platform. It offers a flexible and reliable messaging infrastructure that enables you to integrate and orchestrate your applications and systems.
-- [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/) - A reliable cloud messaging service that offers a variety of messaging patterns, such as pub/sub and request/response, and supports a range of protocols and standards.
-- [CloudAMQP](https://www.cloudamqp.com/) - A RabbitMQ as a Service that provides a fully managed and scalable message broker service for your applications. It offers a simple and easy-to-use web-based management console, advanced monitoring and analytics, and seamless integration with other cloud services.
-- [Confluent Cloud](https://www.confluent.io/confluent-cloud/) - A fully managed Apache Kafka service by Confluent. Provides enterprise enhancements like schema registry, connectors, and governance tools, with SLA-backed performance and security.
-- [Google Cloud Managed Service for Apache Kafka](https://cloud.google.com/products/managed-service-for-apache-kafka) - A fully managed platform that simplifies the deployment, scaling, and management of real-time data pipelines and streaming applications on Google Cloud.
-- [Google Cloud Pub/Sub](https://cloud.google.com/pubsub) - A messaging and ingestion service that enables event-driven systems and streaming analytics. It provides high throughput, low latency, and reliable message delivery for your applications. It supports flexible messaging patterns, such as pub/sub and push/pull, and integrates seamlessly with other Google Cloud services.
-- [Huawei Cloud Distributed Message Service](https://www.huaweicloud.com/intl/en-us/product/dms.html) - A fully managed and high-performance message queuing service that enables reliable, flexible, and asynchronous communication between distributed applications. It offers high scalability, security, and durability, and supports a variety of messaging patterns and protocols.
-- [Huawei Cloud Distributed Message Service for Kafka](https://www.huaweicloud.com/intl/en-us/product/dmskafka.html) - A managed Apache Kafka service that provides easy setup, scaling, and management of Kafka clusters. It offers high availability, performance, and security, and integrates seamlessly with other Huawei Cloud services.
-- [IBM MQ on Cloud](https://www.ibm.com/cloud/mq) - A cloud-based messaging service that enables seamless data transfer across enterprise applications, systems, and services with ease.
-- [IronMQ](https://www.iron.io/mq) - An elastic message queue built specifically for the cloud, allowing for reliable and scalable message processing.
-- [Oracle Cloud Streaming](https://www.oracle.com/cloud/cloud-native/streaming/) - A serverless, real-time event streaming platform with Apache Kafka compatibility, delivering highly performant and cost-effective data processing.
-- [Solace PubSub+ Cloud](https://solace.com/products/platform/cloud/) - An all-in-one event streaming, management, and insights platform, providing complete visibility and control over your data pipeline.
-- [Yandex Message Queue](https://cloud.yandex.com/en/services/message-queue) - A cloud messaging service with compatibility to Amazon SQS HTTP API, making it easy to integrate with existing systems and services.
-- [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka) - A fully-managed Apache Kafka service with automated scaling, monitoring, and maintenance, providing hassle-free data streaming.
+- [Amazon MQ](https://aws.amazon.com/amazon-mq) - Fully managed message broker supporting Apache ActiveMQ and RabbitMQ, ensuring reliable and secure messaging.
+- [Amazon MSK](https://aws.amazon.com/msk) - Managed Apache Kafka service that simplifies cluster setup, scaling, and real-time data streaming.
+- [Amazon SQS](https://aws.amazon.com/sqs) - Reliable, fully managed queuing service to decouple microservices and scale distributed applications seamlessly.
+- [Amazon SNS](https://aws.amazon.com/sns) - Managed pub/sub messaging service that flexibly notifies subscribers and supports various delivery protocols.
+- [Alibaba Cloud Message Queue for Apache Kafka](https://www.alibabacloud.com/product/kafka) - High-throughput Kafka service with seamless Alibaba Cloud integration for real-time data processing.
+- [Alibaba Cloud Message Queue for RabbitMQ](https://www.alibabacloud.com/product/rabbitmq) - Scalable RabbitMQ solution offering low latency and high throughput for distributed messaging.
+- [Alibaba Cloud Message Service](https://www.alibabacloud.com/product/message-service) - Distributed messaging service that ensures reliable data transfer between decoupled systems.
+- [AlibabaMQ for Apache RocketMQ](https://www.alibabacloud.com/product/mq) - Robust message queue service supporting asynchronous communication with high availability and durability.
+- [Anypoint MQ](https://www.mulesoft.com/platform/anypoint-mq-message-queue) - Enterprise-class messaging service integrated with Anypoint Platform for flexible and reliable message orchestration.
+- [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/) - Cloud messaging solution that supports multiple patterns and protocols for robust enterprise integration.
+- [CloudAMQP](https://www.cloudamqp.com/) - Managed RabbitMQ service featuring an intuitive web console, advanced analytics, and seamless scalability.
+- [Confluent Cloud](https://www.confluent.io/confluent-cloud/) - Fully managed Kafka service offering enterprise features like schema registry, connectors, and governance.
+- [Google Cloud Managed Service for Apache Kafka](https://cloud.google.com/products/managed-service-for-apache-kafka) - Simplifies Kafka deployment and management on Google Cloud for real-time streaming applications.
+- [Google Cloud Pub/Sub](https://cloud.google.com/pubsub) - High-throughput messaging service that supports event-driven architectures with flexible delivery models.
+- [Huawei Cloud Distributed Message Service](https://www.huaweicloud.com/intl/en-us/product/dms.html) - Fully managed messaging service that ensures secure, scalable, and reliable communication between applications.
+- [Huawei Cloud Distributed Message Service for Kafka](https://www.huaweicloud.com/intl/en-us/product/dmskafka.html) - Managed Kafka solution that simplifies scaling and management while delivering high performance and security.
+- [IBM MQ on Cloud](https://www.ibm.com/cloud/mq) - Enterprise messaging service that offers secure, reliable data transfer across applications in a cloud environment.
+- [IronMQ](https://www.iron.io/mq) - Elastic, cloud-native message queue designed for scalable and reliable processing of high-volume messages.
+- [Oracle Cloud Streaming](https://www.oracle.com/cloud/cloud-native/streaming/) - Serverless, real-time event streaming platform with Apache Kafka compatibility for efficient data processing.
+- [Solace PubSub+ Cloud](https://solace.com/products/platform/cloud/) - Integrated event streaming platform providing full visibility and control over your data pipelines.
+- [Yandex Message Queue](https://cloud.yandex.com/en/services/message-queue) - Cloud messaging service compatible with Amazon SQS API for easy integration with existing systems.
+- [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka) - Fully managed Kafka service with automated scaling, monitoring, and maintenance for hassle-free streaming.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### Managed File Transfer
 *Managed File Transfer (MFT) solutions provide secure and reliable file transfer capabilities that help organizations meet regulatory compliance requirements, improve operational efficiency, and reduce the risk of data breaches. MFT software typically includes features such as encryption, digital signatures, user access controls, and detailed audit logs to ensure that data is transmitted securely and can be tracked throughout the transfer process.*
-- [ArcESB Managed File Transfer](https://www.arcesb.com/mft/) - A comprehensive solution for enterprises seeking to streamline file transfer processes. Its user-friendly interface and powerful capabilities provide an all-in-one MFT solution that can efficiently handle file transfers.
-- [Axway Managed File Transfer](https://www.axway.com/en/products/managed-file-transfer) - Designed to simplify file transfer services for businesses, this MFT solution offers advanced features and security measures to ensure secure and reliable data transfer.
-- [GoAnywhere MFT](https://www.goanywhere.com/products/goanywhere-mft) - Enterprise MFT solution offering secure, centralized file transfers with multiple protocols, workflow automation, and comprehensive audit logging.
-- [GlobalSCAPE EFT](https://www.globalscape.com/eft) - A secure, reliable file transfer server (now under Fortra) offering comprehensive features including automation, auditing, and encryption. This customizable, hardened platform helps organizations of all sizes exchange files safely while meeting compliance requirements.
-- [IBM Sterling Secure File Transfer](https://www.ibm.com/products/secure-file-transfer) - A fast and scalable file transfer platform that offers advanced security features and flexible architecture. It is ideal for businesses that require a reliable and secure MFT platform.
-- [IBM webMethods MFT](https://www.ibm.com/products/webmethods-mft) - Secure, reliable managed file transfer for mission-critical workloads with flexible hybrid cloud deployment options.
-- [Oracle Managed File Transfer](https://www.oracle.com/middleware/technologies/mft/managed-file-transfer.html) - A comprehensive MFT solution that enables secure file exchange and management, providing a reliable and efficient way for businesses to transfer data with ease.
-- [Progress MOVEit](https://www.progress.com/moveit) - Secure managed file transfer solution (Progress Software, formerly Ipswitch) providing guaranteed delivery, end-to-end encryption, automation, integrity verification, and compliance tools for mission-critical transfers in regulated industries.
-- [TIBCO Managed File Transfer](https://www.tibco.com/products/tibco-managed-file-transfer) - A centrally managed MFT platform with powerful automation capabilities and advanced security features, capable of supporting all file transfer use cases. It is an ideal choice for businesses that require a comprehensive MFT solution.
-- [Titan MFT Server](https://southrivertech.com/titan-mft-server/) - An enterprise-level MFT server solution with high availability and failover capabilities, providing an efficient way to automate and manage large-scale file transfers.
+- [ArcESB Managed File Transfer](https://www.arcesb.com/mft/) - Enterprise-grade MFT solution with an intuitive interface and powerful automation for streamlined file exchanges.
+- [Axway Managed File Transfer](https://www.axway.com/en/products/managed-file-transfer) - Robust platform offering advanced security and efficient, reliable data transfer across enterprise systems.
+- [GoAnywhere MFT](https://www.goanywhere.com/products/goanywhere-mft) - Comprehensive solution delivering centralized, secure file transfers with automation and complete audit logging.
+- [GlobalSCAPE EFT](https://www.globalscape.com/eft) - Hardened file transfer server that ensures end-to-end encryption, automation, and compliance for mission-critical data.
+- [IBM Sterling Secure File Transfer](https://www.ibm.com/products/secure-file-transfer) - Scalable and high-performance MFT platform designed for secure, fast, and reliable file exchange.
+- [IBM webMethods MFT](https://www.ibm.com/products/webmethods-mft) - Integrated managed file transfer solution that supports flexible deployment across hybrid environments.
+- [Oracle Managed File Transfer](https://www.oracle.com/middleware/technologies/mft/managed-file-transfer.html) - Comprehensive platform that simplifies secure file exchange and management for enterprise operations.
+- [Progress MOVEit](https://www.progress.com/moveit) - Secure, automated file transfer solution with guaranteed delivery, encryption, and compliance tools for regulated industries.
+- [TIBCO Managed File Transfer](https://www.tibco.com/products/tibco-managed-file-transfer) - Centralized MFT platform with robust automation and security features designed to support diverse file transfer scenarios.
+- [Titan MFT Server](https://southrivertech.com/titan-mft-server/) - Enterprise-level MFT server offering high availability, failover capabilities, and efficient large-scale file automation.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### Master Data Management
 *Master Data Management solutions help organizations create a single, authoritative source of accurate and consistent data across different systems, applications, and departments. These tools provide capabilities for data profiling, cleansing, enrichment, and governance, enabling organizations to improve data quality, reduce errors, and increase operational efficiency.*
-- [IBM InfoSphere Master Data Management](https://www.ibm.com/products/ibm-infosphere-master-data-management) - A comprehensive solution for managing master data that provides a single source of truth across your organization.
-- [Informatica Multidomain MDM](https://www.informatica.com/products/master-data-management/multidomain-mdm.html) - An all-in-one solution that enables you to manage and govern all your master data domains in one place.
-- [Oracle Enterprise Data Management](https://www.oracle.com/performance-management/enterprise-data-management/) - Helps you adapt and respond to change faster and more effectively by centralizing and managing your master data.
-- [Reltio](https://www.reltio.com/products/multidomain-mdm) - A cloud-native multi-domain MDM platform delivered as a SaaS offering. Reltio combines master data management with built-in data quality, governance, and even graph technology for relationships, enabling a real-time, 360° view of business entities.
-- [SAP Master Data Governance](https://www.sap.com/products/master-data-governance.html) - Streamlines and improves the quality and consistency of your data by consolidating and centrally governing your master data lifecycle.
-- [SAS MDM](https://support.sas.com/en/software/mdm-support.html) - Provides a unified view of your corporate data, integrating information from various sources into one master record for greater accuracy and consistency.
-- [Stibo MDM](https://www.stibosystems.com/platform) - An established multi-domain MDM solution included in multiple analyst reports. Focuses on data transparency and governance with flexible data models for product, customer, supplier, and other domains, enabling a unified single source of truth.
-- [Teradata MDM](https://www.teradata.co.uk/Products/Applications/Master-Data-Management) - Establishes an accurate analytical data foundation by using consistent reference data, driving significant ROI.
-- [TIBCO EBX](https://www.tibco.com/products/tibco-ebx-software) - A single solution to govern, manage, and consume all shared data assets, ensuring greater consistency and accuracy across your organization.
+- [IBM InfoSphere Master Data Management](https://www.ibm.com/products/ibm-infosphere-master-data-management) - Comprehensive platform that centralizes data governance, ensuring consistency and accuracy across your enterprise.
+- [Informatica Multidomain MDM](https://www.informatica.com/products/master-data-management/multidomain-mdm.html) - Integrated solution for managing and governing master data across all domains, enhancing overall data quality.
+- [Oracle Enterprise Data Management](https://www.oracle.com/performance-management/enterprise-data-management/) - Robust tool that centralizes master data to support faster, more effective decision-making and operational agility.
+- [Reltio](https://www.reltio.com/products/multidomain-mdm) - Cloud-native, multi-domain MDM platform combining data quality, governance, and real-time analytics for a 360° view.
+- [SAP Master Data Governance](https://www.sap.com/products/master-data-governance.html) - Centralized solution that consolidates and governs master data to ensure consistency and high quality.
+- [SAS MDM](https://support.sas.com/en/software/mdm-support.html) - Unified platform that integrates data from diverse sources into accurate master records for improved efficiency.
+- [Stibo MDM](https://www.stibosystems.com/platform) - Proven multi-domain MDM solution focusing on data transparency and governance to provide a single source of truth.
+- [Teradata MDM](https://www.teradata.co.uk/Products/Applications/Master-Data-Management) - Establishes a consistent analytical foundation by maintaining accurate reference data for enhanced ROI.
+- [TIBCO EBX](https://www.tibco.com/products/tibco-ebx-software) - Comprehensive platform for governing and managing shared data assets, ensuring consistency and enabling smarter decisions.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### Messaging
 *Message brokers are a type of middleware that allows communication between different applications or systems by facilitating the exchange of messages. They can handle different messaging patterns, such as point-to-point, publish-subscribe, and request-reply, and provide features such as message transformation, routing, and filtering.*
-- [Apache ActiveMQ (⭐2.3k)](https://github.com/apache/activemq) - An open-source message broker that implements Java Message Service (JMS) and allows for synchronous to asynchronous communication conversion. Offers reliable messaging and supports multiple protocols and messaging styles.
-- [Apache Kafka (⭐29k)](https://github.com/apache/kafka) - A distributed messaging system designed for high-throughput and fault-tolerance. Enables real-time data processing and stream processing applications with its distributed architecture and efficient data storage.
-- [Apache Pulsar (⭐14k)](https://github.com/apache/pulsar) - A distributed pub/sub-messaging system that supports both traditional messaging and streaming use cases. Offers a scalable and flexible architecture and supports multiple messaging protocols.
-- [Apache RocketMQ (⭐21k)](https://github.com/apache/rocketmq) - A fast and reliable distributed messaging platform designed for high volume and low latency messaging scenarios. Offers efficient message storage and retrieval and supports various messaging patterns.
-- [Apache Qpid (⭐57)](https://github.com/apache/qpid-broker-j) - A messaging tool that supports the Advanced Message Queuing Protocol (AMQP) and multiple programming languages and platforms. Offers enterprise-grade messaging capabilities with reliable and efficient message delivery.
-- [BlazingMQ (⭐2.6k)](https://github.com/bloomberg/blazingmq) - A distributed message queueing platform with a focus on efficiency, reliability, and a rich feature set for modern-day workflows.
-- [Centrifugo (⭐8.7k)](https://github.com/centrifugal/centrifugo) - An open-source, scalable real-time messaging server that allows you to build interactive applications where events are delivered to online users with minimal delay.
-- [Eclipse Mosquitto (⭐9.4k)](https://github.com/eclipse/mosquitto) - A lightweight open-source message broker that implements the MQTT protocol. Designed for low-power devices and supports message encryption and authentication.
-- [EMQX (⭐14k)](https://github.com/emqx/emqx) - A high-performance, scalable, and reliable open-source MQTT broker for IoT, IIoT, and connected vehicles.
-- [IBM MQ](https://www.ibm.com/products/mq) - A robust enterprise-grade messaging system that enables safe and efficient communication between applications. Offers high availability and disaster recovery capabilities and supports multiple messaging protocols.
-- [KubeMQ](https://kubemq.io/) - A Kubernetes-based message broker and queue system designed for scalability, high availability, and security. Offers seamless integration with Kubernetes and supports various messaging patterns.
-- [NATS (⭐16k)](https://github.com/nats-io/gnatsd) - A lightweight and high-performance messaging system designed for microservices, IoT, and cloud-native systems. Offers efficient and reliable message delivery and supports multiple messaging protocols.
-- [Oracle AQ](https://www.oracle.com/database/technologies/advanced-queuing.html) - A messaging system that provides enterprise message functionality and is widely used within the Oracle database. Offers reliable and efficient message delivery and supports multiple messaging styles.
-- [RabbitMQ (⭐12k)](https://github.com/rabbitmq/rabbitmq-server) - An open-source message broker that implements AMQP and supports multiple messaging protocols and patterns. Offers reliable and efficient message delivery and supports clustering and high availability.
-- [Redpanda (⭐10k)](https://github.com/vectorizedio/redpanda) - A streaming platform that is Kafka-compatible and does not require Zookeeper or JVM. Offers high-performance and low-latency messaging and supports stream processing and analytics.
-- [Red Hat AMQ](https://www.redhat.com/en/technologies/jboss-middleware/amq) - A messaging system based on open-source communities like Apache ActiveMQ and Apache Kafka. Offers enterprise-grade messaging capabilities with reliable and efficient message delivery.
-- [TIBCO Enterprise Message Service](https://www.tibco.com/products/tibco-enterprise-message-service) - A standards-based JMS implementation that allows for easy exchange of messages between applications. Offers reliable and efficient message delivery and supports various messaging protocols and patterns.
-- [VerneMQ (⭐3.2k)](https://github.com/vernemq/vernemq) - A high-performance distributed MQTT message broker designed for scalability and reliability. Offers efficient and reliable message delivery and supports multiple messaging protocols and patterns.
+- [Apache ActiveMQ (⭐2.3k)](https://github.com/apache/activemq) - Open-source broker that implements JMS, enabling seamless conversion between synchronous and asynchronous messaging.
+- [Apache Kafka (⭐29k)](https://github.com/apache/kafka) - Distributed, high-throughput system designed for real-time data streaming and fault-tolerant processing.
+- [Apache Pulsar (⭐14k)](https://github.com/apache/pulsar) - Versatile pub/sub and streaming platform offering scalable, low-latency messaging for modern applications.
+- [Apache RocketMQ (⭐21k)](https://github.com/apache/rocketmq) - High-performance distributed messaging platform engineered for low latency and high throughput.
+- [Apache Qpid (⭐57)](https://github.com/apache/qpid-broker-j) - AMQP-compliant messaging tool with multi-language support for enterprise-grade message delivery.
+- [BlazingMQ (⭐2.6k)](https://github.com/bloomberg/blazingmq) - Distributed message queuing system focused on efficiency and reliability for modern workflow needs.
+- [Centrifugo (⭐8.7k)](https://github.com/centrifugal/centrifugo) - Scalable real-time messaging server that minimizes delay in delivering events to online users.
+- [Eclipse Mosquitto (⭐9.4k)](https://github.com/eclipse/mosquitto) - Lightweight MQTT broker optimized for low-power devices with robust encryption and authentication.
+- [EMQX (⭐14k)](https://github.com/emqx/emqx) - High-performance MQTT broker built for IoT and industrial applications, ensuring scalable message delivery.
+- [IBM MQ](https://www.ibm.com/products/mq) - Enterprise-grade messaging solution providing robust features, high availability, and multi-protocol support.
+- [KubeMQ](https://kubemq.io/) - Kubernetes-native message broker and queue system designed for scalability, high availability, and seamless cloud integration.
+- [NATS (⭐16k)](https://github.com/nats-io/gnatsd) - Lightweight, high-performance messaging system ideal for microservices and cloud-native architectures.
+- [Oracle AQ](https://www.oracle.com/database/technologies/advanced-queuing.html) - Integrated messaging solution within Oracle databases, offering reliable and efficient message delivery.
+- [RabbitMQ (⭐12k)](https://github.com/rabbitmq/rabbitmq-server) - Popular open-source broker implementing AMQP, known for reliability, clustering, and ease-of-use.
+- [Redpanda (⭐10k)](https://github.com/vectorizedio/redpanda) - Kafka-compatible streaming platform that eliminates Zookeeper, delivering high performance and low latency.
+- [Red Hat AMQ](https://www.redhat.com/en/technologies/jboss-middleware/amq) - Enterprise messaging platform based on open-source technologies, offering scalable and reliable message delivery.
+- [TIBCO Enterprise Message Service](https://www.tibco.com/products/tibco-enterprise-message-service) - Standards-based JMS implementation that enables efficient and robust exchange of messages between applications.
+- [VerneMQ (⭐3.2k)](https://github.com/vernemq/vernemq) - High-performance distributed MQTT broker designed for scalable and efficient message delivery in modern environments.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### RPA
 *Robotic Process Automation (RPA) solutions are software tools that automate repetitive, rule-based tasks within business processes. RPA bots can perform tasks such as data entry, data extraction, and data processing with accuracy and speed, freeing up human workers to focus on more complex tasks.*
-- [Automation Anywhere](https://www.automationanywhere.com/) - An intelligent automation ecosystem that provides Robotic Process Automation (RPA) solutions. This solution is designed to automate business processes and improve operational efficiency while reducing errors and costs.
-- [Blue Prism](https://www.blueprism.com/products/intelligent-rpa-automation/) - A no-code automation RPA platform that offers intelligent automation capabilities for businesses. This platform is designed to reduce operational costs and improve productivity by automating repetitive digital tasks.
-- [Tungsten RPA](https://www.tungstenautomation.com/products/rpa) - Automates repetitive tasks with AI and no-code tools, enhancing efficiency, accuracy, and compliance across systems.
-- [UiPath](https://www.uipath.com/product) - A platform that provides RPA solutions for automating repetitive digital tasks typically performed by people. This solution offers a comprehensive automation platform that enables businesses to automate their processes and increase efficiency.
-- [WorkFusion](https://www.workfusion.com/platform/) - An automation platform for the enterprise that offers RPA solutions. This platform is designed to automate manual tasks, reduce errors and improve efficiency. It offers a comprehensive set of tools for automating workflows and streamlining operations.
+- [Automation Anywhere](https://www.automationanywhere.com/) - Intelligent automation ecosystem that streamlines business processes and reduces errors through advanced RPA capabilities.
+- [Blue Prism](https://www.blueprism.com/products/intelligent-rpa-automation/) - No-code platform delivering robust, scalable automation to minimize manual tasks and boost productivity.
+- [Tungsten RPA](https://www.tungstenautomation.com/products/rpa) - AI-powered, no-code automation solution that enhances accuracy, efficiency, and compliance across workflows.
+- [UiPath](https://www.uipath.com/product) - Comprehensive RPA platform that automates routine tasks, enabling scalable digital transformation across enterprises.
+- [WorkFusion](https://www.workfusion.com/platform/) - Enterprise automation solution that combines RPA with intelligent automation to streamline complex workflows.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
@@ -358,32 +358,32 @@ System integration is the process of linking together different IT systems (com
 ### Self-Service Integration
 *Self-service and citizen integrator tools are designed to enable non-technical users to build integrations without the need for extensive programming knowledge. These tools typically feature drag-and-drop interfaces and pre-built connectors for popular applications and services.*
 
-- [IFTTT](https://ifttt.com/) - A powerful self-service and citizen integrator tool that enables users to create custom workflows by connecting multiple web services with conditional statements, boosting productivity with ease.
-- [Make (Integromat)](https://www.make.com) - A low-code automation platform that allows users to visually create complex workflows integrating hundreds of apps. Supports advanced data transformation, error handling, and modular workflow execution.
-- [Microsoft Power Automate](https://powerautomate.microsoft.com) - This cloud-based service offers a user-friendly interface to create automated workflows seamlessly, integrating different applications and services with ease, simplifying complex tasks.
-- [n8n (⭐65k)](https://github.com/n8n-io/n8n) - A self-hostable, open-source workflow automation tool with 400 pre-built connectors. Unlike proprietary cloud automation tools, n8n allows full control over data and workflows, making it ideal for privacy-conscious businesses.
-- [Oracle Self-Service Integration](https://docs.oracle.com/en/cloud/paas/self-service-integration-cloud/index.html) - Automate tasks between various cloud applications with ease using Oracle's Self-Service Integration tool, providing a seamless and efficient integration process.
-- [Zapier](https://zapier.com/) - An intuitive automation tool that connects hundreds of web services to create automations between processes with ease, streamlining tasks, and enhancing overall productivity.
+- [IFTTT](https://ifttt.com/) - Easy-to-use platform that connects web services with simple conditional statements, empowering custom workflow creation.
+- [Make (Integromat)](https://www.make.com) - Low-code automation tool with a visual interface, advanced data transformation, and modular workflow execution.
+- [Microsoft Power Automate](https://powerautomate.microsoft.com) - Cloud-based service with an intuitive interface for creating automated workflows that seamlessly integrate diverse apps.
+- [n8n (⭐65k)](https://github.com/n8n-io/n8n) - Open-source workflow automation tool with 400+ connectors, giving you full control over your data and integrations.
+- [Oracle Self-Service Integration](https://docs.oracle.com/en/cloud/paas/self-service-integration-cloud/index.html) - Streamlined tool that automates tasks between cloud applications, making integration accessible for non-developers.
+- [Zapier](https://zapier.com/) - Intuitive platform that connects hundreds of web services to create efficient, code-free automations.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### Workflow engine
 *Software tools that enable the design, execution, and monitoring of complex workflows or business processes. Workflow engines provide a way to automate and streamline business processes, while orchestration engines help to manage the interactions between different systems or services.*
-- [Activiti (⭐10k)](https://github.com/Activiti/Activiti) - A lightweight and Java-centric open-source engine for executing BPMN (Business Process Model and Notation) workflows.
-- [Apache Airflow (⭐39k)](https://github.com/apache/airflow) - A platform that allows you to create, schedule, and monitor workflows programmatically, making it easier to manage and automate complex data pipelines.
-- [Argo Workflows (⭐15k)](https://github.com/argoproj/argo-workflows) - An open-source, container-native workflow engine designed to orchestrate parallel jobs on Kubernetes, making it easier to manage and automate complex workflows in a cloud-native environment.
-- [Azkaban (⭐4.4k)](https://github.com/azkaban/azkaban) - A distributed workflow manager that helps solve the problem of Hadoop job dependencies, making it easier to schedule and manage workflows in large-scale data processing environments.
-- [Bonita (⭐164)](https://github.com/bonitasoft/bonita-engine) - An open-source BPMN engine that comes with a designer and optional development environment, making it easier to build and automate complex business processes.
-- [Cadence (⭐8.5k)](https://github.com/uber/cadence) - A fault-tolerant, stateful code platform that makes it easier to build and manage complex, long-running applications.
-- [Camunda (⭐4.1k)](https://github.com/camunda/camunda-bpm-platform) - An open-source workflow and decision automation platform that helps you automate business processes and decisions in a flexible and scalable way.
-- [Conductor (⭐12k)](https://github.com/Netflix/conductor) - A cloud-based orchestration engine designed to run and manage workflows in a microservices architecture.
-- [Elsa Core (⭐6.8k)](https://github.com/elsa-workflows/elsa-core) - A library that enables workflow execution in any .NET Core application, making it easier to automate business processes in .NET environments.
-- [Flowable (⭐8.2k)](https://github.com/flowable/flowable-engine) - A set of open-source business process engines that are compact and efficient, making it easier to automate business processes in a scalable and reliable way.
-- [jBPM (⭐1.6k)](https://github.com/kiegroup/jbpm) - A toolkit for building business applications that helps you automate business processes and decisions, making it easier to manage complex workflows.
-- [Prefect (⭐18k)](https://github.com/PrefectHQ/prefect) - A modern, open‑source workflow orchestration tool optimized for data pipelines, offering a more developer‑friendly alternative to traditional schedulers.
-- [StackStorm (⭐6.1k)](https://github.com/StackStorm/st2) - A robust automation engine that provides sensors, triggers, rules, workflows, and actions to help you automate and orchestrate complex workflows and applications.
-- [Temporal (⭐13k)](https://github.com/temporalio/temporal) - An open-source platform that uses a workflow-as-code approach to make your applications more reliable and scalable. 
+- [Activiti (⭐10k)](https://github.com/Activiti/Activiti) - Lightweight, Java-centric BPMN engine that efficiently executes business workflows with a focus on simplicity.
+- [Apache Airflow (⭐39k)](https://github.com/apache/airflow) - Platform for programmatically creating, scheduling, and monitoring workflows, ideal for managing complex data pipelines.
+- [Argo Workflows (⭐15k)](https://github.com/argoproj/argo-workflows) - Container-native workflow engine designed for orchestrating parallel jobs in Kubernetes-based, cloud-native environments.
+- [Azkaban (⭐4.4k)](https://github.com/azkaban/azkaban) - Distributed scheduler that simplifies managing job dependencies in large-scale data processing environments.
+- [Bonita (⭐164)](https://github.com/bonitasoft/bonita-engine) - Open-source BPMN engine with a designer interface to build and automate complex business processes.
+- [Cadence (⭐8.5k)](https://github.com/uber/cadence) - Fault-tolerant, stateful platform that reliably orchestrates long-running workflows and complex applications.
+- [Camunda (⭐4.1k)](https://github.com/camunda/camunda-bpm-platform) - Flexible workflow and decision automation platform designed for scalable business process management.
+- [Conductor (⭐12k)](https://github.com/Netflix/conductor) - Cloud-based orchestration engine that manages microservices workflows, streamlining complex process automation.
+- [Elsa Core (⭐6.8k)](https://github.com/elsa-workflows/elsa-core) - .NET Core library that integrates seamlessly into any application to execute and manage workflows.
+- [Flowable (⭐8.2k)](https://github.com/flowable/flowable-engine) - Compact, efficient set of open-source engines for automating and scaling enterprise workflows.
+- [jBPM (⭐1.6k)](https://github.com/kiegroup/jbpm) - Comprehensive toolkit for automating business processes and decisions with robust workflow management capabilities.
+- [Prefect (⭐18k)](https://github.com/PrefectHQ/prefect) - Modern, developer-friendly orchestration tool optimized for data pipelines and complex workflows.
+- [StackStorm (⭐6.1k)](https://github.com/StackStorm/st2) - Robust automation engine that combines sensors, triggers, and workflows to orchestrate complex IT processes.
+- [Temporal (⭐13k)](https://github.com/temporalio/temporal) - Open-source workflow-as-code platform designed for building reliable, scalable, and fault-tolerant applications. 
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
