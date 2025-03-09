@@ -159,84 +159,84 @@ System integration is the process of linking together different IT systems (com
 <!--lint enable-->
 ### BRE
 *Business Rules Engines and Business Rules Management Systems (BRMS) are software systems that allow organizations to define, manage, and execute business rules. These rules are used to automate decision-making processes, enforce business policies, and ensure regulatory compliance. A BRMS provides a way for organizations to centrally manage their business rules and make changes to them quickly and easily, without requiring changes to the underlying code. It is a valuable tool for businesses that need to be agile and respond quickly to changing market conditions.*
-- [Drools (⭐5.9k)](https://github.com/apache/incubator-kie-drools) - Open-source tool that supports Decision Model and Notation (DMN) models at Conformance level 3 with an Eclipse IDE plugin for core development.
-- [Easy Rules (⭐5k)](https://github.com/j-easy/easy-rules) - Simple Java rules engine for straightforward rule processing.
-- [FICO Blaze Advisor](https://www.fico.com/en/products/fico-blaze-advisor) - A decision rules engine with a robust authoring interface for both technical and business users, allowing them to effectively create and manage business rules in a recognized world-class decision management solution.
-- [IBM ODM](https://www.ibm.com/products/operational-decision-manager) - A scalable business rules management system that streamlines authoring, testing, and updating decision logic while maintaining compliance and operational agility.
-- [NxBRE (⭐131)](https://github.com/ddossot/NxBRE) - Open-source rule engine specifically designed for the .NET platform.
-- [OpenL Tablets (⭐164)](https://github.com/openl-tablets/openl-tablets) - Open-source business rules engine (BRE, BRMS) and decision management system that allows users to define, manage, and execute business rules and decision tables.
-- [Progress Corticon](https://www.progress.com/corticon) - A model-driven business rules management system enabling fast rule creation without coding while delivering high-performance automated decisions with guaranteed integrity.
-- [Red Hat Decision Manager](https://access.redhat.com/products/red-hat-decision-manager) - Formerly known as JBoss BRMS, it builds on the Drools rule engine. Offers advanced rule authoring with Decision Model and Notation (DMN) support, business-friendly UIs, and enterprise-grade features for high availability, making it suitable for large-scale decision automation.
+- [Drools (⭐5.9k)](https://github.com/apache/incubator-kie-drools) - Open-source engine that supports advanced Decision Model and Notation (DMN) with Eclipse IDE integration for efficient rule development.
+- [Easy Rules (⭐5k)](https://github.com/j-easy/easy-rules) - Lightweight Java-based rules engine designed for straightforward rule processing and rapid decision automation.
+- [FICO Blaze Advisor](https://www.fico.com/en/products/fico-blaze-advisor) - Enterprise-grade decision engine that empowers both business and technical users with an intuitive interface for fast rule creation and management.
+- [IBM ODM](https://www.ibm.com/products/operational-decision-manager) - Scalable decision management system that streamlines rule authoring, testing, and updates while ensuring compliance and agility.
+- [NxBRE (⭐131)](https://github.com/ddossot/NxBRE) - Specialized .NET open-source rule engine offering efficient rule processing tailored for Microsoft environments.
+- [OpenL Tablets (⭐164)](https://github.com/openl-tablets/openl-tablets) - Flexible open-source decision management system that simplifies defining and executing business rules and decision tables.
+- [Progress Corticon](https://www.progress.com/corticon) - Model-driven BRMS enabling rapid, no-code rule creation that delivers high-performance automated decisions with guaranteed integrity.
+- [Red Hat Decision Manager](https://access.redhat.com/products/red-hat-decision-manager) - Enterprise-class decision platform built on Drools, offering advanced DMN support, intuitive UIs, and high availability for large-scale automation.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### BPM
 *BPM solutions are software tools that help businesses streamline and automate their operational processes to improve efficiency and productivity. These solutions typically provide features such as process modeling, workflow management, task automation, and reporting. They can be used to automate a wide range of processes, from simple tasks like data entry to complex workflows involving multiple departments and stakeholders.*
-- [Appian BPM Suite](https://appian.com/platform/complete-automation/business-process-management-bpm.html) - A platform that combines low-code development with process management, allowing both IT and citizen developers to construct process-centric and case-centric applications.
-- [Genpack Cora SeQuence](https://www.genpact.com/cora/sequence) - A tool for orchestrating business processes, driving business agility and improving cost efficiency.
-- [IBM Business Automation Workflow](https://www.ibm.com/products/business-automation-workflow) - A comprehensive business process management platform for developing and administering business applications.
-- [Oracle BPM Suite](https://www.oracle.com/middleware/technologies/bpm.html) - An integrated environment for developing, administering, and using business applications that are centered around business processes.
-- [Pega Platform](https://www.pega.com/products/platform) - A platform for business process management and robotic process automation (RPA) with advanced workforce analytics.
-- [Red Hat Process Automation Manager](https://www.redhat.com/en/technologies/jboss-middleware/process-automation-manager) - Application development platform that enables developers and business experts to create cloud-native applications that automate business operations.
-- [SAP Process Orchestration](https://www.sap.com/products/process-orchestration.html) - A business process management offering and application infrastructure. 
-- [TIBCO BPM Enterprise](https://www.tibco.com/products/business-process-management) - Business process management platform that offers capabilities for process automation, documentation, human capital management, process patterns, and predictive operations analytics.
+- [Appian BPM Suite](https://appian.com/platform/complete-automation/business-process-management-bpm.html) - Low-code BPM platform that empowers both IT and citizen developers to quickly build process- and case-centric applications.
+- [Genpack Cora SeQuence](https://www.genpact.com/cora/sequence) - Agile process orchestration tool that enhances business efficiency by seamlessly integrating and managing workflows.
+- [IBM Business Automation Workflow](https://www.ibm.com/products/business-automation-workflow) - Integrated platform combining workflow automation and BPM to optimize operational processes and decision-making.
+- [Oracle BPM Suite](https://www.oracle.com/middleware/technologies/bpm.html) - Comprehensive solution offering robust process modeling, workflow automation, and real-time analytics to drive operational excellence.
+- [Pega Platform](https://www.pega.com/products/platform) - Advanced BPM and RPA platform featuring intelligent process automation and workforce analytics to streamline operations.
+- [Red Hat Process Automation Manager](https://www.redhat.com/en/technologies/jboss-middleware/process-automation-manager) - Cloud-native platform that enables cross-functional teams to design, deploy, and manage automated business workflows with agility.
+- [SAP Process Orchestration](https://www.sap.com/products/process-orchestration.html) - Robust BPM offering that combines process orchestration with application integration for end-to-end operational efficiency.
+- [TIBCO BPM Enterprise](https://www.tibco.com/products/business-process-management) - Enterprise BPM solution delivering process automation, documentation, and predictive analytics to enhance performance and decision-making.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### Data Mapping Solution
 *Data Mapping tools are used to define and transform data between different systems, applications, and formats. These tools allow for the mapping of data from source to target, allowing for data transformation and integration. This section covers different data mapping solutions that can be used to facilitate data mapping and transformation processes for different use cases.*
-- [AltasMap (⭐200)](https://github.com/atlasmap/atlasmap) - A web-based data mapping solution that simplifies integration between Java, XML, CSV, and JSON data sources. Its interactive user interface makes configuring integrations easy.
-- [Altova MapForce](https://www.altova.com/mapforce) - A graphical data mapping tool that can handle any-to-any conversion and integration tasks. It simplifies complex mapping tasks, enabling software engineers to complete projects faster.
-- [JOLT (⭐1.5k)](https://github.com/bazaarvoice/jolt) - A Java-based JSON-to-JSON transformation library that uses a JSON document as the "specification" for the transform. JOLT provides a simple way for software engineers to transform JSON data.
-- [JSLT (⭐651)](https://github.com/schibsted/jslt) - A complete query and transformation language for JSON that is inspired by jq, XPath, and XQuery. With JSLT, software engineers can quickly and easily transform JSON data to meet their needs.
+- [AtlasMap (⭐200)](https://github.com/atlasmap/atlasmap) - Interactive web-based tool that simplifies mapping across Java, XML, CSV, and JSON data sources with an intuitive interface.
+- [Altova MapForce](https://www.altova.com/mapforce) - Graphical data mapping solution that enables any-to-any conversion, reducing complexity and accelerating integration projects.
+- [JOLT (⭐1.5k)](https://github.com/bazaarvoice/jolt) - Java-based JSON transformation library that uses a specification-driven approach for effortless JSON-to-JSON conversions.
+- [JSLT (⭐651)](https://github.com/schibsted/jslt) - Powerful JSON query and transformation language inspired by jq and XPath, designed for rapid and flexible data manipulation.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### ESB
 *Enterprise Service Bus (ESB) solutions facilitate the integration of disparate systems and applications by providing a communication layer that allows them to exchange information. ESBs offer a range of capabilities such as message routing, transformation, protocol conversion, and data mediation. They typically support various messaging patterns and communication protocols and provide a centralized platform for managing and monitoring message traffic.*
-- [Anypoint Platform](https://www.mulesoft.com/platform/enterprise-integration) - A comprehensive API management and integration platform that simplifies connecting applications from Mulesoft.
-- [Apache ServiceMix](https://servicemix.apache.org/) - An open-source integration container that combines the functionality of Apache ActiveMQ, Camel, CXF, and Karaf, providing a flexible solution.
-- [ArcESB](https://www.arcesb.com/integration/) - A versatile integration platform that seamlessly synchronizes data across applications, integrates with partners, and provides data accessibility.
-- [IBM App Connect](https://www.ibm.com/cloud/app-connect) - An integration platform that can connect applications, irrespective of the message formats or protocols they use, formerly known as IBM Integration Bus.
-- [IBM webMethods Integration](https://www.ibm.com/products/webmethods-integration) - An integration platform that enables faster integration of any application.
-- [NServiceBus (⭐2.1k)](https://github.com/Particular/NServiceBus) - A .NET-based service bus that offers an intuitive developer-friendly environment.
-- [Oracle Service Bus](https://www.oracle.com/middleware/technologies/service-bus.html) - An integration platform that connects, virtualizes, and manages interactions between services and applications.
-- [Oracle SOA Suite](https://www.oracle.com/middleware/technologies/soasuite.html) - A platform that enables system developers to set up and manage services and to orchestrate them into composite applications and business processes.
-- [Red Hat Fuse](https://developers.redhat.com/products/fuse/overview) - A cloud-native integration platform that supports distributed integration capabilities.
-- [TIBCO BusinessWorks](https://www.tibco.com/products/tibco-businessworks) - A platform that implements enterprise patterns for hybrid integrations.
-- [UltraESB](https://www.adroitlogic.com/products/ultraesb/) - An ESB that supports zero-copy proxying for extreme performance utilizing Direct Memory Access and Non-Blocking IO.
-- [WSO2 Enterprise Integrator (⭐383)](https://github.com/wso2/product-ei) - An API-centric, cloud-native, and distributed integration platform designed to provide a robust solution for software engineers.
+- [Anypoint Platform](https://www.mulesoft.com/platform/enterprise-integration) - Comprehensive integration solution that leverages robust ESB capabilities to connect and orchestrate disparate systems.
+- [Apache ServiceMix](https://servicemix.apache.org/) - Versatile open-source integration container combining messaging, routing, and service mediation for flexible enterprise connectivity.
+- [ArcESB](https://www.arcesb.com/integration/) - Flexible integration platform that synchronizes data across applications, streamlines partner connectivity, and enhances data accessibility.
+- [IBM App Connect](https://www.ibm.com/cloud/app-connect) - Robust integration solution that connects diverse applications and protocols, ensuring seamless data flow across the enterprise.
+- [IBM webMethods Integration](https://www.ibm.com/products/webmethods-integration) - Comprehensive platform that accelerates application integration and simplifies connectivity across heterogeneous systems.
+- [NServiceBus (⭐2.1k)](https://github.com/Particular/NServiceBus) - Developer-friendly, .NET-based service bus that simplifies messaging and orchestrates service integration efficiently.
+- [Oracle Service Bus](https://www.oracle.com/middleware/technologies/service-bus.html) - Powerful ESB solution that virtualizes and manages service interactions to reduce integration complexity.
+- [Oracle SOA Suite](https://www.oracle.com/middleware/technologies/soasuite.html) - Comprehensive SOA platform that orchestrates services into composite applications, driving efficient business process integration.
+- [Red Hat Fuse](https://developers.redhat.com/products/fuse/overview) - Cloud-native integration platform that delivers distributed integration capabilities for agile, scalable connectivity.
+- [TIBCO BusinessWorks](https://www.tibco.com/products/tibco-businessworks) - Enterprise-grade integration platform implementing proven hybrid integration patterns for reliable data exchange.
+- [UltraESB](https://www.adroitlogic.com/products/ultraesb/) - High-performance ESB engineered for extreme throughput with zero-copy proxying and non-blocking IO techniques.
+- [WSO2 Enterprise Integrator (⭐383)](https://github.com/wso2/product-ei) - API-centric, cloud-native integration platform offering robust, distributed capabilities for modern software architectures.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### ETL
 *ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) are processes used to integrate and consolidate data from multiple sources. This section covers a range of open source and commercial tools for performing these tasks, including data ingestion, transformation, and loading into data warehouses or other data storage systems.*
-- [Apache NiFi (⭐5.1k)](https://github.com/apache/nifi) - An automated data integration platform that efficiently moves data between disparate systems.
-- [Airbyte (⭐17k)](https://github.com/airbytehq/airbyte) - Data integration platform for ELT pipelines from APIs, databases & files to databases, warehouses & lakes.
-- [CloverDX](https://www.cloverdx.com/) - Commercial ETL suite (originally open-source) for designing data transformations and orchestrating data workflows at scale​. 
-- [Hevo](https://hevodata.com/) - A fully automated, no-code data pipeline platform supporting 150+ integrations across databases, SaaS apps, cloud storage, SDKs, and streaming services.
-- [IBM DataStage](https://www.ibm.com/products/datastage) - A powerful data integration platform that helps businesses understand, cleanse, transform, and deliver trusted information.
-- [Informatica PowerCenter](https://www.informatica.com/products/data-integration/powercenter.html) - A trusted enterprise data integration and management software powering analytics for big data and cloud.
-- [Microsoft SSIS](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services) - A reliable platform for building enterprise-level data integration and transformation solutions.
-- [Oracle Data Integrator](https://www.oracle.com/middleware/technologies/data-integrator.html) - A comprehensive data integration platform that covers all data integration requirements, including batch loads, integration processes, and SOA-enabled data services.
-- [Pentaho Data Integration (⭐7.9k)](https://github.com/pentaho/pentaho-kettle) - A user-friendly platform that enables users to ingest, blend, cleanse, and prepare diverse data from any source with visual tools, eliminating the need for coding and complexity.
-- [SAS Data Management](https://www.sas.com/en_us/software/data-management.html) - A robust platform that helps transform, integrate, govern, and secure data while improving its overall quality and reliability.
-- [Stitch](https://www.stitchdata.com/) - SaaS ETL service (by Talend) for simple extraction from dozens of sources into data warehouses, with a developer-friendly approach​.
-- [Talend Data Integration](https://www.talend.com/products/integrate-data/) - A versatile platform that brings data together from multiple sources to power all your business decisions.
+- [Apache NiFi (⭐5.1k)](https://github.com/apache/nifi) - Automated data integration tool with a visual interface that seamlessly extracts, transforms, and delivers data across systems.
+- [Airbyte (⭐17k)](https://github.com/airbytehq/airbyte) - Flexible, open-source data integration platform that builds ELT pipelines to move data from diverse sources to modern destinations.
+- [CloverDX](https://www.cloverdx.com/) - Enterprise ETL suite offering robust data transformation and workflow orchestration for scalable integration.
+- [Hevo](https://hevodata.com/) - No-code, fully automated data pipeline platform that supports extensive integrations, simplifying complex data workflows.
+- [IBM DataStage](https://www.ibm.com/products/datastage) - Robust platform that cleanses, transforms, and delivers reliable data, empowering businesses with trusted insights.
+- [Informatica PowerCenter](https://www.informatica.com/products/data-integration/powercenter.html) - Enterprise-class solution that streamlines big data and cloud analytics through comprehensive data integration management.
+- [Microsoft SSIS](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services) - Proven data integration solution for building scalable ETL processes within enterprise environments using SQL Server.
+- [Oracle Data Integrator](https://www.oracle.com/middleware/technologies/data-integrator.html) - Comprehensive platform that addresses batch loads, real-time processes, and SOA-enabled services for end-to-end data management.
+- [Pentaho Data Integration (⭐7.9k)](https://github.com/pentaho/pentaho-kettle) - Intuitive, visual ETL tool that simplifies data ingestion, blending, and cleansing across multiple sources without heavy coding.
+- [SAS Data Management](https://www.sas.com/en_us/software/data-management.html) - Robust solution that transforms, integrates, and secures data to enhance quality and reliability across the enterprise.
+- [Stitch](https://www.stitchdata.com/) - Developer-friendly SaaS ETL service that effortlessly extracts data from numerous sources into data warehouses for streamlined analytics.
+- [Talend Data Integration](https://www.talend.com/products/integrate-data/) - Versatile platform that unifies disparate data sources into actionable insights to empower informed business decisions.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### Integration Frameworks
 *The Integration frameworks section includes software tools and libraries that help developers implement and manage integration patterns in their applications. These frameworks are based on well-established Enterprise Integration Patterns (EIPs), which provide a standard vocabulary and architecture for designing and implementing integration solutions. The frameworks in this section can help simplify the process of integrating different systems, applications, and data sources by providing pre-built connectors, message routing, and transformation capabilities.*
-- [Apache Camel (⭐5.7k)](https://github.com/apache/camel) - A powerful integration framework that uses Enterprise Integration Patterns to connect and unify different transport APIs.
-- [Ballerina (⭐3.7k)](https://github.com/ballerina-platform/ballerina-lang) - An open-source programming language that simplifies the creation, usage, and combination of network services.
-- [Frank!Framework (⭐137)](https://github.com/frankframework/frankframework) - A Low-Code Java-based messaging framework to connect your system and application data, that is completely configurable through XML configurations.
-- [Spring Integration (⭐1.5k)](https://github.com/spring-projects/spring-integration) - An extension of the Spring programming model that supports Enterprise Integration Patterns, allowing for streamlined integration of various systems.
+- [Apache Camel (⭐5.7k)](https://github.com/apache/camel) - Robust integration framework leveraging Enterprise Integration Patterns to seamlessly connect diverse systems and APIs.
+- [Ballerina (⭐3.7k)](https://github.com/ballerina-platform/ballerina-lang) - Innovative programming language designed for effortless creation and integration of network services and APIs.
+- [Frank!Framework (⭐137)](https://github.com/frankframework/frankframework) - Low-code Java messaging framework that simplifies system connectivity and data integration through configurable XML setups.
+- [Spring Integration (⭐1.5k)](https://github.com/spring-projects/spring-integration) - Extension of the Spring ecosystem that provides out-of-the-box integration capabilities using proven Enterprise Integration Patterns.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
