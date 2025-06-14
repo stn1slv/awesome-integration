@@ -2,7 +2,9 @@ name: Update github stars
 
 on:
   schedule:
-    - cron: '0 0 * * 3'  # Every Wednesday at midnight UTC
+    - cron: '0 0 1 * *'   # 1st of the month
+    - cron: '0 0 11 * *'  # 11th of the month
+    - cron: '0 0 21 * *'  # 21st of the month
   workflow_dispatch:
 
 jobs:
