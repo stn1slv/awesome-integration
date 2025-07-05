@@ -14,7 +14,7 @@ System integration is the process of linking together different IT systems (com
   - [BRE](#bre)
   - [BPM](#bpm)
   - [Data Mapping Solution](#data-mapping-solution)
-  - [Change Data Capture](#change-data-capture)
+  - [CDC](#change-data-capture)
   - [ESB](#esb)
   - [ETL](#etl)
   - [Integration Frameworks](#integration-frameworks)
