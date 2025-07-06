@@ -5,6 +5,7 @@ on:
   schedule:
     # Runs at 08:00 UTC on the 25th of every month.
     - cron: '0 8 25 * *'
+  workflow_dispatch: # Allows manual triggering for testing
 
 jobs:
   # This job calls the reusable workflow defined in main.yml to perform the checks.
@@ -19,16 +20,16 @@ jobs:
     permissions:
       issues: write # Grants permission to create issues.
     steps:
-      # This step uses the 'peter-evans/create-issue' action to create a new GitHub issue.
+      # This step uses the GitHub CLI to create a new GitHub issue.
       - name: Create GitHub issue
-        uses: peter-evans/create-issue@v5
-        with:
-          title: Monthly link check failed
-          body: |
-            The monthly link check workflow failed. Please investigate.
-            
-            Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-          labels: maintenance
+        run: |
+          gh issue create \
+            --title "Monthly link check failed" \
+            --body "The monthly link check workflow failed. Please investigate.
+
+            Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            --label "maintenance"
+        env:
           # The GITHUB_TOKEN is a special token provided by Actions.
           # No need to create a separate secret.
-          token: ${{ secrets.GITHUB_TOKEN }} 
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 

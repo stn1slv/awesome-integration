@@ -1,22 +1,26 @@
+# GitHub Actions workflow for linting and checking links in the awesome-integration repository
+# This workflow runs on pull requests to the main branch and can be called by other workflows
 name: Linting & checking links
 on:
   pull_request:
-    branches: [main]
-  workflow_call:
+    branches: [main]  # Trigger on PRs targeting the main branch
+  workflow_call:      # Allow this workflow to be called by other workflows
 
 jobs:
   Awesome_Lint:
     runs-on: ubuntu-latest
     steps:
-      # Checkout
+      # Checkout the repository code
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0
-      # Run Awesome lint
+          fetch-depth: 0  # Fetch full history for better linting analysis
+      
+      # Run awesome-lint to validate the awesome list format and content
       - name: Awesome lint
         run: npx awesome-lint
-      # Checks the status of hyperlinks in .md files in verbose mode
+      
+      # Check all markdown files for broken links using verbose output
       - name: Check links
         uses: tcort/github-action-markdown-link-check@v1
         with:
