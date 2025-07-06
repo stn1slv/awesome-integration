@@ -2,6 +2,8 @@ name: Linting & checking links
 on:
   pull_request:
     branches: [main]
+  workflow_call:
+
 jobs:
   Awesome_Lint:
     runs-on: ubuntu-latest
