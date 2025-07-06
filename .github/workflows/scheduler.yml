@@ -1,0 +1,34 @@
+# This workflow runs on a monthly schedule to check for broken links and linting issues.
+name: Monthly link check
+
+on:
+  schedule:
+    # Runs at 08:00 UTC on the 25th of every month.
+    - cron: '0 8 25 * *'
+
+jobs:
+  # This job calls the reusable workflow defined in main.yml to perform the checks.
+  run-link-checker:
+    uses: ./.github/workflows/main.yml
+  
+  # This job runs only if the 'run-link-checker' job fails.
+  create-issue-on-failure:
+    if: needs.run-link-checker.result == 'failure'
+    runs-on: ubuntu-latest
+    needs: run-link-checker
+    permissions:
+      issues: write # Grants permission to create issues.
+    steps:
+      # This step uses the 'peter-evans/create-issue' action to create a new GitHub issue.
+      - name: Create GitHub issue
+        uses: peter-evans/create-issue@v5
+        with:
+          title: Monthly link check failed
+          body: |
+            The monthly link check workflow failed. Please investigate.
+            
+            Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          labels: maintenance
+          # The GITHUB_TOKEN is a special token provided by Actions.
+          # No need to create a separate secret.
+          token: ${{ secrets.GITHUB_TOKEN }} 
