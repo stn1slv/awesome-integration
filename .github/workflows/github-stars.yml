@@ -1,29 +1,40 @@
+# GitHub Actions workflow to automatically update GitHub star counts in README.md
+# This workflow runs on a schedule (1st, 11th, and 21st of each month) and can be triggered manually
 name: Update github stars
 
 on:
   schedule:
-    - cron: '0 0 1 * *'   # 1st of the month
-    - cron: '0 0 11 * *'  # 11th of the month
-    - cron: '0 0 21 * *'  # 21st of the month
-  workflow_dispatch:
+    - cron: '0 0 1 * *'   # Run on the 1st of every month at midnight UTC
+    - cron: '0 0 11 * *'  # Run on the 11th of every month at midnight UTC
+    - cron: '0 0 21 * *'  # Run on the 21st of every month at midnight UTC
+  workflow_dispatch:      # Allow manual triggering of the workflow
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+    # Check out the repository code
     - name: Check out code
       uses: actions/checkout@v3
+    
+    # Set up Git configuration for automated commits
     - name: Init repo
       run: |
         git config --global user.name 'stn1slv'
         git config --global user.email 'stn1slv@users.noreply.github.com'
         git pull origin main
+    
+    # Download the markdown-github-stars-updater tool
     - name: Download Markdown GitHub Stars updater
       run: |
         wget -O markdown-github-stars-updater https://github.com/stn1slv/markdown-github-stars-updater/releases/latest/download/markdown-github-stars-updater-linux-amd64
+    
+    # Make the downloaded tool executable
     - name: Make executable
       run:  chmod +x ./markdown-github-stars-updater
+    
+    # Debug commands (commented out for production)
     # - name: Debug Information
     #   run: |
     #     pwd  # Print current working directory
@@ -32,13 +43,17 @@ jobs:
     #     dpkg --print-architecture
     # - name: Print Executable Information
     #   run: file ./markdown-github-stars-updater
+    
+    # Execute the star updater tool on README.md
     - name: Execute
       run: ./markdown-github-stars-updater ./README.md  
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub token for API access
+    
+    # Commit and push changes if any star counts were updated
     - name: Commit report
       run: |
-          # Check if there are any changes
+          # Check if there are any changes to commit
           if [ -n "$(git diff --exit-code)" ]; then
             git status
             git add README.md
