@@ -105,7 +105,7 @@ System integration is the process of linking together different IT systems (com
 - [Ambassador Edge Stack](https://www.getambassador.io/products/edge-stack/api-gateway/) - A Kubernetes-native API gateway designed for high-scale environments with flexible routing and advanced security features.
 - [Apache APISIX (⭐15k)](https://github.com/apache/apisix) - A high-performance, dynamic gateway featuring real-time traffic management and powerful plugin integrations.
 - [Apache ShenYu (⭐8.6k)](https://github.com/apache/shenyu) - A Java-native gateway excelling in protocol conversion, service proxying, and comprehensive API governance.
-- [Envoy Gateway (⭐2k)](https://github.com/envoyproxy/gateway) – CNCF Envoy-based gateway with Gateway API, mTLS, JWT, and other built-ins.
+- [Envoy Gateway (⭐2k)](https://github.com/envoyproxy/gateway) - CNCF Envoy-based gateway with Gateway API, mTLS, JWT, and other built-ins.
 - [Gloo Edge (⭐105)](https://github.com/solo-io/gloo) - An Envoy Proxy–based gateway offering advanced traffic control, enhanced security, and observability for microservices ecosystems.
 - [Kong API Gateway (⭐41k)](https://github.com/Kong/kong) - A scalable, cloud-native gateway that simplifies API management through extensive plugin support and seamless microservices integration.
 - [KrakenD API Gateway (⭐2.2k)](https://github.com/devopsfaith/krakend-ce) - An ultra-high performance gateway with efficient middleware configuration, robust security, and seamless scaling.
@@ -373,9 +373,9 @@ System integration is the process of linking together different IT systems (com
 *Robotic Process Automation (RPA) solutions are software tools that automate repetitive, rule-based tasks within business processes. RPA bots can perform tasks such as data entry, data extraction, and data processing with accuracy and speed, freeing up human workers to focus on more complex tasks.*
 - [Automation Anywhere](https://www.automationanywhere.com/) - Intelligent automation ecosystem that streamlines business processes and reduces errors through advanced RPA capabilities.
 - [Blue Prism](https://www.blueprism.com/products/intelligent-rpa-automation/) - No-code platform delivering robust, scalable automation to minimize manual tasks and boost productivity.
-- [OpenRPA (⭐1.4k)](https://github.com/open-rpa/openrpa) – Enterprise-grade, open-source robotic process automation suite. 
+- [OpenRPA (⭐1.4k)](https://github.com/open-rpa/openrpa) - Enterprise-grade, open-source robotic process automation suite. 
 - [Robot Framework (⭐10k)](https://github.com/robotframework/robotframework) - An open-source automation framework with human-friendly keyword syntax that enables both technical and non-technical users to create test scripts and automate business processes cost-effectively, supporting web, API, mobile, and database automation through extensive libraries and integrations.
-- [TagUI (⭐6k)](https://github.com/aisingapore/TagUI) – An open-source RPA tool that democratizes automation through natural language scripting in 20+ human languages, enabling non-programmers to automate web, desktop, and data tasks while integrating AI/ML capabilities via Python and R for intelligent process automation.
+- [TagUI (⭐6k)](https://github.com/aisingapore/TagUI) - An open-source RPA tool that democratizes automation through natural language scripting in 20+ human languages, enabling non-programmers to automate web, desktop, and data tasks while integrating AI/ML capabilities via Python and R for intelligent process automation.
 - [Tungsten RPA](https://www.tungstenautomation.com/products/rpa) - AI-powered, no-code automation solution that enhances accuracy, efficiency, and compliance across workflows.
 - [UiPath](https://www.uipath.com/product) - Comprehensive RPA platform that automates routine tasks, enabling scalable digital transformation across enterprises.
 - [WorkFusion](https://www.workfusion.com/platform/) - Enterprise automation solution that combines RPA with intelligent automation to streamline complex workflows.
