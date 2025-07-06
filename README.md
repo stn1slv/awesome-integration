@@ -70,6 +70,7 @@ System integration is the process of linking together different IT systems (com
 <!--lint enable-->
 ### API Design
 *API design, documentation, and life-cycle automation tools streamline the process of creating, maintaining, and evolving APIs. These tools offer efficient means to design consistent and scalable APIs, generate comprehensive documentation, and automate various stages of the API life-cycle, enhancing developer experience and promoting API adoption.*
+- [Apicurio Studio (⭐1k)](https://github.com/apicurio/apicurio-studio) - A web-based, open-source API design tool that leverages the OpenAPI specification.
 - [Dredd (⭐4.2k)](https://github.com/apiaryio/dredd) - Validate API description docs against backend implementation using this language-agnostic CLI tool.
 - [OpenAPI-GUI (⭐1.4k)](https://github.com/Mermade/openapi-gui) - Create and validate OpenAPI specs with ease using this intuitive graphical user interface.
 - [OpenAPI Diff (⭐942)](https://github.com/OpenAPITools/openapi-diff) - Compare OpenAPI specs with version control and visualize the differences in HTML or Markdown format.
@@ -104,6 +105,7 @@ System integration is the process of linking together different IT systems (com
 - [Ambassador Edge Stack](https://www.getambassador.io/products/edge-stack/api-gateway/) - A Kubernetes-native API gateway designed for high-scale environments with flexible routing and advanced security features.
 - [Apache APISIX (⭐15k)](https://github.com/apache/apisix) - A high-performance, dynamic gateway featuring real-time traffic management and powerful plugin integrations.
 - [Apache ShenYu (⭐8.6k)](https://github.com/apache/shenyu) - A Java-native gateway excelling in protocol conversion, service proxying, and comprehensive API governance.
+- [Envoy Gateway (⭐2k)](https://github.com/envoyproxy/gateway) – CNCF Envoy-based gateway with Gateway API, mTLS, JWT, and other built-ins.
 - [Gloo Edge (⭐104)](https://github.com/solo-io/gloo) - An Envoy Proxy–based gateway offering advanced traffic control, enhanced security, and observability for microservices ecosystems.
 - [Kong API Gateway (⭐41k)](https://github.com/Kong/kong) - A scalable, cloud-native gateway that simplifies API management through extensive plugin support and seamless microservices integration.
 - [KrakenD API Gateway (⭐2.2k)](https://github.com/devopsfaith/krakend-ce) - An ultra-high performance gateway with efficient middleware configuration, robust security, and seamless scaling.
@@ -150,6 +152,7 @@ System integration is the process of linking together different IT systems (com
 - Testing tools and frameworks
    - [Apache JMeter (⭐8.8k)](https://github.com/apache/jmeter) - A feature-rich tool for load testing and performance analysis across diverse web applications and services.
    - [Gatling (⭐6.7k)](https://github.com/gatling/gatling) - A powerful load testing framework with a developer-friendly DSL that delivers detailed performance metrics.
+   - [Grafana k6 (⭐24k)](https://github.com/grafana/k6) - Open-source, JS-scriptable load-testing tool for CI/CD.
    - [Karate (⭐8.5k)](https://github.com/karatelabs/karate) - A unified testing framework that merges API automation, mocking, and performance testing with simple, expressive syntax.
    - [Pyresttest (⭐1.1k)](https://github.com/svanoort/pyresttest) - A Python-based testing tool offering easy YAML/JSON-driven REST API testing and microbenchmarking.
    - [REST Assured (⭐6.9k)](https://github.com/rest-assured/rest-assured) - A Java DSL that simplifies REST API testing with intuitive syntax and seamless integration into CI pipelines.
@@ -169,6 +172,7 @@ System integration is the process of linking together different IT systems (com
 - [OpenL Tablets (⭐172)](https://github.com/openl-tablets/openl-tablets) - Flexible open-source decision management system that simplifies defining and executing business rules and decision tables.
 - [Progress Corticon](https://www.progress.com/corticon) - Model-driven BRMS enabling rapid, no-code rule creation that delivers high-performance automated decisions with guaranteed integrity.
 - [Red Hat Decision Manager](https://access.redhat.com/products/red-hat-decision-manager) - Enterprise-class decision platform built on Drools, offering advanced DMN support, intuitive UIs, and high availability for large-scale automation.
+- [ZEN Engine ](https://github.com/gorules/zen) - A cross-platform, open-source Business Rules Engine written in Rust that executes JSON Decision Models through interconnected graphs of decision tables, functions, and expressions.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
@@ -201,6 +205,7 @@ System integration is the process of linking together different IT systems (com
 *Change Data Capture (CDC) solutions enable real-time identification and capture of changes made to data in databases, data warehouses, and other data sources. These tools continuously monitor data changes and propagate them to downstream systems, enabling real-time data synchronization, event-driven architectures, and maintaining data consistency across distributed systems. CDC is essential for modern data architectures, microservices, and real-time analytics.*
 - [Debezium (⭐11k)](https://github.com/debezium/debezium) - Open-source distributed platform for change data capture that turns your existing databases into event streams for real-time data integration.
 - [IBM InfoSphere CDC](https://www.ibm.com/products/infosphere-change-data-capture) - Enterprise CDC solution that captures and delivers data changes with minimal impact on source systems and low latency.
+- [Maxwell's daemon (⭐4k)](https://github.com/zendesk/maxwell) - An open-source CDC tool for MySQL that reads database binlogs and streams row-level changes as JSON to systems like Kafka, Kinesis, or other destinations.
 - [Oracle GoldenGate](https://www.oracle.com/integration/goldengate/) - Enterprise-grade real-time data integration and replication solution that provides comprehensive CDC capabilities for heterogeneous databases and cloud platforms.
 - [Qlik Replicate](https://www.qlik.com/us/products/qlik-replicate) - Universal data replication software that provides real-time CDC capabilities for modern data architecture and analytics.
 
@@ -232,6 +237,7 @@ System integration is the process of linking together different IT systems (com
 - [Airbyte (⭐18k)](https://github.com/airbytehq/airbyte) - Flexible, open-source data integration platform that builds ELT pipelines to move data from diverse sources to modern destinations.
 - [CloverDX](https://www.cloverdx.com/) - Enterprise ETL suite offering robust data transformation and workflow orchestration for scalable integration.
 - [Estuary Flow (⭐762)](https://github.com/estuary/flow) - Versatile, scalable platform that provides both real-time and batch data integration for ETL and ELT pipelines.
+- [Fivetran](https://www.fivetran.com/) - Managed ELT that syncs 700 + sources to data warehouses.
 - [Hevo](https://hevodata.com/) - No-code, fully automated data pipeline platform that supports extensive integrations, simplifying complex data workflows.
 - [IBM DataStage](https://www.ibm.com/products/datastage) - Robust platform that cleanses, transforms, and delivers reliable data, empowering businesses with trusted insights.
 - [Informatica PowerCenter](https://www.informatica.com/products/data-integration/powercenter.html) - Enterprise-class solution that streamlines big data and cloud analytics through comprehensive data integration management.
@@ -286,6 +292,7 @@ System integration is the process of linking together different IT systems (com
 - [Alibaba Cloud Message Service](https://www.alibabacloud.com/product/message-service) - Distributed messaging service that ensures reliable data transfer between decoupled systems.
 - [AlibabaMQ for Apache RocketMQ](https://www.alibabacloud.com/product/mq) - Robust message queue service supporting asynchronous communication with high availability and durability.
 - [Anypoint MQ](https://www.mulesoft.com/platform/anypoint-mq-message-queue) - Enterprise-class messaging service integrated with Anypoint Platform for flexible and reliable message orchestration.
+- [Azure Event Hubs](https://azure.microsoft.com/en-us/products/event-hubs/) - A high-throughput, fully managed event-ingestion (publish-subscribe) service, supports the Kafka protocol natively.
 - [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/) - Cloud messaging solution that supports multiple patterns and protocols for robust enterprise integration.
 - [CloudAMQP](https://www.cloudamqp.com/) - Managed RabbitMQ service featuring an intuitive web console, advanced analytics, and seamless scalability.
 - [Confluent Cloud](https://www.confluent.io/confluent-cloud/) - Fully managed Kafka service offering enterprise features like schema registry, connectors, and governance.
@@ -311,6 +318,7 @@ System integration is the process of linking together different IT systems (com
 - [GlobalSCAPE EFT](https://www.globalscape.com/eft) - Hardened file transfer server that ensures end-to-end encryption, automation, and compliance for mission-critical data.
 - [IBM Sterling Secure File Transfer](https://www.ibm.com/products/secure-file-transfer) - Scalable and high-performance MFT platform designed for secure, fast, and reliable file exchange.
 - [IBM webMethods MFT](https://www.ibm.com/products/webmethods-mft) - Integrated managed file transfer solution that supports flexible deployment across hybrid environments.
+- [JSCAPE MFT Server](https://www.jscape.com/products/file-transfer-servers/jscape-mft-server) - Secure, protocol-agnostic platform with automation and compliance.
 - [Oracle Managed File Transfer](https://www.oracle.com/middleware/technologies/mft/managed-file-transfer.html) - Comprehensive platform that simplifies secure file exchange and management for enterprise operations.
 - [Progress MOVEit](https://www.progress.com/moveit) - Secure, automated file transfer solution with guaranteed delivery, encryption, and compliance tools for regulated industries.
 - [TIBCO Managed File Transfer](https://www.tibco.com/products/tibco-managed-file-transfer) - Centralized MFT platform with robust automation and security features designed to support diverse file transfer scenarios.
@@ -365,6 +373,9 @@ System integration is the process of linking together different IT systems (com
 *Robotic Process Automation (RPA) solutions are software tools that automate repetitive, rule-based tasks within business processes. RPA bots can perform tasks such as data entry, data extraction, and data processing with accuracy and speed, freeing up human workers to focus on more complex tasks.*
 - [Automation Anywhere](https://www.automationanywhere.com/) - Intelligent automation ecosystem that streamlines business processes and reduces errors through advanced RPA capabilities.
 - [Blue Prism](https://www.blueprism.com/products/intelligent-rpa-automation/) - No-code platform delivering robust, scalable automation to minimize manual tasks and boost productivity.
+- [OpenRPA (⭐1.4k)](https://github.com/open-rpa/openrpa) – Enterprise-grade, open-source robotic process automation suite. 
+- [Robot Framework (⭐10k)](https://github.com/robotframework/robotframework) - An open-source automation framework with human-friendly keyword syntax that enables both technical and non-technical users to create test scripts and automate business processes cost-effectively, supporting web, API, mobile, and database automation through extensive libraries and integrations.
+- [TagUI (⭐6k)](https://github.com/aisingapore/TagUI) – An open-source RPA tool that democratizes automation through natural language scripting in 20+ human languages, enabling non-programmers to automate web, desktop, and data tasks while integrating AI/ML capabilities via Python and R for intelligent process automation.
 - [Tungsten RPA](https://www.tungstenautomation.com/products/rpa) - AI-powered, no-code automation solution that enhances accuracy, efficiency, and compliance across workflows.
 - [UiPath](https://www.uipath.com/product) - Comprehensive RPA platform that automates routine tasks, enabling scalable digital transformation across enterprises.
 - [WorkFusion](https://www.workfusion.com/platform/) - Enterprise automation solution that combines RPA with intelligent automation to streamline complex workflows.
