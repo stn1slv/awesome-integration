@@ -25,7 +25,7 @@ System integration is the process of linking together different IT systems (com
   - [Message Broker](#message-broker)
   - [Robotic Process Automation](#robotic-process-automation)
   - [Self-Service Integration](#self-service-integration)
-  - [Workflow engine](#workflow-engine)
+  - [Workflow Engine](#workflow-engine)
 - [Integration Patterns](#integration-patterns)
   - [Enterprise Integration Patterns](#enterprise-integration-patterns)
   - [Integration Architecture Patterns](#integration-architecture-patterns)
@@ -397,7 +397,7 @@ System integration is the process of linking together different IT systems (com
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
-### Workflow engine
+### Workflow Engine
 *Software tools that enable the design, execution, and monitoring of complex workflows or business processes. Workflow engines provide a way to automate and streamline business processes, while orchestration engines help to manage the interactions between different systems or services.*
 - [Activiti (⭐10k)](https://github.com/Activiti/Activiti) - Lightweight, Java-centric BPMN engine that efficiently executes business workflows with a focus on simplicity.
 - [Apache Airflow (⭐41k)](https://github.com/apache/airflow) - Platform for programmatically creating, scheduling, and monitoring workflows, ideal for managing complex data pipelines.
