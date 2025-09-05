@@ -22,7 +22,7 @@ System integration is the process of linking together different IT systems (com
   - [Messaging as a Service](#messaging-as-a-service)
   - [Managed File Transfer](#managed-file-transfer)
   - [Master Data Management](#master-data-management)
-  - [Messaging](#messaging)
+  - [Message Broker](#message-broker)
   - [Robotic Process Automation](#robotic-process-automation)
   - [Self-Service Integration](#self-service-integration)
   - [Workflow engine](#workflow-engine)
@@ -343,7 +343,7 @@ System integration is the process of linking together different IT systems (com
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
-### Messaging
+### Message Broker
 *Message brokers are a type of middleware that allows communication between different applications or systems by facilitating the exchange of messages. They can handle different messaging patterns, such as point-to-point, publish-subscribe, and request-reply, and provide features such as message transformation, routing, and filtering.*
 - [Apache ActiveMQ (⭐2.3k)](https://github.com/apache/activemq) - Open-source broker that implements JMS, enabling seamless conversion between synchronous and asynchronous messaging.
 - [Apache ActiveMQ Artemis (⭐982)](https://github.com/apache/activemq-artemis) - Next-generation message broker from Apache ActiveMQ with high performance, clustering support, and multi-protocol capabilities.
