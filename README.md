@@ -13,10 +13,10 @@ System integration is the process of linking together different IT systems (com
   - [API Testing](#api-testing)
   - [Business Rules Engine](#business-rules-engine)
   - [Business Process Management](#business-process-management)
-  - [Data Mapping Solution](#data-mapping-solution)
   - [Change Data Capture](#change-data-capture)
+  - [Data Integration](#data-integration)
+  - [Data Mapping Solution](#data-mapping-solution)
   - [Enterprise Service Bus](#enterprise-service-bus)
-  - [ETL](#etl)
   - [Integration Frameworks](#integration-frameworks)
   - [Integration Platform as a Service](#integration-platform-as-a-service)
   - [Messaging as a Service](#messaging-as-a-service)
@@ -192,16 +192,6 @@ System integration is the process of linking together different IT systems (com
 <!--lint disable-->
 **[⬆ back to top](#contents)**
 <!--lint enable-->
-### Data Mapping Solution
-*Data Mapping tools are used to define and transform data between different systems, applications, and formats. These tools allow for the mapping of data from source to target, allowing for data transformation and integration. This section covers different data mapping solutions that can be used to facilitate data mapping and transformation processes for different use cases.*
-- [Altova MapForce](https://www.altova.com/mapforce) - Graphical data mapping solution that enables any-to-any conversion, reducing complexity and accelerating integration projects.
-- [AtlasMap (⭐205)](https://github.com/atlasmap/atlasmap) - Interactive web-based tool that simplifies mapping across Java, XML, CSV, and JSON data sources with an intuitive interface.
-- [JOLT (⭐1.6k)](https://github.com/bazaarvoice/jolt) - Java-based JSON transformation library that uses a specification-driven approach for effortless JSON-to-JSON conversions.
-- [JSLT (⭐673)](https://github.com/schibsted/jslt) - Powerful JSON query and transformation language inspired by jq and XPath, designed for rapid and flexible data manipulation.
-
-<!--lint disable-->
-**[⬆ back to top](#contents)**
-<!--lint enable-->
 ### Change Data Capture
 *Change Data Capture (CDC) solutions enable real-time identification and capture of changes made to data in databases, data warehouses, and other data sources. These tools continuously monitor data changes and propagate them to downstream systems, enabling real-time data synchronization, event-driven architectures, and maintaining data consistency across distributed systems. CDC is essential for modern data architectures, microservices, and real-time analytics.*
 - [Debezium (⭐11k)](https://github.com/debezium/debezium) - Open-source distributed platform for change data capture that turns your existing databases into event streams for real-time data integration.
@@ -209,6 +199,37 @@ System integration is the process of linking together different IT systems (com
 - [Maxwell's daemon (⭐4.1k)](https://github.com/zendesk/maxwell) - An open-source CDC tool for MySQL that reads database binlogs and streams row-level changes as JSON to systems like Kafka, Kinesis, or other destinations.
 - [Oracle GoldenGate](https://www.oracle.com/integration/goldengate/) - Enterprise-grade real-time data integration and replication solution that provides comprehensive CDC capabilities for heterogeneous databases and cloud platforms.
 - [Qlik Replicate](https://www.qlik.com/us/products/qlik-replicate) - Universal data replication software that provides real-time CDC capabilities for modern data architecture and analytics.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### Data Integration
+*ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) are processes used to integrate and consolidate data from multiple sources. This section covers a range of open source and commercial tools for performing these tasks, including data ingestion, transformation, and loading into data warehouses or other data storage systems.*
+- [Apache InLong (⭐1.4k)](https://github.com/apache/inlong) - One-stop, full-scenario integration framework for massive data that supports data ingestion, synchronization, and subscription with real-time ETL capabilities.
+- [Apache NiFi (⭐5.6k)](https://github.com/apache/nifi) - Automated data integration tool with a visual interface that seamlessly extracts, transforms, and delivers data across systems.
+- [Airbyte (⭐19k)](https://github.com/airbytehq/airbyte) - Flexible, open-source data integration platform that builds ELT pipelines to move data from diverse sources to modern destinations.
+- [CloverDX](https://www.cloverdx.com/) - Enterprise ETL suite offering robust data transformation and workflow orchestration for scalable integration.
+- [Estuary Flow (⭐803)](https://github.com/estuary/flow) - Versatile, scalable platform that provides both real-time and batch data integration for ETL and ELT pipelines.
+- [Fivetran](https://www.fivetran.com/) - Managed ELT that syncs 700 + sources to data warehouses.
+- [Hevo](https://hevodata.com/) - No-code, fully automated data pipeline platform that supports extensive integrations, simplifying complex data workflows.
+- [IBM DataStage](https://www.ibm.com/products/datastage) - Robust platform that cleanses, transforms, and delivers reliable data, empowering businesses with trusted insights.
+- [Informatica PowerCenter](https://www.informatica.com/products/data-integration/powercenter.html) - Enterprise-class solution that streamlines big data and cloud analytics through comprehensive data integration management.
+- [Microsoft SSIS](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services) - Proven data integration solution for building scalable ETL processes within enterprise environments using SQL Server.
+- [Oracle Data Integrator](https://www.oracle.com/middleware/technologies/data-integrator.html) - Comprehensive platform that addresses batch loads, real-time processes, and SOA-enabled services for end-to-end data management.
+- [Pentaho Data Integration (⭐8.1k)](https://github.com/pentaho/pentaho-kettle) - Intuitive, visual ETL tool that simplifies data ingestion, blending, and cleansing across multiple sources without heavy coding.
+- [SAS Data Management](https://www.sas.com/en_us/software/data-management.html) - Robust solution that transforms, integrates, and secures data to enhance quality and reliability across the enterprise.
+- [Stitch](https://www.stitchdata.com/) - Developer-friendly SaaS ETL service that effortlessly extracts data from numerous sources into data warehouses for streamlined analytics.
+- [Talend Data Integration](https://www.talend.com/products/integrate-data/) - Versatile platform that unifies disparate data sources into actionable insights to empower informed business decisions.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### Data Mapping Solution
+*Data Mapping tools are used to define and transform data between different systems, applications, and formats. These tools allow for the mapping of data from source to target, allowing for data transformation and integration. This section covers different data mapping solutions that can be used to facilitate data mapping and transformation processes for different use cases.*
+- [Altova MapForce](https://www.altova.com/mapforce) - Graphical data mapping solution that enables any-to-any conversion, reducing complexity and accelerating integration projects.
+- [AtlasMap (⭐205)](https://github.com/atlasmap/atlasmap) - Interactive web-based tool that simplifies mapping across Java, XML, CSV, and JSON data sources with an intuitive interface.
+- [JOLT (⭐1.6k)](https://github.com/bazaarvoice/jolt) - Java-based JSON transformation library that uses a specification-driven approach for effortless JSON-to-JSON conversions.
+- [JSLT (⭐673)](https://github.com/schibsted/jslt) - Powerful JSON query and transformation language inspired by jq and XPath, designed for rapid and flexible data manipulation.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
@@ -227,27 +248,6 @@ System integration is the process of linking together different IT systems (com
 - [TIBCO BusinessWorks](https://www.tibco.com/products/tibco-businessworks) - Enterprise-grade integration platform implementing proven hybrid integration patterns for reliable data exchange.
 - [UltraESB](https://www.adroitlogic.com/products/ultraesb/) - High-performance ESB engineered for extreme throughput with zero-copy proxying and non-blocking IO techniques.
 - [WSO2 Enterprise Integrator (⭐389)](https://github.com/wso2/product-ei) - API-centric, cloud-native integration platform offering robust, distributed capabilities for modern software architectures.
-
-<!--lint disable-->
-**[⬆ back to top](#contents)**
-<!--lint enable-->
-### ETL
-*ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) are processes used to integrate and consolidate data from multiple sources. This section covers a range of open source and commercial tools for performing these tasks, including data ingestion, transformation, and loading into data warehouses or other data storage systems.*
-- [Apache InLong (⭐1.4k)](https://github.com/apache/inlong) - One-stop, full-scenario integration framework for massive data that supports data ingestion, synchronization, and subscription with real-time ETL capabilities.
-- [Apache NiFi (⭐5.6k)](https://github.com/apache/nifi) - Automated data integration tool with a visual interface that seamlessly extracts, transforms, and delivers data across systems.
-- [Airbyte (⭐19k)](https://github.com/airbytehq/airbyte) - Flexible, open-source data integration platform that builds ELT pipelines to move data from diverse sources to modern destinations.
-- [CloverDX](https://www.cloverdx.com/) - Enterprise ETL suite offering robust data transformation and workflow orchestration for scalable integration.
-- [Estuary Flow (⭐803)](https://github.com/estuary/flow) - Versatile, scalable platform that provides both real-time and batch data integration for ETL and ELT pipelines.
-- [Fivetran](https://www.fivetran.com/) - Managed ELT that syncs 700 + sources to data warehouses.
-- [Hevo](https://hevodata.com/) - No-code, fully automated data pipeline platform that supports extensive integrations, simplifying complex data workflows.
-- [IBM DataStage](https://www.ibm.com/products/datastage) - Robust platform that cleanses, transforms, and delivers reliable data, empowering businesses with trusted insights.
-- [Informatica PowerCenter](https://www.informatica.com/products/data-integration/powercenter.html) - Enterprise-class solution that streamlines big data and cloud analytics through comprehensive data integration management.
-- [Microsoft SSIS](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services) - Proven data integration solution for building scalable ETL processes within enterprise environments using SQL Server.
-- [Oracle Data Integrator](https://www.oracle.com/middleware/technologies/data-integrator.html) - Comprehensive platform that addresses batch loads, real-time processes, and SOA-enabled services for end-to-end data management.
-- [Pentaho Data Integration (⭐8.1k)](https://github.com/pentaho/pentaho-kettle) - Intuitive, visual ETL tool that simplifies data ingestion, blending, and cleansing across multiple sources without heavy coding.
-- [SAS Data Management](https://www.sas.com/en_us/software/data-management.html) - Robust solution that transforms, integrates, and secures data to enhance quality and reliability across the enterprise.
-- [Stitch](https://www.stitchdata.com/) - Developer-friendly SaaS ETL service that effortlessly extracts data from numerous sources into data warehouses for streamlined analytics.
-- [Talend Data Integration](https://www.talend.com/products/integrate-data/) - Versatile platform that unifies disparate data sources into actionable insights to empower informed business decisions.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
