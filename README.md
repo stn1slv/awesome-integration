@@ -181,7 +181,6 @@ System integration is the process of linking together different IT systems (com
 ### Business Process Management
 *BPM solutions are software tools that help businesses streamline and automate their operational processes to improve efficiency and productivity. These solutions typically provide features such as process modeling, workflow management, task automation, and reporting. They can be used to automate a wide range of processes, from simple tasks like data entry to complex workflows involving multiple departments and stakeholders.*
 - [Appian BPM Suite](https://appian.com/platform/complete-automation/business-process-management-bpm.html) - Low-code BPM platform that empowers both IT and citizen developers to quickly build process- and case-centric applications.
-- [Genpack Cora SeQuence](https://www.genpact.com/cora/sequence) - Agile process orchestration tool that enhances business efficiency by seamlessly integrating and managing workflows.
 - [IBM Business Automation Workflow](https://www.ibm.com/products/business-automation-workflow) - Integrated platform combining workflow automation and BPM to optimize operational processes and decision-making.
 - [Oracle BPM Suite](https://www.oracle.com/middleware/technologies/bpm.html) - Comprehensive solution offering robust process modeling, workflow automation, and real-time analytics to drive operational excellence.
 - [Pega Platform](https://www.pega.com/products/platform) - Advanced BPM and RPA platform featuring intelligent process automation and workforce analytics to streamline operations.
