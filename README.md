@@ -955,6 +955,7 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### Structure and Validation
+- [CsvPath](https://www.csvpath.org) - A delimited data validation language that combines SQL-like schema definitiion with Schematron-like rules-based validation. Works with CSV, Excel, data frames and other tabular data 
 - [JSON Schema (⭐4.6k)](https://github.com/json-schema-org/json-schema-spec) - A powerful tool for validating the structure of JSON data. JSON Schema enables developers to ensure that JSON data conforms to a specific structure, making it easier to process and manipulate.
 - [Schematron](https://www.schematron.com) - A rule-based validation language that enables developers to define and validate business rules, data reporting, quality control, and other validation scenarios. Schematron offers a flexible way to validate XML documents.
 - [XML Schema](https://www.w3.org/TR/xmlschema11-1/) - A schema language that offers facilities for describing the structure and constraining the contents of XML documents. XML Schema enables developers to ensure that XML data conforms to a specific structure, making it easier to process and manipulate.
