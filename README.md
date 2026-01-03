@@ -79,6 +79,7 @@ System integration is the process of linking together different IT systems (com
 - [OpenAPI Style Validator (⭐228)](https://github.com/OpenAPITools/openapi-style-validator) - Ensure that your OpenAPI specs meet your organization's standards with this flexible and customizable style validator.
 - [Spectral (⭐2.9k)](https://github.com/stoplightio/spectral) - Detect and fix errors in your JSON/YAML files using this linter tool that supports OpenAPI 3.0 & 2.0 and AsyncAPI.
 - [Swagger Editor (⭐9.3k)](https://github.com/swagger-api/swagger-editor) - Create, describe, and document your API with ease using this open source editor built specifically for OpenAPI-based APIs.
+- [Vedika API](https://vedika.io) - Vedic astrology API with AI chatbot, OpenAPI 3.0 spec, and 108+ endpoints in 22 languages.
 - [Zally (⭐944)](https://github.com/zalando/zally) - Ensure the quality of your OpenAPI specs with this linter tool that provides extensive analysis and feedback.
 
 <!--lint disable-->
