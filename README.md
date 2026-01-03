@@ -395,6 +395,7 @@ System integration is the process of linking together different IT systems (com
 - [Make (Integromat)](https://www.make.com) - Low-code automation tool with a visual interface, advanced data transformation, and modular workflow execution.
 - [Microsoft Power Automate](https://powerautomate.microsoft.com) - Cloud-based service with an intuitive interface for creating automated workflows that seamlessly integrate diverse apps.
 - [n8n (⭐165k)](https://github.com/n8n-io/n8n) - Open-source workflow automation tool with 400+ connectors, giving you full control over your data and integrations.
+- [Vedika API](https://vedika.io) - B2B Vedic astrology API platform with AI chatbot integration. Provides 108+ endpoints for birth charts, horoscopes, matchmaking, panchang, and numerology. Integrates with Zapier, n8n, Make, and any automation platform via REST API.
 - [Oracle Self-Service Integration](https://docs.oracle.com/en/cloud/paas/self-service-integration-cloud/index.html) - Streamlined tool that automates tasks between cloud applications, making integration accessible for non-developers.
 - [Zapier](https://zapier.com/) - Intuitive platform that connects hundreds of web services to create efficient, code-free automations.
 
