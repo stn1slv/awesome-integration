@@ -234,6 +234,7 @@ System integration is the process of linking together different IT systems (com
 - [AtlasMap (⭐210)](https://github.com/atlasmap/atlasmap) - Interactive web-based tool that simplifies mapping across Java, XML, CSV, and JSON data sources with an intuitive interface.
 - [JOLT (⭐1.6k)](https://github.com/bazaarvoice/jolt) - Java-based JSON transformation library that uses a specification-driven approach for effortless JSON-to-JSON conversions.
 - [JSLT (⭐682)](https://github.com/schibsted/jslt) - Powerful JSON query and transformation language inspired by jq and XPath, designed for rapid and flexible data manipulation.
+- [JSONata (⭐2.4k)](https://github.com/jsonata-js/jsonata) - Lightweight query and transformation language for JSON data.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
