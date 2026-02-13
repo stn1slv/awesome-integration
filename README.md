@@ -126,6 +126,7 @@ System integration is the process of linking together different IT systems (com
    - [curl (⭐40k)](https://github.com/curl/curl) - A versatile command-line tool for data transfer across multiple protocols, essential for quick API testing.
    - [curlie (⭐3.5k)](https://github.com/rs/curlie) - A modern, user-friendly frontend to curl that combines simplicity with powerful performance.
    - [gRPC UI (⭐5.8k)](https://github.com/fullstorydev/grpcui) - An interactive web-based tool for gRPC APIs, providing a browser-based interface for testing and exploring gRPC services with dynamic form generation.
+   - [grpcurl (⭐12.4k)](https://github.com/fullstorydev/grpcurl) - A command-line tool for interacting with gRPC servers, enabling inspection and invocation of RPC methods with support for server reflection and protocol buffer files.
    - [HTTPie (⭐37k)](https://github.com/httpie/httpie) - An intuitive CLI HTTP client that simplifies crafting API requests and inspecting responses.
    - [HttpMaster](https://www.httpmaster.net/) - Free and lightweight desktop tool for HTTP testing and debugging.
    - [Hoppscotch (⭐77k)](https://github.com/hoppscotch/hoppscotch) - A lightweight, web-based API development tool offering real-time testing with an intuitive interface.
@@ -137,6 +138,8 @@ System integration is the process of linking together different IT systems (com
    - [SoapUI (⭐1.6k)](https://github.com/SmartBear/soapui) - A comprehensive open-source solution for testing both SOAP and REST web services with extensive automation features.
    - [Wombat (⭐1.4k)](https://github.com/rogchap/wombat) - A cross-platform desktop gRPC client with automatic proto parsing, TLS support, and intuitive UI for testing unary, streaming, and bidirectional gRPC requests.
    - [xh (⭐7.6k)](https://github.com/ducaale/xh) - A fast, friendly CLI HTTP client that reimplements HTTPie's design with improved performance, HTTP/2 support, and built-in curl translation.
+   - [Yaade (⭐2k)](https://github.com/EsperoTech/yaade) - A self-hosted, collaborative API development environment designed for team sharing with multi-user support, persistent storage, and support for REST, WebSockets, and Markdown documentation.
+   - [Yaak (⭐17.8k)](https://github.com/mountain-loop/yaak) - A fast, privacy-first desktop API client for REST, GraphQL, WebSocket, Server-Sent Events, and gRPC with offline-first design, built with Tauri and React.
 - MQ clients
    - [JMSToolBox (⭐224)](https://github.com/jmstoolbox/jmstoolbox) - A universal JMS client offering broad compatibility and streamlined messaging testing across various brokers.
    - [kcat (⭐5.7k)](https://github.com/edenhill/kcat) - A lightweight command-line tool for Apache Kafka, providing efficient message production and consumption.
@@ -156,7 +159,10 @@ System integration is the process of linking together different IT systems (com
    - [WireMock (⭐7.1k)](https://github.com/tomakehurst/wiremock) - A robust and flexible API mocking tool delivering reliable, real-time simulation for comprehensive testing.
 - Testing tools and frameworks
    - [Apache JMeter (⭐9.2k)](https://github.com/apache/jmeter) - A feature-rich tool for load testing and performance analysis across diverse web applications and services.
+   - [Artillery (⭐8.9k)](https://github.com/artilleryio/artillery) - A complete load testing platform supporting HTTP, WebSocket, Socket.io, gRPC, and more, with cloud-native serverless scaling on AWS Lambda and Fargate.
    - [Gatling (⭐6.8k)](https://github.com/gatling/gatling) - A powerful load testing framework with a developer-friendly DSL that delivers detailed performance metrics.
+   - [Hurl (⭐18.5k)](https://github.com/Orange-OpenSource/hurl) - A command-line tool for running HTTP requests with plain text syntax, excellent for both API testing and CI/CD integration with support for chaining, capturing values, and comprehensive assertions.
+   - [Keploy (⭐15.7k)](https://github.com/keploy/keploy) - A developer-centric API and integration testing tool that auto-generates tests and data-mocks from real traffic using eBPF, supporting any language without code changes.
    - [ghz (⭐3.2k)](https://github.com/bojand/ghz) - A simple gRPC benchmarking and load testing tool with support for various load schedules, concurrency control, and detailed performance metrics.
    - [Grafana k6 (⭐29k)](https://github.com/grafana/k6) - Open-source, JS-scriptable load-testing tool for CI/CD.
    - [Karate (⭐8.7k)](https://github.com/karatelabs/karate) - A unified testing framework that merges API automation, mocking, and performance testing with simple, expressive syntax.
