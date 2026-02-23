@@ -11,13 +11,13 @@ This list aims to provide a concise list of noteworthy modern integration-relate
 Please ensure your pull request adheres to the following guidelines:
 - Search previous suggestions before making a new one, as yours may be a duplicate.
 - Suggested items should be actively maintained (should not be unmaintained, deprecated, has archived repo, or missing docs).
+- Projects must have been created at least 6 months ago.
+- Do not submit your own project (self-promotion). Instead, wait for someone else to find it useful and submit it for you.
 - Make an individual pull request for each suggestion.
 - New categories or improvements to the existing categorization are welcome.
 - It has documentation in the English language.
 - Check your spelling and grammar.
 - Make sure your text editor is set to remove trailing whitespace.
-
-Just a gentle reminder: **Try not to submit your own project. Instead, wait for someone finds it useful and submits it for you.**
 
 ## Pull requests
 1. Fork it!
