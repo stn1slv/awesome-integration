@@ -290,6 +290,7 @@ System integration is the process of linking together different IT systems (com
 - [TIBCO Cloud Integration](https://docs.tibco.com/products/tibco-cloud-integration-ipaas) - Flexible, API-led and event-driven platform that empowers you to integrate virtually any system quickly.
 - [Tray.io](https://tray.ai/) - Low-code automation platform with a drag-and-drop interface, making it simple to build scalable integrations and workflows.
 - [Workato](https://www.workato.com/) - Unified integration and workflow automation solution that simplifies complex processes and enhances operational efficiency.
+- [Xquik](https://xquik.com) - X (Twitter) automation platform with a REST API, HMAC-signed webhooks, and an MCP server for AI agent integration across 40+ endpoints.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
