@@ -14,6 +14,7 @@
 - [ ] I have searched previous suggestions to avoid duplicates.
 - [ ] The suggested item is actively maintained.
 - [ ] The suggested item was created at least 6 months ago.
+- [ ] The suggested item has at least 250 GitHub stars (or is an essential niche tool).
 - [ ] I am not the owner/maintainer of the suggested item (no self-promotion).
 - [ ] This PR introduces a single suggestion.
 - [ ] The suggested item has documentation in English.

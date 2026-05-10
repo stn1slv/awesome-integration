@@ -12,6 +12,7 @@ Please ensure your pull request adheres to the following guidelines:
 - Search previous suggestions before making a new one, as yours may be a duplicate.
 - Suggested items should be actively maintained (should not be unmaintained, deprecated, has archived repo, or missing docs).
 - Projects must have been created at least 6 months ago.
+- Projects hosted on GitHub should generally have at least 250 stars to demonstrate community adoption (exceptions made for essential niche tools).
 - Do not submit your own project (self-promotion). Instead, wait for someone else to find it useful and submit it for you.
 - Make an individual pull request for each suggestion.
 - New categories or improvements to the existing categorization are welcome.
