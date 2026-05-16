@@ -359,6 +359,7 @@ System integration is the process of linking together different IT systems (com
 *Message brokers are a type of middleware that allows communication between different applications or systems by facilitating the exchange of messages. They can handle different messaging patterns, such as point-to-point, publish-subscribe, and request-reply, and provide features such as message transformation, routing, and filtering.*
 - [Apache ActiveMQ (⭐2.4k)](https://github.com/apache/activemq) - Open-source broker that implements JMS, enabling seamless conversion between synchronous and asynchronous messaging.
 - [Apache Artemis (⭐1k)](https://github.com/apache/artemis) - A multi-protocol message broker, supporting various industry standard protocols such as AMQP 1.0, MQTT 3.1.1, MQTT 5, and STOMP.
+- [Apache EventMesh (⭐1.7k)](https://github.com/apache/eventmesh) - A dynamic event-driven application runtime that acts as a serverless event middleware for decoupling applications and backend brokers.
 - [Apache Kafka (⭐32k)](https://github.com/apache/kafka) - Distributed, high-throughput system designed for real-time data streaming and fault-tolerant processing.
 - [Apache Pulsar (⭐15k)](https://github.com/apache/pulsar) - Versatile pub/sub and streaming platform offering scalable, low-latency messaging for modern applications.
 - [Apache RocketMQ (⭐22k)](https://github.com/apache/rocketmq) - High-performance distributed messaging platform engineered for low latency and high throughput.
