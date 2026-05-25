@@ -241,6 +241,7 @@ System integration is the process of linking together different IT systems (com
 *Data Mapping tools are used to define and transform data between different systems, applications, and formats. These tools allow for the mapping of data from source to target, allowing for data transformation and integration. This section covers different data mapping solutions that can be used to facilitate data mapping and transformation processes for different use cases.*
 - [Altova MapForce](https://www.altova.com/mapforce) - Graphical data mapping solution that enables any-to-any conversion, reducing complexity and accelerating integration projects.
 - [AtlasMap (⭐212)](https://github.com/atlasmap/atlasmap) - Interactive web-based tool that simplifies mapping across Java, XML, CSV, and JSON data sources with an intuitive interface.
+- [DataSonnet (⭐37)](https://github.com/datasonnet/datasonnet-mapper) - A template-based data transformation library built on Jsonnet, tailored for system integration.
 - [JOLT (⭐1.6k)](https://github.com/bazaarvoice/jolt) - Java-based JSON transformation library that uses a specification-driven approach for effortless JSON-to-JSON conversions.
 - [JSLT (⭐693)](https://github.com/schibsted/jslt) - Powerful JSON query and transformation language inspired by jq and XPath, designed for rapid and flexible data manipulation.
 - [JSONata (⭐2.6k)](https://github.com/jsonata-js/jsonata) - Lightweight query and transformation language for JSON data.
