@@ -186,7 +186,7 @@ System integration is the process of linking together different IT systems (com
    - [MockServer (⭐4.8k)](https://github.com/mock-server/mockserver) - A powerful solution for mocking any HTTP/HTTPS-based service, streamlining integration testing.
    - [Mocky (⭐2k)](https://github.com/MockyAbstract/Mocky) - A free online service that generates custom HTTP responses for testing API endpoints.
    - [Prism (⭐4.9k)](https://github.com/stoplightio/prism) - An open-source HTTP mock server that replicates API behavior for early testing and validation.
-   - [WireMock (⭐7.2k)](https://github.com/tomakehurst/wiremock) - A robust and flexible API mocking tool delivering reliable, real-time simulation for comprehensive testing.
+   - [WireMock (⭐7.2k)](https://github.com/wiremock/wiremock) - A robust and flexible API mocking tool delivering reliable, real-time simulation for comprehensive testing.
 - Testing tools and frameworks
    - [Apache JMeter (⭐9.4k)](https://github.com/apache/jmeter) - A feature-rich tool for load testing and performance analysis across diverse web applications and services.
    - [Artillery (⭐8.9k)](https://github.com/artilleryio/artillery) - A complete load testing platform supporting HTTP, WebSocket, Socket.io, gRPC, and more, with cloud-native serverless scaling on AWS Lambda and Fargate.
@@ -207,7 +207,6 @@ System integration is the process of linking together different IT systems (com
 <!--lint enable-->
 ### B2B Integration
 *Business-to-business (B2B) integration tools enable the electronic exchange of business documents (such as orders, invoices, and shipping notices) between trading partners, typically using EDI standards like X12 and EDIFACT over transport protocols such as AS2 and AS4.*
-- [bots](https://github.com/bots-edi/bots) - Open-source EDI translator supporting X12, EDIFACT, TRADACOMS, and XML, with mapping and trading partner management.
 - [OpenAS2](https://github.com/OpenAS2/OpenAs2App) - Java-based open-source implementation of the AS2 protocol for secure, signed, and encrypted document exchange over HTTP.
 - [phase4](https://github.com/phax/phase4) - Embeddable, lightweight Java library implementing the AS4 messaging protocol, including the Peppol and CEF/eDelivery profiles.
 - [Smooks](https://github.com/smooks/smooks) - Extensible Java framework for processing and transforming structured data such as EDI, XML, CSV, and JSON.
@@ -272,7 +271,7 @@ System integration is the process of linking together different IT systems (com
 - [Oracle Data Integrator](https://www.oracle.com/middleware/technologies/data-integrator.html) - Comprehensive platform that addresses batch loads, real-time processes, and SOA-enabled services for end-to-end data management.
 - [Pentaho Data Integration (⭐8.3k)](https://github.com/pentaho/pentaho-kettle) - Intuitive, visual ETL tool that simplifies data ingestion, blending, and cleansing across multiple sources without heavy coding.
 - [SAS Data Management](https://www.sas.com/en_us/software/data-management.html) - Robust solution that transforms, integrates, and secures data to enhance quality and reliability across the enterprise.
-- [Singer](https://www.singer.io/) - Open-source standard for writing scripts that move data, defining a JSON-based protocol between extraction "taps" and loading "targets".
+- [Singer](https://github.com/singer-io/getting-started) - Open-source standard for writing scripts that move data, defining a JSON-based protocol between extraction "taps" and loading "targets".
 - [Stitch](https://www.stitchdata.com/) - Developer-friendly SaaS ETL service that effortlessly extracts data from numerous sources into data warehouses for streamlined analytics.
 - [Talend Data Integration](https://www.talend.com/products/integrate-data/) - Versatile platform that unifies disparate data sources into actionable insights to empower informed business decisions.
 
@@ -475,7 +474,7 @@ System integration is the process of linking together different IT systems (com
 - [Microsoft Power Automate](https://powerautomate.microsoft.com) - Cloud-based service with an intuitive interface for creating automated workflows that seamlessly integrate diverse apps.
 - [n8n (⭐191k)](https://github.com/n8n-io/n8n) - Open-source workflow automation tool with 400+ connectors, giving you full control over your data and integrations.
 - [Node-RED](https://github.com/node-red/node-red) - Low-code, flow-based programming tool for wiring together hardware devices, APIs, and online services through a browser-based visual editor.
-- [Pipedream](https://pipedream.com/) - Developer-centric integration platform that combines thousands of prebuilt triggers and actions with code-level control in Node.js, Python, Go, and Bash.
+- [Pipedream](https://github.com/PipedreamHQ/pipedream) - Developer-centric integration platform that combines thousands of prebuilt triggers and actions with code-level control in Node.js, Python, Go, and Bash.
 - [Zapier](https://zapier.com/) - Intuitive platform that connects hundreds of web services to create efficient, code-free automations.
 
 <!--lint disable-->
@@ -483,9 +482,9 @@ System integration is the process of linking together different IT systems (com
 <!--lint enable-->
 ### Stream Processing
 *Stream processing frameworks and engines transform, enrich, join, and aggregate continuous streams of events in real time. They complement message brokers by adding stateful computation — windowing, exactly-once processing, and event-time semantics — on top of data in motion.*
-- [Apache Beam (⭐8.1k)](https://github.com/apache/beam) - Unified programming model for batch and streaming pipelines, portable across runners such as Flink, Spark, and Google Cloud Dataflow.
-- [Apache Flink (⭐25k)](https://github.com/apache/flink) - Distributed stream processing framework with stateful computations, exactly-once semantics, and event-time processing at scale.
-- [Apache Spark (⭐41k)](https://github.com/apache/spark) - Unified analytics engine whose Structured Streaming API provides scalable, fault-tolerant stream processing on the Spark SQL engine.
+- [Apache Beam](https://github.com/apache/beam) - Unified programming model for batch and streaming pipelines, portable across runners such as Flink, Spark, and Google Cloud Dataflow.
+- [Apache Flink](https://github.com/apache/flink) - Distributed stream processing framework with stateful computations, exactly-once semantics, and event-time processing at scale.
+- [Apache Spark](https://github.com/apache/spark) - Unified analytics engine whose Structured Streaming API provides scalable, fault-tolerant stream processing on the Spark SQL engine.
 - [Arroyo](https://github.com/ArroyoSystems/arroyo) - Rust-native stream processing engine that lets users build real-time pipelines with SQL, designed for serverless operation.
 - [Bytewax](https://github.com/bytewax/bytewax) - Python stream processing framework built on Timely Dataflow, combining Python's ecosystem with Rust performance.
 - [Kafka Streams](https://kafka.apache.org/documentation/streams/) - Client library for building streaming applications and microservices directly on top of Apache Kafka.
@@ -516,7 +515,7 @@ System integration is the process of linking together different IT systems (com
 - [Cadence (⭐9.3k)](https://github.com/uber/cadence) - Fault-tolerant, stateful platform that reliably orchestrates long-running workflows and complex applications.
 - [Camunda](https://github.com/camunda/camunda) - Process orchestration platform built on the horizontally scalable Zeebe engine, with full BPMN and DMN support.
 - [Conductor](https://github.com/conductor-oss/conductor) - Durable workflow orchestration engine originally built at Netflix, now maintained by the community after the original repository was archived.
-- [Dagster (⭐13k)](https://github.com/dagster-io/dagster) - Data orchestrator with a declarative, asset-based programming model for building and observing data pipelines.
+- [Dagster](https://github.com/dagster-io/dagster) - Data orchestrator with a declarative, asset-based programming model for building and observing data pipelines.
 - [Elsa Core (⭐7.7k)](https://github.com/elsa-workflows/elsa-core) - .NET Core library that integrates seamlessly into any application to execute and manage workflows.
 - [Flowable (⭐9.3k)](https://github.com/flowable/flowable-engine) - Compact, efficient set of open-source engines for automating and scaling enterprise workflows.
 - [Google Cloud Workflows](https://cloud.google.com/workflows) - Serverless orchestration to combine Google Cloud services and HTTP-based APIs into reliable, stateful workflows.
@@ -1023,7 +1022,7 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
 <!--lint enable-->
 ### Data Formats
 - [Apache Avro (⭐3.2k)](https://github.com/apache/avro) - Data serialization system that provides compact, fast, and efficient serialization of structured data. It supports schema evolution, allows for efficient data compression, and is designed to work well with big data processing frameworks.
-- [Apache Thrift (⭐11k)](https://github.com/apache/thrift) - A serialization and RPC framework originally developed at Facebook that generates cross-language bindings from a single interface definition file.
+- [Apache Thrift](https://github.com/apache/thrift) - A serialization and RPC framework originally developed at Facebook that generates cross-language bindings from a single interface definition file.
 - [BSON](https://bsonspec.org/) - Binary-encoded serialization format for JSON-like documents that is designed to be lightweight and efficient. It supports rich data types and is widely used in NoSQL databases, such as MongoDB.
 - [Cap'n Proto](https://github.com/capnproto/capnproto) - An extremely fast data interchange format and RPC system whose zero-copy encoding doubles as both wire format and in-memory representation.
 - [CBOR](https://cbor.io/) - Concise Binary Object Representation (RFC 8949), a binary data format with a JSON-like data model designed for small message sizes and constrained devices.
@@ -1031,12 +1030,12 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
 - EDI standards for exchanging business documents between trading partners.
    - [UN/EDIFACT](https://unece.org/trade/uncefact/introducing-unedifact) - The United Nations EDI standard for administration, commerce, and transport, dominant outside North America.
    - [X12](https://x12.org/) - The ANSI-accredited EDI standard widely used in North America for transactions such as orders, invoices, and healthcare claims.
-- [FlatBuffers (⭐24k)](https://github.com/google/flatbuffers) - An efficient cross-platform serialization library from Google that allows direct access to serialized data without parsing or unpacking.
+- [FlatBuffers](https://github.com/google/flatbuffers) - An efficient cross-platform serialization library from Google that allows direct access to serialized data without parsing or unpacking.
 - [JSON](https://datatracker.ietf.org/doc/html/rfc8259) - A lightweight and easy-to-read data format that is widely used for data exchange. It supports a wide range of data types and is compatible with many programming languages.
    - [NDJSON (⭐830)](https://github.com/ndjson/ndjson-spec) - A standard for delimiting JSON objects in stream protocols. It allows for efficient processing of large JSON datasets and is widely used in big data processing.
    - [JSON Lines](https://jsonlines.org/) - A text format for storing structured data one record per line.
    - [JSON Text Sequence](https://datatracker.ietf.org/doc/html/rfc7464) - Defined in RFC 7464, describe a specific format for transmitting or storing a sequence of individual JSON texts.
-- [MessagePack](https://msgpack.org/) - An efficient binary serialization format that lets you exchange data among multiple languages like JSON, but smaller and faster.
+- [MessagePack](https://github.com/msgpack/msgpack) - An efficient binary serialization format that lets you exchange data among multiple languages like JSON, but smaller and faster.
 - [Protocol Buffers (⭐71k)](https://github.com/protocolbuffers/protobuf) - A language-neutral and platform-neutral serialization mechanism that is designed to be highly efficient and extensible. It supports rich data types and is widely used in distributed systems, such as gRPC and Apache Kafka.
 - [XML](https://www.w3.org/TR/xml11/) - A flexible and widely used markup language that is used for storing and exchanging structured data. It supports rich data types and is compatible with many programming languages.
 - [YAML (⭐475)](https://github.com/yaml/yaml-spec) - A human-friendly and easy-to-read data serialization format that is widely used for configuration files and data exchange. It supports rich data types and is compatible with most programming languages.
@@ -1083,7 +1082,7 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
 - [AS2](https://datatracker.ietf.org/doc/html/rfc4130) - A protocol for secure and reliable transport of EDI and other business documents over HTTP/S, using S/MIME for signing and encryption.
 - [AS4](https://docs.oasis-open.org/ebxml-msg/ebms/v3.0/profiles/AS4-profile/v1.0/AS4-profile-v1.0.html) - An OASIS profile of ebMS 3.0 for secure, web-services-based B2B document exchange, widely mandated in e-government networks such as Peppol.
 - [CoAP](http://coap.technology/) - A specialized application protocol designed for constrained devices in the Internet of Things (IoT) ecosystem. CoAP offers a lightweight, low-overhead communication mechanism to support resource-constrained devices.
-- [gRPC](https://grpc.io/) - A high-performance, open-source RPC framework that uses HTTP/2 and Protocol Buffers, with support for streaming, pluggable load balancing, and authentication.
+- [gRPC](https://github.com/grpc/grpc) - A high-performance, open-source RPC framework that uses HTTP/2 and Protocol Buffers, with support for streaming, pluggable load balancing, and authentication.
 - [HTTP](https://httpwg.org/specs/) - A widely used protocol that facilitates communication between web servers and clients. HTTP enables the transfer of data over the internet, making it possible for web applications to function seamlessly.
 - [JSON-RPC](https://www.jsonrpc.org/specification) - A simple and lightweight remote procedure call protocol that enables communication between systems using JSON data. JSON-RPC offers stateless communication and is suitable for resource-constrained devices.
 - [MCP](https://modelcontextprotocol.io/) - Model Context Protocol for AI agent-to-tool connectivity. Standardizes how AI agents discover and interact with external tools, data sources, and APIs. Created by Anthropic, governed by the Linux Foundation.
