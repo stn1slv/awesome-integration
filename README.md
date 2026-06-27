@@ -209,6 +209,7 @@ System integration is the process of linking together different IT systems (com
 *Business-to-business (B2B) integration tools enable the electronic exchange of business documents (such as orders, invoices, and shipping notices) between trading partners, typically using EDI standards like X12 and EDIFACT over transport protocols such as AS2 and AS4.*
 - [OpenAS2 (⭐232)](https://github.com/OpenAS2/OpenAs2App) - Java-based open-source implementation of the AS2 protocol for secure, signed, and encrypted document exchange over HTTP.
 - [phase4 (⭐221)](https://github.com/phax/phase4) - Embeddable, lightweight Java library implementing the AS4 messaging protocol, including the Peppol and CEF/eDelivery profiles.
+- [SignalEDI](https://signaledi.com) - AI-first EDI & API integration platform for SMBs under trading-partner mandates. X12/EDIFACT mapping, validation, and onboarding for retail (850/856/810) and healthcare (837/835/270/271), with a REST API and transparent pricing.
 - [Smooks (⭐416)](https://github.com/smooks/smooks) - Extensible Java framework for processing and transforming structured data such as EDI, XML, CSV, and JSON.
 
 <!--lint disable-->
