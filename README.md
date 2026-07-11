@@ -524,7 +524,7 @@ System integration is the process of linking together different IT systems (com
 - [jBPM (⭐1.7k)](https://github.com/kiegroup/jbpm) - Comprehensive toolkit for automating business processes and decisions with robust workflow management capabilities.
 - [Kestra (⭐27k)](https://github.com/kestra-io/kestra) - Event-driven declarative orchestrator with workflows defined in YAML and hundreds of plugins for data and infrastructure automation.
 - [LittleHorse (⭐382)](https://github.com/littlehorse-enterprises/littlehorse) - High-throughput, low-latency microservice orchestration engine built on Kafka Streams, with SDKs in multiple languages.
-- [Nika](https://github.com/supernovae-st/nika) - Intent-as-code workflow engine for AI: reviewable YAML DAGs, statically checked (schema, permits, cost floor) before execution, tamper-evident traces after (single Rust binary).
+- [Nika (⭐25)](https://github.com/supernovae-st/nika) - Intent-as-code workflow engine for AI: reviewable YAML DAGs, statically checked (schema, permits, cost floor) before execution, tamper-evident traces after (single Rust binary).
 - [Prefect (⭐22k)](https://github.com/PrefectHQ/prefect) - Modern, developer-friendly orchestration tool optimized for data pipelines and complex workflows.
 - [Restate (⭐4k)](https://github.com/restatedev/restate) - Durable execution engine for building resilient workflows, event-driven services, and stateful handlers as plain code.
 - [StackStorm (⭐6.4k)](https://github.com/StackStorm/st2) - Robust automation engine that combines sensors, triggers, and workflows to orchestrate complex IT processes.
