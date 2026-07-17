@@ -441,6 +441,7 @@ System integration is the process of linking together different IT systems (com
 <!--lint enable-->
 ### Robotic Process Automation
 *Robotic Process Automation (RPA) solutions are software tools that automate repetitive, rule-based tasks within business processes. RPA bots can perform tasks such as data entry, data extraction, and data processing with accuracy and speed, freeing up human workers to focus on more complex tasks.*
+- [Ceki Browser](https://browser.ceki.me) - Rent real residential Chrome browsers per minute for browser-based RPA automation. Genuine browser fingerprints, residential IPs, MCP-native, DevTools protocol, SDKs for Python/JS.
 - [Automation Anywhere](https://www.automationanywhere.com/) - Intelligent automation ecosystem that streamlines business processes and reduces errors through advanced RPA capabilities.
 - [Blue Prism](https://www.blueprism.com/products/intelligent-rpa-automation/) - No-code platform delivering robust, scalable automation to minimize manual tasks and boost productivity.
 - [OpenRPA (⭐2.9k)](https://github.com/open-rpa/openrpa) - Enterprise-grade, open-source robotic process automation suite. 
