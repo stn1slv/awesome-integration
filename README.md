@@ -55,9 +55,14 @@ System integration is the process of linking together different IT systems (com
 ### AI Gateway
 *AI gateways apply API gateway concepts to AI workloads. They provide a unified entry point to multiple LLM providers and agent tools, handling cross-cutting concerns such as routing, failover, rate limiting, cost tracking, guardrails, and observability — increasingly including agent-oriented protocols like MCP and A2A.*
 - [agentgateway (⭐4.1k)](https://github.com/agentgateway/agentgateway) - An open-source data plane for agentic AI connectivity, providing security, observability, and governance for agent-to-tool (MCP) and agent-to-agent (A2A) communication.
+- [Bifrost](https://github.com/maximhq/bifrost) - A high-performance AI gateway written in Go that unifies more than 20 model providers behind a single OpenAI-compatible API, with failover, load balancing, semantic caching, and governance.
+- [Docker MCP Gateway](https://github.com/docker/mcp-gateway) - Runs MCP servers as isolated containers with restricted privileges and managed secrets, exposing them to AI clients through one gateway endpoint.
 - [Envoy AI Gateway (⭐1.8k)](https://github.com/envoyproxy/ai-gateway) - An open-source gateway built on Envoy Proxy to manage request traffic from application clients to GenAI services with unified API access and usage limits.
+- [IBM ContextForge](https://github.com/IBM/mcp-context-forge) - An AI gateway, registry, and proxy that federates MCP, A2A, and REST services behind a single endpoint with governance and observability.
 - [Kong AI Gateway](https://konghq.com/products/kong-ai-gateway) - Multi-LLM AI gateway built on Kong Gateway, offering semantic caching, prompt security, and AI observability through dedicated plugins.
 - [LiteLLM (⭐55k)](https://github.com/BerriAI/litellm) - An LLM gateway that exposes 100+ model providers through a unified OpenAI-compatible API, with spend tracking, fallbacks, and rate limiting.
+- [MCPJungle](https://github.com/mcpjungle/MCPJungle) - A self-hosted MCP gateway and registry that centralises multiple MCP servers behind one endpoint for AI agents.
+- [Obot](https://github.com/obot-platform/obot) - An open-source MCP platform that combines server hosting, a registry, a gateway, and a chat client with access control and audit logging.
 - [Portkey AI Gateway (⭐12k)](https://github.com/Portkey-AI/gateway) - A fast AI gateway that routes to 250+ LLMs with guardrails, caching, retries, and load balancing via a single API.
 
 <!--lint disable-->
@@ -91,6 +96,7 @@ System integration is the process of linking together different IT systems (com
 *API design, documentation, and life-cycle automation tools streamline the process of creating, maintaining, and evolving APIs. These tools offer efficient means to design consistent and scalable APIs, generate comprehensive documentation, and automate various stages of the API life-cycle, enhancing developer experience and promoting API adoption.*
 - [Apicurio Studio (⭐1k)](https://github.com/apicurio/apicurio-studio) - A web-based, open-source API design tool that leverages the OpenAPI specification.
 - [Dredd (⭐4.2k)](https://github.com/apiaryio/dredd) - Validate API description docs against backend implementation using this language-agnostic CLI tool.
+- [Kiota](https://github.com/microsoft/kiota) - A command-line generator from Microsoft that turns an OpenAPI description into a lightweight, strongly typed API client in many languages.
 - [oasdiff (⭐1.3k)](https://github.com/oasdiff/oasdiff) - Compare OpenAPI specs and detect breaking changes, with changelog generation in multiple output formats.
 - [OpenAPI Diff (⭐1k)](https://github.com/OpenAPITools/openapi-diff) - Compare OpenAPI specs with version control and visualize the differences in HTML or Markdown format.
 - [OpenAPI Generator (⭐26k)](https://github.com/OpenAPITools/openapi-generator) - Automate the creation of API client libraries, server stubs, documentation and config files with this powerful OpenAPI Spec tool.
@@ -132,10 +138,10 @@ System integration is the process of linking together different IT systems (com
 - [Apache APISIX (⭐16k)](https://github.com/apache/apisix) - A high-performance, dynamic gateway featuring real-time traffic management and powerful plugin integrations.
 - [Apache ShenYu (⭐8.8k)](https://github.com/apache/shenyu) - A Java-native gateway excelling in protocol conversion, service proxying, and comprehensive API governance.
 - [Envoy Gateway (⭐2.9k)](https://github.com/envoyproxy/gateway) - CNCF Envoy-based gateway with Gateway API, mTLS, JWT, and other built-ins.
-- [Gloo Edge (⭐169)](https://github.com/solo-io/gloo) - An Envoy Proxy–based gateway offering advanced traffic control, enhanced security, and observability for microservices ecosystems.
 - [Higress (⭐8.9k)](https://github.com/higress-group/higress) - A next-generation cloud-native gateway based on Envoy and Istio, offering high performance, easy-to-use, and rich plugin extensibility.
+- [kgateway](https://github.com/kgateway-dev/kgateway) - A CNCF Envoy-based, Kubernetes-native API gateway built around the Kubernetes Gateway API, and the successor to the Gloo open-source project.
 - [Kong API Gateway (⭐43k)](https://github.com/Kong/kong) - A scalable, cloud-native gateway that simplifies API management through extensive plugin support and seamless microservices integration.
-- [KrakenD API Gateway (⭐2.6k)](https://github.com/devopsfaith/krakend-ce) - An ultra-high performance gateway with efficient middleware configuration, robust security, and seamless scaling.
+- [KrakenD API Gateway (⭐2.6k)](https://github.com/krakend/krakend-ce) - An ultra-high performance gateway with efficient middleware configuration, robust security, and seamless scaling.
 - [Ocelot (⭐8.7k)](https://github.com/ThreeMammals/Ocelot) - A .NET-based gateway offering intuitive routing and easy integration for lightweight API management.
 - [Spring Cloud Gateway (⭐4.8k)](https://github.com/spring-cloud/spring-cloud-gateway) - Leverages the Spring ecosystem to deliver robust routing, filtering, and security for microservices.
 - [Traefik API Gateway (⭐64k)](https://github.com/traefik/traefik) - Combines Traefik Proxy, a fully declarative application proxy with enterprise-grade access control, distributed security, and premium integrations.
@@ -171,9 +177,9 @@ System integration is the process of linking together different IT systems (com
    - [Spring Cloud Contract (⭐732)](https://github.com/spring-cloud/spring-cloud-contract) - Consumer-driven contract testing for JVM applications, generating tests and stubs from Groovy or YAML contract definitions.
 - MQ clients
    - [JMSToolBox (⭐235)](https://github.com/jmstoolbox/jmstoolbox) - A universal JMS client offering broad compatibility and streamlined messaging testing across various brokers.
-   - [kcat (⭐5.7k)](https://github.com/edenhill/kcat) - A lightweight command-line tool for Apache Kafka, providing efficient message production and consumption.
+   - [kcat (⭐5.7k)](https://github.com/edenhill/kcat) - A lightweight command-line tool for Apache Kafka (formerly named kafkacat), providing efficient message production and consumption.
    - [MQTT Explorer (⭐4k)](https://github.com/thomasnordquist/MQTT-Explorer) - A detailed MQTT client delivering structured topic visualization and intuitive debugging.
-   - [Offset Explorer](https://www.kafkatool.com) - A comprehensive GUI for managing Apache Kafka clusters with user-friendly monitoring and administration tools.
+   - [Offset Explorer](https://www.kafkatool.com) - A comprehensive GUI for managing Apache Kafka clusters (formerly named Kafka Tool) with user-friendly monitoring and administration tools.
    - [Service Bus Explorer (⭐2.2k)](https://github.com/paolosalvatori/ServiceBusExplorer) - An advanced GUI for Azure Service Bus that enables in-depth testing and seamless management of topics, queues, and subscriptions.
 - Mocking tools
    - [Hoverfly (⭐2.5k)](https://github.com/SpectoLabs/hoverfly) - A lightweight API simulation tool that enables rapid HTTP(S) service virtualization for efficient testing.
@@ -242,11 +248,12 @@ System integration is the process of linking together different IT systems (com
 *Change Data Capture (CDC) solutions enable real-time identification and capture of changes made to data in databases, data warehouses, and other data sources. These tools continuously monitor data changes and propagate them to downstream systems, enabling real-time data synchronization, event-driven architectures, and maintaining data consistency across distributed systems. CDC is essential for modern data architectures, microservices, and real-time analytics.*
 - [AWS Database Migration Service](https://aws.amazon.com/dms/) - Managed migration and replication service with CDC support for keeping databases, data warehouses, and data lakes in sync.
 - [Debezium (⭐12k)](https://github.com/debezium/debezium) - Open-source distributed platform for change data capture that turns your existing databases into event streams for real-time data integration.
-- [IBM InfoSphere CDC](https://www.ibm.com/products/infosphere-change-data-capture) - Enterprise CDC solution that captures and delivers data changes with minimal impact on source systems and low latency.
+- [IBM Data Replication](https://www.ibm.com/products/data-replication) - Enterprise CDC solution that captures and delivers data changes with minimal impact on source systems and low latency.
 - [Maxwell's daemon (⭐4.2k)](https://github.com/zendesk/maxwell) - An open-source CDC tool for MySQL that reads database binlogs and streams row-level changes as JSON to systems like Kafka, Kinesis, or other destinations.
 - [Oracle GoldenGate](https://www.oracle.com/integration/goldengate/) - Enterprise-grade real-time data integration and replication solution that provides comprehensive CDC capabilities for heterogeneous databases and cloud platforms.
 - [PeerDB (⭐3.2k)](https://github.com/PeerDB-io/peerdb) - Postgres-first CDC platform for fast, simple replication from PostgreSQL to data warehouses, queues, and storage.
 - [Qlik Replicate](https://www.qlik.com/us/products/qlik-replicate) - Universal data replication software that provides real-time CDC capabilities for modern data architecture and analytics.
+- [Sequin](https://github.com/sequinstream/sequin) - PostgreSQL change data capture platform that streams row-level changes to Kafka, SQS, Redis, NATS, RabbitMQ, HTTP endpoints, and search indexes with exactly-once processing.
 - [Striim](https://www.striim.com/) - Real-time data integration and streaming platform with log-based CDC from databases to cloud analytics targets.
 
 <!--lint disable-->
@@ -258,7 +265,7 @@ System integration is the process of linking together different IT systems (com
 - [Apache InLong (⭐1.4k)](https://github.com/apache/inlong) - One-stop, full-scenario integration framework for massive data that supports data ingestion, synchronization, and subscription with real-time ETL capabilities.
 - [Apache NiFi (⭐6.1k)](https://github.com/apache/nifi) - Automated data integration tool with a visual interface that seamlessly extracts, transforms, and delivers data across systems.
 - [Apache SeaTunnel (⭐9.5k)](https://github.com/apache/seatunnel) - High-performance, distributed data integration platform supporting batch and streaming synchronization across hundreds of connectors.
-- [CloverDX](https://www.cloverdx.com/) - Enterprise ETL suite offering robust data transformation and workflow orchestration for scalable integration.
+- [CloverDX](https://www.cloverdx.com/) - Enterprise ETL suite (formerly named CloverETL) offering robust data transformation and workflow orchestration for scalable integration.
 - [Conduit (⭐603)](https://github.com/ConduitIO/conduit) - Lightweight data integration tool written in Go that streams data between systems using built-in or standalone connectors, with Kafka Connect compatibility.
 - [dlt (⭐5.6k)](https://github.com/dlt-hub/dlt) - Open-source Python library for building data pipelines as code, with schema evolution and incremental loading out of the box.
 - [Estuary Flow (⭐959)](https://github.com/estuary/flow) - Versatile, scalable platform that provides both real-time and batch data integration for ETL and ELT pipelines.
@@ -272,6 +279,7 @@ System integration is the process of linking together different IT systems (com
 - [Pentaho Data Integration (⭐8.3k)](https://github.com/pentaho/pentaho-kettle) - Intuitive, visual ETL tool that simplifies data ingestion, blending, and cleansing across multiple sources without heavy coding.
 - [SAS Data Management](https://www.sas.com/en_us/software/data-management.html) - Robust solution that transforms, integrates, and secures data to enhance quality and reliability across the enterprise.
 - [Singer (⭐1.3k)](https://github.com/singer-io/getting-started) - Open-source standard for writing scripts that move data, defining a JSON-based protocol between extraction "taps" and loading "targets".
+- [Sling](https://github.com/slingdata-io/sling-cli) - Fast ELT command-line tool and Go library for moving data between databases, files, and cloud storage across a wide set of connectors.
 - [Stitch](https://www.stitchdata.com/) - Developer-friendly SaaS ETL service that effortlessly extracts data from numerous sources into data warehouses for streamlined analytics.
 - [Talend Data Integration](https://www.talend.com/products/integrate-data/) - Versatile platform that unifies disparate data sources into actionable insights to empower informed business decisions.
 
@@ -303,7 +311,7 @@ System integration is the process of linking together different IT systems (com
 - [Red Hat build of Apache Camel](https://developers.redhat.com/products/redhat-build-of-apache-camel/overview) - Red Hat's supported distribution of Apache Camel (successor to Red Hat Fuse) for building cloud-native integrations.
 - [TIBCO BusinessWorks](https://www.tibco.com/products/tibco-businessworks) - Enterprise-grade integration platform implementing proven hybrid integration patterns for reliable data exchange.
 - [UltraESB](https://www.adroitlogic.com/products/ultraesb/) - High-performance ESB engineered for extreme throughput with zero-copy proxying and non-blocking IO techniques.
-- [WSO2 Enterprise Integrator (⭐398)](https://github.com/wso2/product-ei) - API-centric, cloud-native integration platform offering robust, distributed capabilities for modern software architectures.
+- [WSO2 Integrator: MI](https://github.com/wso2/product-integrator-mi) - The configuration-driven integration runtime of the WSO2 Integrator platform, supporting enterprise integration patterns in centralised and containerised deployments.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
@@ -325,7 +333,7 @@ System integration is the process of linking together different IT systems (com
 *Integration Platform as a Service (iPaaS) is a cloud-based platform that enables businesses to integrate different systems, applications, and data sources with ease. It provides a unified platform for managing data flows between various systems, simplifying the process of integrating different systems and automating workflows. iPaaS tools typically provide a visual interface for designing, deploying, and managing integrations, as well as pre-built connectors and APIs for integrating with popular systems and services.*
 - [Anypoint Platform](https://www.mulesoft.com/platform/saas/cloudhub-ipaas-cloud-based-integration) - Combines API management and integration into one platform, enabling seamless connectivity across diverse applications.
 - [Azure Logic Apps](https://azure.microsoft.com/en-us/products/logic-apps) - Microsoft's iPaaS for building automated workflows with hundreds of prebuilt connectors for cloud and on-premises systems.
-- [Boomi AtomSphere](https://boomi.com/platform) - Cloud-native, intelligent platform that connects systems effortlessly while automating integration processes.
+- [Boomi Enterprise Platform](https://boomi.com/platform) - Cloud-native, intelligent platform that connects systems effortlessly while automating integration processes.
 - [Camel K (⭐925)](https://github.com/apache/camel-k) - Lightweight Kubernetes-native integration platform built on Apache Camel that runs integration routes directly on Kubernetes and OpenShift as cloud-native serverless services.
 - [Celigo Integration Platform](https://www.celigo.com/platform/) - User-friendly iPaaS with prebuilt templates for rapid SaaS-to-SaaS integrations and intuitive drag-and-drop design.
 - [Jitterbit Harmony](https://www.jitterbit.com/platform/ipaas) - Comprehensive integration solution offering prebuilt workflows and automation templates to accelerate business processes.
@@ -337,7 +345,7 @@ System integration is the process of linking together different IT systems (com
 - [SAP Integration Suite](https://www.sap.com/products/technology-platform/integration-suite.html) - Cloud-native solution offering prebuilt adapters, API management, and event brokering for end-to-end connectivity.
 - [SnapLogic Intelligent Integration Platform](https://www.snaplogic.com/products/intelligent-integration-platform) - AI-driven platform that connects applications and data rapidly, ensuring efficient and scalable integrations.
 - [TIBCO Cloud Integration](https://docs.tibco.com/products/tibco-cloud-integration-ipaas) - Flexible, API-led and event-driven platform that empowers you to integrate virtually any system quickly.
-- [Tray.io](https://tray.ai/) - Low-code automation platform with a drag-and-drop interface, making it simple to build scalable integrations and workflows.
+- [Tray.ai](https://tray.ai/) - Low-code automation platform with a drag-and-drop interface, making it simple to build scalable integrations and workflows.
 - [Workato](https://www.workato.com/) - Unified integration and workflow automation solution that simplifies complex processes and enhances operational efficiency.
 
 <!--lint disable-->
@@ -407,7 +415,7 @@ System integration is the process of linking together different IT systems (com
 ### Message Broker
 *Message brokers are a type of middleware that allows communication between different applications or systems by facilitating the exchange of messages. They can handle different messaging patterns, such as point-to-point, publish-subscribe, and request-reply, and provide features such as message transformation, routing, and filtering.*
 - [Apache ActiveMQ (⭐2.4k)](https://github.com/apache/activemq) - Open-source broker that implements JMS, enabling seamless conversion between synchronous and asynchronous messaging.
-- [Apache Artemis (⭐1k)](https://github.com/apache/artemis) - A multi-protocol message broker, supporting various industry standard protocols such as AMQP 1.0, MQTT 3.1.1, MQTT 5, and STOMP.
+- [Apache ActiveMQ Artemis](https://github.com/apache/activemq-artemis) - A multi-protocol message broker, supporting various industry standard protocols such as AMQP 1.0, MQTT 3.1.1, MQTT 5, and STOMP.
 - [Apache EventMesh (⭐1.7k)](https://github.com/apache/eventmesh) - A dynamic event-driven application runtime that acts as a serverless event middleware for decoupling applications and backend brokers.
 - [Apache Iggy (⭐4.4k)](https://github.com/apache/iggy) - Persistent message streaming platform written in Rust, supporting QUIC, TCP, and HTTP transports with high throughput and low latency.
 - [Apache Kafka (⭐33k)](https://github.com/apache/kafka) - Distributed, high-throughput system designed for real-time data streaming and fault-tolerant processing.
@@ -417,7 +425,7 @@ System integration is the process of linking together different IT systems (com
 - [AutoMQ (⭐10k)](https://github.com/AutoMQ/automq) - Stateless, Kafka-compatible broker that runs on S3-class object storage for elastic scaling and reduced cost.
 - [BlazingMQ (⭐3.2k)](https://github.com/bloomberg/blazingmq) - Distributed message queuing system focused on efficiency and reliability for modern workflow needs.
 - [Centrifugo (⭐10k)](https://github.com/centrifugal/centrifugo) - Scalable real-time messaging server that minimizes delay in delivering events to online users.
-- [Eclipse Mosquitto (⭐11k)](https://github.com/eclipse/mosquitto) - Lightweight MQTT broker optimized for low-power devices with robust encryption and authentication.
+- [Eclipse Mosquitto (⭐11k)](https://github.com/eclipse-mosquitto/mosquitto) - Lightweight MQTT broker optimized for low-power devices with robust encryption and authentication.
 - [ElasticMQ (⭐2.9k)](https://github.com/softwaremill/elasticmq) - In-memory message queue with an Amazon SQS-compatible interface, offering stand-alone or embedded deployment with optional UI and queue persistence.
 - [EMQX (⭐16k)](https://github.com/emqx/emqx) - High-performance MQTT broker built for IoT and industrial applications, ensuring scalable message delivery.
 - [HiveMQ (⭐1.2k)](https://github.com/hivemq/hivemq-community-edition) - MQTT broker built for reliable IoT messaging at scale, with an open-source community edition and a rich extension system.
@@ -490,6 +498,7 @@ System integration is the process of linking together different IT systems (com
 - [Bytewax (⭐2k)](https://github.com/bytewax/bytewax) - Python stream processing framework built on Timely Dataflow, combining Python's ecosystem with Rust performance.
 - [Kafka Streams](https://kafka.apache.org/documentation/streams/) - Client library for building streaming applications and microservices directly on top of Apache Kafka.
 - [ksqlDB (⭐312)](https://github.com/confluentinc/ksql) - Database purpose-built for stream processing applications on Kafka, queried with SQL.
+- [Numaflow](https://github.com/numaproj/numaflow) - Kubernetes-native, serverless platform for massively parallel stream and data processing, with exactly-once semantics and language-agnostic user code.
 - [Redpanda Connect (⭐8.7k)](https://github.com/redpanda-data/connect) - Declarative stream processor and connector toolkit (formerly Benthos) for transforming and routing data between systems.
 - [RisingWave (⭐9.2k)](https://github.com/risingwavelabs/risingwave) - Postgres-compatible streaming database for incremental, real-time materialized views over event streams.
 
@@ -1022,7 +1031,9 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
 **[⬆ back to top](#contents)**
 <!--lint enable-->
 ### Data Formats
+- [Apache Arrow](https://github.com/apache/arrow) - Language-agnostic columnar in-memory format for fast data interchange, including the Arrow IPC format and Flight RPC for moving data between systems.
 - [Apache Avro (⭐3.2k)](https://github.com/apache/avro) - Data serialization system that provides compact, fast, and efficient serialization of structured data. It supports schema evolution, allows for efficient data compression, and is designed to work well with big data processing frameworks.
+- [Apache Fory](https://github.com/apache/fory) - Fast multi-language serialization framework that uses just-in-time compilation and zero-copy techniques, with a cache-friendly row format. Formerly named Apache Fury.
 - [Apache Thrift (⭐10k)](https://github.com/apache/thrift) - A serialization and RPC framework originally developed at Facebook that generates cross-language bindings from a single interface definition file.
 - [BSON](https://bsonspec.org/) - Binary-encoded serialization format for JSON-like documents that is designed to be lightweight and efficient. It supports rich data types and is widely used in NoSQL databases, such as MongoDB.
 - [Cap'n Proto (⭐13k)](https://github.com/capnproto/capnproto) - An extremely fast data interchange format and RPC system whose zero-copy encoding doubles as both wire format and in-memory representation.
