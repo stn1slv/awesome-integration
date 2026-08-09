@@ -49,6 +49,7 @@ System integration is the process of linking together different IT systems (com
   - [Protocols](#protocols)
   - [Standard APIs](#standard-apis)
   - [Structure and Validation](#structure-and-validation)
+- [About the author](#about-the-author)
 
 ---
 ## Projects
@@ -1129,3 +1130,6 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
 <!--lint enable-->
 ## Contributing
 Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/stn1slv/awesome-integration/blob/main/CONTRIBUTING.md) first.
+
+## About the author
+This list is maintained by [Stanislav Deviatov](https://github.com/stn1slv), a solution architect working on enterprise integration and API architecture. He also publishes [API & Integration Digest](https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7263963549411004416), a LinkedIn newsletter with news on API management, iPaaS, ESB, integration frameworks, message brokers, and related topics.
