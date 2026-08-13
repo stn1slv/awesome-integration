@@ -217,6 +217,7 @@ System integration is the process of linking together different IT systems (com
 - [OpenAS2 (⭐235)](https://github.com/OpenAS2/OpenAs2App) - Java-based open-source implementation of the AS2 protocol for secure, signed, and encrypted document exchange over HTTP.
 - [phase4 (⭐234)](https://github.com/phax/phase4) - Embeddable, lightweight Java library implementing the AS4 messaging protocol, including the Peppol and CEF/eDelivery profiles.
 - [Smooks (⭐417)](https://github.com/smooks/smooks) - Extensible Java framework for processing and transforming structured data such as EDI, XML, CSV, and JSON.
+- [n8n-uptime-ping-alert](https://github.com/ogamedeus/n8n-uptime-ping-alert) - Free n8n workflow that pings your services and alerts you on downtime via Telegram/Slack/email.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
