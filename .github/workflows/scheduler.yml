@@ -13,17 +13,21 @@ jobs:
     uses: ./.github/workflows/main.yml
   
   # This job runs only if the 'run-link-checker' job fails.
+  # always() is required: without a status check function, GitHub adds an
+  # implicit success() to the condition, which would always skip this job.
   create-issue-on-failure:
-    if: needs.run-link-checker.result == 'failure'
+    if: ${{ always() && needs.run-link-checker.result == 'failure' }}
     runs-on: ubuntu-latest
     needs: run-link-checker
     permissions:
-      issues: write # Grants permission to create issues.
+      issues: write   # Grants permission to create issues.
+      contents: read # Required by the GitHub CLI to resolve the repository.
     steps:
       # This step uses the GitHub CLI to create a new GitHub issue.
       - name: Create GitHub issue
         run: |
           gh issue create \
+            --repo "${{ github.repository }}" \
             --title "Monthly link check failed" \
             --body "The monthly link check workflow failed. Please investigate.
 
