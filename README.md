@@ -341,7 +341,6 @@ System integration is the process of linking together different IT systems (com
 - [IBM Cloud Integration](https://www.ibm.com/cloud/integration) - Next-generation platform leveraging AI to streamline integration, increase scalability, and speed up deployment.
 - [IBM webMethods](https://www.ibm.com/products/webmethods) - All-in-one integration platform that unifies applications, simplifies processes, and boosts overall efficiency.
 - [Informatica Intelligent Cloud Services](https://www.informatica.com/products/cloud-integration.html) - Suite of cloud data management tools that accelerates productivity and simplifies application and data integration.
-- [OpenText Alloy](https://businessnetwork.opentext.com/enterprise-data-management/) - Enterprise data management solution that transforms basic integration into actionable insights and smarter decision-making.
 - [Oracle Integration Cloud Service](https://www.oracle.com/integration/application-integration/) - Robust platform with prebuilt connectivity for both SaaS and on-premises apps, streamlining integration processes.
 - [SAP Integration Suite](https://www.sap.com/products/technology-platform/integration-suite.html) - Cloud-native solution offering prebuilt adapters, API management, and event brokering for end-to-end connectivity.
 - [SnapLogic Intelligent Integration Platform](https://www.snaplogic.com/products/intelligent-integration-platform) - AI-driven platform that connects applications and data rapidly, ensuring efficient and scalable integrations.
@@ -853,7 +852,7 @@ System integration is the process of linking together different IT systems (com
 the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) - Roy Fielding's dissertation defining REST.
 - [Enterprise Integration Using REST](http://martinfowler.com/articles/enterpriseREST.html) - Discusses the constraints and flexibility that you have with nonpublic APIs, and lessons learned from doing large scale RESTful integration across multiple teams.
 - [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html) - Explained by Martin Fowler, originally presented by Leonard Richardson.
-- [Web API Design: Crafting interfaces that developers love](https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf) - Creating Web APIs that are consistent, intuitive, and user-friendly for developers.
+- [Web API Design: The Missing Link](https://cloud.google.com/files/apigee/apigee-web-api-design-the-missing-link-ebook.pdf) - Creating Web APIs that are consistent, intuitive, and user-friendly for developers.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
@@ -973,7 +972,7 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
 <summary>SnapLogic</summary>
 
 - [SnapLogic Administrator Certification](https://learn.snaplogic.com/snaplogic-administrator-certification) - Assesses your ability to handle administrative tasks for SnapLogic instances.
-- [SnapLogic Architect Certification](https://learn.snaplogic.com/snaplogic-architect-certification) - Evaluates your knowledge of integration reference architectures and key strategies for the SnapLogic platform, covering topics like SnapLogic Architecture, Snaplex Requirements, Pipeline Lifecycle Management, Advanced Data Transformations, API Management, Resumable Pipelines, and Best Practices.
+- [SnapLogic Architect Certification](https://learn.snaplogic.com/snaplogic-architect-certification-1) - Evaluates your knowledge of integration reference architectures and key strategies for the SnapLogic platform, covering topics like SnapLogic Architecture, Snaplex Requirements, Pipeline Lifecycle Management, Advanced Data Transformations, API Management, Resumable Pipelines, and Best Practices.
 - [SnapLogic Developer Certification](https://learn.snaplogic.com/snaplogic-developer-certification) - Testing your expertise in using the SnapLogic SDK, implementing different parts of Snap functionality, and building custom Snaps.
 - [SnapLogic Integrator Accreditation](https://learn.snaplogic.com/snaplogic-accreditation) - It's designed for those who want to enhance their expertise on all core SnapLogic concepts for various integration needs across industries and lines of business.
 - [SnapLogic Integrator Certification](https://learn.snaplogic.com/snaplogic-integrator-certification-1) - Focuses on topics such as beginner training, ultra tasks, pipeline migration, and user assistance videos covering various integration endpoints.
