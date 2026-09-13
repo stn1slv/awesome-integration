@@ -13,6 +13,7 @@ Please ensure your pull request adheres to the following guidelines:
 - Suggested items should be actively maintained (should not be unmaintained, deprecated, has archived repo, or missing docs).
 - Projects must have been created at least 6 months ago.
 - Projects hosted on GitHub should generally have at least 250 stars to demonstrate community adoption (exceptions made for essential niche tools).
+- If the project is open source and hosted on GitHub, link to its GitHub repository instead of its website.
 - Commercial (closed-source) products that are not widely known should be recognized by at least one major industry analyst firm (Forrester, IDC, or Gartner; collectively FIG) to demonstrate notability.
 - Do not submit your own project (self-promotion). Instead, wait for someone else to find it useful and submit it for you.
 - Do not submit the same project to many awesome lists at once. Mass submission campaigns will be declined, even if each entry meets the other guidelines.

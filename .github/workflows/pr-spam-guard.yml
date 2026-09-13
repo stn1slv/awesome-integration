@@ -237,7 +237,13 @@ jobs:
               }
             }
 
-            // 5. Build report
+            // 5. Entries not hosted on GitHub get no project checks, so the report asks for a manual check
+            const manual = entries.filter(e => !e.repo).map(e =>
+              `- ℹ️ ${code(e.name)} does not link to a GitHub repository, so its age, stars and star history were not checked. ` +
+              'If it is open source and hosted on GitHub, the entry should link to the repository. ' +
+              'For a commercial product that is not widely known, check that Forrester, IDC or Gartner recognize it.');
+
+            // 6. Build report
             const profile = user
               ? `account age **${accountAgeDays} days**, ${user.followers} followers, ${user.public_repos} public repos`
               : 'profile could not be read';
@@ -256,6 +262,9 @@ jobs:
                   ? `❔ No red flags found, but some checks could not be completed.`
                   : `✅ No automated red flags detected.`,
               ``,
+              manual.length > 0
+                ? `**Manual checks:**\n${manual.join('\n')}\n`
+                : null,
               awesomePRs.length > 0
                 ? `**Recent PRs to other awesome lists by this submitter (last 14 days):**\n\n${blastList}\n`
                 : null,
