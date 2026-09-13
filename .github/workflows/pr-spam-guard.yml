@@ -1,0 +1,157 @@
+# GitHub Actions workflow that flags possible spam pull requests
+# It posts an advisory comment on each new external pull request and never closes anything
+# Adapted from https://github.com/Zijian-Ni/awesome-ai-agents-2026 (MIT License, Copyright (c) 2026 Zijian Ni)
+name: PR spam guard
+
+on:
+  # pull_request_target gives a token that can comment on PRs from forks.
+  # It is safe here because the workflow never checks out or runs PR code.
+  pull_request_target:
+    types: [opened]  # Not "reopened": closing and reopening would post a new comment each time
+
+permissions:
+  pull-requests: write  # Permission to comment on pull requests
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    # Skip bots and PRs from the repository owner, members and collaborators
+    if: >-
+      github.event.pull_request.user.type != 'Bot' &&
+      !contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.pull_request.author_association)
+    steps:
+      - name: Audit submitter
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const author = pr.user.login;
+            const thisRepo = `${context.repo.owner}/${context.repo.repo}`.toLowerCase();
+            const DAY = 86400000;
+            const since = new Date(Date.now() - 14 * DAY).toISOString().slice(0, 10);
+            const repoOf = item => item.repository_url.split('/').slice(-2).join('/').toLowerCase();
+            // Render untrusted text as a code span, so it cannot ping users or change the Markdown
+            const code = s => '`' + String(s).replace(/`/g, "'") + '`';
+
+            // Failed calls and incomplete data go to the log, and the report says it may be incomplete
+            const problems = [];
+            const note = message => {
+              core.warning(message);
+              problems.push(message);
+            };
+            const attempt = async (what, fn, fallback) => {
+              try {
+                return await fn();
+              } catch (error) {
+                note(`${what} failed: ${error.message}`);
+                return fallback;
+              }
+            };
+            const search = async q => {
+              const result = await attempt(
+                `Search ${q}`,
+                async () => (await github.rest.search.issuesAndPullRequests({ q, per_page: 100, sort: 'created', order: 'desc' })).data,
+                { total_count: 0, items: [] },
+              );
+              if (result.incomplete_results) note(`Search ${q} returned incomplete results`);
+              return result;
+            };
+            // Search returns at most 100 items, so a count taken from items can be incomplete
+            const count = (result, n) => (result.total_count > result.items.length ? `at least ${n}` : `${n}`);
+
+            // 1. Submitter profile (null when it cannot be read, for example for a suspended account)
+            const user = await attempt(
+              'Profile lookup',
+              async () => (await github.rest.users.getByUsername({ username: author })).data,
+              null,
+            );
+            const accountAgeDays = user && Math.floor((Date.now() - new Date(user.created_at)) / DAY);
+
+            // 2. Submitter's PRs to repos outside their own account in the last 14 days
+            //    (repos of organizations they own still count)
+            const recent = await search(`author:${author} -user:${author} type:pr created:>=${since}`);
+            const awesomePRs = recent.items.filter(i => /awesome/i.test(repoOf(i).split('/')[1]) && repoOf(i) !== thisRepo);
+            if (awesomePRs.length <= 3 && recent.total_count > recent.items.length) {
+              note(`Only the latest ${recent.items.length} of ${recent.total_count} PRs were checked for awesome lists`);
+            }
+
+            // 3. Same project pitched to other repos. Names come from list entries this PR adds,
+            //    e.g. "- [Name (⭐1k)](https://...)". Entries that were only edited are ignored.
+            const files = await attempt(
+              'Listing PR files',
+              () => github.paginate(github.rest.pulls.listFiles, {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: pr.number,
+              }),
+              [],
+            );
+            const added = new Map();  // Project name -> GitHub owner of the linked project, if any
+            const removed = new Set();
+            for (const f of files) {
+              if (!f.patch) {
+                if (f.filename.endsWith('.md')) note(`No diff available for ${f.filename}`);
+                continue;
+              }
+              for (const line of f.patch.split('\n')) {
+                const match = line.slice(1).match(/^\s*[-*]\s+\[([^\][]+)\]\((https?:\/\/[^)\s]+)/);
+                if (!match) continue;
+                // Cut the name before the star regex, which is slow on very long input
+                const name = match[1].slice(0, 200).replace(/\s*\(⭐[^)]*\)\s*$/, '').replace(/["\\]/g, '').trim().slice(0, 100);
+                const owner = match[2].match(/^https?:\/\/(?:www\.)?github\.com\/([\w.-]+)/i)?.[1];
+                if (line.startsWith('+')) added.set(name, owner);
+                if (line.startsWith('-')) removed.add(name);
+              }
+            }
+            const pitched = [];
+            for (const [name, owner] of [...added].filter(([n]) => n && !removed.has(n)).slice(0, 3)) {
+              // PRs to the author's own repos and to the linked project's repos are normal work
+              const exclude = [author, owner].filter(Boolean).map(u => ` -user:${u}`).join('');
+              const hits = await search(`"${name}" author:${author}${exclude} type:pr created:>=${since}`);
+              const repos = new Set(hits.items.map(repoOf).filter(r => r !== thisRepo));
+              if (repos.size > 3) pitched.push({ name, repos: count(hits, repos.size) });
+              else if (hits.total_count > hits.items.length) note(`Only the latest ${hits.items.length} of ${hits.total_count} PRs were checked for ${name}`);
+            }
+
+            // 4. Build report
+            const flags = [];
+            if (user && accountAgeDays < 60)  flags.push(`🚨 Account is only **${accountAgeDays} days old**`);
+            if (user && user.followers === 0) flags.push(`⚠️ Account has **0 followers**`);
+            if (recent.total_count > 8)       flags.push(`⚠️ Submitter opened **${recent.total_count} PRs to repos outside their own account in the last 14 days**`);
+            if (awesomePRs.length > 3)        flags.push(`🚨 Submitter opened **${count(recent, awesomePRs.length)} PRs to other awesome lists in the last 14 days**`);
+            for (const p of pitched)          flags.push(`🚨 PRs mentioning ${code(p.name)} were opened in **${p.repos} other repos** in the last 14 days`);
+
+            const profile = user
+              ? `account age **${accountAgeDays} days**, ${user.followers} followers, ${user.public_repos} public repos`
+              : 'profile could not be read';
+            const shown = awesomePRs.slice(0, 20);
+            const blastList = shown.map(p => `- ${code(p.title)} ([link](${p.html_url}), \`${p.state}\`)`).join('\n')
+              + (awesomePRs.length > shown.length ? `\n- and ${awesomePRs.length - shown.length} more` : '');
+
+            const body = [
+              `### 🛂 PR spam guard report`,
+              ``,
+              `**Submitter:** \`@${author}\`, ${profile}.`,
+              ``,
+              flags.length > 0
+                ? `**Automated red flags:**\n${flags.map(f => `- ${f}`).join('\n')}`
+                : problems.length > 0
+                  ? `❔ No red flags found, but some checks could not be completed.`
+                  : `✅ No automated red flags detected.`,
+              ``,
+              awesomePRs.length > 0
+                ? `**Recent PRs to other awesome lists by this submitter (last 14 days):**\n\n${blastList}\n`
+                : null,
+              problems.length > 0
+                ? `⚠️ ${problems.length} check(s) failed or returned incomplete data, so this report may be incomplete. See the workflow log.\n`
+                : null,
+              `_This is an advisory. Maintainer judgement is required to merge or close._`,
+            ].filter(line => line !== null).join('\n');  // Keep empty strings: Markdown needs the blank lines
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr.number,
+              body,
+            });

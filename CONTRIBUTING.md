@@ -15,6 +15,8 @@ Please ensure your pull request adheres to the following guidelines:
 - Projects hosted on GitHub should generally have at least 250 stars to demonstrate community adoption (exceptions made for essential niche tools).
 - Commercial (closed-source) products that are not widely known should be recognized by at least one major industry analyst firm (Forrester, IDC, or Gartner; collectively FIG) to demonstrate notability.
 - Do not submit your own project (self-promotion). Instead, wait for someone else to find it useful and submit it for you.
+- Do not submit the same project to many awesome lists at once. Mass submission campaigns will be declined, even if each entry meets the other guidelines.
+- An automated check comments on each new pull request with the submitter's recent pull request activity across GitHub. Maintainers review the result before deciding.
 - Make an individual pull request for each suggestion.
 - New categories or improvements to the existing categorization are welcome.
 - It has documentation in the English language.
