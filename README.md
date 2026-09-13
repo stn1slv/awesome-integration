@@ -192,6 +192,7 @@ System integration is the process of linking together different IT systems (com
    - [Mockoon (⭐8.3k)](https://github.com/mockoon/mockoon) - A user-friendly tool for designing and running mock REST APIs with real-time simulation and easy setup.
    - [MockServer (⭐4.9k)](https://github.com/mock-server/mockserver) - A powerful solution for mocking any HTTP/HTTPS-based service, streamlining integration testing.
    - [Mocky (⭐2k)](https://github.com/MockyAbstract/Mocky) - A free online service that generates custom HTTP responses for testing API endpoints.
+   - [OrcaReplay (⭐234)](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records an application's HTTP calls to its LLM provider from outside the process and replays them, so a service with a model upstream can be tested with no provider call and no API key.
    - [Prism (⭐5k)](https://github.com/stoplightio/prism) - An open-source HTTP mock server that replicates API behavior for early testing and validation.
    - [WireMock (⭐7.3k)](https://github.com/wiremock/wiremock) - A robust and flexible API mocking tool delivering reliable, real-time simulation for comprehensive testing.
 - Testing tools and frameworks
