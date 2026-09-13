@@ -1,5 +1,6 @@
 # GitHub Actions workflow that flags possible spam pull requests
-# It posts an advisory comment on each new external pull request and never closes anything
+# It posts an advisory comment on each new external pull request and never closes anything.
+# It also checks each GitHub project the PR adds: age, stars, and star history with StarAudit.
 # Adapted from https://github.com/Zijian-Ni/awesome-ai-agents-2026 (MIT License, Copyright (c) 2026 Zijian Ni)
 name: PR spam guard
 
@@ -15,16 +16,105 @@ permissions:
 jobs:
   audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     # Skip bots and PRs from the repository owner, members and collaborators
     if: >-
       github.event.pull_request.user.type != 'Bot' &&
       !contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.pull_request.author_association)
     steps:
-      - name: Audit submitter
+      - name: Find list entries added by this PR
+        id: entries
+        continue-on-error: true  # The report is still posted, with a note, if this step fails
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
         with:
           script: |
+            // Entries look like "- [Name (⭐1k)](https://...)". They are keyed by link, so entries
+            // with the same name cannot hide each other, and edited entries are ignored.
+            const MAX_ENTRIES = 3;
+            // First path segments of github.com links that are not users or organizations
+            const RESERVED = new Set([
+              'about', 'advisories', 'apps', 'collections', 'customer-stories', 'enterprise', 'events', 'explore', 'features',
+              'marketplace', 'orgs', 'readme', 'resources', 'security', 'settings', 'site', 'solutions', 'sponsors', 'topics',
+              'trending', 'users',
+            ]);
+            const problems = [];
+            let files = [];
+            try {
+              files = await github.paginate(github.rest.pulls.listFiles, {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.pull_request.number,
+              });
+            } catch (error) {
+              problems.push(`Listing PR files failed: ${error.message}`);
+            }
+            const added = new Map();  // Link key -> project name, GitHub owner and owner/repo, if any
+            const removed = new Set();
+            for (const f of files) {
+              if (!f.patch) {
+                if (f.filename.endsWith('.md')) problems.push(`No diff available for ${f.filename}`);
+                continue;
+              }
+              for (const line of f.patch.split('\n')) {
+                const match = line.slice(1).match(/^\s*[-*]\s+\[([^\][]+)\]\((https?:\/\/[^)\s]+)/);
+                if (!match) continue;
+                // Cut the name before the star regex, which is slow on very long input
+                const name = match[1].slice(0, 200).replace(/\s*\(⭐[^)]*\)\s*$/, '').replace(/["\\]/g, '').trim().slice(0, 100);
+                const link = match[2].match(/^https?:\/\/(?:www\.)?github\.com\/([A-Za-z0-9][A-Za-z0-9-]*)(?:\/([A-Za-z0-9._-]+))?/i);
+                const owner = link && !RESERVED.has(link[1].toLowerCase()) ? link[1] : null;
+                const repoName = owner && link[2] ? link[2].replace(/\.git$/, '') : '';
+                const repo = repoName && !/^\.+$/.test(repoName) ? `${owner}/${repoName}` : null;
+                const key = (repo ?? match[2]).toLowerCase();
+                if (line.startsWith('+')) added.set(key, { name, owner, repo });
+                if (line.startsWith('-')) removed.add(key);
+              }
+            }
+            const newEntries = [...added].filter(([key, entry]) => entry.name && !removed.has(key)).map(([, entry]) => entry);
+            // GitHub projects first, so other links cannot push them out of the limit
+            newEntries.sort((a, b) => Number(Boolean(b.repo)) - Number(Boolean(a.repo)));
+            if (newEntries.length > MAX_ENTRIES) problems.push(`Only the first ${MAX_ENTRIES} of ${newEntries.length} added entries were checked`);
+            const entries = newEntries.slice(0, MAX_ENTRIES);
+            problems.forEach(problem => core.warning(problem));
+            core.setOutput('entries', JSON.stringify(entries));
+            core.setOutput('repos', JSON.stringify(entries.map(e => e.repo).filter(Boolean)));
+            core.setOutput('problems', JSON.stringify(problems));
+
+      - name: Run StarAudit on the added GitHub projects
+        id: staraudit
+        if: steps.entries.outcome == 'success' && steps.entries.outputs.repos != '[]'
+        continue-on-error: true  # The report is still posted, with a note, if StarAudit cannot run
+        env:
+          REPOS: ${{ steps.entries.outputs.repos }}
+          GITHUB_TOKEN: ${{ github.token }}
+          STARAUDIT_URL: https://github.com/stn1slv/StarAudit/releases/download/v2.0.1/staraudit-linux-amd64
+          STARAUDIT_SHA256: a09beb94927f9bba31eb018670b57c0f8c9140cbda5c0d7d0e38947718785dba
+        run: |
+          curl -fsSL --retry 3 --max-time 60 -o "$RUNNER_TEMP/staraudit" "$STARAUDIT_URL"
+          echo "$STARAUDIT_SHA256  $RUNNER_TEMP/staraudit" | sha256sum -c -
+          chmod +x "$RUNNER_TEMP/staraudit"
+          # One JSON line per repository. StarAudit logs go to stderr, which is the job log.
+          results="$RUNNER_TEMP/staraudit.ndjson"
+          : > "$results"
+          for repo in $(jq -r '.[]' <<< "$REPOS"); do
+            # Repo names come from the PR diff, so accept only owner/name characters
+            [[ "$repo" =~ ^[A-Za-z0-9][A-Za-z0-9-]*/[A-Za-z0-9._-]+$ && ! "$repo" =~ /\.+$ ]] || continue
+            # Exit codes 2 (review) and 3 (suspicious) are results, not failures. The time limit
+            # keeps a hung call from using up the job time that the report step needs.
+            output=$(timeout -k 10 120 "$RUNNER_TEMP/staraudit" --json "$repo") || true
+            jq -c --arg repo "$repo" '{repo: $repo, result: .}' <<< "$output" >> "$results" \
+              || echo "{\"repo\": \"$repo\", \"result\": null}" >> "$results"
+          done
+
+      - name: Audit submitter and post report
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
+        env:
+          ENTRIES: ${{ steps.entries.outputs.entries }}
+          ENTRY_PROBLEMS: ${{ steps.entries.outputs.problems }}
+          ENTRIES_OUTCOME: ${{ steps.entries.outcome }}
+          STARAUDIT_OUTCOME: ${{ steps.staraudit.outcome }}
+        with:
+          script: |
+            const fs = require('fs');
             const pr = context.payload.pull_request;
             const author = pr.user.login;
             const thisRepo = `${context.repo.owner}/${context.repo.repo}`.toLowerCase();
@@ -35,7 +125,7 @@ jobs:
             const code = s => '`' + String(s).replace(/`/g, "'") + '`';
 
             // Failed calls and incomplete data go to the log, and the report says it may be incomplete
-            const problems = [];
+            const problems = JSON.parse(process.env.ENTRY_PROBLEMS || '[]');  // Already logged by the first step
             const note = message => {
               core.warning(message);
               problems.push(message);
@@ -60,6 +150,13 @@ jobs:
             // Search returns at most 100 items, so a count taken from items can be incomplete
             const count = (result, n) => (result.total_count > result.items.length ? `at least ${n}` : `${n}`);
 
+            if (process.env.ENTRIES_OUTCOME !== 'success') note('Finding the list entries added by this PR failed');
+            const entries = JSON.parse(process.env.ENTRIES || '[]');
+            // "failure" means the download or the checksum check failed. The report shows it on its own line.
+            const starauditFailed = process.env.STARAUDIT_OUTCOME === 'failure';
+            if (starauditFailed) core.warning('The StarAudit step failed, so star history was not checked');
+            const flags = [];
+
             // 1. Submitter profile (null when it cannot be read, for example for a suspended account)
             const user = await attempt(
               'Profile lookup',
@@ -67,6 +164,8 @@ jobs:
               null,
             );
             const accountAgeDays = user && Math.floor((Date.now() - new Date(user.created_at)) / DAY);
+            if (user && accountAgeDays < 60)  flags.push(`🚨 Account is only **${accountAgeDays} days old**`);
+            if (user && user.followers === 0) flags.push(`⚠️ Account has **0 followers**`);
 
             // 2. Submitter's PRs to repos outside their own account in the last 14 days
             //    (repos of organizations they own still count)
@@ -75,53 +174,70 @@ jobs:
             if (awesomePRs.length <= 3 && recent.total_count > recent.items.length) {
               note(`Only the latest ${recent.items.length} of ${recent.total_count} PRs were checked for awesome lists`);
             }
+            if (recent.total_count > 8) flags.push(`⚠️ Submitter opened **${recent.total_count} PRs to repos outside their own account in the last 14 days**`);
+            if (awesomePRs.length > 3)  flags.push(`🚨 Submitter opened **${count(recent, awesomePRs.length)} PRs to other awesome lists in the last 14 days**`);
 
-            // 3. Same project pitched to other repos. Names come from list entries this PR adds,
-            //    e.g. "- [Name (⭐1k)](https://...)". Entries that were only edited are ignored.
-            const files = await attempt(
-              'Listing PR files',
-              () => github.paginate(github.rest.pulls.listFiles, {
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: pr.number,
-              }),
-              [],
-            );
-            const added = new Map();  // Project name -> GitHub owner of the linked project, if any
-            const removed = new Set();
-            for (const f of files) {
-              if (!f.patch) {
-                if (f.filename.endsWith('.md')) note(`No diff available for ${f.filename}`);
-                continue;
-              }
-              for (const line of f.patch.split('\n')) {
-                const match = line.slice(1).match(/^\s*[-*]\s+\[([^\][]+)\]\((https?:\/\/[^)\s]+)/);
-                if (!match) continue;
-                // Cut the name before the star regex, which is slow on very long input
-                const name = match[1].slice(0, 200).replace(/\s*\(⭐[^)]*\)\s*$/, '').replace(/["\\]/g, '').trim().slice(0, 100);
-                const owner = match[2].match(/^https?:\/\/(?:www\.)?github\.com\/([\w.-]+)/i)?.[1];
-                if (line.startsWith('+')) added.set(name, owner);
-                if (line.startsWith('-')) removed.add(name);
-              }
-            }
-            const pitched = [];
-            for (const [name, owner] of [...added].filter(([n]) => n && !removed.has(n)).slice(0, 3)) {
+            // 3. Same project pitched to other repos
+            for (const { name, owner } of entries) {
               // PRs to the author's own repos and to the linked project's repos are normal work
               const exclude = [author, owner].filter(Boolean).map(u => ` -user:${u}`).join('');
               const hits = await search(`"${name}" author:${author}${exclude} type:pr created:>=${since}`);
               const repos = new Set(hits.items.map(repoOf).filter(r => r !== thisRepo));
-              if (repos.size > 3) pitched.push({ name, repos: count(hits, repos.size) });
+              if (repos.size > 3) flags.push(`🚨 PRs mentioning ${code(name)} were opened in **${count(hits, repos.size)} other repos** in the last 14 days`);
               else if (hits.total_count > hits.items.length) note(`Only the latest ${hits.items.length} of ${hits.total_count} PRs were checked for ${name}`);
             }
 
-            // 4. Build report
-            const flags = [];
-            if (user && accountAgeDays < 60)  flags.push(`🚨 Account is only **${accountAgeDays} days old**`);
-            if (user && user.followers === 0) flags.push(`⚠️ Account has **0 followers**`);
-            if (recent.total_count > 8)       flags.push(`⚠️ Submitter opened **${recent.total_count} PRs to repos outside their own account in the last 14 days**`);
-            if (awesomePRs.length > 3)        flags.push(`🚨 Submitter opened **${count(recent, awesomePRs.length)} PRs to other awesome lists in the last 14 days**`);
-            for (const p of pitched)          flags.push(`🚨 PRs mentioning ${code(p.name)} were opened in **${p.repos} other repos** in the last 14 days`);
+            // 4. Each added GitHub project against the CONTRIBUTING.md rules, and its star history
+            // One JSON line per repository from the StarAudit step. A broken line counts as no result.
+            const resultsPath = `${process.env.RUNNER_TEMP}/staraudit.ndjson`;
+            const staraudit = !fs.existsSync(resultsPath) ? [] : fs.readFileSync(resultsPath, 'utf8').split('\n').flatMap(line => {
+              try {
+                return line.trim() ? [JSON.parse(line)] : [];
+              } catch {
+                return [];
+              }
+            });
+            const sixMonthsAgo = new Date();
+            sixMonthsAgo.setUTCMonth(sixMonthsAgo.getUTCMonth() - 6);
+            for (const { name, repo } of entries.filter(e => e.repo)) {
+              const [owner, repoName] = repo.split('/');
+              let missing = false;  // A 404 is a finding, not a failed check
+              const project = await attempt(
+                `Project lookup ${repo}`,
+                async () => {
+                  try {
+                    return (await github.rest.repos.get({ owner, repo: repoName })).data;
+                  } catch (error) {
+                    if (error.status !== 404) throw error;
+                    missing = true;
+                    return null;
+                  }
+                },
+                null,
+              );
+              if (missing) {
+                flags.push(`🚨 ${code(name)} links to a GitHub repository that does not exist or is private`);
+                continue;  // StarAudit cannot see it either
+              }
+              if (project) {
+                const created = new Date(project.created_at);
+                const projectAgeDays = Math.floor((Date.now() - created) / DAY);
+                if (created > sixMonthsAgo)          flags.push(`🚨 ${code(name)} was created **${projectAgeDays} days ago**, and projects must be at least 6 months old`);
+                if (project.stargazers_count < 250) flags.push(`⚠️ ${code(name)} has **${project.stargazers_count} stars**, and the guideline is at least 250`);
+                if (project.archived)               flags.push(`🚨 ${code(name)} is **archived**`);
+              }
+              if (starauditFailed) continue;  // Reported once, below the flags
+              const audit = staraudit.find(s => s?.repo === repo)?.result;
+              if (!['pass', 'review', 'suspicious'].includes(audit?.verdict)) {
+                note(`StarAudit gave no usable result for ${repo}: ${audit?.error?.message ?? 'unexpected output'}`);
+              } else if (audit.verdict !== 'pass') {
+                const icon = audit.verdict === 'suspicious' ? '🚨' : '⚠️';
+                const reasons = (Array.isArray(audit.reasons) ? audit.reasons : []).map(r => r?.message).filter(m => typeof m === 'string');
+                flags.push(`${icon} StarAudit rates the star history of ${code(name)} as **${audit.verdict}**${reasons.length ? `: ${reasons.join('; ')}` : ''}`);
+              }
+            }
 
+            // 5. Build report
             const profile = user
               ? `account age **${accountAgeDays} days**, ${user.followers} followers, ${user.public_repos} public repos`
               : 'profile could not be read';
@@ -136,12 +252,15 @@ jobs:
               ``,
               flags.length > 0
                 ? `**Automated red flags:**\n${flags.map(f => `- ${f}`).join('\n')}`
-                : problems.length > 0
+                : problems.length > 0 || starauditFailed
                   ? `❔ No red flags found, but some checks could not be completed.`
                   : `✅ No automated red flags detected.`,
               ``,
               awesomePRs.length > 0
                 ? `**Recent PRs to other awesome lists by this submitter (last 14 days):**\n\n${blastList}\n`
+                : null,
+              starauditFailed
+                ? `⚠️ StarAudit could not run (the download or the checksum check failed), so star history was not checked. See the workflow log.\n`
                 : null,
               problems.length > 0
                 ? `⚠️ ${problems.length} check(s) failed or returned incomplete data, so this report may be incomplete. See the workflow log.\n`
