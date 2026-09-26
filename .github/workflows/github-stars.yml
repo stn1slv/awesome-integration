@@ -9,6 +9,10 @@ on:
     - cron: '0 0 21 * *'  # Run on the 21st of every month at midnight UTC
   workflow_dispatch:      # Allow manual triggering of the workflow
 
+# The job pushes the updated README.md to main.
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,7 +20,7 @@ jobs:
     steps:
     # Check out the repository code
     - name: Check out code
-      uses: actions/checkout@v3
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
     
     # Set up Git configuration for automated commits
     - name: Init repo
@@ -26,9 +30,15 @@ jobs:
         git pull origin main
     
     # Download the markdown-github-stars-updater tool
+    # Pinned to a release and verified by checksum, because it runs with a token
+    # that can push to main.
     - name: Download Markdown GitHub Stars updater
+      env:
+        UPDATER_URL: https://github.com/stn1slv/markdown-github-stars-updater/releases/download/v.0.2.2/markdown-github-stars-updater-linux-amd64
+        UPDATER_SHA256: 019233d9dc9a95c16a35ef1460718c8d2b5c89eab104ab425e419c689b0fdd0c
       run: |
-        wget -O markdown-github-stars-updater https://github.com/stn1slv/markdown-github-stars-updater/releases/latest/download/markdown-github-stars-updater-linux-amd64
+        curl -fsSL --retry 3 --max-time 60 -o markdown-github-stars-updater "$UPDATER_URL"
+        echo "$UPDATER_SHA256  markdown-github-stars-updater" | sha256sum -c -
     
     # Make the downloaded tool executable
     - name: Make executable

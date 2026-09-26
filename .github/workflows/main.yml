@@ -12,7 +12,7 @@ jobs:
     steps:
       # Checkout the repository code
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0  # Fetch full history for better linting analysis
       
@@ -22,7 +22,7 @@ jobs:
       
       # Check all markdown files for broken links using verbose output
       - name: Check links
-        uses: tcort/github-action-markdown-link-check@v1
+        uses: tcort/github-action-markdown-link-check@e7c7a18363c842693fadde5d41a3bd3573a7a225 # v1.1.2
         with:
           config-file: .github/workflows/markdown-links-config.json
           use-verbose-mode: 'yes'
