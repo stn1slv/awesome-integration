@@ -187,7 +187,6 @@ System integration is the process of linking together different IT systems (com
    - [Imposter (⭐414)](https://github.com/outofcoffee/imposter) - A flexible mock server supporting REST, OpenAPI, SOAP, and more to simulate diverse API behaviors.
    - [Microcks (⭐2k)](https://github.com/microcks/microcks) - A Kubernetes-native tool for API mocking and testing that supports AsyncAPI, OpenAPI, and Postman Collections.
    - [Mock Service Worker (MSW) (⭐18k)](https://github.com/mswjs/msw) - A seamless API mocking library for browser and Node.js that intercepts requests at the network level.
-   - [Mockable](https://www.mockable.io/) - An easy-to-configure service for creating custom HTTP responses, ideal for rapid prototyping and testing.
    - [Mockbin (⭐143)](https://github.com/zuplo/mockbin) - A simple endpoint generator for testing HTTP requests with real-time logging and feedback.
    - [Mockoon (⭐8.4k)](https://github.com/mockoon/mockoon) - A user-friendly tool for designing and running mock REST APIs with real-time simulation and easy setup.
    - [MockServer (⭐5k)](https://github.com/mock-server/mockserver) - A powerful solution for mocking any HTTP/HTTPS-based service, streamlining integration testing.
@@ -363,7 +362,7 @@ System integration is the process of linking together different IT systems (com
 - [Oracle Managed File Transfer](https://www.oracle.com/middleware/technologies/mft/managed-file-transfer.html) - Comprehensive platform that simplifies secure file exchange and management for enterprise operations.
 - [Progress MOVEit](https://www.progress.com/moveit) - Secure, automated file transfer solution with guaranteed delivery, encryption, and compliance tools for regulated industries.
 - [TIBCO Managed File Transfer](https://www.tibco.com/products/tibco-managed-file-transfer) - Centralized MFT platform with robust automation and security features designed to support diverse file transfer scenarios.
-- [Titan MFT Server](https://southrivertech.com/titan-mft-server/) - Enterprise-level MFT server offering high availability, failover capabilities, and efficient large-scale file automation.
+- [Titan MFT Server](https://southrivertech.com/titan-mft-server) - Enterprise-level MFT server offering high availability, failover capabilities, and efficient large-scale file automation.
 
 <!--lint disable-->
 **[⬆ back to top](#contents)**
@@ -439,7 +438,7 @@ System integration is the process of linking together different IT systems (com
 - [Huawei Cloud Distributed Message Service for Kafka](https://www.huaweicloud.com/intl/en-us/product/dmskafka.html) - Managed Kafka solution that simplifies scaling and management while delivering high performance and security.
 - [IBM MQ on Cloud](https://www.ibm.com/cloud/mq) - Enterprise messaging service that offers secure, reliable data transfer across applications in a cloud environment.
 - [IronMQ](https://www.iron.io/mq) - Elastic, cloud-native message queue designed for scalable and reliable processing of high-volume messages.
-- [Oracle Cloud Streaming](https://www.oracle.com/cloud/cloud-native/streaming/) - Serverless, real-time event streaming platform with Apache Kafka compatibility for efficient data processing.
+- [Oracle Cloud Streaming](https://www.oracle.com/cloud/streaming/) - Serverless, real-time event streaming platform with Apache Kafka compatibility for efficient data processing.
 - [Solace PubSub+ Cloud](https://solace.com/products/platform/cloud/) - Integrated event streaming platform providing full visibility and control over your data pipelines.
 - [Yandex Message Queue](https://cloud.yandex.com/en/services/message-queue) - Cloud messaging service compatible with Amazon SQS API for easy integration with existing systems.
 - [Yandex Managed Service for Apache Kafka](https://cloud.yandex.com/en/services/managed-kafka) - Fully managed Kafka service with automated scaling, monitoring, and maintenance for hassle-free streaming.
@@ -1093,7 +1092,7 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
 - [AMQP 1.0](http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-v1.0-os.html) - A widely accepted message queuing protocol that provides reliable, interoperable, and efficient messaging between systems. AMQP 1.0 supports a broad range of messaging scenarios and is ideal for complex enterprise-level applications.
 - [AS2](https://datatracker.ietf.org/doc/html/rfc4130) - A protocol for secure and reliable transport of EDI and other business documents over HTTP/S, using S/MIME for signing and encryption.
 - [AS4](https://docs.oasis-open.org/ebxml-msg/ebms/v3.0/profiles/AS4-profile/v1.0/AS4-profile-v1.0.html) - An OASIS profile of ebMS 3.0 for secure, web-services-based B2B document exchange, widely mandated in e-government networks such as Peppol.
-- [CoAP](http://coap.technology/) - A specialized application protocol designed for constrained devices in the Internet of Things (IoT) ecosystem. CoAP offers a lightweight, low-overhead communication mechanism to support resource-constrained devices.
+- [CoAP](https://coap.space/) - A specialized application protocol designed for constrained devices in the Internet of Things (IoT) ecosystem. CoAP offers a lightweight, low-overhead communication mechanism to support resource-constrained devices.
 - [gRPC](https://grpc.io/) - A high-performance, open-source RPC framework that uses HTTP/2 and Protocol Buffers, with support for streaming, pluggable load balancing, and authentication.
 - [HTTP](https://httpwg.org/specs/) - A widely used protocol that facilitates communication between web servers and clients. HTTP enables the transfer of data over the internet, making it possible for web applications to function seamlessly.
 - [JSON-RPC](https://www.jsonrpc.org/specification) - A simple and lightweight remote procedure call protocol that enables communication between systems using JSON data. JSON-RPC offers stateless communication and is suitable for resource-constrained devices.
