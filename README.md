@@ -187,7 +187,6 @@ System integration is the process of linking together different IT systems (com
    - [Imposter (⭐414)](https://github.com/outofcoffee/imposter) - A flexible mock server supporting REST, OpenAPI, SOAP, and more to simulate diverse API behaviors.
    - [Microcks (⭐2k)](https://github.com/microcks/microcks) - A Kubernetes-native tool for API mocking and testing that supports AsyncAPI, OpenAPI, and Postman Collections.
    - [Mock Service Worker (MSW) (⭐18k)](https://github.com/mswjs/msw) - A seamless API mocking library for browser and Node.js that intercepts requests at the network level.
-   - [Mockbin (⭐144)](https://github.com/zuplo/mockbin) - A simple endpoint generator for testing HTTP requests with real-time logging and feedback.
    - [Mockoon (⭐8.4k)](https://github.com/mockoon/mockoon) - A user-friendly tool for designing and running mock REST APIs with real-time simulation and easy setup.
    - [MockServer (⭐5k)](https://github.com/mock-server/mockserver) - A powerful solution for mocking any HTTP/HTTPS-based service, streamlining integration testing.
    - [Mocky (⭐2k)](https://github.com/MockyAbstract/Mocky) - A free online service that generates custom HTTP responses for testing API endpoints.
@@ -948,8 +947,8 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
 
 - [Oracle Business Process Management Suite 12c Certified Implementation Specialist](https://education.oracle.com/oracle-business-process-management-suite-12c-essentials/pexam_1Z0-435) - Validate your expertise in implementing Oracle BPM Suite 12c solution.
 - [Oracle Cloud Platform Application Integration 2025 Certified Professional](https://education.oracle.com/oracle-cloud-infrastructure-2024-application-integration-professional/pexam_1Z0-1042-25) - Validate your understanding of Oracle Application Integration to implement these Cloud services.
-- [Oracle Data Integrator 12c Certified Implementation Specialist](https://education.oracle.com/oracle-data-integrator-12c-certified-implementation-specialist/trackp_379) - Validate your expertise in selling or implementing Oracle Data Integration 12c solutions.
-- [Oracle SOA Suite 12c Certified Implementation Specialist](https://education.oracle.com/oracle-soa-suite-12c-essentials/pexam_1Z0-434) - Validate your expertise in implementing solutions based on Oracle SOA Suite 12c.
+- [Oracle Data Integrator 12c Certified Implementation Specialist](https://mylearn.oracle.com/ou/exam/oracle-data-integrator-12c-essentials-1z0-448/105037/110652/170365) - Validate your expertise in selling or implementing Oracle Data Integration 12c solutions.
+- [Oracle SOA Suite 12c Certified Implementation Specialist](https://mylearn.oracle.com/ou/exam/oracle-soa-suite-12c-essentials-1z0-434/105037/110646/170366) - Validate your expertise in implementing solutions based on Oracle SOA Suite 12c.
 
 </details>
 <details>
